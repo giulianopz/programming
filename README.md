@@ -26,25 +26,26 @@
     3. Kopec, *Classic Computer Science Problems in Java*
 
 3. Most Popular Libraries/Frameworks for Java:
-    * Logging: **SLF4J**
+    * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback)
     * POJO-DTO Mapping: [MapStruct](https://mapstruct.org/)
-    * JSON Parsing: **Jackson**
-    * REST APIs: JAX-RS (**RESTEasy**, **Jersey**, **Apache CXF**)
+    * JSON Parsing: [**Jackson**](https://www.baeldung.com/jackson)
+    * [JAX-WS](https://www.baeldung.com/jax-ws)
+    * [JAX-RS](https://www.baeldung.com/jax-rs-spec-and-implementations) (**RESTEasy**, **Jersey**, **Apache CXF**)
     * Persistence:
-        * JPA + Hibernate + [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html): Vlad Mihalcea, *High-Performance Java Persistence*
+        * [JPA + Hibernate](https://www.baeldung.com/learn-jpa-hibernate) + [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html): Vlad Mihalcea, *High-Performance Java Persistence*
         * Non-Relational DBs: **GraphQL**, **neo4j**, **MongoDB**, **Cassandra**
-        * ElasticSearch
+        * [ElasticSearch](https://www.baeldung.com/elasticsearch-java)
     * Messaging: JMS (**ActiveMQ**, **Rabbit**, **Kafka**)
     * Test-Driven Development:
-        * Unit/Integration Testing: **JUnit 5** + **H2** + **Mockito** + **WireMock** + **RestAssured** + **Hamcrest**
+        * Unit/Integration Testing: [**JUnit 5**](https://www.baeldung.com/junit-5) + [**H2**](http://www.h2database.com/html/tutorial.html) + [**Mockito**](https://www.baeldung.com/mockito-series) + [**WireMock**](http://wiremock.org/docs/getting-started/) + [**RestAssured**](https://www.baeldung.com/rest-assured-tutorial) + [**Hamcrest**](http://hamcrest.org/JavaHamcrest/tutorial)
         * E2E Testing: **Selenium**
-    * Excel: **Apache POI**
-    * PDF: **iText/OpenPDF**
-    * Netflix stack: Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
+    * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
+    * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
+    * [Netflix stack](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
     * Spring (Boot) Framework:
-        * Hands-on Practical Tutorials: [Spring Boot](https://www.baeldung.com/spring-boot)
-        * High-level Handbook: Craig Walls, *Spring in Action*
-        * Low-level Handbook: Iuliana Cosmina, *Pivotal Certified Professional Spring Developer Exam: A Study Guide*
+        * [Spring Boot](https://www.baeldung.com/spring-boot) (hands-on practical tutorials)
+        * Walls, *Spring in Action* (high-level)
+        * Cosmina, *Pivotal Certified Professional Spring Developer Exam: A Study Guide* (low-level)
         * [Spring Security](https://docs.spring.io/spring-security/site/docs/5.0.0.RELEASE/reference/htmlsingle/#jc-oauth2login-sample-redirect-uri)
         * [Spring AOP](https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/html/aop.html)
         * [Spring Batch](https://www.toptal.com/spring/spring-batch-tutorial)
@@ -77,7 +78,7 @@
 
 8. [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
 
-9.  [DevOps](https://opensource.com/article/19/4/devops-pipeline):
+9. [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
     * Docker/Podman + Kubernetes + [Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
     * [AWS](https://adayinthelifeof.nl/2020/05/20/aws.html)
