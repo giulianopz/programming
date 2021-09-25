@@ -44,15 +44,13 @@
         * Unit/Integration Testing: [**JUnit 5**](https://www.baeldung.com/junit-5) + [**H2**](http://www.h2database.com/html/tutorial.html) + [**Mockito**](https://www.baeldung.com/mockito-series) + [**WireMock**](http://wiremock.org/docs/getting-started/) + [**RestAssured**](https://www.baeldung.com/rest-assured-tutorial) + [**Hamcrest**](http://hamcrest.org/JavaHamcrest/tutorial)
         * E2E Testing: [**Selenium**](https://www.selenium.dev/documentation/guidelines/)
     * File manipulation:
-      * Excel:
-        * [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
-      * PDF:
-        * [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
+      * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
+      * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
     * [Netflix stack](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
-    * Spring (Boot) Framework:
-        * [Spring Boot](https://www.baeldung.com/spring-boot) (hands-on practical tutorials)
-        * Walls, *Spring in Action* (high-level)
-        * Cosmina, *Pivotal Certified Professional Spring Developer Exam: A Study Guide* (low-level)
+    * [Spring](https://docs.spring.io/spring-framework/docs/current/reference/html/):
+        * Walls, *Spring in Action*
+        * Cosmina, *Pivotal Certified Professional Spring Developer Exam: A Study Guide*
+        * [Spring Boot](https://www.baeldung.com/spring-boot)
     * [Quarkus](https://quarkus.io/guides/)
 
 5. RESTful APIs:
@@ -76,7 +74,7 @@
     * [Bash](https://matt.might.net/articles/bash-by-example/)
     * [Text Manipulation with grep, sed and awk](https://matt.might.net/articles/sculpting-text/)
     * [vi Survival Guide](https://www.nuxified.org/vi_survival_guide/)
-    * [git](https://learngitbranching.js.org/)
+    * [**!BONUS**] [git](https://learngitbranching.js.org/)
     * [curl](https://curl.haxx.se/docs/httpscripting.html)
     * [cron](https://opensource.com/article/17/11/how-use-cron-linux)
     * [regex](https://regexone.com/)
@@ -101,7 +99,7 @@
     * Malcolm McDonald, *Web Security for Developers*
     * Michal Zalewski, *Tangled Web. A Guide to Securing Modern Web Applications*
     * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
-    * [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
+    * [**!BONUS**] [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
 
 12. Networking:
     * [What is a network?](https://study-ccna.com/what-is-a-network/)
