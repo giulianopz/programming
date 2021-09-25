@@ -15,10 +15,12 @@
             * [Applying Concurrency and Multi-threading to Common Java Patterns](https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading)
             * [Advanced Java Concurrent Patterns](https://www.pluralsight.com/courses/java-concurrent-patterns-advanced)
             * [Java Fundamentals: Asynchronous Programming Using CompletionStage](https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage)
-            * [Reactive Programming in Java 12 with RxJava](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
             * [JConsole](https://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html)
             * [Monitoring threads](http://www.jvmmonitor.org/doc/#Monitoring_threads)
-            * Reactive Programming: [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides) + [**Vert.x**](https://vertx.io/docs/vertx-core/java/)
+            * Reactive Programming:
+              * [**RxJava**](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
+              * [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides)
+              * [**Vert.x**](https://vertx.io/docs/vertx-core/java/)
 
 3. Algorithms:
     1. [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
