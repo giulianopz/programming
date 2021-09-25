@@ -53,12 +53,12 @@
     * [Quarkus](https://quarkus.io/guides/)
 
 5. RESTful APIs:
-    * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
     * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+    * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
     * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
     * [JSON In a Nutshell](https://medium.com/omarelgabrys-blog/json-in-a-nutshell-7d638dfea7cc)
     * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0):
-      * **Swagger**
+      * [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
 
 6. Microservices:
     * Richardson, [*Microservices Patterns*](https://microservices.io/) (2018)
@@ -71,16 +71,16 @@
 8. UNIX Toolbox:
     * [Basic UNIX](https://matt.might.net/articles/basic-unix/)
     * [Bash](https://matt.might.net/articles/bash-by-example/)
-    * [Text Manipulation](https://matt.might.net/articles/sculpting-text/)
+    * [Text Manipulation with grep, sed and awk](https://matt.might.net/articles/sculpting-text/)
     * [vi Survival Guide](https://www.nuxified.org/vi_survival_guide/)
     * [git](https://learngitbranching.js.org/)
     * [curl](https://curl.haxx.se/docs/httpscripting.html)
     * [cron](https://opensource.com/article/17/11/how-use-cron-linux)
     * [regex](https://regexone.com/)
-    * **!BONUS** [Vim Adventures](https://vim-adventures.com/)
-    * **!BONUS** [The Unix Game](https://www.unixgame.io/unix50)
+    * [**!BONUS**] [Vim Adventures](https://vim-adventures.com/)
+    * [**!BONUS**] [The Unix Game](https://www.unixgame.io/unix50)
 
-9. [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
+9.  [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
 
 10. [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
@@ -100,7 +100,7 @@
     * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
     * [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
 
-12. Newtorking:
+12. Networking:
     * [What is a network?](https://study-ccna.com/what-is-a-network/)
     * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
     * [Ilya Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
