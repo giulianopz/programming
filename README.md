@@ -6,7 +6,8 @@
     1. *Metodologie di Programmazione* (Navigli, 2018)
     2. [Maven](https://maven.apache.org/guides/getting-started/index.html)
     3. Horstmann, *Core Java Fundementals (Vol. 1 & 2)*
-    4. Design Patterns: [GoF Design Patterns with examples using Java and UML](https://www.researchgate.net/publication/307449818_GoF_Design_Patterns_with_examples_using_Java_and_UML)
+    4. Design Patterns:
+       * [GoF Design Patterns with examples using Java and UML](https://www.researchgate.net/publication/307449818_GoF_Design_Patterns_with_examples_using_Java_and_UML)
     5. Advanced Topics:
         1. Generics
         2. Reflection
