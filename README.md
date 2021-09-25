@@ -74,7 +74,7 @@
     * [Bash](https://matt.might.net/articles/bash-by-example/)
     * [Text Manipulation with grep, sed and awk](https://matt.might.net/articles/sculpting-text/)
     * [vi Survival Guide](https://www.nuxified.org/vi_survival_guide/)
-    * [**!BONUS**] [git](https://learngitbranching.js.org/)
+    * [**!BONUS**] [Learn Git Branching](https://learngitbranching.js.org/)
     * [curl](https://curl.haxx.se/docs/httpscripting.html)
     * [cron](https://opensource.com/article/17/11/how-use-cron-linux)
     * [regex](https://regexone.com/)
@@ -93,11 +93,10 @@
 11. Security:
     * [API authentication and authorization](https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html)
     * [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
-    * [JWT](https://jwt.io/)
-    * [OWASP Top 10 Vulnerabilities List](https://resources.whitesourcesoftware.com/blog-whitesource/owasp-top-10-vulnerabilities)
     * [Identity, Claims, & Tokens -- An OpenID Connect Primer](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1)
     * Malcolm McDonald, *Web Security for Developers*
     * Michal Zalewski, *Tangled Web. A Guide to Securing Modern Web Applications*
+    * [JWT](https://jwt.io/)
     * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
     * [**!BONUS**] [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
 
