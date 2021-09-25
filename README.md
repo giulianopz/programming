@@ -2,7 +2,7 @@
 
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
-2. Java basics:
+2. Java:
     1. *Metodologie di Programmazione* (Navigli, 2018)
     2. [Maven](https://maven.apache.org/guides/getting-started/index.html)
     3. Horstmann, *Core Java Fundementals (Vol. 1 & 2)*
