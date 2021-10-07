@@ -30,6 +30,8 @@
 
 4. Most Popular Libraries/Frameworks for Java:
     * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback)
+    * Log Analytics: Splunk, ELK (Elastic Stack: ElasticSearch, Logstash, and Kibana)
+    * Performance Testing: Apache JMeter, OpenTracing, Prometheu + Grafana
     * POJO-DTO Mapping: [MapStruct](https://mapstruct.org/)
     * JSON Parsing: [**Jackson**](https://www.baeldung.com/jackson)
     * [JAX-WS](https://www.baeldung.com/jax-ws)
@@ -47,14 +49,11 @@
     * File manipulation:
       * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
       * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
-    * [Netflix stack](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
-    * [Spring](https://docs.spring.io/spring-framework/docs/current/reference/html/):
+    * [Netflix OSS](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
+    * [Spring](https://spring.io/projects/):
         * Walls, *Spring in Action*
         * Cosmina, *Pivotal Certified Professional Spring Developer Exam: A Study Guide*
-        * [Spring Boot](https://www.baeldung.com/spring-boot)
     * [Quarkus](https://quarkus.io/guides/)
-    * Log Analytics: Splunk, ELK (Elastic Stack: ElasticSearch, Logstash, and Kibana)
-    * Performance Testing: Apache JMeter, OpenTracing, Prometheu + Grafana
 
 5. RESTful APIs:
     * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
@@ -68,9 +67,14 @@
     * Richardson, [*Microservices Patterns*](https://microservices.io/) (2018)
     * Carnell, *Spring Microservices in Action* (2017)
 
-7. Cloud:
-    * [IaaS PaaS SaaS Cloud Service Models](https://www.ibm.com/cloud/learn/iaas-paas-saas)
-    * [Java Cloud Development](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools/#openshift)
+7. [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
+    * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
+    * [Docker](https://www.docker.com/get-started) VS. [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
+    * [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
+    * [Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
+    * [AWS](https://adayinthelifeof.nl/2020/05/20/aws.html)
+    * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
+    * [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
 
 8. UNIX Toolbox:
     * [Basic UNIX](https://matt.might.net/articles/basic-unix/)
@@ -86,14 +90,7 @@
 
 9.  [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
 
-10. [DevOps](https://opensource.com/article/19/4/devops-pipeline):
-    * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
-    * [Docker](https://www.docker.com/get-started) VS. [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
-    * [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
-    * [Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
-    * [AWS](https://adayinthelifeof.nl/2020/05/20/aws.html)
-
-11. Security:
+10. Security:
     * [API authentication and authorization](https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html)
     * [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
     * [Identity, Claims, & Tokens -- An OpenID Connect Primer](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1)
@@ -103,7 +100,7 @@
     * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
     * [**!BONUS**] [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
 
-12. Networking:
+11. Networking:
     * [What is a network?](https://study-ccna.com/what-is-a-network/)
     * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
     * [Ilya Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
@@ -115,12 +112,15 @@
     * [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     * [java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
 
+<hr style="border:2px solid gray"> </hr>
+
 14. Go beyond Java and Web Development:
-    1. Teach Yourself CS:
+
+    * Teach Yourself CS:
         * [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
         * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
         * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
-    2. Read the Classics of CS:
+    * Read the Classics of CS:
        * Structure and Interpretation of Computer Programs (SICP)
        * Computer Systems: A Programmer's Perspective (CS:APP3e)
        * The Elements of Computing Systems (nand2tetris)
@@ -133,7 +133,7 @@
        * Concrete Mathematics: A Foundation for Computer Science
        * Pattern Recognition and Machine Learning
        * Paradigms of Artificial Intelligence Programming
-    3. Read Influential Books on Software Engineering:
+    * Read Influential Books on Software Engineering:
        * Hunt & Thomas, The Pragmatic Programmer: From Journeyman to Master
        * Brooks, The Mythical Man-Month
        * Fowler, Patterns of Enterprise Application Architecture
@@ -143,15 +143,17 @@
        * Kleppmann, Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
        * [**!BONUS**] Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
        * [**!BONUS**] Christopher, Ishikawa and Silverstein, [*A Pattern Language: Towns, Buildings, Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
-    4. Re- or Self-Learn Math:
+    * Re- or Self-Learn Math:
        * Kun, A Programmer’s Introduction to Mathematics
        * [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
        * [3Blue1Brown](https://www.youtube.com/c/3blue1brown/videos)
        * [Khan Academy](https://www.khanacademy.org/math)
-    5. Learn New Programming Languages:
+    * Learn New Programming Languages:
         * [GO](https://tour.golang.org/list)
         * [Rust](https://www.rust-lang.org/learn)
-    6. Learn CS history:
+        * [Julia](https://julialang.org/learning/)
+        * [Nim](https://nim-lang.org/)
+    * Learn CS history:
         * Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale ([Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046), Mimesis - 2018)
         * Waldrop, The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal
         * Levy, Hackers: Heroes of the Computer Revolution
@@ -164,5 +166,5 @@
         * Mitnick, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
         * Kernighan, UNIX: A History and a Memoir
         * Torvalds, Just for Fun
-    7. Prepare for Coding Interviews:
+    * Prepare for Coding Interviews:
         * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
