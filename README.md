@@ -26,6 +26,7 @@
     1. [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
     2. Sedgewick & Wayne, Algorithms [1](https://www.coursera.org/learn/algorithms-part1) + [2](https://www.coursera.org/learn/algorithms-part2)
     3. Kopec, *Classic Computer Science Problems in Java*
+    4. [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 
 4. Most Popular Libraries/Frameworks for Java:
     * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback)
@@ -52,6 +53,8 @@
         * Cosmina, *Pivotal Certified Professional Spring Developer Exam: A Study Guide*
         * [Spring Boot](https://www.baeldung.com/spring-boot)
     * [Quarkus](https://quarkus.io/guides/)
+    * Log Analytics: Splunk, ELK (Elastic Stack: ElasticSearch, Logstash, and Kibana)
+    * Performance Testing: Apache JMeter, OpenTracing, Prometheu + Grafana
 
 5. RESTful APIs:
     * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
@@ -85,8 +88,8 @@
 
 10. [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
-    * [Docker](https://www.docker.com/get-started)/[Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
-    * [Kubernetes](https://kube.academy/)
+    * [Docker](https://www.docker.com/get-started) VS. [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
+    * [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
     * [Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
     * [AWS](https://adayinthelifeof.nl/2020/05/20/aws.html)
 
@@ -112,7 +115,54 @@
     * [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     * [java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
 
-14. Go beyond Web Development:
-      1. [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
-      2. [Teach Yourself Computer Science](https://teachyourselfcs.com/)
-      3. [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
+14. Go beyond Java and Web Development:
+    1. Teach Yourself CS:
+        * [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
+        * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+        * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
+    2. Read the Classics of CS:
+       * Structure and Interpretation of Computer Programs (SICP)
+       * Computer Systems: A Programmer's Perspective (CS:APP3e)
+       * The Elements of Computing Systems (nand2tetris)
+       * Operating Systems: Three Easy Pieces
+       * UNIX and Linux System Administration Handbook
+       * Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
+       * Compilers: Principles, Techniques, and Tools (Dragon Book)
+       * Introduction to Algorithms (The Big Book)
+       * The C Programming Language
+       * Concrete Mathematics: A Foundation for Computer Science
+       * Pattern Recognition and Machine Learning
+       * Paradigms of Artificial Intelligence Programming
+    3. Read Influential Books on Software Engineering:
+       * Hunt & Thomas, The Pragmatic Programmer: From Journeyman to Master
+       * Brooks, The Mythical Man-Month
+       * Fowler, Patterns of Enterprise Application Architecture
+       * GoF, Design Patterns: Elements of Reusable Object-Oriented Software
+       * Martin, Clean Code: A Handbook of Agile Software Craftsmanship
+       * Beck & Fowler, Refactoring: Improving the Design of Existing Code
+       * Kleppmann, Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
+       * [**!BONUS**] Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
+       * [**!BONUS**] Christopher, Ishikawa and Silverstein, [*A Pattern Language: Towns, Buildings, Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
+    4. Re- or Self-Learn Math:
+       * Kun, A Programmer’s Introduction to Mathematics
+       * [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
+       * [3Blue1Brown](https://www.youtube.com/c/3blue1brown/videos)
+       * [Khan Academy](https://www.khanacademy.org/math)
+    5. Learn New Programming Languages:
+        * [GO](https://tour.golang.org/list)
+        * [Rust](https://www.rust-lang.org/learn)
+    6. Learn CS history:
+        * Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale ([Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046), Mimesis - 2018)
+        * Waldrop, The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal
+        * Levy, Hackers: Heroes of the Computer Revolution
+        * Kidder, The Soul of a New Machine
+        * Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
+        * Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
+        * Gleick, The Information: A History, a Theory, a Flood
+        * Gibson, Neuromancer
+        * Raymond, The Cathedral & the Bazaar
+        * Mitnick, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
+        * Kernighan, UNIX: A History and a Memoir
+        * Torvalds, Just for Fun
+    7. Prepare for Coding Interviews:
+        * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
