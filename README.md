@@ -30,8 +30,6 @@
 
 4. Most Popular Libraries/Frameworks for Java:
     * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback)
-    * Log Analytics: Splunk, ELK (Elastic Stack: ElasticSearch, Logstash, and Kibana)
-    * Performance Testing: Apache JMeter, OpenTracing, Prometheu + Grafana
     * POJO-DTO Mapping: [MapStruct](https://mapstruct.org/)
     * JSON Parsing: [**Jackson**](https://www.baeldung.com/jackson)
     * [JAX-WS](https://www.baeldung.com/jax-ws)
@@ -49,6 +47,8 @@
     * File manipulation:
       * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
       * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
+    * Log Analytics: Splunk, ELK (Elastic Stack: ElasticSearch, Logstash, and Kibana)
+    * Performance Testing: Apache JMeter, OpenTracing, Prometheus + Grafana
     * [Netflix OSS](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
     * [Spring](https://spring.io/projects/):
         * Walls, *Spring in Action*
@@ -117,54 +117,60 @@
 14. Go beyond Java and Web Development:
 
     * Teach Yourself CS:
-        * [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
-        * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
-        * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
+      * [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
+      * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+      * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
     * Read the Classics of CS:
-       * Structure and Interpretation of Computer Programs (SICP)
-       * Computer Systems: A Programmer's Perspective (CS:APP3e)
-       * The Elements of Computing Systems (nand2tetris)
-       * Operating Systems: Three Easy Pieces
-       * UNIX and Linux System Administration Handbook
-       * Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
-       * Compilers: Principles, Techniques, and Tools (Dragon Book)
-       * Introduction to Algorithms (The Big Book)
-       * The C Programming Language
-       * Concrete Mathematics: A Foundation for Computer Science
-       * Pattern Recognition and Machine Learning
-       * Paradigms of Artificial Intelligence Programming
+      * Structure and Interpretation of Computer Programs (SICP)
+      * Computer Systems: A Programmer's Perspective (CS:APP3e)
+      * The Elements of Computing Systems (nand2tetris)
+      * Operating Systems: Three Easy Pieces
+      * UNIX and Linux System Administration Handbook
+      * Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
+      * Compilers: Principles, Techniques, and Tools (Dragon Book)
+      * Introduction to Algorithms (The Big Book)
+      * The C Programming Language
+      * Concrete Mathematics: A Foundation for Computer Science
+      * Pattern Recognition and Machine Learning
+      * Paradigms of Artificial Intelligence Programming
     * Read Influential Books on Software Engineering:
-       * Hunt & Thomas, The Pragmatic Programmer: From Journeyman to Master
-       * Brooks, The Mythical Man-Month
-       * Fowler, Patterns of Enterprise Application Architecture
-       * GoF, Design Patterns: Elements of Reusable Object-Oriented Software
-       * Martin, Clean Code: A Handbook of Agile Software Craftsmanship
-       * Beck & Fowler, Refactoring: Improving the Design of Existing Code
-       * Kleppmann, Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
-       * [**!BONUS**] Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
-       * [**!BONUS**] Christopher, Ishikawa and Silverstein, [*A Pattern Language: Towns, Buildings, Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
-    * Re- or Self-Learn Math:
-       * Kun, A Programmer’s Introduction to Mathematics
-       * [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
-       * [3Blue1Brown](https://www.youtube.com/c/3blue1brown/videos)
-       * [Khan Academy](https://www.khanacademy.org/math)
+      * Hunt & Thomas, The Pragmatic Programmer: From Journeyman to Master
+      * Brooks, The Mythical Man-Month
+      * Fowler, Patterns of Enterprise Application Architecture
+      * GoF, Design Patterns: Elements of Reusable Object-Oriented Software
+      * Martin, Clean Code: A Handbook of Agile Software Craftsmanship
+      * Beck & Fowler, Refactoring: Improving the Design of Existing Code
+      * Kleppmann, Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
+      * [**!BONUS**] Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
+      * [**!BONUS**] Christopher, Ishikawa and Silverstein, [*A Pattern Language: Towns, Buildings, Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
+    * (Re- or Self-) Learn Math:
+      * [Kun, A Programmer’s Introduction to Mathematics](https://pimbook.org/)
+      * [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
+      * [3Blue1Brown](https://www.youtube.com/c/3blue1brown/videos)
+      * [Khan Academy](https://www.khanacademy.org/math)
     * Learn New Programming Languages:
-        * [GO](https://tour.golang.org/list)
-        * [Rust](https://www.rust-lang.org/learn)
-        * [Julia](https://julialang.org/learning/)
-        * [Nim](https://nim-lang.org/)
-    * Learn CS history:
-        * Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale ([Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046), Mimesis - 2018)
-        * Waldrop, The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal
-        * Levy, Hackers: Heroes of the Computer Revolution
-        * Kidder, The Soul of a New Machine
-        * Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
-        * Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
-        * Gleick, The Information: A History, a Theory, a Flood
-        * Gibson, Neuromancer
-        * Raymond, The Cathedral & the Bazaar
-        * Mitnick, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
-        * Kernighan, UNIX: A History and a Memoir
-        * Torvalds, Just for Fun
-    * Prepare for Coding Interviews:
-        * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
+      * [GO](https://tour.golang.org/list)
+      * [Rust](https://www.rust-lang.org/learn)
+      * [Julia](https://julialang.org/learning/)
+      * [Nim](https://nim-lang.org/)
+    * Learn CS/FOSS history and Hacking/Cyberpunk culture:
+      * Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale ([Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046), Mimesis - 2018)
+      * Raymond, The Cathedral & the Bazaar
+      * Kernighan, UNIX: A History and a Memoir
+      * Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
+      * Torvalds, Just for Fun
+      * [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
+      * Waldrop, The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal
+      * Gleick, The Information: A History, a Theory, a Flood
+      * Kidder, The Soul of a New Machine
+      * Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
+      * Levy, Hackers: Heroes of the Computer Revolution
+      * Mitnick, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
+      * Erickson, Hacking: The Art of Exploitation
+      * Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware
+      * Gibson, Neuromancer
+      * Dick, Do Androids Dream of Electric Sheep?
+      * Shirow, The Ghost in the Shell
+      * Otomo, Akira
+    * Prepare yourself for Coding Interviews:
+      * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
