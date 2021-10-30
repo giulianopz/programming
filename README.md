@@ -3,12 +3,14 @@
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
 2. Java:
-    1. *Metodologie di Programmazione* (Navigli, 2018)
+    1. Metodologie di Programmazione (Navigli, 2018)
     2. [Maven](https://maven.apache.org/guides/getting-started/index.html)
-    3. Horstmann, *Core Java Fundementals (Vol. 1 & 2)*
+    3. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
     4. Design Patterns:
        * [GoF Design Patterns with examples using Java and UML](https://www.researchgate.net/publication/307449818_GoF_Design_Patterns_with_examples_using_Java_and_UML)
-    5. Advanced Topics:
+    5. Unit testing:
+       1. [JUnit Best Practices Guide](https://howtodoinjava.com/best-practices/unit-testing-best-practices-junit-reference-guide/)
+    6. Advanced Topics:
         1. Generics
         2. Reflection
         3. Concurrency, Multi-threading, Parallelism, Asynchronus Programming:
@@ -18,14 +20,16 @@
             * [JConsole](https://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html)
             * [Monitoring threads](http://www.jvmmonitor.org/doc/#Monitoring_threads)
             * Reactive Programming:
+              * [The Reactive Manifesto](https://www.reactivemanifesto.org/)
               * [**RxJava**](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
               * [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides)
               * [**Vert.x**](https://vertx.io/docs/vertx-core/java/)
+        4. [New language features since Java 8 to 17](https://advancedweb.hu/new-language-features-since-java-8-to-17/)
 
 3. Algorithms:
     1. [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
-    2. Sedgewick & Wayne, Algorithms [1](https://www.coursera.org/learn/algorithms-part1) + [2](https://www.coursera.org/learn/algorithms-part2)
-    3. Kopec, *Classic Computer Science Problems in Java*
+    2. R. Sedgewick & K. Wayne, Algorithms [1](https://www.coursera.org/learn/algorithms-part1) + [2](https://www.coursera.org/learn/algorithms-part2)
+    3. D. Kopec, Classic Computer Science Problems in Java
     4. [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 
 4. Most Popular Libraries/Frameworks for Java:
@@ -51,8 +55,8 @@
     * Performance Testing: Apache JMeter, OpenTracing, Prometheus + Grafana
     * [Netflix OSS](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
     * [Spring](https://spring.io/projects/):
-        * Walls, *Spring in Action*
-        * Cosmina, *Pivotal Certified Professional Spring Developer Exam: A Study Guide*
+        * C. Walls, Spring in Action
+        * I. Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide
     * [Quarkus](https://quarkus.io/guides/)
 
 5. RESTful APIs:
@@ -63,9 +67,11 @@
     * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0):
       * [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
 
-6. Microservices:
-    * Richardson, [*Microservices Patterns*](https://microservices.io/) (2018)
-    * Carnell, *Spring Microservices in Action* (2017)
+6. Microservices & Distributed Systems:
+    * [From Microservices to Distributed Systems: A Survival Guide for Java Devs](https://dzone.com/articles/from-microservices-to-distributed-systems-survival)
+    * C. Richardson, [Microservices Patterns](https://microservices.io/) (2018)
+    * W, J. Carnell, Spring Microservices in Action (2017)
+    * M. Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (2017)
 
 7. [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
@@ -94,16 +100,17 @@
     * [API authentication and authorization](https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html)
     * [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
     * [Identity, Claims, & Tokens -- An OpenID Connect Primer](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1)
-    * Malcolm McDonald, *Web Security for Developers*
-    * Michal Zalewski, *Tangled Web. A Guide to Securing Modern Web Applications*
+    * M. McDonald, *Web Security for Developers*
+    * M. Zalewski, *Tangled Web. A Guide to Securing Modern Web Applications*
     * [JWT](https://jwt.io/)
     * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
+    * [Practical Cryptography for Developers](https://cryptobook.nakov.com/)
     * [**!BONUS**] [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
 
 11. Networking:
     * [What is a network?](https://study-ccna.com/what-is-a-network/)
     * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
-    * [Ilya Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
+    * [I. Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
 	  * [SRE books](https://sre.google/books/)
 
 12. Web:
@@ -115,6 +122,7 @@
 14. Miscellanea:
     * [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     * [java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
+    * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
 
 <hr style="border:2px solid gray"> </hr>
 
@@ -125,30 +133,29 @@ Go beyond Java and Web Development:
     * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
     * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
   * Read the Classics of CS:
-    * Structure and Interpretation of Computer Programs (SICP)
-    * Computer Systems: A Programmer's Perspective (CS:APP3e)
-    * The Elements of Computing Systems (nand2tetris)
-    * Operating Systems: Three Easy Pieces
-    * UNIX and Linux System Administration Handbook
-    * Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
-    * Compilers: Principles, Techniques, and Tools (Dragon Book)
-    * Introduction to Algorithms (The Big Book)
-    * The C Programming Language
-    * Concrete Mathematics: A Foundation for Computer Science
-    * Pattern Recognition and Machine Learning
-    * Paradigms of Artificial Intelligence Programming
+    * G. J. Sussman & H. Abelson, Structure and Interpretation of Computer Programs (SICP)
+    * R. Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
+    * N. Nisan and S. Schocken, The Elements of Computing Systems (nand2tetris)
+    * A. Arpaci-Dusseau and R. Arpaci-Dusseau, Operating Systems: Three Easy Pieces
+    * G.Snyder, E. Nemeth, B. Whaley, T. Hein, D. Mackin, UNIX and Linux System Administration Handbook
+    * J. Ullman and J. Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
+    * A. V. Aho, M. S. Lam, R. Sethi, and J. D. Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
+    * T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, Introduction to Algorithms (The Big Book)
+    * B. Kernighan and D. Ritchie, The C Programming Language
+    * D. Knuth, O. Patashnik, and R. Graham, Concrete Mathematics: A Foundation for Computer Science
+    * C. Bishop, Pattern Recognition and Machine Learning
+    * P. Norvig, Paradigms of Artificial Intelligence Programming
   * Read Influential Books on Software Engineering:
-    * Hunt & Thomas, The Pragmatic Programmer: From Journeyman to Master
-    * Brooks, The Mythical Man-Month
-    * Fowler, Patterns of Enterprise Application Architecture
+    * A. Hunt & D. Thomas, The Pragmatic Programmer: From Journeyman to Master
+    * F. Brooks, The Mythical Man-Month
+    * M. Fowler, Patterns of Enterprise Application Architecture
     * GoF, Design Patterns: Elements of Reusable Object-Oriented Software
-    * Martin, Clean Code: A Handbook of Agile Software Craftsmanship
-    * Beck & Fowler, Refactoring: Improving the Design of Existing Code
-    * Kleppmann, Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems
-    * [**!BONUS**] Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
-    * [**!BONUS**] Christopher, Ishikawa and Silverstein, [*A Pattern Language: Towns, Buildings, Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
+    * R. C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
+    * K Beck & M. Fowler, Refactoring: Improving the Design of Existing Code
+    * [**!BONUS**] D. Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
+    * [**!BONUS**] C. Alexander, S. Ishikawa and M. Silverstein, [*A Pattern Language: Towns, Buildings, Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
   * (Re- or Self-) Learn Math:
-    * [Kun, A Programmer’s Introduction to Mathematics](https://pimbook.org/)
+    * [J. Kun, A Programmer’s Introduction to Mathematics](https://pimbook.org/)
     * [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
     * [3Blue1Brown](https://www.youtube.com/c/3blue1brown/videos)
     * [Khan Academy](https://www.khanacademy.org/math)
@@ -158,23 +165,29 @@ Go beyond Java and Web Development:
     * [Julia](https://julialang.org/learning/)
     * [Nim](https://nim-lang.org/)
   * Learn CS/FOSS history and Hacking/Cyberpunk culture:
-    * Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale ([Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046), Mimesis - 2018)
-    * Raymond, The Cathedral & the Bazaar
-    * Kernighan, UNIX: A History and a Memoir
-    * Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
-    * Torvalds, Just for Fun
+    * S. Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale ([Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046), Mimesis - 2018)
+    * E. S. Raymond, The Cathedral & the Bazaar
+    * B. Kernighan, UNIX: A History and a Memoir
+    * S. Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
+    * L. Torvalds, Just for Fun
+    * D. Knuth, Things a Computer Scientist Rarely Talks About
+    * K. Hafner, Where wizards stay up late
     * [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
-    * Waldrop, The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal
-    * Gleick, The Information: A History, a Theory, a Flood
-    * Kidder, The Soul of a New Machine
-    * Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
-    * Levy, Hackers: Heroes of the Computer Revolution
-    * Mitnick, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
-    * Erickson, Hacking: The Art of Exploitation
-    * Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware
-    * Gibson, Neuromancer
-    * Dick, Do Androids Dream of Electric Sheep?
-    * Shirow, The Ghost in the Shell
-    * Otomo, Akira
+    * M. Waldrop, The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal
+    * J. Gleick, The Information: A History, a Theory, a Flood
+    * D. R. Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid
+    * T. Kidder, The Soul of a New Machine
+    * D. Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
+    * S. Levy, Hackers: Heroes of the Computer Revolution
+    * K. Mitnick &s W. L. Simon, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
+    * J. Erickson, Hacking: The Art of Exploitation
+    * A. Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware
+    * [Hacker News](https://news.ycombinator.com/)
+    * [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
+    * W. Gibson, Neuromancer
+    * P. K. Dick, Do Androids Dream of Electric Sheep?
+    * M. Shirow, The Ghost in the Shell
+    * K. Otomo, Akira
   * Prepare yourself for Coding Interviews:
     * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
+
