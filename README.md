@@ -23,11 +23,7 @@
             * [Java Fundamentals: Asynchronous Programming Using CompletionStage](https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage)
             * [JConsole](https://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html)
             * [Monitoring threads](http://www.jvmmonitor.org/doc/#Monitoring_threads)
-            * Reactive Programming:
-              * [The Reactive Manifesto](https://www.reactivemanifesto.org/)
-              * [**RxJava**](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
-              * [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides)
-              * [**Vert.x**](https://vertx.io/docs/vertx-core/java/)
+            * [Reactive Programming](https://www.reactivemanifesto.org/)
         4. [New language features since Java 8 to 17](https://advancedweb.hu/new-language-features-since-java-8-to-17/)
 
 3. Algorithms & Data Structures:
@@ -48,6 +44,10 @@
           * Vlad Mihalcea, *High-Performance Java Persistence*
     * Messaging:
       * JMS (**ActiveMQ**, **Rabbit**, **Kafka**)
+    * Reactive Programming:
+      * [**RxJava**](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
+      * [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides)
+      * [**Vert.x**](https://vertx.io/docs/vertx-core/java/)
     * Test-Driven Development:
         * Unit/Integration Testing: [**JUnit 5**](https://www.baeldung.com/junit-5) + [**H2**](http://www.h2database.com/html/tutorial.html) + [**Mockito**](https://www.baeldung.com/mockito-series) + [**WireMock**](http://wiremock.org/docs/getting-started/) + [**RestAssured**](https://www.baeldung.com/rest-assured-tutorial) + [**Hamcrest**](http://hamcrest.org/JavaHamcrest/tutorial)
         * E2E Testing: [**Selenium**](https://www.selenium.dev/documentation/guidelines/)
