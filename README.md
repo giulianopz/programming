@@ -89,7 +89,7 @@
       - IBM Db2
       - SQLite
       - MariaDB
-    * Non-Relational DBs (**NoSQL**):
+    * Non-Relational DBs (**NoSQL**) by ypes:
       * Wide column: Apache Cassandra
       * Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
       * Key–value: Redis
@@ -139,9 +139,9 @@
     * [What is a network?](https://study-ccna.com/what-is-a-network/)
     * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
     * [I. Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
-	  * [SRE books](https://sre.google/books/)
-	  * [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
-	  * [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
+    * [SRE books](https://sre.google/books/)
+    * [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
+    * [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
 
 12. Agile/[Scrum](https://www.scrumguides.org/scrum-guide.html)
 
