@@ -35,10 +35,12 @@
 
 4. Most Popular Libraries/Frameworks for Java:
     * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback)
+    * [Project Lombok](https://projectlombok.org/)
     * POJO-DTO Mapping: [MapStruct](https://mapstruct.org/)
     * JSON Parsing: [**Jackson**](https://www.baeldung.com/jackson)
     * [JAX-WS](https://www.baeldung.com/jax-ws)
     * [JAX-RS](https://www.baeldung.com/jax-rs-spec-and-implementations) (**RESTEasy**, **Jersey**, **Apache CXF**)
+    * API documentation: [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
     * Persistence:
         * [JPA (**Hibernate**)](https://www.baeldung.com/learn-jpa-hibernate) + [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html):
           * Vlad Mihalcea, *High-Performance Java Persistence*
@@ -67,8 +69,7 @@
     * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
     * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
     * [JSON In a Nutshell](https://medium.com/omarelgabrys-blog/json-in-a-nutshell-7d638dfea7cc)
-    * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0):
-      * [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
+    * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
     * Main alternatives to the REST API Pattern:
       - [GraphQL](https://medium.com/@kittypawar.8/alternatives-for-rest-api-b7a6911aa0cc)
       - Falcor
@@ -134,19 +135,17 @@
     * [Practical Cryptography for Developers](https://cryptobook.nakov.com/)
     * [**!BONUS**] [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
 
-11. Networking:
+11. Networking, Web & Browsers:
     * [What is a network?](https://study-ccna.com/what-is-a-network/)
     * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
     * [I. Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
 	  * [SRE books](https://sre.google/books/)
+	  * [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
+	  * [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
 
-12. Web:
-    1.  [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
-    2.  [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
+12. Agile/[Scrum](https://www.scrumguides.org/scrum-guide.html)
 
-13. Agile/[Scrum](https://www.scrumguides.org/scrum-guide.html)
-
-14. Miscellanea:
+13. Miscellanea:
     * [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     * [java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
     * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
