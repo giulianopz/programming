@@ -3,14 +3,18 @@
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
 2. Java:
-    1. Metodologie di Programmazione (Navigli, 2018)
-    2. [Maven](https://maven.apache.org/guides/getting-started/index.html)
-    3. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
-    4. Design Patterns:
+    1. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
+    2. Metodologie di Programmazione (Navigli, 2018)
+    3. [Maven](https://maven.apache.org/guides/getting-started/index.html)
+    4. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
+    5. J. Bloch, Effective Java
+    6. Design Patterns:
        * [GoF Design Patterns with examples using Java and UML](https://www.researchgate.net/publication/307449818_GoF_Design_Patterns_with_examples_using_Java_and_UML)
-    5. Unit testing:
+    7. Unit testing:
        1. [JUnit Best Practices Guide](https://howtodoinjava.com/best-practices/unit-testing-best-practices-junit-reference-guide/)
-    6. Advanced Topics:
+       2. [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
+       3. [Unit Testing Best Practices](https://medium.com/udemy-engineering/unit-testing-best-practices-f877799f6dfd)
+    8. Advanced Topics:
         1. Generics
         2. Reflection
         3. Concurrency, Multi-threading, Parallelism, Asynchronus Programming:
@@ -26,11 +30,12 @@
               * [**Vert.x**](https://vertx.io/docs/vertx-core/java/)
         4. [New language features since Java 8 to 17](https://advancedweb.hu/new-language-features-since-java-8-to-17/)
 
-3. Algorithms:
+3. Algorithms & Data Structures:
     1. [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
     2. R. Sedgewick & K. Wayne, Algorithms [1](https://www.coursera.org/learn/algorithms-part1) + [2](https://www.coursera.org/learn/algorithms-part2)
     3. D. Kopec, Classic Computer Science Problems in Java
-    4. [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
+    4. [Open Data Structures (in Java)](http://opendatastructures.org/ods-java/)
+    5. [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 
 4. Most Popular Libraries/Frameworks for Java:
     * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback)
@@ -41,8 +46,6 @@
     * Persistence:
         * [JPA (**Hibernate**)](https://www.baeldung.com/learn-jpa-hibernate) + [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html):
           * Vlad Mihalcea, *High-Performance Java Persistence*
-        * Non-Relational DBs: **GraphQL**, **neo4j**, **MongoDB**, **Cassandra**
-        * [ElasticSearch](https://www.baeldung.com/elasticsearch-java)
     * Messaging:
       * JMS (**ActiveMQ**, **Rabbit**, **Kafka**)
     * Test-Driven Development:
@@ -66,14 +69,39 @@
     * [JSON In a Nutshell](https://medium.com/omarelgabrys-blog/json-in-a-nutshell-7d638dfea7cc)
     * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0):
       * [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
+    * Main alternatives to the REST API Pattern:
+      - [GraphQL](https://medium.com/@kittypawar.8/alternatives-for-rest-api-b7a6911aa0cc)
+      - Falcor
+      - gRPC
 
-6. Microservices & Distributed Systems:
+6. Databases & SQL:
+    * [!BONUS] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
+    * [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
+    * [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
+    * How Database Work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
+    * [How does a relational database work](http://coding-geek.com/how-databases-work/)
+    * Common relational DBs:
+      - Oracle Database
+      - MySQL
+      - Microsoft SQL Server
+      - PostgreSQL
+      - IBM Db2
+      - SQLite
+      - MariaDB
+    * Non-Relational DBs (**NoSQL**):
+      * Wide column: Apache Cassandra
+      * Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
+      * Key–value: Redis
+      * Graph: Neo4J
+
+7. Microservices & Distributed Systems:
     * [From Microservices to Distributed Systems: A Survival Guide for Java Devs](https://dzone.com/articles/from-microservices-to-distributed-systems-survival)
     * C. Richardson, [Microservices Patterns](https://microservices.io/) (2018)
     * W, J. Carnell, Spring Microservices in Action (2017)
     * M. Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (2017)
+    * A. Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
 
-7. [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
+8.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
     * [Docker](https://www.docker.com/get-started) VS. [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
     * [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
@@ -82,7 +110,7 @@
     * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
     * [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
 
-8. UNIX Toolbox:
+9.  UNIX Toolbox:
     * [Basic UNIX](https://matt.might.net/articles/basic-unix/)
     * [Bash](https://matt.might.net/articles/bash-by-example/)
     * [Text Manipulation with grep, sed and awk](https://matt.might.net/articles/sculpting-text/)
@@ -93,8 +121,7 @@
     * [regex](https://regexone.com/)
     * [**!BONUS**] [Vim Adventures](https://vim-adventures.com/)
     * [**!BONUS**] [The Unix Game](https://www.unixgame.io/unix50)
-
-9.  [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
+    * [**!BONUS**] [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
 
 10. Security:
     * [API authentication and authorization](https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html)
@@ -123,6 +150,7 @@
     * [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     * [java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
     * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
+    * [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 
 <hr style="border:2px solid gray"> </hr>
 
@@ -172,7 +200,6 @@ Go beyond Java and Web Development:
     * L. Torvalds, Just for Fun
     * D. Knuth, Things a Computer Scientist Rarely Talks About
     * K. Hafner, Where wizards stay up late
-    * [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
     * M. Waldrop, The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal
     * J. Gleick, The Information: A History, a Theory, a Flood
     * D. R. Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid
@@ -182,12 +209,17 @@ Go beyond Java and Web Development:
     * K. Mitnick &s W. L. Simon, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
     * J. Erickson, Hacking: The Art of Exploitation
     * A. Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware
-    * [Hacker News](https://news.ycombinator.com/)
-    * [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
     * W. Gibson, Neuromancer
     * P. K. Dick, Do Androids Dream of Electric Sheep?
     * M. Shirow, The Ghost in the Shell
     * K. Otomo, Akira
+    * [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
+    * [Hacker News](https://news.ycombinator.com/)
+    * [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
+    * more [here](https://www.goodreads.com/list/show/94619.Best_Popular_Computer_Science_Books_on_Goodreads?page=1)
+  * Go Closer to the Metal:
+    * [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
+    * Ben Eater's [blog](https://eater.net/)
+    * Sam Zeloof's [blog](http://sam.zeloof.xyz/)
   * Prepare yourself for Coding Interviews:
     * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
-
