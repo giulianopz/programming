@@ -89,7 +89,7 @@
       - IBM Db2
       - SQLite
       - MariaDB
-    * Non-Relational DBs (**NoSQL**) by ypes:
+    * Non-Relational DBs (**NoSQL**) by types:
       * Wide column: Apache Cassandra
       * Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
       * Key–value: Redis
