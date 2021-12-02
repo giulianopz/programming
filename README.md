@@ -4,7 +4,7 @@
 
 2. Java:
     1. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
-    2. Metodologie di Programmazione (Navigli, 2018)
+    2. [Basics for Beginners](https://www.codecademy.com/catalog/language/java)
     3. [Maven](https://maven.apache.org/guides/getting-started/index.html)
     4. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
     5. J. Bloch, Effective Java
@@ -14,7 +14,7 @@
        1. [JUnit Best Practices Guide](https://howtodoinjava.com/best-practices/unit-testing-best-practices-junit-reference-guide/)
        2. [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
        3. [Unit Testing Best Practices](https://medium.com/udemy-engineering/unit-testing-best-practices-f877799f6dfd)
-    8. Advanced Topics:
+    8. Advanced Features:
         1. Generics
         2. Reflection
         3. Concurrency, Multi-threading, Parallelism, Asynchronus Programming:
