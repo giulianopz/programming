@@ -4,17 +4,18 @@
 
 2. Java:
     1. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
-    2. [Basics for Beginners](https://www.codecademy.com/catalog/language/java)
+    2. Metodologie di Programmazione (Navigli, 2018)
     3. [Maven](https://maven.apache.org/guides/getting-started/index.html)
     4. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
     5. J. Bloch, Effective Java
     6. Design Patterns:
        * [GoF Design Patterns with examples using Java and UML](https://www.researchgate.net/publication/307449818_GoF_Design_Patterns_with_examples_using_Java_and_UML)
     7. Unit testing:
-       1. [JUnit Best Practices Guide](https://howtodoinjava.com/best-practices/unit-testing-best-practices-junit-reference-guide/)
-       2. [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
-       3. [Unit Testing Best Practices](https://medium.com/udemy-engineering/unit-testing-best-practices-f877799f6dfd)
-    8. Advanced Features:
+       1. [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
+       2. L. Kosleka, Effective Unit Testing
+       3. P. Tahchiev, JUnit in Action
+       4. L. Kosleka, Test Driven: TDD and Acceptance TDD for Java Developers
+    8. Advanced Topics:
         1. Generics
         2. Reflection
         3. Concurrency, Multi-threading, Parallelism, Asynchronus Programming:
@@ -64,16 +65,20 @@
         * I. Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide
     * [Quarkus](https://quarkus.io/guides/)
 
-5. RESTful APIs:
+5. HTTP-based RESTful APIs:
     * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
     * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
     * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
     * [JSON In a Nutshell](https://medium.com/omarelgabrys-blog/json-in-a-nutshell-7d638dfea7cc)
     * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
-    * Main alternatives to the REST API Pattern:
-      - [GraphQL](https://medium.com/@kittypawar.8/alternatives-for-rest-api-b7a6911aa0cc)
+    * Main alternatives to the REST API pattern:
+      - [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
       - Falcor
       - gRPC
+    * Main alternatives to the HTTP(S) protocol:
+      - Advanced Message Queuing Protocol (AMQP)
+      - [WebSocket](https://www.baeldung.com/java-websockets)
+      - [Unix Domain Socket](https://nipafx.dev/java-unix-domain-sockets/) (for inter-process communication on the same host)
 
 6. Databases & SQL:
     * [!BONUS] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
@@ -103,13 +108,24 @@
     * A. Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
 
 8.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
-    * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
-    * [Docker](https://www.docker.com/get-started) VS. [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
-    * [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
-    * [Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
-    * [AWS](https://adayinthelifeof.nl/2020/05/20/aws.html)
-    * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
-    * [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
+    * Containers and Orchestration:
+      * [Learning Containers From The Bottom Up]([java-be-learning-path.md](https://iximiuz.com/en/posts/container-learning-path/))
+      * [Docker](https://www.docker.com/get-started)
+      * [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
+      * [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
+        * Common k8s distributions:
+            * [RedHat Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
+            * Rancher
+            * VMware Tanzu
+    * CI/CD Pipelines:
+      * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
+    * Other deployment environments:
+      * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
+    * Giant Cloud Platforms:
+      * [AWS](https://adayinthelifeof.nl/2020/05/20/aws.html)
+      * [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
+      * Google Cloud
+      * Heroku
 
 9.  UNIX Toolbox:
     * [Basic UNIX](https://matt.might.net/articles/basic-unix/)
@@ -143,7 +159,9 @@
     * [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
     * [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
 
-12. Agile/[Scrum](https://www.scrumguides.org/scrum-guide.html)
+12. Software Development Methodologies:
+    * Agile/[Scrum](https://www.scrumguides.org/scrum-guide.html)
+    * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 13. Miscellanea:
     * [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
@@ -208,6 +226,7 @@ Go beyond Java and Web Development:
     * K. Mitnick &s W. L. Simon, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
     * J. Erickson, Hacking: The Art of Exploitation
     * A. Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware
+    * A. Naitoh, How the ThinkPad Changed the World ― and Is Shaping the Future
     * W. Gibson, Neuromancer
     * P. K. Dick, Do Androids Dream of Electric Sheep?
     * M. Shirow, The Ghost in the Shell
