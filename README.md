@@ -109,7 +109,7 @@
 
 8.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * Containers and Orchestration:
-      * [Learning Containers From The Bottom Up]([java-be-learning-path.md](https://iximiuz.com/en/posts/container-learning-path/))
+      * [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
       * [Docker](https://www.docker.com/get-started)
       * [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
       * [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
