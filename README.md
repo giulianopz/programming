@@ -68,6 +68,7 @@
 5. HTTP-based RESTful APIs:
     * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
     * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
+    * [Standards.REST](https://standards.rest/)
     * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
     * [JSON In a Nutshell](https://medium.com/omarelgabrys-blog/json-in-a-nutshell-7d638dfea7cc)
     * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
@@ -106,6 +107,7 @@
     * W, J. Carnell, Spring Microservices in Action (2017)
     * M. Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (2017)
     * A. Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
+    * R, Vitillo, Understanding Distributed Systems. What every developer should know about large distributed applications
 
 8.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * Containers and Orchestration:
@@ -119,13 +121,14 @@
             * VMware Tanzu
     * CI/CD Pipelines:
       * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
-    * Other deployment environments:
+    * Alternative deployment environments:
       * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
-    * Giant Cloud Platforms:
+    * Cloud Platforms:
       * [AWS](https://adayinthelifeof.nl/2020/05/20/aws.html)
       * [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
       * Google Cloud
       * Heroku
+    * G. Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
 
 9.  UNIX Toolbox:
     * [Basic UNIX](https://matt.might.net/articles/basic-unix/)
@@ -204,12 +207,7 @@ Go beyond Java and Web Development:
     * [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
     * [3Blue1Brown](https://www.youtube.com/c/3blue1brown/videos)
     * [Khan Academy](https://www.khanacademy.org/math)
-  * Learn New Programming Languages:
-    * [GO](https://tour.golang.org/list)
-    * [Rust](https://www.rust-lang.org/learn)
-    * [Julia](https://julialang.org/learning/)
-    * [Nim](https://nim-lang.org/)
-  * Learn CS/FOSS history and Hacking/Cyberpunk culture:
+  * Learn CS/FOSS History and Hacking/Cyberpunk Culture:
     * S. Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale ([Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046), Mimesis - 2018)
     * E. S. Raymond, The Cathedral & the Bazaar
     * B. Kernighan, UNIX: A History and a Memoir
@@ -231,13 +229,19 @@ Go beyond Java and Web Development:
     * P. K. Dick, Do Androids Dream of Electric Sheep?
     * M. Shirow, The Ghost in the Shell
     * K. Otomo, Akira
+  * Follow Good (B|V)logs
     * [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
     * [Hacker News](https://news.ycombinator.com/)
     * [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
-    * more [here](https://www.goodreads.com/list/show/94619.Best_Popular_Computer_Science_Books_on_Goodreads?page=1)
+    * [Vicki Boykis](http://veekaybee.github.io/)
+    * [Wizard Zines](https://wizardzines.com/)
+  * Learn New Programming Languages:
+    * [GO](https://tour.golang.org/list)
+    * [Rust](https://www.rust-lang.org/learn)
+    * [Julia](https://julialang.org/learning/)
   * Go Closer to the Metal:
     * [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
-    * Ben Eater's [blog](https://eater.net/)
-    * Sam Zeloof's [blog](http://sam.zeloof.xyz/)
+    * [Ben Eater](https://eater.net/)
+    * [Sam Zeloof](http://sam.zeloof.xyz/)
   * Prepare yourself for Coding Interviews:
     * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
