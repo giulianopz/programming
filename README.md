@@ -49,7 +49,7 @@
        * R. C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
        * K Beck & M. Fowler, Refactoring: Improving the Design of Existing Code
        * [**!BONUS**] D. Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
-       * [**!BONUS**] C. Alexander, S. Ishikawa and M. Silverstein, [*A Pattern Language: Towns, Buildings, Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
+       * [**!BONUS**] C. Alexander et al., [The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) + [*A Pattern Language: Towns, Buildings, Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
 
 5. Most Popular Libraries/Frameworks for Java:
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
@@ -102,7 +102,7 @@
        - [Unix Domain Socket](https://nipafx.dev/java-unix-domain-sockets/) (for inter-process communication on the same host)
 
 7. Databases & SQL:
-     * [!BONUS] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
+     * [**!BONUS**] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
      * [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
      * [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
      * How Database Work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
@@ -131,23 +131,25 @@
 
 9.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * Containers and Orchestration:
-     * [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
-     * [Docker](https://www.docker.com/get-started)
-     * [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
-     * [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
-       * Common k8s distributions:
-           * [RedHat Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
-           * Rancher
-           * VMware Tanzu
+       * [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
+       * [Docker](https://www.docker.com/get-started)
+       * [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
+       * Cluster Managers:
+         * [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
+           * Common K8s distributions:
+               * [RedHat Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
+               * Rancher
+               * VMware Tanzu
+         * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
+         * Apache Mesos
+         * LXC
     * CI/CD Pipelines:
-     * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
-    * Alternative deployment environments:
-     * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
+       * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
     * Cloud Platforms:
-     * [AWS](https://adayinthelifeof.nl/2020/05/20/aws.html)
-     * [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
-     * Google Cloud
-     * Heroku
+      * Amazon Web Services [(AWS)](https://adayinthelifeof.nl/2020/05/20/aws.html)
+      * [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
+      * Google Cloud Platform (GCP)
+      * Heroku
     * G. Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
     * M. Eisele and N. Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
 
@@ -190,8 +192,10 @@
 14. Miscellanea:
       * [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
       * [java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
+      * [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
       * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
       * [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+      * [The Twelve Factors](https://12factor.net/)
 ---
 ## Go beyond Java and Web Development
 
@@ -234,7 +238,7 @@
   * K. Mitnick &s W. L. Simon, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
   * J. Erickson, Hacking: The Art of Exploitation
   * A. Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware
-  * A. Naitoh, How toraclehe ThinkPad Changed the World ― and Is Shaping the Future
+  * A. Naitoh, How to the ThinkPad Changed the World ― and Is Shaping the Future
   * W. Gibson, Neuromancer
   * P. K. Dick, Do Androids Dream of Electric Sheep?
   * M. Shirow, The Ghost in the Shell
@@ -244,7 +248,7 @@
   * [Hacker News](https://news.ycombinator.com/)
   * [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
   * [Vicki Boykis](http://veekaybee.github.io/)
-  * [Wizard Zines](https://wizardzines.com/)
+  * [Julia Evans](https://jvns.ca/)
 * Learn New Programming Languages:
   * [GO](https://tour.golang.org/list)
   * [Rust](https://www.rust-lang.org/learn)
