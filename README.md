@@ -53,10 +53,11 @@
 
 5. Most Popular Libraries/Frameworks for Java:
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
+       * [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
      * [Project Lombok](https://projectlombok.org/)
-     * POJO-DTO Mapping: [MapStruct](https://mapstruct.org/)
+     * POJO-DTO Mapping: [**MapStruct**](https://mapstruct.org/)
      * JSON (De)serialization: [**Jackson**](https://www.baeldung.com/jackson)
-     * [JAX-WS](https://www.baeldung.com/jax-ws)
+     * [JAX-WS](https://www.baeldung.com/jax-ws) (**Axis2**, **Apache CXF**)
      * [JAX-RS](https://www.baeldung.com/jax-rs-spec-and-implementations) (**RESTEasy**, **Jersey**, **Apache CXF**)
      * API documentation: [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
      * Persistence:
