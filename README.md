@@ -3,19 +3,55 @@
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
 2. Java:
-     1. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
-     2. Metodologie di Programmazione (Navigli, 2018)
-     3. [Maven](https://maven.apache.org/guides/getting-started/index.html)
-     4. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
-     5. J. Bloch, Effective Java
-     6. Design Patterns:
+     1. Learn Java Fundamentals[^1]:
+        1. JRE, JDK & JVM
+        2. Byte Code vs. Machine Code
+        3. Compiling with `javac` and Running with Arguments from CLI
+        4. IDEs
+           1. [VSCode](https://code.visualstudio.com/docs/languages/java) is the best one at the moment IMHO
+           2. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
+        5. Heap & Stack
+        6. Variables
+        7. Types
+           1. Default Initialization
+           2. Wrappers & Autoboxing
+        8. Arrays
+        9. The Object Class
+        10. Constants & Enumerations
+        11. Access Modifiers
+        12. Classes & Object-Oriented Programming (OOP) Basic Concepts
+            1.  Interfaces vs. Abstract Classes (Abstraction)
+            2.  Nested Classes & Anonymous Classes
+            3.  Inheritance vs. Composition
+            4.  Polymorphism & Upcasting vs. Downcasting
+            5.  Encapsulation & Data Hiding
+        13. Control Flow Statements
+        14. Methods
+            1.  Passing-by-Value vs. Passing-by-Reference
+            2.  Overloading & Overriding
+        15. Exceptions
+            1. Throwable, Exception & Error
+            2. Checked vs. Unchecked
+            3. Try/Catch & Catch-or-Declare Requirement
+        16. Collections
+            1.  Iterable & Iterator
+            2.  Comparable & Comparator
+        17. I/O
+        18. Streams
+        19. Lambda Expressions & Method References
+        20. Recursion
+     2. [Maven](https://maven.apache.org/guides/getting-started/index.html)
+     3. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
+     4. J. Bloch, Effective Java
+     5. Design Patterns:
         * [GoF Design Patterns with examples using Java and UML](https://www.researchgate.net/publication/307449818_GoF_Design_Patterns_with_examples_using_Java_and_UML)
-     7. Unit testing:
+     6. Unit testing:
         1. [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
-        2. L. Kosleka, Effective Unit Testing
-        3. P. Tahchiev, JUnit in Action
-        4. L. Kosleka, Test Driven: TDD and Acceptance TDD for Java Developers
-     8. Advanced Topics:
+        2. [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
+        3. L. Kosleka, Effective Unit Testing
+        4. P. Tahchiev, JUnit in Action
+        5. L. Kosleka, Test Driven: TDD and Acceptance TDD for Java Developers
+     7. Advanced Topics:
          1. Generics
          2. Reflection
          3. Concurrency, Multi-threading, Parallelism, Asynchronus Programming:
@@ -34,12 +70,11 @@
      4. [Open Data Structures (in Java)](http://opendatastructures.org/ods-java/)
      5. [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 
-4. Software Engineering & Design:
+4. Software Engineering & System Design:
      * J. Ousterhout, A Philosophy of Software Design
-     * M. Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (2017)
+     * M. Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
+     * D. Martin, [The System Design Primer](https://github.com/donnemartin/system-design-primer)
      * T. Winters et al., Software Engineering at Google: Lessons Learned from Programming Over Time
-     * [**!BONUS**] D. H. Meadows, Thinking in Systems: A Primer
-     * [**!BONUS**] F. Hermans, The Programmer's Brain: What every programmer needs to know about cognition
      * Other Influential Books:
        * R. C. Martin, Clean Code
        * A. Hunt & D. Thomas, The Pragmatic Programmer: From Journeyman to Master
@@ -49,7 +84,9 @@
        * R. C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
        * K Beck & M. Fowler, Refactoring: Improving the Design of Existing Code
        * [**!BONUS**] D. Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
-       * [**!BONUS**] C. Alexander et al., [The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) + [*A Pattern Language: Towns, Buildings, Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
+       * [**!BONUS**] C. Alexander et al., [The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) + [*A Pattern Language: Towns, Buildings Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
+       * [**!BONUS**] D. H. Meadows, Thinking in Systems: A Primer
+       * [**!BONUS**] F. Hermans, The Programmer's Brain: What every programmer needs to know about cognition
 
 5. Most Popular Libraries/Frameworks for Java:
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
@@ -142,7 +179,7 @@
                * VMware Tanzu
          * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
          * Apache Mesos
-         * LXC
+         * LXD
     * CI/CD Pipelines:
        * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
     * Cloud Platforms:
@@ -185,11 +222,16 @@
       * [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
       * [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
 
-13. Software Development Methodologies:
+13. Software Documentation:
+      * [JavaDoc](https://www.baeldung.com/javadoc)
+      * [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
+
+14. Development Management:
       * Agile/[Scrum](https://www.scrumguides.org/scrum-guide.html)
       * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
+      * [Atlassian Tool Suite](https://datarespons.com/atlassian-suite-tools-for-every-team-and-more-agility-in-projects/)
 
-14. Miscellanea:
+15. Miscellanea:
       * [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
       * [java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
       * [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
@@ -259,3 +301,5 @@
   * [Sam Zeloof](http://sam.zeloof.xyz/)
 * Prepare yourself for Coding Interviews:
   * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
+
+[^1]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below.
