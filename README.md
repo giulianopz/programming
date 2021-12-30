@@ -8,38 +8,46 @@
         2. Byte Code vs. Machine Code
         3. Compiling with `javac` and Running with Arguments from CLI
         4. IDEs
-           1. [VSCode](https://code.visualstudio.com/docs/languages/java) is the best one at the moment IMHO
-           2. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
+           1. [VSCode](https://code.visualstudio.com/docs/languages/java)
+           2. Debugging
+           3. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
         5. Heap & Stack
         6. Variables
-        7. Types
+        7. Arithmetic & Boolean Expressions
+        8. Built-in Types of Data
            1. Default Initialization
            2. Wrappers & Autoboxing
-        8. Arrays
-        9. The Object Class
-        10. Constants & Enumerations
-        11. Access Modifiers
-        12. Classes & Object-Oriented Programming (OOP) Basic Concepts
-            1.  Interfaces vs. Abstract Classes (Abstraction)
-            2.  Nested Classes & Anonymous Classes
-            3.  Inheritance vs. Composition
-            4.  Polymorphism & Upcasting vs. Downcasting
-            5.  Encapsulation & Data Hiding
-        13. Control Flow Statements
-        14. Methods
-            1.  Passing-by-Value vs. Passing-by-Reference
-            2.  Overloading & Overriding
-        15. Exceptions
+        9. Arrays
+        10. The Object Class
+            1. `this` & `super` keywords
+            2. `equals()` & `hashCode()` methods
+        11. Constants & Enumerations
+        12. Access Modifiers
+        13. Classes & Object-Oriented Programming (OOP) Basic Concepts
+            1. Interfaces vs. Abstract Classes (Abstraction)
+            2. Nested Classes, Inner Classes & Anonymous Classes
+            3. Inheritance vs. Composition
+            4. Polymorphism & Upcasting vs. Downcasting
+            5. Encapsulation & Data Hiding
+        14. Control Flow Statements
+        15. Methods
+            1. Passing-by-Value vs. Passing-by-Reference
+            2. Overloading & Overriding
+            3. The `main` method
+        16. Exceptions
             1. Throwable, Exception & Error
             2. Checked vs. Unchecked
             3. Try/Catch & Catch-or-Declare Requirement
-        16. Collections
-            1.  Iterable & Iterator
-            2.  Comparable & Comparator
-        17. I/O
-        18. Streams
-        19. Lambda Expressions & Method References
-        20. Recursion
+        17. Collections
+            1. Iterable & Iterator
+            2. Comparable & Comparator
+            3. Sorting & Searching
+            4. Stack & Queue
+            5. List, Set & Map
+        18. I/O
+        19. Streams
+        20. Lambda Expressions & Method References
+        21. Recursion
      2. [Maven](https://maven.apache.org/guides/getting-started/index.html)
      3. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
      4. J. Bloch, Effective Java
@@ -128,15 +136,17 @@
      * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
      * [JSON In a Nutshell](https://medium.com/omarelgabrys-blog/json-in-a-nutshell-7d638dfea7cc)
      * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
-     * Main alternatives to the REST API pattern:
+     * Main alternatives to the REST architectural style:
        - [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
-       - Falcor
        - gRPC
+       - Falcor
      * Main alternatives to the HTTP/1.1 protocol:
        - [HTTP/2 and HTTP/3](https://medium.com/@sandeep4.verma/http-1-to-http-2-to-http-3-647e73df67a8)
+       - [UDP](https://www.baeldung.com/udp-in-java)
        - Advanced Message Queuing Protocol (AMQP)
        - [WebSocket](https://www.baeldung.com/java-websockets)
        - [Unix Domain Socket](https://nipafx.dev/java-unix-domain-sockets/) (for inter-process communication on the same host)
+     * [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
 
 7. Databases & SQL:
      * [**!BONUS**] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
@@ -302,4 +312,4 @@
 * Prepare yourself for Coding Interviews:
   * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 
-[^1]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below.
+[^1]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the [video lectures](https://cuvids.io/app/video/1/watch/) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by K. Wayne and R. Sedgewick.
