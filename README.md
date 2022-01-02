@@ -99,24 +99,51 @@
 5. Most Popular Libraries/Frameworks for Java:
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
        * [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
-     * [Project Lombok](https://projectlombok.org/)
+     * Boilerplate Code Auto-generation: [Project Lombok](https://projectlombok.org/)
      * POJO-DTO Mapping: [**MapStruct**](https://mapstruct.org/)
-     * JSON (De)serialization: [**Jackson**](https://www.baeldung.com/jackson)
+     * Data Serialization:
+         * Java Serialization (Native APIs)
+           * [**!OPINION**] [Why Java's serialization slower than 3rd party APIs?](https://stackoverflow.com/questions/19447623/why-javas-serialization-slower-than-3rd-party-apis)
+         * Language-agnostic Formats:
+           * XML:
+             * Java Architecture for XML Binding (JAXB)
+           * JSON:
+             * [**Jackson**](https://www.baeldung.com/jackson)
+             * Gson
+             * JSON-P & JSON-B
+           * YAML:
+             * YAML Beans
+             * SnakeYAML
+           * [Schema-based Binary Format](https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html):
+             * [**Protocol Buffers**](https://developers.google.com/protocol-buffers/docs/javatutorial) (protobuf)
+             * [**Apache Thrift**](https://thrift.apache.org/tutorial/java.html)
+             * [**Apache Avro**](https://avro.apache.org/docs/current/gettingstartedjava.html)
      * [JAX-WS](https://www.baeldung.com/jax-ws) (**Axis2**, **Apache CXF**)
      * [JAX-RS](https://www.baeldung.com/jax-rs-spec-and-implementations) (**RESTEasy**, **Jersey**, **Apache CXF**)
      * API documentation: [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
      * Persistence:
          * [JPA (**Hibernate**)](https://www.baeldung.com/learn-jpa-hibernate) + [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html):
            * Vlad Mihalcea, [blog](https://vladmihalcea.com/blog/) + *High-Performance Java Persistence*
-     * Messaging:
-       * JMS (**ActiveMQ**, **Rabbit**, **Kafka**)
+     * Message Processing:
+       * JMS (**Apache ActiveMQ**, **RabbitMQ**)
+     * Event Streaming:
+       * **Apache Kafka**
      * Reactive Programming:
        * [**RxJava**](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
        * [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides)
        * [**Vert.x**](https://vertx.io/docs/vertx-core/java/)
      * Test-Driven Development:
-         * Unit/Integration Testing: [**JUnit 5**](https://www.baeldung.com/junit-5) + [**H2**](http://www.h2database.com/html/tutorial.html) + [**Mockito**](https://www.baeldung.com/mockito-series) + [**WireMock**](http://wiremock.org/docs/getting-started/) + [**RestAssured**](https://www.baeldung.com/rest-assured-tutorial) + [**Hamcrest**](http://hamcrest.org/JavaHamcrest/tutorial)
-         * E2E Testing: [**Selenium**](https://www.selenium.dev/documentation/guidelines/)
+         * Unit/Integration Testing:
+           * [**JUnit 5**](https://www.baeldung.com/junit-5)
+           * [**Mockito**](https://www.baeldung.com/mockito-series)
+           * [**Hamcrest**](http://hamcrest.org/JavaHamcrest/tutorial)
+         * Integration Testing:
+           * [**H2**](http://www.h2database.com/html/tutorial.html)
+           * [**WireMock**](http://wiremock.org/docs/getting-started/)
+           * [**RestAssured**](https://www.baeldung.com/rest-assured-tutorial)
+           * [**Testcontainers**](https://www.testcontainers.org/)
+         * E2E Testing:
+           * [**Selenium**](https://www.selenium.dev/documentation/guidelines/)
      * File manipulation:
        * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
        * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
@@ -142,9 +169,12 @@
        - Falcor
      * Main alternatives to the HTTP/1.1 protocol:
        - [HTTP/2 and HTTP/3](https://medium.com/@sandeep4.verma/http-1-to-http-2-to-http-3-647e73df67a8)
-       - [UDP](https://www.baeldung.com/udp-in-java)
-       - Advanced Message Queuing Protocol (AMQP)
+       - Messaging:
+         - AMQP (Advanced Message Queuing Protocol)
+         - MQTT (Message Queuing Telemetry Transport)
+         - STOMP (Streaming Text Oriented Messaging Protocol)
        - [WebSocket](https://www.baeldung.com/java-websockets)
+       - [UDP](https://www.baeldung.com/udp-in-java)
        - [Unix Domain Socket](https://nipafx.dev/java-unix-domain-sockets/) (for inter-process communication on the same host)
      * [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
 
@@ -175,6 +205,7 @@
      * C. Richardson, [Microservices Patterns](https://microservices.io/) (2018)
      * W, J. Carnell, Spring Microservices in Action (2017)
      * R, Vitillo, Understanding Distributed Systems. What every developer should know about large distributed applications
+     * S. Newman, Building Microservices (2nd ed.)
 
 9.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * Containers and Orchestration:
