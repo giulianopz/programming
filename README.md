@@ -147,8 +147,9 @@
      * File manipulation:
        * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
        * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
-     * Log Analytics: Splunk, ELK (Elastic Stack: ElasticSearch, Logstash, and Kibana)
+     * Log Analytics: Splunk, ELK (i.e. Elastic Stack: ElasticSearch, Logstash, and Kibana)
      * Performance Testing: Apache JMeter, OpenTracing, Prometheus + Grafana
+     * Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow
      * [Netflix OSS](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
      * [Spring](https://spring.io/projects/):
          * C. Walls, Spring in Action
@@ -207,8 +208,7 @@
 8. Microservices & Distributed Systems:
      * [**!OPINION**] [Don’t start with microservices – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
      * [From Microservices to Distributed Systems: A Survival Guide for Java Devs](https://dzone.com/articles/from-microservices-to-distributed-systems-survival)
-     * C. Richardson, [Microservices Patterns](https://microservices.io/) (2018)
-     * W, J. Carnell, Spring Microservices in Action (2017)
+     * [Microservices Patterns](https://microservices.io/patterns/index.html)
      * R, Vitillo, Understanding Distributed Systems. What every developer should know about large distributed applications
      * S. Newman, Building Microservices (2nd ed.)
 
@@ -252,10 +252,10 @@
 11. Security:
       * [API authentication and authorization](https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html)
       * [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
-      * [Identity, Claims, & Tokens -- An OpenID Connect Primer](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1)
+      * Identity, Claims, & Tokens. An OpenID Connect Primer: [1](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1), [2](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-2), [3](https://developer.okta.com/blog/2017/08/01/oidc-primer-part-3)
+      * [JWT](https://jwt.io/)
       * M. McDonald, *Web Security for Developers*
       * M. Zalewski, *Tangled Web. A Guide to Securing Modern Web Applications*
-      * [JWT](https://jwt.io/)
       * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
       * [Practical Cryptography for Developers](https://cryptobook.nakov.com/)
       * [**!BONUS**] [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
