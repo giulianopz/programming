@@ -62,13 +62,17 @@
      7. Advanced Topics:
          1. Generics
          2. Reflection
-         3. Concurrency, Multi-threading, Parallelism, Asynchronus Programming:
+         3. Concurrency, Multi-threading, Parallelism, Asynchronus & Reactive Programming:
              * [Applying Concurrency and Multi-threading to Common Java Patterns](https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading)
              * [Advanced Java Concurrent Patterns](https://www.pluralsight.com/courses/java-concurrent-patterns-advanced)
              * [Java Fundamentals: Asynchronous Programming Using CompletionStage](https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage)
              * [JConsole](https://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html)
              * [Monitoring threads](http://www.jvmmonitor.org/doc/#Monitoring_threads)
-             * [Reactive Programming](https://www.scnsoft.com/blog/java-reactive-programming)
+             * [The Essence of Reactive Programming in Java](https://www.scnsoft.com/blog/java-reactive-programming)
+             * [5 Things to Know About Reactive Programming](https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming)
+             * [The Difference Between a Reactive Non-Blocking Model and Classic Asynchronous Code](https://nickolasfisher.com/blog/The-Difference-Between-a-Reactive-NonBlocking-Model-and-Classic-Asynchronous-Code)
+             * [EventLoop vs Thread per Request Model](https://singhkaushal.medium.com/spring-webflux-eventloop-vs-thread-per-request-model-a42d07ee8502)
+             * [**!WIP**] [Project Loom](https://cr.openjdk.java.net/~rpressler/loom/Loom-Proposal.html)
          4. [New language features since Java 8 to 17](https://advancedweb.hu/new-language-features-since-java-8-to-17/)
 
 3. Algorithms & Data Structures:
@@ -95,6 +99,8 @@
        * [**!BONUS**] C. Alexander et al., [The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) + [*A Pattern Language: Towns, Buildings Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
        * [**!BONUS**] D. H. Meadows, Thinking in Systems: A Primer
        * [**!BONUS**] F. Hermans, The Programmer's Brain: What every programmer needs to know about cognition
+     * [The Twelve Factors](https://12factor.net/)
+     * [The Reactive Principles. Design Principles for Distributed Applications](https://principles.reactive.foundation/)
 
 5. Most Popular Libraries/Frameworks for Java:
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
@@ -131,7 +137,8 @@
      * Reactive Programming:
        * [**RxJava**](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
        * [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides)
-       * [**Vert.x**](https://vertx.io/docs/vertx-core/java/)
+       * [**Eclipse Vert.x**](https://vertx.io/docs/vertx-core/java/)
+       * [**Netty**](https://medium.com/geekculture/a-tour-of-netty-5020ecee5494)
      * Test-Driven Development:
          * Unit/Integration Testing:
            * [**JUnit 5**](https://www.baeldung.com/junit-5)
@@ -147,7 +154,7 @@
      * File manipulation:
        * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
        * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
-     * Log Analytics: Splunk, ELK (i.e. Elastic Stack: ElasticSearch, Logstash, and Kibana)
+     * Log Analytics: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana)
      * Performance Testing: Apache JMeter, OpenTracing, Prometheus + Grafana
      * Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow
      * [Netflix OSS](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
@@ -155,6 +162,10 @@
          * C. Walls, Spring in Action
          * I. Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide
      * [Quarkus](https://quarkus.io/guides/):
+       * [Massive performance without headaches](https://quarkus.io/blog/resteasy-reactive-faq/)
+       * [Quarkus Reactive Architecture](https://quarkus.io/version/2.2/guides/quarkus-reactive-architecture)
+       * [Getting Started With Reactive](https://quarkus.io/version/2.2/guides/getting-started-reactive)
+       * [Context Propagation in Quarkus](https://quarkus.io/version/2.2/guides/context-propagation)
        * E. Deandrea, Quarkus for Spring developers
 
 6. HTTP-based RESTful APIs:
@@ -278,12 +289,15 @@
       * [Atlassian Tool Suite](https://datarespons.com/atlassian-suite-tools-for-every-team-and-more-agility-in-projects/)
 
 15. Miscellanea:
-      * [Unicode and Character Sets](https://www.joelonsoftware.com/2003/10/08the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
-      * [java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
+      * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+      * [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
       * [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
       * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
       * [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
-      * [The Twelve Factors](https://12factor.net/)
+      * [To www or not to www – Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
+      * [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
+      * [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
+      * [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
 ---
 ## Go beyond Java and Web Development
 
