@@ -7,59 +7,62 @@
         1. JRE, JDK & JVM
         2. Byte Code vs. Machine Code
         3. Compiling with `javac` and Running with Arguments from CLI
-        4. IDEs
-           1. [VSCode](https://code.visualstudio.com/docs/languages/java)
-           2. Debugging
-           3. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
-        5. Heap & Stack
-        6. Variables
-        7. Arithmetic & Boolean Expressions
-        8. Built-in Types of Data
+        4. Build Tools:
+           1. [Ant vs Maven vs Gradle](https://www.baeldung.com/ant-maven-gradle)
+           2. [**!OPINION**] [Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+        5. IDEs
+           1. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
+           2. [VSCode](https://code.visualstudio.com/docs/languages/java)
+           3. [Debugging](https://code.visualstudio.com/docs/java/java-debugging)
+        6. Heap & Stack
+        7. Variables
+        8. Arithmetic & Boolean Expressions
+        9.  Built-in Types of Data
            1. Default Initialization
            2. Wrappers & Autoboxing
-        9. Arrays
-        10. The Object Class
+        10. Arrays
+        11. The Object Class
             1. `this` & `super` keywords
             2. `equals()` & `hashCode()` methods
-        11. Constants & Enumerations
-        12. Access Modifiers
-        13. Classes & Object-Oriented Programming (OOP) Basic Concepts
+        12. Constants & Enumerations
+        13. Access Modifiers
+        14. Classes & Object-Oriented Programming (OOP) Basic Concepts
             1. Interfaces vs. Abstract Classes (Abstraction)
             2. Nested Classes, Inner Classes & Anonymous Classes
             3. Inheritance vs. Composition
             4. Polymorphism & Upcasting vs. Downcasting
             5. Encapsulation & Data Hiding
-        14. Control Flow Statements
-        15. Methods
+        15. Control Flow Statements
+        16. Methods
             1. Passing-by-Value vs. Passing-by-Reference
             2. Overloading & Overriding
             3. The `main` method
-        16. Exceptions
+        17. Exceptions
             1. Throwable, Exception & Error
             2. Checked vs. Unchecked
             3. Try/Catch & Catch-or-Declare Requirement
-        17. Collections
+        18. Collections
             1. Iterable & Iterator
             2. Comparable & Comparator
             3. Sorting & Searching
             4. Stack & Queue
             5. List, Set & Map
-        18. I/O
-        19. Streams
-        20. Lambda Expressions & Method References
-        21. Recursion
-     2. [Maven](https://maven.apache.org/guides/getting-started/index.html)
-     3. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
-     4. J. Bloch, Effective Java
-     5. Design Patterns:
+        19. I/O
+        20. Streams
+        21. Lambda Expressions & Method References
+        22. Recursion
+     2.
+     1. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
+     2. J. Bloch, Effective Java
+     3. Design Patterns:
         * [GoF Design Patterns with examples using Java and UML](https://www.researchgate.net/publication/307449818_GoF_Design_Patterns_with_examples_using_Java_and_UML)
-     6. Unit Testing:
+     4. Unit Testing:
         1. [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
         2. [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
         3. L. Kosleka, Effective Unit Testing
         4. P. Tahchiev, JUnit in Action
         5. L. Kosleka, Test Driven: TDD and Acceptance TDD for Java Developers
-     7. Advanced Topics:
+     5. Advanced Topics:
          1. Generics
          2. Reflection
          3. Concurrency, Multi-threading, Parallelism, Asynchronus & Reactive Programming:
