@@ -53,7 +53,7 @@
      4. J. Bloch, Effective Java
      5. Design Patterns:
         * [GoF Design Patterns with examples using Java and UML](https://www.researchgate.net/publication/307449818_GoF_Design_Patterns_with_examples_using_Java_and_UML)
-     6. Unit testing:
+     6. Unit Testing:
         1. [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
         2. [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
         3. L. Kosleka, Effective Unit Testing
@@ -82,10 +82,8 @@
      4. [Open Data Structures (in Java)](http://opendatastructures.org/ods-java/)
      5. [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 
-4. Software Engineering & System Design:
+4. Software Design:
      * J. Ousterhout, A Philosophy of Software Design
-     * M. Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
-     * D. Martin, [The System Design Primer](https://github.com/donnemartin/system-design-primer)
      * T. Winters et al., Software Engineering at Google: Lessons Learned from Programming Over Time
      * Other Influential Books:
        * R. C. Martin, Clean Code
@@ -99,8 +97,6 @@
        * [**!BONUS**] C. Alexander et al., [The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) + [*A Pattern Language: Towns, Buildings Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
        * [**!BONUS**] D. H. Meadows, Thinking in Systems: A Primer
        * [**!BONUS**] F. Hermans, The Programmer's Brain: What every programmer needs to know about cognition
-     * [The Twelve Factors](https://12factor.net/)
-     * [The Reactive Principles. Design Principles for Distributed Applications](https://principles.reactive.foundation/)
 
 5. Most Popular Libraries/Frameworks for Java:
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
@@ -129,7 +125,7 @@
      * API documentation: [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
      * Persistence:
          * [JPA (**Hibernate**)](https://www.baeldung.com/learn-jpa-hibernate) + [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html):
-           * Vlad Mihalcea, [blog](https://vladmihalcea.com/blog/) + *High-Performance Java Persistence*
+           * Vlad Mihalcea, [blog](https://vladmihalcea.com/blog/) + [High-Performance Java Persistence](https://vladmihalcea.com/books/high-performance-java-persistence/)
      * Message Processing:
        * JMS (**Apache ActiveMQ**, **RabbitMQ**)
      * Event Streaming:
@@ -202,7 +198,7 @@
        * How Database Work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
        * [How does a relational database work](http://coding-geek.com/how-databases-work/)
        * A. Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
-     * Common relational DBs:
+     * Common Relational DBs:
        - Oracle Database
        - MySQL
        - Microsoft SQL Server
@@ -210,18 +206,22 @@
        - IBM Db2
        - SQLite
        - MariaDB
-     * Non-Relational DBs (**NoSQL**) by types:
+     * Non-Relational DBs (**NoSQL**) by Types:
        * Wide column: Apache Cassandra
        * Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
        * Key–value: Redis
        * Graph: Neo4J
 
-8. Microservices & Distributed Systems:
+8. Microservices, Distributed Systems & System Design:
      * [**!OPINION**] [Don’t start with microservices – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
      * [From Microservices to Distributed Systems: A Survival Guide for Java Devs](https://dzone.com/articles/from-microservices-to-distributed-systems-survival)
      * [Microservices Patterns](https://microservices.io/patterns/index.html)
-     * R, Vitillo, Understanding Distributed Systems. What every developer should know about large distributed applications
+     * R. Vitillo, Understanding Distributed Systems. What every developer should know about large distributed applications
      * S. Newman, Building Microservices (2nd ed.)
+     * M. Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
+     * D. Martin, [The System Design Primer](https://github.com/donnemartin/system-design-primer)
+     * [The Twelve Factors](https://12factor.net/)
+     * [The Reactive Principles. Design Principles for Distributed Applications](https://principles.reactive.foundation/)
 
 9.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * Containers and Orchestration:
@@ -248,14 +248,14 @@
     * M. Eisele and N. Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
 
 10. UNIX Toolbox:
-    * [Basic UNIX](https://matt.might.net/articles/basic-unix/)
-    * [Bash](https://matt.might.net/articles/bash-by-example/)
-    * [Text Manipulation with grep, sed and awk](https://matt.might.net/articles/sculpting-text/)
+    * [Survival guide for Unix newbies ](https://matt.might.net/articles/basic-unix/)
+    * [Shell programming with bash: by example, by counter-example](https://matt.might.net/articles/bash-by-example/)
+    * [Sculpting text with regex, grep, sed, awk, emacs and vim](https://matt.might.net/articles/sculpting-text/)
     * [vi Survival Guide](https://www.nuxified.org/vi_survival_guide/)
     * [**!BONUS**] [Learn Git Branching](https://learngitbranching.js.org/)
-    * [curl](https://curl.haxx.se/docs/httpscripting.html)
-    * [cron](https://opensource.com/article/17/11/how-use-cron-linux)
-    * [regex](https://regexone.com/)
+    * [The Art Of Scripting HTTP Requests Using Curl](https://curl.haxx.se/docs/httpscripting.html)
+    * [How I use cron in Linux](https://opensource.com/article/17/11/how-use-cron-linux)
+    * [RegexOne. Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
     * [**!BONUS**] [Vim Adventures](https://vim-adventures.com/)
     * [**!BONUS**] [The Unix Game](https://www.unixgame.io/unix50)
     * [**!BONUS**] [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
