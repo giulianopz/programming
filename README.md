@@ -82,19 +82,18 @@
 
 4. Software Design:
      * J. Ousterhout, A Philosophy of Software Design
+     * R. C. Martin, Clean Code
+     * A. Hunt & D. Thomas, The Pragmatic Programmer: From Journeyman to Master
+     * F. Brooks, The Mythical Man-Month
+     * M. Fowler, Patterns of Enterprise Application Architecture
+     * GoF, Design Patterns: Elements of Reusable Object-Oriented Software
+     * R. C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
+     * K Beck & M. Fowler, Refactoring: Improving the Design of Existing Code
      * T. Winters et al., Software Engineering at Google: Lessons Learned from Programming Over Time
-     * Other Influential Books:
-       * R. C. Martin, Clean Code
-       * A. Hunt & D. Thomas, The Pragmatic Programmer: From Journeyman to Master
-       * F. Brooks, The Mythical Man-Month
-       * M. Fowler, Patterns of Enterprise Application Architecture
-       * GoF, Design Patterns: Elements of Reusable Object-Oriented Software
-       * R. C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
-       * K Beck & M. Fowler, Refactoring: Improving the Design of Existing Code
-       * [**!BONUS**] D. Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
-       * [**!BONUS**] C. Alexander et al., [The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) + [*A Pattern Language: Towns, Buildings Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
-       * [**!BONUS**] D. H. Meadows, Thinking in Systems: A Primer
-       * [**!BONUS**] F. Hermans, The Programmer's Brain: What every programmer needs to know about cognition
+     * [**!BONUS**] D. Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
+     * [**!BONUS**] C. Alexander et al., [The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) + [*A Pattern Language: Towns, Buildings Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
+     * [**!BONUS**] D. H. Meadows, Thinking in Systems: A Primer
+     * [**!BONUS**] F. Hermans, The Programmer's Brain: What every programmer needs to know about cognition
 
 5. Most Popular Libraries/Frameworks for Java:
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
