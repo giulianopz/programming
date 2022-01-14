@@ -164,8 +164,8 @@
      * [Quarkus](https://quarkus.io/guides/):
        * [Massive performance without headaches](https://quarkus.io/blog/resteasy-reactive-faq/)
        * [Quarkus Reactive Architecture](https://quarkus.io/version/2.2/guides/quarkus-reactive-architecture)
-       * [Getting Started With Reactive](https://quarkus.io/version/2.2/guides/getting-started-reactive)
        * [Context Propagation in Quarkus](https://quarkus.io/version/2.2/guides/context-propagation)
+       * [Overview of Bean Scopes in Quarkus](https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/)
        * E. Deandrea, Quarkus for Spring developers
 
 6. HTTP-based RESTful APIs:
