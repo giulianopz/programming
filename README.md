@@ -66,8 +66,6 @@
              * [Applying Concurrency and Multi-threading to Common Java Patterns](https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading)
              * [Advanced Java Concurrent Patterns](https://www.pluralsight.com/courses/java-concurrent-patterns-advanced)
              * [Java Fundamentals: Asynchronous Programming Using CompletionStage](https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage)
-             * [JConsole](https://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html)
-             * [Monitoring threads](http://www.jvmmonitor.org/doc/#Monitoring_threads)
              * [The Essence of Reactive Programming in Java](https://www.scnsoft.com/blog/java-reactive-programming)
              * [5 Things to Know About Reactive Programming](https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming)
              * [The Difference Between a Reactive Non-Blocking Model and Classic Asynchronous Code](https://nickolasfisher.com/blog/The-Difference-Between-a-Reactive-NonBlocking-Model-and-Classic-Asynchronous-Code)
@@ -152,6 +150,10 @@
        * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
      * Log Analytics: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana)
      * Performance Testing: Apache JMeter, OpenTracing, Prometheus + Grafana
+     * Thread & Memory Monitoring:
+       * [How to Get the Number of Threads in a Java Process](https://www.baeldung.com/java-get-number-of-threads)
+       * [JConsole](https://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html)
+       * [Monitoring Java applications: Memory usage, threads and other JRE metrics](https://sysdig.com/blog/monitoring-java-jre/)
      * Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow
      * [Netflix OSS](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
      * [Spring](https://spring.io/projects/):
