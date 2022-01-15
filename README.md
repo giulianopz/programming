@@ -123,8 +123,14 @@
      * [JAX-RS](https://www.baeldung.com/jax-rs-spec-and-implementations) (**RESTEasy**, **Jersey**, **Apache CXF**)
      * API documentation: [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
      * Persistence:
-         * [JPA (**Hibernate**)](https://www.baeldung.com/learn-jpa-hibernate) + [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html):
-           * Vlad Mihalcea, [blog](https://vladmihalcea.com/blog/) + [High-Performance Java Persistence](https://vladmihalcea.com/books/high-performance-java-persistence/)
+         * [JDBC](https://www.baeldung.com/jpa-vs-jdbc)
+         * JPA
+           * [Hibernate](https://www.baeldung.com/learn-jpa-hibernate)
+             * [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html)
+             * Vlad Mihalcea, [blog](https://vladmihalcea.com/blog/) + [High-Performance Java Persistence](https://vladmihalcea.com/books/high-performance-java-persistence/)
+             * [Hibernate Performance Tuning Tips](https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/?utm_source=social&utm_medium=twitter&utm_campaign=tutorial)
+           * EclipseLink
+           * Apache OpenJPA
      * Message Processing:
        * JMS (**Apache ActiveMQ**, **RabbitMQ**)
      * Event Streaming:
@@ -242,6 +248,7 @@
          * LXD
     * CI/CD Pipelines:
        * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
+       * [A developer's guide to CI/CD and GitOps with Jenkins Pipelines](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines#)
     * Cloud Platforms:
       * Amazon Web Services [(AWS)](https://adayinthelifeof.nl/2020/05/20/aws.html)
       * [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
@@ -281,10 +288,12 @@
       * [SRE books](https://sre.google/books/)
       * [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
       * [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
+      * [**!BONUS**] [HTTP Toolkit](https://httptoolkit.tech/)
 
 13. Software Documentation:
-      * [JavaDoc](https://www.baeldung.com/javadoc)
-      * [Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
+      * [How to Write Doc Comments for the Javadoc Tool](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)
+      * [**!OPINION**] [The Ins and Outs of Using Markdown for Technical Writing](https://document360.com/blog/markdown-for-technical-writing/)
+      * [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
 14. Development Management:
       * Agile/[Scrum](https://www.scrumguides.org/scrum-guide.html)
@@ -301,6 +310,7 @@
       * [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
       * [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
       * [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
+      * [Technology Radar. An opinionated guide to technology frontiers](https://www.thoughtworks.com/radar)
 ---
 ## Go beyond Java and Web Development
 
@@ -327,7 +337,7 @@
   * [3Blue1Brown](https://www.youtube.com/c/3blue1brown/videos)
   * [Khan Academy](https://www.khanacademy.org/math)
 * Learn CS/FOSS History and Hacking/Cyberpunk Culture:
-  * S. Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale ([Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046), Mimesis - 2018)
+  * S. Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. italian version, [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
   * E. S. Raymond, The Cathedral & the Bazaar
   * B. Kernighan, UNIX: A History and a Memoir
   * S. Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
@@ -335,6 +345,7 @@
   * D. Knuth, Things a Computer Scientist Rarely Talks About
   * K. Hafner, Where wizards stay up late
   * M. Waldrop, The Dream Machine: J.C.R. Licklider and the Revolution That Made Computing Personal
+  * [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
   * J. Gleick, The Information: A History, a Theory, a Flood
   * D. R. Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid
   * T. Kidder, The Soul of a New Machine
@@ -354,6 +365,7 @@
   * [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
   * [Vicki Boykis](http://veekaybee.github.io/)
   * [Julia Evans](https://jvns.ca/)
+  * [Ivan Velichko](https://iximiuz.com/en/)
 * Learn New Programming Languages:
   * [GO](https://tour.golang.org/list)
   * [Rust](https://www.rust-lang.org/learn)
