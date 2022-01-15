@@ -1,4 +1,4 @@
-## Useful resources for newbies in Java for web-oriented programming:
+## Useful links and resources for newbies in Java to learn the technology stack commonly used for backend web development:
 
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
