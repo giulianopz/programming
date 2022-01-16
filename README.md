@@ -7,9 +7,9 @@
         1. JRE, JDK & JVM
         2. Byte Code vs. Machine Code
         3. Compiling with `javac` and Running with Arguments from CLI
-        4. IDE
+        4. IDE[^2]
            1. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
-           2. [VSCode](https://code.visualstudio.com/docs/languages/java)[^2]
+           2. [VSCode](https://code.visualstudio.com/docs/languages/java)
            3. [Debugging](https://code.visualstudio.com/docs/java/java-debugging)
         5. Heap & Stack
         6. Variables
