@@ -51,17 +51,18 @@
      2. Build Automation Tools:
            1. [Ant vs Maven vs Gradle](https://www.baeldung.com/ant-maven-gradle)
            2. [**!OPINION**] [Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
-     3. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
-     4. J. Bloch, Effective Java
-     5. Design Patterns:
+     3. Scripting: JShell, [JBang](https://github.com/maxandersen/jbang)
+     4. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
+     5. J. Bloch, Effective Java
+     6. Design Patterns:
         * [GoF Design Patterns with examples using Java and UML](https://www.researchgate.net/publication/307449818_GoF_Design_Patterns_with_examples_using_Java_and_UML)
-     6. Unit Testing:
+     7. Unit Testing:
         1. [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
         2. [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
         3. L. Kosleka, Effective Unit Testing
         4. P. Tahchiev, JUnit in Action
         5. L. Kosleka, Test Driven: TDD and Acceptance TDD for Java Developers
-     7. Advanced Topics:
+     8. Advanced Topics:
          1. Generics
          2. Reflection
          3. Concurrency, Multi-threading, Parallelism, Asynchronus & Reactive Programming:
@@ -102,6 +103,7 @@
        * [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
      * Boilerplate Code Auto-generation: [Project Lombok](https://projectlombok.org/)
      * POJO-DTO Mapping: [**MapStruct**](https://mapstruct.org/)
+     * Bean Validation: [Hibernate Validator](https://hibernate.org/validator/documentation/getting-started/)
      * Data Serialization:
          * Java Serialization (Native APIs)
            * [**!OPINION**] [Why Java's serialization slower than 3rd party APIs?](https://stackoverflow.com/questions/19447623/why-javas-serialization-slower-than-3rd-party-apis)
@@ -131,6 +133,7 @@
              * [Hibernate Performance Tuning Tips](https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/?utm_source=social&utm_medium=twitter&utm_campaign=tutorial)
            * EclipseLink
            * Apache OpenJPA
+     * [Cache Providers](https://blog.frankel.ch/choose-cache/2/): Caffeine, Ehcache, Infinispan, Hazelcast
      * Message Processing:
        * JMS (**Apache ActiveMQ**, **RabbitMQ**)
      * Event Streaming:
@@ -294,6 +297,7 @@
       * [How to Write Doc Comments for the Javadoc Tool](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)
       * [**!OPINION**] [The Ins and Outs of Using Markdown for Technical Writing](https://document360.com/blog/markdown-for-technical-writing/)
       * [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+      * [Documenting APIs: A guide for technical writers and engineers](https://idratherbewriting.com/learnapidoc/)
 
 14. Development Management:
       * Agile/[Scrum](https://www.scrumguides.org/scrum-guide.html)
@@ -304,6 +308,7 @@
       * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
       * [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
       * [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
+      * [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
       * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
       * [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
       * [To www or not to www – Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
