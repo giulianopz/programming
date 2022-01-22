@@ -133,7 +133,7 @@
              * [Hibernate Performance Tuning Tips](https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/?utm_source=social&utm_medium=twitter&utm_campaign=tutorial)
            * EclipseLink
            * Apache OpenJPA
-     * [Cache Providers](https://blog.frankel.ch/choose-cache/2/): Caffeine, Ehcache, Infinispan, Hazelcast
+     * [Cache Providers](https://blog.frankel.ch/choose-cache/2/): Caffeine, Ehcache, Infinispan, Hazelcast, Redis, Apache Ignite
      * Message Processing:
        * JMS (**Apache ActiveMQ**, **RabbitMQ**)
      * Event Streaming:
@@ -155,7 +155,7 @@
            * [**Testcontainers**](https://www.testcontainers.org/)
          * E2E Testing:
            * [**Selenium**](https://www.selenium.dev/documentation/guidelines/)
-     * File manipulation:
+     * File Manipulation:
        * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
        * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
      * Log Analytics: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana)
@@ -165,16 +165,19 @@
        * [JConsole](https://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html)
        * [Monitoring Java applications: Memory usage, threads and other JRE metrics](https://sysdig.com/blog/monitoring-java-jre/)
      * Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow
-     * [Netflix OSS](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
-     * [Spring](https://spring.io/projects/):
-         * C. Walls, Spring in Action
-         * I. Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide
-     * [Quarkus](https://quarkus.io/guides/):
-       * [Massive performance without headaches](https://quarkus.io/blog/resteasy-reactive-faq/)
-       * [Quarkus Reactive Architecture](https://quarkus.io/version/2.2/guides/quarkus-reactive-architecture)
-       * [Context Propagation in Quarkus](https://quarkus.io/version/2.2/guides/context-propagation)
-       * [Overview of Bean Scopes in Quarkus](https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/)
-       * E. Deandrea, Quarkus for Spring developers
+     * Cloud Patterns:
+       * [Netflix OSS](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
+     * [Dependency Injection](https://dzone.com/articles/dependency-injection-implementation-in-core-java-1):
+       * [Spring](https://spring.io/projects/):
+           * C. Walls, Spring in Action
+           * I. Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide
+       * [CDI](https://www.baeldung.com/java-ee-cdi):
+         * [Quarkus](https://quarkus.io/guides/):
+           * [Massive performance without headaches](https://quarkus.io/blog/resteasy-reactive-faq/)
+           * [Quarkus Reactive Architecture](https://quarkus.io/version/2.2/guides/quarkus-reactive-architecture)
+           * [Context Propagation in Quarkus](https://quarkus.io/version/2.2/guides/context-propagation)
+           * [Overview of Bean Scopes in Quarkus](https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/)
+           * E. Deandrea, Quarkus for Spring developers
 
 6. HTTP-based RESTful APIs:
      * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
