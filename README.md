@@ -322,11 +322,11 @@
 ---
 ## Go beyond Java and Web Development
 
-* Teach Yourself CS:
+* Teaching Yourself CS:
   * [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
   * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
   * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
-* Read the Classics of CS:
+* Classics of CS:
   * G. J. Sussman & H. Abelson, Structure and Interpretation of Computer Programs (SICP)
   * R. Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
   * N. Nisan and S. Schocken, The Elements of Computing Systems (nand2tetris)
@@ -339,12 +339,12 @@
   * D. Knuth, O. Patashnik, and R. Graham, Concrete Mathematics: A Foundation for Computer Science
   * C. Bishop, Pattern Recognition and Machine Learning
   * P. Norvig, Paradigms of Artificial Intelligence Programming
-* (Re- or Self-) Learn Math:
+* Math:
   * [J. Kun, A Programmer’s Introduction to Mathematics](https://pimbook.org/)
   * [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
   * [3Blue1Brown](https://www.youtube.com/c/3blue1brown/videos)
   * [Khan Academy](https://www.khanacademy.org/math)
-* Learn CS/FOSS History and Hacking/Cyberpunk Culture:
+* CS/FOSS History and Hacking/Cyberpunk Culture:
   * S. Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. italian version, [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
   * E. S. Raymond, The Cathedral & the Bazaar
   * B. Kernighan, UNIX: A History and a Memoir
@@ -367,22 +367,23 @@
   * P. K. Dick, Do Androids Dream of Electric Sheep?
   * M. Shirow, The Ghost in the Shell
   * K. Otomo, Akira
-* Follow Good (B|V)logs
+* Blogs, Forums, YT Channels
   * [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
   * [Hacker News](https://news.ycombinator.com/)
   * [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
   * [Vicki Boykis](http://veekaybee.github.io/)
   * [Julia Evans](https://jvns.ca/)
   * [Ivan Velichko](https://iximiuz.com/en/)
-* Learn New Programming Languages:
+* New Programming Languages:
   * [GO](https://tour.golang.org/list)
   * [Rust](https://www.rust-lang.org/learn)
   * [Julia](https://julialang.org/learning/)
-* Go Closer to the Metal:
+* Getting Closer to the Metal:
   * [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
   * [Ben Eater](https://eater.net/)
   * [Sam Zeloof](http://sam.zeloof.xyz/)
-* Prepare yourself for Coding Interviews:
+* Career Advice:
+  * R. Kanna, [Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
   * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 
 [^1]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by K. Wayne and R. Sedgewick.
