@@ -1,5 +1,4 @@
 ## Useful links and resources for newbies in Java to learn the technology stack commonly used for backend web development:
-
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
 2. Java:
@@ -263,7 +262,7 @@
     * G. Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
     * M. Eisele and N. Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
 
-10. UNIX Toolbox:
+10. [UNIX](https://github.com/sirredbeard/Awesome-UNIX) Toolbox:
     * [Survival guide for Unix newbies ](https://matt.might.net/articles/basic-unix/)
     * [Shell programming with bash: by example, by counter-example](https://matt.might.net/articles/bash-by-example/)
     * [Sculpting text with regex, grep, sed, awk, emacs and vim](https://matt.might.net/articles/sculpting-text/)
