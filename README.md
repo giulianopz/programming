@@ -1,4 +1,5 @@
 ## Useful links and resources for newbies in Java to learn the technology stack commonly used for backend web development:
+
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
 2. Java:
@@ -178,27 +179,30 @@
            * [Overview of Bean Scopes in Quarkus](https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/)
            * E. Deandrea, Quarkus for Spring developers
 
-6. HTTP-based RESTful APIs:
-     * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
-     * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
-     * [Standards.REST](https://standards.rest/)
-     * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-     * [JSON In a Nutshell](https://medium.com/omarelgabrys-blog/json-in-a-nutshell-7d638dfea7cc)
-     * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
-     * Main alternatives to the REST architectural style:
-       - [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
-       - gRPC
-       - Falcor
-     * Main alternatives to the HTTP/1.1 protocol:
-       - [HTTP/2 and HTTP/3](https://medium.com/@sandeep4.verma/http-1-to-http-2-to-http-3-647e73df67a8)
+6. Inter-Process Communication (IPC):
+     * [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
+     * Methods:
+       * REST:
+         * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+         * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
+         * [Standards.REST](https://standards.rest/)
+         * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+         * [JSON In a Nutshell](https://medium.com/omarelgabrys-blog/json-in-a-nutshell-7d638dfea7cc)
+         * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
+       * [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
+       * gRPC
+       * Falcor
+       * Message Queuing
+       * [Unix Domain Socket](https://nipafx.dev/java-unix-domain-sockets/) (for inter-process communication on the same host)
+     * Protocols:
+       - TCP
+         - [HTTP/1.1, HTTP/2, HTTP/3](https://medium.com/@sandeep4.verma/http-1-to-http-2-to-http-3-647e73df67a8)
+         - [WebSocket](https://www.baeldung.com/java-websockets)
+       - [UDP](https://www.baeldung.com/udp-in-java)
        - Messaging:
          - AMQP (Advanced Message Queuing Protocol)
          - MQTT (Message Queuing Telemetry Transport)
          - STOMP (Streaming Text Oriented Messaging Protocol)
-       - [WebSocket](https://www.baeldung.com/java-websockets)
-       - [UDP](https://www.baeldung.com/udp-in-java)
-       - [Unix Domain Socket](https://nipafx.dev/java-unix-domain-sockets/) (for inter-process communication on the same host)
-     * [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
 
 7. Databases & SQL:
      * [**!BONUS**] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
@@ -373,6 +377,7 @@
   * [Vicki Boykis](http://veekaybee.github.io/)
   * [Julia Evans](https://jvns.ca/)
   * [Ivan Velichko](https://iximiuz.com/en/)
+  * [Box of Cables](https://boxofcables.dev/)
 * New Programming Languages:
   * [GO](https://tour.golang.org/list)
   * [Rust](https://www.rust-lang.org/learn)
