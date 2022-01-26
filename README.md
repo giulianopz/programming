@@ -166,7 +166,7 @@
        * [Monitoring Java applications: Memory usage, threads and other JRE metrics](https://sysdig.com/blog/monitoring-java-jre/)
      * Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow
      * Cloud Patterns:
-       * [Netflix OSS](https://www.baeldung.com/tag/netflix/): **Eureka** (Service Discovery ), **Hystrix** (Circuit Breaker)), **Zuul** (Routing), **Ribbon**(Client Side Load Balancing))
+       * [Netflix OSS](https://www.baeldung.com/tag/netflix/): **Eureka** (Service Discovery), **Hystrix** (Circuit Breaker), **Zuul** (Routing), **Ribbon** (Load Balancing)
      * [Dependency Injection](https://dzone.com/articles/dependency-injection-implementation-in-core-java-1):
        * [Spring](https://spring.io/projects/):
            * C. Walls, Spring in Action
