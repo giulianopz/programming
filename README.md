@@ -166,7 +166,7 @@
        * [Monitoring Java applications: Memory usage, threads and other JRE metrics](https://sysdig.com/blog/monitoring-java-jre/)
      * Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow
      * Cloud Patterns:
-       * [Netflix OSS](https://www.baeldung.com/tag/netflix/): Service Discovery (**Eureka**), Circuit Breaker (**Hystrix**), Intelligent Routing (**Zuul**) and Client Side Load Balancing (**Ribbon**)
+       * [Netflix OSS](https://www.baeldung.com/tag/netflix/): **Eureka** (Service Discovery ), **Hystrix** (Circuit Breaker)), **Zuul** (Routing), **Ribbon**(Client Side Load Balancing))
      * [Dependency Injection](https://dzone.com/articles/dependency-injection-implementation-in-core-java-1):
        * [Spring](https://spring.io/projects/):
            * C. Walls, Spring in Action
@@ -182,7 +182,7 @@
 6. Inter-Process Communication (IPC):
      * [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
      * Approaches:
-       * Legacy Techonologies:
+       * Legacy Technologies:
          * Simple Object Access Protocol (SOAP)
          * Remote Method Invocation (RMI)
          * Common Object Request Broker Architecture (CORBA)
