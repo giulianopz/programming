@@ -181,24 +181,33 @@
 
 6. Inter-Process Communication (IPC):
      * [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
-     * Methods:
-       * REST:
-         * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
-         * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
-         * [Standards.REST](https://standards.rest/)
-         * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-         * [JSON In a Nutshell](https://medium.com/omarelgabrys-blog/json-in-a-nutshell-7d638dfea7cc)
-         * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
-       * [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
-       * gRPC
-       * Falcor
-       * Message Queuing
-       * [Unix Domain Socket](https://nipafx.dev/java-unix-domain-sockets/) (for inter-process communication on the same host)
+     * Approaches:
+       * Legacy Techonologies:
+         * Simple Object Access Protocol (SOAP)
+         * Remote Method Invocation (RMI)
+         * Common Object Request Broker Architecture (CORBA)
+       * Synchronous Communication:
+         * Representational state transfer (REST):
+           * [**!OPINION**] [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
+           * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+           * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
+           * [Standards.REST](https://standards.rest/)
+           * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+           * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
+         * [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
+         * [gRPC](../luoghi/cibo/veneto.csv)
+         * [Falcor](https://netflix.github.io/falcor/starter/what-is-falcor.html)
+       * Asynchronous Communication:
+         * Message Queues
+         * Publish–Subscribe Pattern
      * Protocols:
-       - TCP
-         - [HTTP/1.1, HTTP/2, HTTP/3](https://medium.com/@sandeep4.verma/http-1-to-http-2-to-http-3-647e73df67a8)
-         - [WebSocket](https://www.baeldung.com/java-websockets)
-       - [UDP](https://www.baeldung.com/udp-in-java)
+       - Sockets:
+         - Network Sockets:
+           - TCP
+             - [HTTP/1.1, HTTP/2 and HTTP/3](https://medium.com/@sandeep4.verma/http-1-to-http-2-to-http-3-647e73df67a8)
+             - [WebSocket](https://www.baeldung.com/java-websockets)
+           - [UDP](https://www.baeldung.com/udp-in-java)
+         - [Unix Domain Sockets](https://nipafx.dev/java-unix-domain-sockets/) (for inter-process communication on the same host)
        - Messaging:
          - AMQP (Advanced Message Queuing Protocol)
          - MQTT (Message Queuing Telemetry Transport)
