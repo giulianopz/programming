@@ -1,4 +1,4 @@
-## Useful links and resources for newbies in Java to learn the technology stack commonly used for backend web development:
+## Useful links and resources for newbies in Java to learn the technology stack commonly used for backend web development
 
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
@@ -207,11 +207,11 @@
              - [HTTP/1.1, HTTP/2 and HTTP/3](https://medium.com/@sandeep4.verma/http-1-to-http-2-to-http-3-647e73df67a8)
              - [WebSocket](https://www.baeldung.com/java-websockets)
            - [UDP](https://www.baeldung.com/udp-in-java)
-         - [Unix Domain Sockets](https://nipafx.dev/java-unix-domain-sockets/) (for inter-process communication on the same host)
+         - [Unix Domain Sockets](https://nipafx.dev/java-unix-domain-sockets/)
        - Messaging:
-         - AMQP (Advanced Message Queuing Protocol)
-         - MQTT (Message Queuing Telemetry Transport)
-         - STOMP (Streaming Text Oriented Messaging Protocol)
+         - AMQP
+         - MQTT
+         - STOMP
 
 7. Databases & SQL:
      * [**!BONUS**] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
@@ -251,6 +251,7 @@
      * [The Reactive Principles. Design Principles for Distributed Applications](https://principles.reactive.foundation/)
 
 9.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
+    * [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
     * Containers and Orchestration:
        * [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
        * [Docker](https://www.docker.com/get-started)
