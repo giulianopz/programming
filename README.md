@@ -101,6 +101,7 @@
 5. Most Popular Libraries/Frameworks for Java:
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
        * [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
+       * [Mapped Diagnostic Context (MDC)](https://www.baeldung.com/mdc-in-log4j-2-logback)
      * Boilerplate Code Auto-generation: [Project Lombok](https://projectlombok.org/)
      * POJO-DTO Mapping: [**MapStruct**](https://mapstruct.org/)
      * Bean Validation: [Hibernate Validator](https://hibernate.org/validator/documentation/getting-started/)
