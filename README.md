@@ -168,6 +168,7 @@
      * Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow
      * Cloud Patterns:
        * [Netflix OSS](https://www.baeldung.com/tag/netflix/): **Eureka** (Service Discovery), **Hystrix** (Circuit Breaker), **Zuul** (Routing), **Ribbon** (Load Balancing)
+      * [Cloud Functions](https://developers.googleblog.com/2020/05/java-11-for-cloud-functions.html)
      * [Dependency Injection](https://dzone.com/articles/dependency-injection-implementation-in-core-java-1):
        * [Spring](https://spring.io/projects/):
            * C. Walls, Spring in Action
@@ -239,6 +240,7 @@
        * Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
        * Key–value: Redis
        * Graph: Neo4J
+     * Version control tools: [Liquibase](https://liquibase.org/get-started/quickstart)
 
 8. Microservices, Distributed Systems & System Design:
      * [**!OPINION**] [Don’t start with microservices – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
@@ -263,6 +265,7 @@
                * [RedHat Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
                * Rancher
                * VMware Tanzu
+               * Google Kubernetes Engine (GKE)
          * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
          * Apache Mesos
          * LXD
