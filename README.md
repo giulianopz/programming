@@ -113,7 +113,7 @@
              * Java Architecture for XML Binding (JAXB)
            * JSON:
              * [**Jackson**](https://www.baeldung.com/jackson)
-               * [Jackson Performance Tuning](https://github.com/FasterXML/jackson-docs/wiki/Presentation:-Jackson-Performance)
+               * [Turbo-charging Jackson](https://github.com/FasterXML/jackson-docs/wiki/Presentation:-Jackson-Performance)
              * Gson
              * JSON-P & JSON-B
            * YAML:
