@@ -113,6 +113,7 @@
              * Java Architecture for XML Binding (JAXB)
            * JSON:
              * [**Jackson**](https://www.baeldung.com/jackson)
+               * [Jackson Performance Tuning](https://github.com/FasterXML/jackson-docs/wiki/Presentation:-Jackson-Performance)
              * Gson
              * JSON-P & JSON-B
            * YAML:
@@ -252,6 +253,7 @@
      * D. Martin, [The System Design Primer](https://github.com/donnemartin/system-design-primer)
      * [The Twelve Factors](https://12factor.net/)
      * [The Reactive Principles. Design Principles for Distributed Applications](https://principles.reactive.foundation/)
+     * [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/)
 
 9.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
