@@ -55,7 +55,9 @@
      4. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
      5. J. Bloch, Effective Java
      6. Design Patterns:
-        * [GoF Design Patterns with examples using Java and UML](https://www.researchgate.net/publication/307449818_GoF_Design_Patterns_with_examples_using_Java_and_UML)
+        * [UML diagram for GoF design pattern examples in Java ](https://dev.to/takaakit/uml-diagram-for-gof-design-pattern-examples-in-java-5fe5)
+        * [Java Design Patterns](https://java-design-patterns.com/)
+        * [Modern Java EE design patterns](https://www.oreilly.com/content/modern-java-ee-design-patterns/)
      7. Unit Testing:
         1. [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
         2. [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
@@ -258,6 +260,8 @@
 9.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
     * Containers and Orchestration:
+       * [What is a container image?](https://opensource.com/article/21/8/container-image)
+       * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
        * [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
        * [Docker](https://www.docker.com/get-started)
        * [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
@@ -386,7 +390,7 @@
   * P. K. Dick, Do Androids Dream of Electric Sheep?
   * M. Shirow, The Ghost in the Shell
   * K. Otomo, Akira
-* Blogs, Forums, YT Channels
+* Blogs, Forums, YT Channels, Newsletters
   * [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
   * [Hacker News](https://news.ycombinator.com/)
   * [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
@@ -394,6 +398,8 @@
   * [Julia Evans](https://jvns.ca/)
   * [Ivan Velichko](https://iximiuz.com/en/)
   * [Box of Cables](https://boxofcables.dev/)
+  * [JDeploy](https://jdeploy.substack.com/archive)
+  * [Baeldung Weekly Review](https://www.baeldung.com/category/weekly-review/)
 * New Programming Languages:
   * [GO](https://tour.golang.org/list)
   * [Rust](https://www.rust-lang.org/learn)
