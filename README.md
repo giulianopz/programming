@@ -55,7 +55,6 @@
      4. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
      5. J. Bloch, Effective Java
      6. Design Patterns:
-        * [UML diagram for GoF design pattern examples in Java ](https://dev.to/takaakit/uml-diagram-for-gof-design-pattern-examples-in-java-5fe5)
         * [Java Design Patterns](https://java-design-patterns.com/)
         * [Modern Java EE design patterns](https://www.oreilly.com/content/modern-java-ee-design-patterns/)
      7. Unit Testing:
@@ -101,6 +100,9 @@
      * [**!BONUS**] F. Hermans, The Programmer's Brain: What every programmer needs to know about cognition
 
 5. Most Popular Libraries/Frameworks for Java:
+     * [Jakarta EE](https://www.baeldung.com/java-enterprise-evolution)
+       * Application Servers: Apache Tomcat, Jetty, WebSphere, WildFly, GlassFish, JBoss EAP, Open Liberty
+       * [**!OPINION**] [Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server#)
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
        * [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
        * [Mapped Diagnostic Context (MDC)](https://www.baeldung.com/mdc-in-log4j-2-logback)
@@ -325,9 +327,9 @@
       * [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
       * [Documenting APIs: A guide for technical writers and engineers](https://idratherbewriting.com/learnapidoc/)
 
-14. Development Management:
+14. Development Team Organization:
       * Agile/[Scrum](https://www.scrumguides.org/scrum-guide.html)
-      * [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
+      * [Famous laws of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
       * [Atlassian Tool Suite](https://datarespons.com/atlassian-suite-tools-for-every-team-and-more-agility-in-projects/)
 
 15. Miscellanea:
@@ -342,6 +344,7 @@
       * [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
       * [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
       * [Technology Radar. An opinionated guide to technology frontiers](https://www.thoughtworks.com/radar)
+      * [The HTTP QUERY Method](https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body-02.html)
 ---
 ## Go beyond Java and Web Development
 
