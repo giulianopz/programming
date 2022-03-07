@@ -100,9 +100,6 @@
      * [**!BONUS**] F. Hermans, The Programmer's Brain: What every programmer needs to know about cognition
 
 5. Most Popular Libraries/Frameworks for Java:
-     * [Jakarta EE](https://www.baeldung.com/java-enterprise-evolution)
-       * Application Servers: Apache Tomcat, Jetty, WebSphere, WildFly, GlassFish, JBoss EAP, Open Liberty
-       * [**!OPINION**] [Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server#)
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
        * [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
        * [Mapped Diagnostic Context (MDC)](https://www.baeldung.com/mdc-in-log4j-2-logback)
@@ -129,6 +126,9 @@
              * [**Apache Avro**](https://avro.apache.org/docs/current/gettingstartedjava.html)
      * [JAX-WS](https://www.baeldung.com/jax-ws) (**Axis2**, **Apache CXF**)
      * [JAX-RS](https://www.baeldung.com/jax-rs-spec-and-implementations) (**RESTEasy**, **Jersey**, **Apache CXF**)
+     * [Jakarta EE](https://www.baeldung.com/java-enterprise-evolution) (Apache Tomcat, Jetty, WebSphere, WildFly, GlassFish, JBoss EAP, Open Liberty)
+       * [Difference between an application server and a servlet container?](https://stackoverflow.com/questions/5039354/difference-between-an-application-server-and-a-servlet-container)
+       * [**!OPINION**] [Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server#)
      * API documentation: [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
      * Persistence:
          * [JDBC](https://www.baeldung.com/jpa-vs-jdbc)
