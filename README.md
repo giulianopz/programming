@@ -54,9 +54,7 @@
      3. Scripting: JShell, [JBang](https://github.com/maxandersen/jbang)
      4. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
      5. J. Bloch, Effective Java
-     6. Design Patterns:
-        * [Java Design Patterns](https://java-design-patterns.com/)
-        * [Modern Java EE design patterns](https://www.oreilly.com/content/modern-java-ee-design-patterns/)
+     6. [Design Patterns](https://java-design-patterns.com/)
      7. Unit Testing:
         1. [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
         2. [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
@@ -106,6 +104,20 @@
      * Boilerplate Code Auto-generation: [Project Lombok](https://projectlombok.org/)
      * POJO-DTO Mapping: [**MapStruct**](https://mapstruct.org/)
      * Bean Validation: [Hibernate Validator](https://hibernate.org/validator/documentation/getting-started/)
+     * Persistence:
+         * [JDBC](https://www.baeldung.com/jpa-vs-jdbc)
+         * JPA
+           * [Hibernate](https://www.baeldung.com/learn-jpa-hibernate)
+             * [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html)
+             * Vlad Mihalcea, [blog](https://vladmihalcea.com/blog/) + [High-Performance Java Persistence](https://vladmihalcea.com/books/high-performance-java-persistence/)
+             * [Hibernate Performance Tuning Tips](https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/?utm_source=social&utm_medium=twitter&utm_campaign=tutorial)
+           * EclipseLink
+           * Apache OpenJPA
+     * [Cache Providers](https://blog.frankel.ch/choose-cache/2/): Caffeine, Ehcache, Infinispan, Hazelcast, Redis, Apache Ignite
+     * Message Processing:
+       * JMS (**Apache ActiveMQ**, **RabbitMQ**)
+     * Event Streaming:
+       * **Apache Kafka**
      * Data Serialization:
          * Java Serialization (Native APIs)
            * [**!OPINION**] [Why Java's serialization slower than 3rd party APIs?](https://stackoverflow.com/questions/19447623/why-javas-serialization-slower-than-3rd-party-apis)
@@ -124,26 +136,27 @@
              * [**Protocol Buffers**](https://developers.google.com/protocol-buffers/docs/javatutorial) (protobuf)
              * [**Apache Thrift**](https://thrift.apache.org/tutorial/java.html)
              * [**Apache Avro**](https://avro.apache.org/docs/current/gettingstartedjava.html)
+     * File Manipulation:
+       * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
+       * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
      * [JAX-WS](https://www.baeldung.com/jax-ws) (**Axis2**, **Apache CXF**)
      * [JAX-RS](https://www.baeldung.com/jax-rs-spec-and-implementations) (**RESTEasy**, **Jersey**, **Apache CXF**)
-     * [Jakarta EE](https://www.baeldung.com/java-enterprise-evolution) (Apache Tomcat, Jetty, WebSphere, WildFly, GlassFish, JBoss EAP, Open Liberty)
+     * API documentation: [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
+     * [JEE](https://www.baeldung.com/java-enterprise-evolution) (**Apache Tomcat**, **Jetty**, **WebSphere**, **WildFly**, **GlassFish**, **JBoss EAP**, **Open Liberty**):
+       * [Modern Java EE design patterns](https://www.oreilly.com/content/modern-java-ee-design-patterns/)
        * [Difference between an application server and a servlet container?](https://stackoverflow.com/questions/5039354/difference-between-an-application-server-and-a-servlet-container)
        * [**!OPINION**] [Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server#)
-     * API documentation: [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
-     * Persistence:
-         * [JDBC](https://www.baeldung.com/jpa-vs-jdbc)
-         * JPA
-           * [Hibernate](https://www.baeldung.com/learn-jpa-hibernate)
-             * [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html)
-             * Vlad Mihalcea, [blog](https://vladmihalcea.com/blog/) + [High-Performance Java Persistence](https://vladmihalcea.com/books/high-performance-java-persistence/)
-             * [Hibernate Performance Tuning Tips](https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/?utm_source=social&utm_medium=twitter&utm_campaign=tutorial)
-           * EclipseLink
-           * Apache OpenJPA
-     * [Cache Providers](https://blog.frankel.ch/choose-cache/2/): Caffeine, Ehcache, Infinispan, Hazelcast, Redis, Apache Ignite
-     * Message Processing:
-       * JMS (**Apache ActiveMQ**, **RabbitMQ**)
-     * Event Streaming:
-       * **Apache Kafka**
+    * [Dependency Injection](https://dzone.com/articles/dependency-injection-implementation-in-core-java-1):
+       * [Spring](https://spring.io/projects/):
+           * C. Walls, Spring in Action
+           * I. Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide
+       * [CDI](https://www.baeldung.com/java-ee-cdi):
+         * [Quarkus](https://quarkus.io/guides/):
+           * [Massive performance without headaches](https://quarkus.io/blog/resteasy-reactive-faq/)
+           * [Quarkus Reactive Architecture](https://quarkus.io/version/2.2/guides/quarkus-reactive-architecture)
+           * [Context Propagation in Quarkus](https://quarkus.io/version/2.2/guides/context-propagation)
+           * [Overview of Bean Scopes in Quarkus](https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/)
+           * E. Deandrea, Quarkus for Spring developers
      * Reactive Programming:
        * [**RxJava**](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
        * [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides)
@@ -161,9 +174,6 @@
            * [**Testcontainers**](https://www.testcontainers.org/)
          * E2E Testing:
            * [**Selenium**](https://www.selenium.dev/documentation/guidelines/)
-     * File Manipulation:
-       * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
-       * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
      * Log Analytics: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana)
      * Performance Testing: Apache JMeter, OpenTracing, Prometheus + Grafana
      * Thread & Memory Monitoring:
@@ -172,19 +182,9 @@
        * [Monitoring Java applications: Memory usage, threads and other JRE metrics](https://sysdig.com/blog/monitoring-java-jre/)
      * Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow
      * Cloud Patterns:
-       * [Netflix OSS](https://www.baeldung.com/tag/netflix/): **Eureka** (Service Discovery), **Hystrix** (Circuit Breaker), **Zuul** (Routing), **Ribbon** (Load Balancing)
+       * [Spring Cloud Netflix](https://spring.io/projects/spring-cloud-netflix): **Eureka** (Service Discovery), **Hystrix** (Circuit Breaker), **Zuul** (Routing), **Ribbon** (Load Balancing)
       * [Cloud Functions](https://developers.googleblog.com/2020/05/java-11-for-cloud-functions.html)
-     * [Dependency Injection](https://dzone.com/articles/dependency-injection-implementation-in-core-java-1):
-       * [Spring](https://spring.io/projects/):
-           * C. Walls, Spring in Action
-           * I. Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide
-       * [CDI](https://www.baeldung.com/java-ee-cdi):
-         * [Quarkus](https://quarkus.io/guides/):
-           * [Massive performance without headaches](https://quarkus.io/blog/resteasy-reactive-faq/)
-           * [Quarkus Reactive Architecture](https://quarkus.io/version/2.2/guides/quarkus-reactive-architecture)
-           * [Context Propagation in Quarkus](https://quarkus.io/version/2.2/guides/context-propagation)
-           * [Overview of Bean Scopes in Quarkus](https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/)
-           * E. Deandrea, Quarkus for Spring developers
+
 
 6. Inter-Process Communication (IPC):
      * [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
@@ -287,6 +287,7 @@
       * Heroku
     * G. Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
     * M. Eisele and N. Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
+    * [Introduction to Cloud Infrastructure Technologies](https://www.edx.org/course/introduction-to-cloud-infrastructure-technologies?utm_medium=partner-marketing&utm_source=social&utm_campaign=linuxfoundation&utm_content=twitter-lfs151)
 
 10. [UNIX](https://github.com/sirredbeard/Awesome-UNIX) Toolbox:
     * [Survival guide for Unix newbies ](https://matt.might.net/articles/basic-unix/)
@@ -329,7 +330,7 @@
 
 14. Development Team Organization:
       * Agile/[Scrum](https://www.scrumguides.org/scrum-guide.html)
-      * [Famous laws of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
+      * [Famous Laws of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
       * [Atlassian Tool Suite](https://datarespons.com/atlassian-suite-tools-for-every-team-and-more-agility-in-projects/)
 
 15. Miscellanea:
@@ -403,6 +404,8 @@
   * [Box of Cables](https://boxofcables.dev/)
   * [JDeploy](https://jdeploy.substack.com/archive)
   * [Baeldung Weekly Review](https://www.baeldung.com/category/weekly-review/)
+  * [Opensource.com](https://opensource.com/)
+  * [Enable Sysadmin](https://www.redhat.com/sysadmin/welcome-enable-sysadmin)
 * New Programming Languages:
   * [GO](https://tour.golang.org/list)
   * [Rust](https://www.rust-lang.org/learn)
