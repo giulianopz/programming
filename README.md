@@ -97,7 +97,8 @@
      * [**!BONUS**] D. H. Meadows, Thinking in Systems: A Primer
      * [**!BONUS**] F. Hermans, The Programmer's Brain: What every programmer needs to know about cognition
 
-5. Most Popular Libraries/Frameworks for Java:
+5. Most Popular Libraries, Frameworks and Tools for Java:
+     * [**!BONUS**] [Technology Radar. An opinionated guide to technology frontiers](https://www.thoughtworks.com/radar)
      * Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
        * [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
        * [Mapped Diagnostic Context (MDC)](https://www.baeldung.com/mdc-in-log4j-2-logback)
@@ -185,7 +186,6 @@
        * [Spring Cloud Netflix](https://spring.io/projects/spring-cloud-netflix): **Eureka** (Service Discovery), **Hystrix** (Circuit Breaker), **Zuul** (Routing), **Ribbon** (Load Balancing)
       * [Cloud Functions](https://developers.googleblog.com/2020/05/java-11-for-cloud-functions.html)
 
-
 6. Inter-Process Communication (IPC):
      * [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
      * Approaches:
@@ -194,13 +194,7 @@
          * Remote Method Invocation (RMI)
          * Common Object Request Broker Architecture (CORBA)
        * Synchronous Communication:
-         * Representational state transfer (REST):
-           * [**!OPINION**] [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
-           * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
-           * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
-           * [Standards.REST](https://standards.rest/)
-           * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-           * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
+         * Representational state transfer (REST)
          * [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
          * [gRPC](../luoghi/cibo/veneto.csv)
          * [Falcor](https://netflix.github.io/falcor/starter/what-is-falcor.html)
@@ -333,19 +327,32 @@
       * [Famous Laws of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
       * [Atlassian Tool Suite](https://datarespons.com/atlassian-suite-tools-for-every-team-and-more-agility-in-projects/)
 
-15. Miscellanea:
-      * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
-      * [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
-      * [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
-      * [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
-      * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
-      * [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
-      * [To www or not to www – Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
-      * [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
-      * [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
-      * [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
-      * [Technology Radar. An opinionated guide to technology frontiers](https://www.thoughtworks.com/radar)
-      * [The HTTP QUERY Method](https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body-02.html)
+15. Best Practices & Common Pitfalls:
+    1.  Characters:
+        * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+    2.  Dates:
+        * [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
+        * [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
+        * [Storing UTC is not a silver bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
+    3.  RegEx:
+        * [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
+        * [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
+    4.  CORS:
+        * [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
+        * [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
+        * [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
+    5. REST APIs:
+       * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
+       * [**!OPINION**] [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
+       * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+       * [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
+       * [Standards.REST](https://standards.rest/)
+       * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+       * [The HTTP QUERY Method](https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body-02.html)
+    6. DNS:
+       * [To www or not to www – Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
+    7. Software License:
+       * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
 ---
 ## Go beyond Java and Web Development
 
