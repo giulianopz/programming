@@ -351,8 +351,9 @@
        * [The HTTP QUERY Method](https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body-02.html)
     6. DNS:
        * [To www or not to www – Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
-    7. Software License:
+    7. Software Licenses:
        * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
+       * [Software Licenses in Plain English](https://tldrlegal.com/)
 ---
 ## Go beyond Java and Web Development
 
