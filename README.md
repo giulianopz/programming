@@ -328,19 +328,21 @@
       * [Atlassian Tool Suite](https://datarespons.com/atlassian-suite-tools-for-every-team-and-more-agility-in-projects/)
 
 15. Best Practices & Common Pitfalls:
-    1.  Characters:
+    1. Characters:
         * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
-    2.  Dates:
+    2. Dates:
         * [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
         * [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
         * [Storing UTC is not a silver bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
-    3.  RegEx:
+    3. RegEx:
         * [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
         * [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
-    4.  CORS:
-        * [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
-        * [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
-        * [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
+    4. HTTP:
+       * CORS:
+         * [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
+         * [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
+         * [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
+       * [The perils of the “real” client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
     5. REST APIs:
        * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
        * [**!OPINION**] [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
