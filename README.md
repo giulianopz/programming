@@ -3,8 +3,8 @@
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
 2. Java:
-     0. [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)   
-     1. Programming Language Fundamentals[^1]:
+     1. [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)
+     2. Programming Language Fundamentals[^1]:
         1. JRE, JDK & JVM
         2. Byte Code vs. Machine Code
         3. Compiling with `javac` and Running with Arguments from CLI
@@ -49,18 +49,18 @@
         19. Streams
         20. Lambda Expressions & Method References
         21. Recursion
-     2. Build Automation Tools:
+     3. Build Automation Tools:
            1. [Ant vs Maven vs Gradle](https://www.baeldung.com/ant-maven-gradle)
            2. [**!OPINION**] [Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
-     3. Scripting: JShell, [JBang](https://github.com/maxandersen/jbang)
-     4. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
-     5. J. Bloch, Effective Java
-     6. [Design Patterns](https://java-design-patterns.com/)
-     7. Unit Testing:
+     4. Scripting: JShell, [JBang](https://github.com/maxandersen/jbang)
+     5. C. S. Horstmann, Core Java Fundementals (Vol. 1 & 2)
+     6. J. Bloch, Effective Java
+     7. [Design Patterns](https://java-design-patterns.com/)
+     8. Unit Testing:
         1. L. Kosleka, Effective Unit Testing
         2. P. Tahchiev, JUnit in Action
         3. L. Kosleka, Test Driven: TDD and Acceptance TDD for Java Developers
-     8. Advanced Topics:
+     9. Advanced Topics:
          1. Generics
          2. Reflection
          3. Concurrency, Multi-threading, Parallelism, Asynchronus & Reactive Programming:
@@ -339,13 +339,13 @@
     4. Unit-Testing:
        * [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
        * [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
-    1. HTTP:
+    5. HTTP:
        * CORS:
          * [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
          * [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
          * [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
        * [The perils of the “real” client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
-    2. REST APIs:
+    6. REST APIs:
        * [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0)
        * [**!OPINION**] [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
        * [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
@@ -353,9 +353,9 @@
        * [Standards.REST](https://standards.rest/)
        * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
        * [The HTTP QUERY Method](https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body-02.html)
-    3. DNS:
+    7. DNS:
        * [To www or not to www – Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
-    4. Software Licenses:
+    8. Software Licenses:
        * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
        * [Software Licenses in Plain English](https://tldrlegal.com/)
        * [A Beginner’s Guide to Open Source Software Development (LFD102)](https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/)
