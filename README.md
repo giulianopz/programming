@@ -3,6 +3,7 @@
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
 2. Java:
+     0. [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)   
      1. Programming Language Fundamentals[^1]:
         1. JRE, JDK & JVM
         2. Byte Code vs. Machine Code
