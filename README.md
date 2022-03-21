@@ -322,7 +322,7 @@
       * [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
       * [Documenting APIs: A guide for technical writers and engineers](https://idratherbewriting.com/learnapidoc/)
 
-14. Team Organization:
+14. Development and Team Organization:
       * [Organization and Team Patterns](http://www.dfpug.de/loseblattsammlung/online/workshop/design_patterns/sonstiges.htm)
       * [Famous Laws of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
       * [Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/)
