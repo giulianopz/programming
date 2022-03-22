@@ -137,7 +137,7 @@
              * [**Apache Thrift**](https://thrift.apache.org/tutorial/java.html)
              * [**Apache Avro**](https://avro.apache.org/docs/current/gettingstartedjava.html)
      * File Manipulation:
-       * Excel: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
+       * Microsoft Documents: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
        * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
        * HTML: [Mustache](https://www.baeldung.com/mustache)
      * [JAX-WS](https://www.baeldung.com/jax-ws) (**Axis2**, **Apache CXF**)
@@ -355,7 +355,7 @@
        * [Standards.REST](https://standards.rest/)
        * [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
        * [The HTTP QUERY Method](https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body-02.html)
-    7. DNS:
+    7. Web:
        * [To www or not to www – Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
     8. Software Licenses:
        * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
