@@ -327,6 +327,7 @@
       * [Famous Laws of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
       * [Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/)
       * [Atlassian Tool Suite](https://datarespons.com/atlassian-suite-tools-for-every-team-and-more-agility-in-projects/)
+      * [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/)
 
 15. Best Practices & Common Pitfalls:
     1. Characters:
