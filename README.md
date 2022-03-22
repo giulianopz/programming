@@ -138,8 +138,8 @@
              * [**Apache Avro**](https://avro.apache.org/docs/current/gettingstartedjava.html)
      * File Manipulation:
        * Microsoft Documents: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
-       * PDF: [**iText/OpenPDF**](https://www.baeldung.com/java-pdf-creation)
-       * HTML: [Mustache](https://www.baeldung.com/mustache)
+       * PDF: [**iText](https://www.baeldung.com/java-pdf-creation)/[OpenPDF**](https://github.com/LibrePDF/OpenPDF)
+       * HTML: [**Mustache**](https://www.baeldung.com/mustache)
      * [JAX-WS](https://www.baeldung.com/jax-ws) (**Axis2**, **Apache CXF**)
      * [JAX-RS](https://www.baeldung.com/jax-rs-spec-and-implementations) (**RESTEasy**, **Jersey**, **Apache CXF**)
      * API documentation: [**Swagger**](https://swagger.io/tools/open-source/open-source-integrations/)
