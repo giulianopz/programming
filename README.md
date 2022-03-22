@@ -358,7 +358,11 @@
        * [The HTTP QUERY Method](https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body-02.html)
     7. Web:
        * [To www or not to www – Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
-    8. Software Licenses:
+    8. Containers:
+       * [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+       * [Attack of the mutant tags!. Or why tag mutability is a real security threat](https://sysdig.com/blog/toctou-tag-mutability/)
+       * [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/)
+    9. Software Licenses:
        * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
        * [Software Licenses in Plain English](https://tldrlegal.com/)
        * [A Beginner’s Guide to Open Source Software Development (LFD102)](https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/)
