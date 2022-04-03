@@ -49,6 +49,7 @@
         19. Streams
         20. Lambda Expressions & Method References
         21. Recursion
+            *  [The Three Laws of Recursion](https://pages.di.unipi.it/marino/python/Recursion/TheThreeLawsofRecursion.html)
      3. Build Automation Tools:
            1. [Ant vs Maven vs Gradle](https://www.baeldung.com/ant-maven-gradle)
            2. [**!OPINION**] [Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
@@ -306,6 +307,7 @@
       * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
       * [Practical Cryptography for Developers](https://cryptobook.nakov.com/)
       * [**!BONUS**] [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
+      * [How to find third-party vulnerabilities in your Java code](https://www.redhat.com/sysadmin/find-java-vulnerabilities)
 
 12. Networking, Web & Browsers:
       * [What is a network?](https://study-ccna.com/what-is-a-network/)
@@ -336,6 +338,7 @@
         * [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
         * [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
         * [Storing UTC is not a silver bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
+        * [Designing a REST API: Unix time vs ISO-8601](https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601)
     3. RegEx:
         * [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
         * [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
