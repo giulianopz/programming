@@ -7,7 +7,7 @@
      2. Programming Language Fundamentals[^1]:
         1. JRE, JDK & JVM
         2. Byte Code vs. Machine Code
-               * [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
+            * [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
         3. Compiling with `javac` and Running with Arguments from CLI
         4. IDE[^2]
            1. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
