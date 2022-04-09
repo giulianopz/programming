@@ -258,6 +258,7 @@
     * [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
     * Containers and Orchestration:
        * [What is a container image?](https://opensource.com/article/21/8/container-image)
+       * [Container image formats under the hood](https://snyk.io/blog/container-image-formats/)
        * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
        * [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
        * [Docker](https://www.docker.com/get-started)
