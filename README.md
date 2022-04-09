@@ -7,7 +7,7 @@
      2. Programming Language Fundamentals[^1]:
         1. JRE, JDK & JVM
         2. Byte Code vs. Machine Code
-            * [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
+             * [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
         3. Compiling with `javac` and Running with Arguments from CLI
         4. IDE[^2]
            1. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
@@ -440,9 +440,16 @@
   * [Opensource.com](https://opensource.com/)
   * [Enable Sysadmin](https://www.redhat.com/sysadmin/welcome-enable-sysadmin)
 * New Programming Languages:
-  * [GO](https://tour.golang.org/list)
-  * [Rust](https://www.rust-lang.org/learn)
-  * [Julia](https://julialang.org/learning/)
+  * Rust
+    * [The Rust Programming Language](https://doc.rust-lang.org/book/index.html)
+    * [The Embedded Rust Book](https://docs.rust-embedded.org/book/index.html)
+    * [Build your own JIRA with Rust](https://github.com/LukeMathWalker/build-your-own-jira-with-rust)
+    * [Zero To Production In Rust. An introduction to backend development](https://www.zero2prod.com/index.html)
+    * [The current state of Rust web frameworks](https://blog.logrocket.com/current-state-rust-web-frameworks/)
+    * [Rust Backend vs Go Backend in Web Development](https://blog.boot.dev/golang/rust-vs-go-in-backend-web-development/)
+  * [GO](https://go.dev/tour/welcome/1)
+  * Kotlin
+  * Scala
 * Getting Closer to the Metal:
   * [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
   * [Ben Eater](https://eater.net/)
