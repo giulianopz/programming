@@ -272,8 +272,10 @@
            * Common K8s distributions:
                * [RedHat Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
                * Rancher
-               * VMware Tanzu
+               * VMware Tanzu Kubernetes Grid (TKG)
                * Google Kubernetes Engine (GKE)
+               * Amazon Elastic Kubernetes Service (Amazon EKS)
+               * Azure Container Service (AKS)
          * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
          * Apache Mesos
          * LXD
@@ -374,6 +376,8 @@
        * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
        * [Software Licenses in Plain English](https://tldrlegal.com/)
        * [A Beginner’s Guide to Open Source Software Development (LFD102)](https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/)
+    10. Libraries
+        * [Google Best Practices for Java Libraries](https://jlbp.dev/)
 ---
 ## Go beyond Java and Web Development
 
@@ -450,6 +454,7 @@
   * [GO](https://go.dev/tour/welcome/1)
   * Kotlin
   * Scala
+  * Julia
 * Getting Closer to the Metal:
   * [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
   * [Ben Eater](https://eater.net/)
