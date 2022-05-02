@@ -65,17 +65,20 @@
      9. Advanced Topics:
          1. Generics
          2. Reflection
-         3. Concurrency, Multi-threading, Parallelism, Asynchronus & Reactive Programming:
+         3. Concurrency, Multi-threading, Parallelism and Asynchronus Programming:
              * [5 Things You Probably Didn’t Know About Java Concurrency](https://foojay.io/today/5-things-you-probably-didnt-know-about-java-concurrency/?utm_content=202308183&utm_medium=social&utm_source=twitter&hss_channel=tw-2599580401)
              * [Applying Concurrency and Multi-threading to Common Java Patterns](https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading)
              * [Advanced Java Concurrent Patterns](https://www.pluralsight.com/courses/java-concurrent-patterns-advanced)
              * [Java Fundamentals: Asynchronous Programming Using CompletionStage](https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage)
+             * [**!WIP**] [Project Loom](https://cr.openjdk.java.net/~rpressler/loom/Loom-Proposal.html)
+         4. Reactive Programming
+             * [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
              * [The Essence of Reactive Programming in Java](https://www.scnsoft.com/blog/java-reactive-programming)
              * [5 Things to Know About Reactive Programming](https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming)
              * [The Difference Between a Reactive Non-Blocking Model and Classic Asynchronous Code](https://nickolasfisher.com/blog/The-Difference-Between-a-Reactive-NonBlocking-Model-and-Classic-Asynchronous-Code)
              * [EventLoop vs Thread per Request Model](https://singhkaushal.medium.com/spring-webflux-eventloop-vs-thread-per-request-model-a42d07ee8502)
-             * [**!WIP**] [Project Loom](https://cr.openjdk.java.net/~rpressler/loom/Loom-Proposal.html)
-         4. [New language features since Java 8 to 17](https://advancedweb.hu/new-language-features-since-java-8-to-17/)
+             * [Explaining event loop in 100 lines of code](https://iximiuz.com/en/posts/explain-event-loop-in-100-lines-of-code/)
+         5. [New language features since Java 8 to 17](https://advancedweb.hu/new-language-features-since-java-8-to-17/)
 
 3. Algorithms & Data Structures:
      1. [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
@@ -190,7 +193,12 @@
       * [Cloud Functions](https://developers.googleblog.com/2020/05/java-11-for-cloud-functions.html)
       * Kubernetes Operator Toolkit: Java Operator SDK ([JOSDK](https://javaoperatorsdk.io/))
 
-6. Inter-Process Communication (IPC):
+6. Software Licenses:
+   * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
+   * [Software Licenses in Plain English](https://tldrlegal.com/)
+   * [A Beginner’s Guide to Open Source Software Development (LFD102)](https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/)
+
+7. Inter-Process Communication (IPC):
      * [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
      * Approaches:
        * Legacy Technologies:
@@ -218,7 +226,7 @@
          - MQTT
          - STOMP
 
-7. Databases & SQL:
+8. Databases & SQL:
      * [**!BONUS**] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
      * Basic Concepts:
        * [Database Normalization Basics](https://www.lifewire.com/database-normalization-basics-1019735)
@@ -245,7 +253,7 @@
        * Graph: Neo4J
      * Version control tools: [Liquibase](https://liquibase.org/get-started/quickstart)
 
-8. Microservices, Distributed Systems & System Design:
+9. Microservices, Distributed Systems & System Design:
      * [**!OPINION**] [Don’t start with microservices – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
      * [From Microservices to Distributed Systems: A Survival Guide for Java Devs](https://dzone.com/articles/from-microservices-to-distributed-systems-survival)
      * [Microservices Patterns](https://microservices.io/patterns/index.html)
@@ -258,7 +266,7 @@
      * [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/)
      * [The System Design Template I Use](https://adityarohilla.com/2022/03/22/the-system-design-template-i-use/)
 
-9.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
+10.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
     * Containers and Orchestration:
        * [What is a container image?](https://opensource.com/article/21/8/container-image)
@@ -279,19 +287,19 @@
          * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
          * Apache Mesos
          * LXD
-    * CI/CD Pipelines:
-       * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
-       * [A developer's guide to CI/CD and GitOps with Jenkins Pipelines](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines#)
-    * Cloud Platforms:
-      * Amazon Web Services [(AWS)](https://adayinthelifeof.nl/2020/05/20/aws.html)
-      * [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
-      * Google Cloud Platform (GCP)
-      * Heroku
-    * G. Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
-    * M. Eisele and N. Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
-    * [Introduction to Cloud Infrastructure Technologies](https://www.edx.org/course/introduction-to-cloud-infrastructure-technologies?utm_medium=partner-marketing&utm_source=social&utm_campaign=linuxfoundation&utm_content=twitter-lfs151)
+      * CI/CD Pipelines:
+         * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
+         * [A developer's guide to CI/CD and GitOps with Jenkins Pipelines](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines#)
+      * Cloud Platforms:
+        * Amazon Web Services [(AWS)](https://adayinthelifeof.nl/2020/05/20/aws.html)
+        * [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
+        * Google Cloud Platform (GCP)
+        * Heroku
+      * G. Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
+      * M. Eisele and N. Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
+      * [Introduction to Cloud Infrastructure Technologies](https://www.edx.org/course/introduction-to-cloud-infrastructure-technologies?utm_medium=partner-marketing&utm_source=social&utm_campaign=linuxfoundation&utm_content=twitter-lfs151)
 
-10. [UNIX](https://github.com/sirredbeard/Awesome-UNIX) Toolbox:
+11. [UNIX](https://github.com/sirredbeard/Awesome-UNIX) Toolbox:
     * [Survival guide for Unix newbies ](https://matt.might.net/articles/basic-unix/)
     * [Shell programming with bash: by example, by counter-example](https://matt.might.net/articles/bash-by-example/)
     * [Sculpting text with regex, grep, sed, awk, emacs and vim](https://matt.might.net/articles/sculpting-text/)
@@ -304,7 +312,7 @@
     * [**!BONUS**] [The Unix Game](https://www.unixgame.io/unix50)
     * [**!BONUS**] [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
 
-11. Security:
+12. Security:
       * [API authentication and authorization](https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html)
       * [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
       * Identity, Claims, & Tokens. An OpenID Connect Primer: [1](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1), [2](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-2), [3](https://developer.okta.com/blog/2017/08/01/oidc-primer-part-3)
@@ -316,7 +324,7 @@
       * [**!BONUS**] [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
       * [How to find third-party vulnerabilities in your Java code](https://www.redhat.com/sysadmin/find-java-vulnerabilities)
 
-12. Networking, Web & Browsers:
+13. Networking, Web & Browsers:
       * [What is a network?](https://study-ccna.com/what-is-a-network/)
       * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
       * [I. Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
@@ -325,20 +333,20 @@
       * [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
       * [**!BONUS**] [HTTP Toolkit](https://httptoolkit.tech/)
 
-13. Software Documentation:
+14. Software Documentation:
       * [How to Write Doc Comments for the Javadoc Tool](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)
       * [**!OPINION**] [The Ins and Outs of Using Markdown for Technical Writing](https://document360.com/blog/markdown-for-technical-writing/)
       * [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
       * [Documenting APIs: A guide for technical writers and engineers](https://idratherbewriting.com/learnapidoc/)
 
-14. Development and Team Organization:
+15. Development and Team Organization:
       * [Organization and Team Patterns](http://www.dfpug.de/loseblattsammlung/online/workshop/design_patterns/sonstiges.htm)
       * [Famous Laws of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
       * [Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/)
       * [Atlassian Tool Suite](https://datarespons.com/atlassian-suite-tools-for-every-team-and-more-agility-in-projects/)
       * [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/)
 
-15. Best Practices & Common Pitfalls:
+16. Best Practices & Common Pitfalls:
     1. Characters:
         * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     2. Dates:
@@ -372,12 +380,12 @@
        * [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
        * [Attack of the mutant tags!. Or why tag mutability is a real security threat](https://sysdig.com/blog/toctou-tag-mutability/)
        * [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/)
-    9. Software Licenses:
-       * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
-       * [Software Licenses in Plain English](https://tldrlegal.com/)
-       * [A Beginner’s Guide to Open Source Software Development (LFD102)](https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/)
-    10. Libraries
+    9. Libraries
         * [Google Best Practices for Java Libraries](https://jlbp.dev/)
+    10. Clean Code:
+        * [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
+    11. Code Formatting:
+        * [EditorConfig](https://editorconfig.org/)
 ---
 ## Go beyond Java and Web Development
 
