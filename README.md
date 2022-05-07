@@ -1,15 +1,15 @@
-## A curated list of links and resources for newbies learning Java and the technology stack commonly used for backend web development
+## A curated list of links and resources for newbies learning Java and the technology stack commonly used for backend web development[^1]
 
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
 2. Java:
      1. [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)
-     2. Programming Language Fundamentals[^1]:
+     2. Programming Language Fundamentals[^2]:
         1. JRE, JDK & JVM
         2. Byte Code vs. Machine Code
              * [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
         3. Compiling with `javac` and Running with Arguments from CLI
-        4. IDE[^2]
+        4. IDE[^3]
            1. [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
            2. [VSCode](https://code.visualstudio.com/docs/languages/java)
            3. [Debugging](https://code.visualstudio.com/docs/java/java-debugging)
@@ -479,6 +479,8 @@
   * R. Kanna, [Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
   * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 
-[^1]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by K. Wayne and R. Sedgewick.
+[^1]: This list does not aim by no means to be complete, nor even an exhaustive treatment of the subject, since it's based just on my personal (limited) experience and it's more oriented to offer a roughly sketched learning path to get into Java for server-side programming: for a mere list of stuff regarding Java, see [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management).
 
-[^2]: There's a number of [IDEs](https://www.tutorialworks.com/java-ide/) available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to [open a remote folder on any remote machine, virtual machine, or container with a running SSH server](https://code.visualstudio.com/docs/remote/ssh) (also integrating nicely with [WSL](https://code.visualstudio.com/docs/remote/wsl)), [visualize data structures](https://addyosmani.com/blog/visualize-data-structures-vscode/) while debugging and can run in a lightweight version in a [web browser](https://vscode.dev/) without installing anything.
+[^2]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by K. Wayne and R. Sedgewick.
+
+[^3]: There's a number of [IDEs](https://www.tutorialworks.com/java-ide/) available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to [open a remote folder on any remote machine, virtual machine, or container with a running SSH server](https://code.visualstudio.com/docs/remote/ssh) (also integrating nicely with [WSL](https://code.visualstudio.com/docs/remote/wsl)), [visualize data structures](https://addyosmani.com/blog/visualize-data-structures-vscode/) while debugging and can run in a lightweight version in a [web browser](https://vscode.dev/) without installing anything.
