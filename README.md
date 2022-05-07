@@ -1,4 +1,4 @@
-## Useful links and resources for newbies in Java to learn the technology stack commonly used for backend web development
+## A curated list of links and resources for newbies learning Java and the technology stack commonly used for backend web development
 
 1. [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap)
 
@@ -267,6 +267,7 @@
      * [The Reactive Principles. Design Principles for Distributed Applications](https://principles.reactive.foundation/)
      * [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/)
      * [The System Design Template I Use](https://adityarohilla.com/2022/03/22/the-system-design-template-i-use/)
+     * [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
 
 10.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
     * [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
@@ -313,6 +314,7 @@
     * [**!BONUS**] [Vim Adventures](https://vim-adventures.com/)
     * [**!BONUS**] [The Unix Game](https://www.unixgame.io/unix50)
     * [**!BONUS**] [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
+    * M. Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner
 
 12. Security:
       * [API authentication and authorization](https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html)
@@ -386,8 +388,11 @@
         * [Google Best Practices for Java Libraries](https://jlbp.dev/)
     10. Clean Code:
         * [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
-    11. Code Formatting:
+    11. Design Patterns:
+        * [Alternatives to DTO](https://blog.frankel.ch/alternatives-dto/)
+    12. Code Formatting:
         * [EditorConfig](https://editorconfig.org/)
+        * [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 ---
 ## Go beyond Java and Web Development
 
@@ -395,9 +400,10 @@
   * [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
   * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
   * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
-* Classics of CS:
+* Fundamentals of CS:
   * G. J. Sussman & H. Abelson, Structure and Interpretation of Computer Programs (SICP)
   * R. Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
+    * [Dive into Systems](https://diveintosystems.org/singlepage/)
   * N. Nisan and S. Schocken, The Elements of Computing Systems (nand2tetris)
   * A. Arpaci-Dusseau and R. Arpaci-Dusseau, Operating Systems: Three Easy Pieces
   * G.Snyder, E. Nemeth, B. Whaley, T. Hein, D. Mackin, UNIX and Linux System Administration Handbook
