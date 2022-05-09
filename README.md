@@ -194,6 +194,7 @@
        * [Spring Cloud Netflix](https://spring.io/projects/spring-cloud-netflix): **Eureka** (Service Discovery), **Hystrix** (Circuit Breaker), **Zuul** (Routing), **Ribbon** (Load Balancing)
       * [Cloud Functions](https://developers.googleblog.com/2020/05/java-11-for-cloud-functions.html)
       * Kubernetes Operator Toolkit: Java Operator SDK ([JOSDK](https://javaoperatorsdk.io/))
+      * [Native Build](https://developer.okta.com/blog/2021/06/18/native-java-framework-comparison)
 
 6. Software Licenses:
    * [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
@@ -336,6 +337,10 @@
       * [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
       * [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
       * [**!BONUS**] [HTTP Toolkit](https://httptoolkit.tech/)
+      * [Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
+      * [Four Eras of JavaScript Frameworks](https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks)
+      * [Move over JavaScript: Back-end languages are coming to the front-end](https://github.com/readme/featured/server-side-languages-for-front-end)
+      * [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
 
 14. Software Documentation:
       * [How to Write Doc Comments for the Javadoc Tool](https://www.oracle.com/technical-resources/articles/java/javadoc-tool.html)
@@ -380,6 +385,7 @@
        * [The HTTP QUERY Method](https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body-02.html)
     7. Web:
        * [To www or not to www – Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
+       * [Making Websites Small](https://santurcesoftware.com/making-web-sites-small)
     8. Containers:
        * [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
        * [Attack of the mutant tags!. Or why tag mutability is a real security threat](https://sysdig.com/blog/toctou-tag-mutability/)
