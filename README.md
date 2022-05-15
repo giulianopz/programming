@@ -289,7 +289,7 @@
                  * Microk8s
                  * CodeReady Containers (CRC) (a minimal OpenShift 4.x cluster)
                  * Minishift (a minimal OpenShift 3.x cluster)
-               * IoT & Edge:
+               * IoT & Edge Computing:
                  * k3s
                * Self-Managed (On Premises/Hybrid)
                  * [RedHat Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
