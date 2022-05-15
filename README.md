@@ -282,13 +282,23 @@
        * [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
        * Cluster Managers:
          * [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
-           * Common K8s distributions:
-               * [RedHat Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
-               * Rancher
-               * VMware Tanzu Kubernetes Grid (TKG)
-               * Google Kubernetes Engine (GKE)
-               * Amazon Elastic Kubernetes Service (Amazon EKS)
-               * Azure Container Service (AKS)
+           * Distributions:
+               * Self-Managed (Local):
+                 * minikube
+                 * kind
+                 * Microk8s
+                 * CodeReady Containers (CRC) (a minimal OpenShift 4.x cluster)
+                 * Minishift (a minimal OpenShift 3.x cluster)
+               * IoT & Edge:
+                 * k3s
+               * Self-Managed (On Premises/Hybrid)
+                 * [RedHat Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
+                 * Rancher
+                 * VMware Tanzu Kubernetes Grid (TKG)
+               * Kubernetes-as-a-Service (On Cloud)
+                 * Google Kubernetes Engine (GKE)
+                 * Amazon Elastic Kubernetes Service (Amazon EKS)
+                 * Azure Container Service (AKS)
          * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
          * Apache Mesos
          * LXD
@@ -479,9 +489,11 @@
   * Scala
   * Julia
 * Getting Closer to the Metal:
+  * [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
   * [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
   * [Ben Eater](https://eater.net/)
   * [Sam Zeloof](http://sam.zeloof.xyz/)
+  * [From the Transistor to the Web Browser](https://github.com/geohot/fromthetransistor)
 * Career Advice:
   * [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
   * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
