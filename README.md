@@ -299,9 +299,11 @@
                  * Google Kubernetes Engine (GKE)
                  * Amazon Elastic Kubernetes Service (Amazon EKS)
                  * Azure Container Service (AKS)
+         * [Docker Swarm](https://docs.docker.com/engine/swarm/)
+         * [Apache Mesos](https://mesos.apache.org/)
+         * [LXD](https://linuxcontainers.org/lxd/)
          * [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
-         * Apache Mesos
-         * LXD
+         * [Nomad](https://www.nomadproject.io/)
       * CI/CD Pipelines:
          * [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
          * [A developer's guide to CI/CD and GitOps with Jenkins Pipelines](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines#)
