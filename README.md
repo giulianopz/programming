@@ -272,8 +272,8 @@
      * [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
 
 10.  [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline):
-    * [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
-    * Containers and Orchestration:
+     * [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
+     * Containers and Orchestration:
        * [What is a container image?](https://opensource.com/article/21/8/container-image)
        * [Container image formats under the hood](https://snyk.io/blog/container-image-formats/)
        * [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
@@ -419,6 +419,7 @@
   * [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
   * [Teach Yourself Computer Science](https://teachyourselfcs.com/)
   * [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
+  * [From the Transistor to the Web Browser](https://github.com/geohot/fromthetransistor)
 * Fundamentals of CS:
   * Sussman & Abelson, Structure and Interpretation of Computer Programs (SICP)
   * Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
@@ -495,7 +496,6 @@
   * [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
   * [Ben Eater](https://eater.net/)
   * [Sam Zeloof](http://sam.zeloof.xyz/)
-  * [From the Transistor to the Web Browser](https://github.com/geohot/fromthetransistor)
 * Career Advice:
   * [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
   * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
