@@ -345,12 +345,14 @@
 13. Networking, Web & Browsers:
       * [What is a network?](https://study-ccna.com/what-is-a-network/)
       * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
+      * [SSL Termination](https://avinetworks.com/glossary/ssl-termination/)
       * [Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
       * [SRE books](https://sre.google/books/)
       * [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
       * [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
       * [**!BONUS**] [HTTP Toolkit](https://httptoolkit.tech/)
       * [Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
+      * [The Modern JavaScript Tutorial](https://javascript.info/)
       * [Four Eras of JavaScript Frameworks](https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks)
       * [Move over JavaScript: Back-end languages are coming to the front-end](https://github.com/readme/featured/server-side-languages-for-front-end)
       * [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
@@ -479,7 +481,7 @@
   * [Baeldung Weekly Review](https://www.baeldung.com/category/weekly-review/)
   * [Opensource.com](https://opensource.com/)
   * [Enable Sysadmin](https://www.redhat.com/sysadmin/welcome-enable-sysadmin)
-* New Programming Languages:
+* Other Programming Languages:
   * Rust
     * [The Rust Programming Language](https://doc.rust-lang.org/book/index.html)
     * [The Embedded Rust Book](https://docs.rust-embedded.org/book/index.html)
@@ -490,7 +492,8 @@
   * [GO](https://go.dev/tour/welcome/1)
   * Kotlin
   * Scala
-  * Julia
+  * Python
+  * Ruby
 * Getting Closer to the Metal:
   * [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
   * [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
