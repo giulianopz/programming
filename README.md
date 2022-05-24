@@ -347,6 +347,7 @@
       * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
       * [SSL Termination](https://avinetworks.com/glossary/ssl-termination/)
       * [Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
+      * Sanders, Practical Packet Analysis
       * [SRE books](https://sre.google/books/)
       * [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
       * [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
@@ -445,6 +446,7 @@
   * Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. italian version, [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
   * Raymond, The Cathedral & the Bazaar
   * Kernighan, UNIX: A History and a Memoir
+  * Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security
   * Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
   * Torvalds, Just for Fun
   * Knuth, Things a Computer Scientist Rarely Talks About
