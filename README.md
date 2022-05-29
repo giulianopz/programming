@@ -1,6 +1,8 @@
 # Java back-end web development
 
-This list does not aim by no means to be complete, nor even an exhaustive treatment of the subject, since it's based just on my personal (limited) experience and it's more oriented to offer a roughly sketched learning path to get into Java for server-side programming in the context of web: for a mere list of stuff regarding Java, see [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management). For a broader view of what is useful/required to develop for the web, see the [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap).
+This list does not aim by no means to be complete, nor even an exhaustive treatment of the topic, since it's based just on my personal (limited) experience and it's more oriented to offer a roughly sketched learning path to get into Java for server-side programming with web development in mind mentioning the most relevant concepts and tools a newbie can encounter in his/her work routine.
+
+For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management). For a broader view of what is useful/required to develop for the web, see the [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap).
 
 ---
 ## Java
