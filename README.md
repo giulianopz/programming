@@ -1,15 +1,16 @@
-## A curated list of links and resources for newbies learning Java and the technology stack commonly used for backend web development[^1][^2]
+# Java back-end web development
+
+This list does not aim by no means to be complete, nor even an exhaustive treatment of the subject, since it's based just on my personal (limited) experience and it's more oriented to offer a roughly sketched learning path to get into Java for server-side programming in the context of web: for a mere list of stuff regarding Java, see [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management). For a broader view to what is useful/required to develop for the web, see the [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap).
 
 ---
-
 ## Java
 - [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)
-- Programming Language Fundamentals[^3]:
+- Programming Language Fundamentals[^1]:
   - JRE, JDK & JVM
   - Byte Code vs. Machine Code
        - [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
   - Compiling with `javac` and Running with Arguments from CLI
-  - IDE[^4]
+  - IDE[^2]
      - [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
      - [VSCode](https://code.visualstudio.com/docs/languages/java)
      - [Debugging](https://code.visualstudio.com/docs/java/java-debugging)
@@ -287,7 +288,9 @@
 
 ---
 
-## [Cloud Computing](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools) & [DevOps](https://opensource.com/article/19/4/devops-pipeline)
+## Cloud Computing & DevOps
+- [Java Cloud Development Introduction and Tools](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools)
+- [A beginner's guide to building DevOps pipelines with open source tools](https://opensource.com/article/19/4/devops-pipeline)
 - [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
 - Containers and Orchestration:
  - [What is a container image?](https://opensource.com/article/21/8/container-image)
@@ -334,7 +337,7 @@
 
 ---
 
-## [UNIX](https://github.com/sirredbeard/Awesome-UNIX) Toolbox
+## The UNIX Toolbox
 - [Survival guide for Unix newbies ](https://matt.might.net/articles/basic-unix/)
 - [Shell programming with bash: by example, by counter-example](https://matt.might.net/articles/bash-by-example/)
 - [Sculpting text with regex, grep, sed, awk, emacs and vim](https://matt.might.net/articles/sculpting-text/)
@@ -346,6 +349,7 @@
 - [**!BONUS**] [Vim Adventures](https://vim-adventures.com/)
 - [**!BONUS**] [The Unix Game](https://www.unixgame.io/unix50)
 - [**!BONUS**] [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
+- [**!BONUS**] [Awesome UNIX®](https://github.com/sirredbeard/Awesome-UNIX)
 - Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner
 
 ---
@@ -553,10 +557,6 @@
 - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 
-[^1]: This list does not aim by no means to be complete, nor even an exhaustive treatment of the subject, since it's based just on my personal (limited) experience and it's more oriented to offer a roughly sketched learning path to get into Java for server-side programming: for a mere list of stuff regarding Java, see [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management).
+[^1]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by Wayne and Sedgewick.
 
-[^2]: For a broader view to what is useful/required to develop for the web, please see the [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap).
-
-[^3]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by Wayne and Sedgewick.
-
-[^4]: There's a number of [IDEs](https://www.tutorialworks.com/java-ide/) available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to [open a remote folder on any remote machine, virtual machine, or container with a running SSH server](https://code.visualstudio.com/docs/remote/ssh) (also integrating nicely with [WSL](https://code.visualstudio.com/docs/remote/wsl)), [visualize data structures](https://addyosmani.com/blog/visualize-data-structures-vscode/) while debugging and can run in a lightweight version in a [web browser](https://vscode.dev/) without installing anything.
+[^2]: There's a number of [IDEs](https://www.tutorialworks.com/java-ide/) available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to [open a remote folder on any remote machine, virtual machine, or container with a running SSH server](https://code.visualstudio.com/docs/remote/ssh) (also integrating nicely with [WSL](https://code.visualstudio.com/docs/remote/wsl)), [visualize data structures](https://addyosmani.com/blog/visualize-data-structures-vscode/) while debugging and can run in a lightweight version in a [web browser](https://vscode.dev/) without installing anything.
