@@ -252,23 +252,24 @@ This list does not aim by no means to be complete, nor even an exhaustive treatm
 - [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 - [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
 - Database Internals:
- - How Database Work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
- - [How does a relational database work](http://coding-geek.com/how-databases-work/)
- - Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
+  - How Database Work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
+  - [How does a relational database work](http://coding-geek.com/how-databases-work/)
+  - Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
 - Common Relational DBs:
- - Oracle Database
- - MySQL
- - Microsoft SQL Server
- - PostgreSQL
- - IBM Db2
- - SQLite
- - MariaDB
-- Non-Relational DBs (**NoSQL**) by Types:
- - Wide column: Apache Cassandra
- - Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
- - Key–value: Redis
- - Graph: Neo4J
-- Version control tools: [Liquibase](https://liquibase.org/get-started/quickstart)
+  - Oracle Database
+  - MySQL
+  - Microsoft SQL Server
+  - PostgreSQL
+  - IBM Db2
+  - SQLite
+  - MariaDB
+- Non-Relational DBs (**NoSQL**) by Type:
+  - Wide column: Apache Cassandra
+  - Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
+  - Key–value: Redis
+  - Graph: Neo4J
+- Version control tools:
+  - [Liquibase](https://liquibase.org/get-started/quickstart)
 
 ---
 
