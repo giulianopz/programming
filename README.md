@@ -203,7 +203,7 @@ This list does not aim by no means to be complete, nor even an exhaustive treatm
 - Kubernetes Operator Toolkit: Java Operator SDK ([JOSDK](https://javaoperatorsdk.io/))
 - [Native Build](https://developer.okta.com/blog/2021/06/18/native-java-framework-comparison)
 
---
+---
 
 ## Software Licenses
 - [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
