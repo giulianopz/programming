@@ -4,12 +4,12 @@
 
 ## Java
 - [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)
-- Programming Language Fundamentals[^2]:
+- Programming Language Fundamentals[^3]:
   - JRE, JDK & JVM
   - Byte Code vs. Machine Code
        - [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
   - Compiling with `javac` and Running with Arguments from CLI
-  - IDE[^3]
+  - IDE[^4]
      - [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
      - [VSCode](https://code.visualstudio.com/docs/languages/java)
      - [Debugging](https://code.visualstudio.com/docs/java/java-debugging)
