@@ -198,7 +198,11 @@ This list does not aim by no means to be complete, nor even an exhaustive treatm
  - [Monitoring Java applications: Memory usage, threads and other JRE metrics](https://sysdig.com/blog/monitoring-java-jre/)
 - Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow
 - Cloud Patterns:
- - [Spring Cloud Netflix](https://spring.io/projects/spring-cloud-netflix): **Eureka*- (Service Discovery), **Hystrix*- (Circuit Breaker), **Zuul*- (Routing), **Ribbon*- (Load Balancing)
+ - [Spring Cloud Netflix](https://spring.io/projects/spring-cloud-netflix):
+   - Eureka (Service Discovery)
+   - Hystrix (Circuit Breaker)
+   - Zuul (Routing)
+   - Ribbon (Load Balancing)
 - [Cloud Functions](https://developers.googleblog.com/2020/05/java-11-for-cloud-functions.html)
 - Kubernetes Operator Toolkit: Java Operator SDK ([JOSDK](https://javaoperatorsdk.io/))
 - [Native Build](https://developer.okta.com/blog/2021/06/18/native-java-framework-comparison)
