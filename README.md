@@ -425,6 +425,15 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
 - Unit-Testing:
    - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
    - [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
+- Libraries
+    - [Google Best Practices for Java Libraries](https://jlbp.dev/)
+- Clean Code:
+    - [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
+- Design Patterns:
+    - [Alternatives to DTO](https://blog.frankel.ch/alternatives-dto/)
+- Code Formatting:
+    - [EditorConfig](https://editorconfig.org/)
+    - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 - HTTP:
    - CORS:
      - [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
@@ -432,7 +441,7 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
      - [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
    - [The perils of the “real” client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
 - REST APIs:
-   - [OpenAPI Specification](https://spec.openapis.org/oas/v--0)
+   - [OpenAPI Specification](https://oai.github.io/Documentation/specification.html)
    - [**!OPINION**] [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
    - [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
    - [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
@@ -446,15 +455,8 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
    - [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
    - [Attack of the mutant tags!. Or why tag mutability is a real security threat](https://sysdig.com/blog/toctou-tag-mutability/)
    - [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/)
-- Libraries
-    - [Google Best Practices for Java Libraries](https://jlbp.dev/)
-- Clean Code:
-    - [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
-- Design Patterns:
-    - [Alternatives to DTO](https://blog.frankel.ch/alternatives-dto/)
-- Code Formatting:
-    - [EditorConfig](https://editorconfig.org/)
-    - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- Distributed Systems:
+  - [Fallacies of Distributed Systems](https://architecturenotes.co/fallacies-of-distributed-systems/)
 ---
 # Beyond Java and the Web
 
