@@ -544,12 +544,19 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
 
 ## Other Programming Languages
 - Rust
-  - [The Rust Programming Language](https://doc.rust-lang.org/book/index.html)
-  - [The Embedded Rust Book](https://docs.rust-embedded.org/book/index.html)
-  - [Build your own JIRA with Rust](https://github.com/LukeMathWalker/build-your-own-jira-with-rust)
-  - [Zero To Production In Rust. An introduction to backend development](https://www.zero2prod.com/index.html)
-  - [The current state of Rust web frameworks](https://blog.logrocket.com/current-state-rust-web-frameworks/)
-  - [Rust Backend vs Go Backend in Web Development](https://blog.boot.dev/golang/rust-vs-go-in-backend-web-development/)
+
+  <details>
+    <summary>links</summary>
+
+    - [The Rust Programming Language](https://doc.rust-lang.org/book/index.html)
+    - [The Embedded Rust Book](https://docs.rust-embedded.org/book/index.html)
+    - [Build your own JIRA with Rust](https://github.com/LukeMathWalker/build-your-own-jira-with-rust)
+    - [Zero To Production In Rust. An introduction to backend development](https://www.zero2prod.com/index.html)
+    - [The current state of Rust web frameworks](https://blog.logrocket.com/current-state-rust-web-frameworks/)
+    - [Rust Backend vs Go Backend in Web Development](https://blog.boot.dev/golang/rust-vs-go-in-backend-web-development/)
+
+  </details>
+
 - [GO](https://go.dev/tour/welcome/1)
 - Kotlin
 - Scala
