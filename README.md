@@ -476,7 +476,7 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
   - [Dive into Systems](https://diveintosystems.org/singlepage/)
 - Nisan and Schocken, The Elements of Computing Systems (nand2tetris)
 - Arpaci-Dusseau and Arpaci-Dusseau, Operating Systems: Three Easy Pieces
-- G.Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
+- Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
 - Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
 - Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)
