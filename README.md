@@ -4,6 +4,40 @@ This list does not aim by no means to be complete, nor even an exhaustive treatm
 
 For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management). For a broader view of what is useful/required to develop for the web, see the [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap).
 
+```mermaid
+stateDiagram-v2
+    [*] --> Java
+    Java --> Maven
+    Maven --> Libs
+
+    Java --> DesignPatterns
+    DesignPatterns --> SoftwareDesign
+    SoftwareDesign --> SystemDesign
+    Java --> Git
+    Git --> Bash
+    Bash --> Vim
+    Vim --> Linux
+    Linux --> Containers
+    Containers --> Docker/Podman
+    Docker/Podman --> Kubernetes
+    Linux --> ComputerSystems
+
+    Java --> DataStructures
+    DataStructures --> Algorithms
+
+    Java --> SQL
+    SQL --> Databases
+
+    Java --> IPC
+    IPC --> REST
+
+    IPC --> RPC
+    IPC --> GrahQL
+    IPC --> Networks
+    Networks --> Web
+    Web --> Security
+```
+
 ---
 ## Java
 - [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)
@@ -206,6 +240,7 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
    - Zuul (Routing)
    - Ribbon (Load Balancing)
 - [Cloud Functions](https://developers.googleblog.com/2020/05/java-11-for-cloud-functions.html)
+  - [Introduction to Serverless on Kubernetes](https://www.edx.org/course/introduction-to-serverless-on-kubernetes)
 - Kubernetes Operator Toolkit: Java Operator SDK ([JOSDK](https://javaoperatorsdk.io/))
 - [Native Build](https://developer.okta.com/blog/2021/06/18/native-java-framework-comparison)
 
@@ -304,9 +339,9 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
  - [Container image formats under the hood](https://snyk.io/blog/container-image-formats/)
  - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
  - [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
- - [Docker](https://www.docker.com/get-started)
+ - [Docker](https://github.com/docker/labs/tree/master/developer-tools/java)
  - [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
- - Cluster Managers:
+ - Container/Cluster Managers:
    - [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
      - Distributions:
          - Self-Managed (Local):
@@ -353,6 +388,7 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
 - [The Art Of Scripting HTTP Requests Using Curl](https://curl.haxx.se/docs/httpscripting.html)
 - [How I use cron in Linux](https://opensource.com/article/17/11/how-use-cron-linux)
 - [RegexOne. Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
+- [**!BONUS**] [Learn the ways of Linux-fu, for free](https://linuxjourney.com/)
 - [**!BONUS**] [Vim Adventures](https://vim-adventures.com/)
 - [**!BONUS**] [The Unix Game](https://www.unixgame.io/unix50)
 - [**!BONUS**] [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
@@ -399,6 +435,7 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
 - [**!OPINION**] [The Ins and Outs of Using Markdown for Technical Writing](https://document3-com/blog/markdown-for-technical-writing/)
 - [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 - [Documenting APIs: A guide for technical writers and engineers](https://idratherbewriting.com/learnapidoc/)
+- [**!OPINION**] [How Big Tech Runs Tech Projects and the Curious Absence of Scrum](https://blog.pragmaticengineer.com/project-management-at-big-tech/)
 
 ---
 
@@ -414,6 +451,7 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
 ## Best Practices & Common Pitfalls
 - Characters:
     - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+    - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
 - Dates:
     - [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
     - [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
@@ -498,6 +536,7 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
 - Raymond, The Cathedral & the Bazaar
 - Kernighan, UNIX: A History and a Memoir
 - Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security
+- Petzold, Code: The Hidden Language of Computer Hardware and Software, 2nd Edition
 - Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
 - Torvalds, Just for Fun
 - Knuth, Things a Computer Scientist Rarely Talks About
@@ -528,6 +567,8 @@ For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/a
 - [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
 - [Vicki Boykis](http://veekaybee.github.io/)
 - [Julia Evans](https://jvns.ca/)
+- [Simon Willison](https://simonwillison.net/)
+- [Gwern](https://www.gwern.net/)
 - [Ivan Velichko](https://iximiuz.com/en/)
 - [Martin Kleppmann](https://martin.kleppmann.com/)
 - [Ben Eater](https://eater.net/)
