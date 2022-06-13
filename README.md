@@ -587,18 +587,34 @@ stateDiagram-v2
 - Rust
 
   <details>
-    <summary>links</summary>
+    <summary>more</summary>
 
     - [The Rust Programming Language](https://doc.rust-lang.org/book/index.html)
     - [The Embedded Rust Book](https://docs.rust-embedded.org/book/index.html)
     - [Build your own JIRA with Rust](https://github.com/LukeMathWalker/build-your-own-jira-with-rust)
     - [Zero To Production In Rust. An introduction to backend development](https://www.zero2prod.com/index.html)
     - [The current state of Rust web frameworks](https://blog.logrocket.com/current-state-rust-web-frameworks/)
-    - [Rust Backend vs Go Backend in Web Development](https://blog.boot.dev/golang/rust-vs-go-in-backend-web-development/)
 
   </details>
 
 - [GO](https://go.dev/tour/welcome/1)
+
+    <details>
+    <summary>more</summary>
+
+    - [A Tour of Go](https://go.dev/tour/welcome/1)
+    - [Docs & Tutorials](https://go.dev/doc/)
+    - [Play with Go](https://play-with-go.dev/)
+    - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
+    - [Go by Example](https://gobyexample.com/)
+    - [Gophercises](https://gophercises.com/)
+    - [Go Roadmap](https://roadmap.sh/golang)
+    - [Awesome Go](https://github.com/avelino/awesome-go)
+    - [REST Servers in Go](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/)
+    - [Ellis, Everyday Golang](https://openfaas.gumroad.com/l/everyday-golang)
+
+  </details>
+
 - Kotlin
 - Scala
 - Python
