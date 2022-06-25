@@ -317,7 +317,6 @@ stateDiagram-v2
 ---
 
 ## Microservices, Distributed Systems & System Design
-- [**!OPINION**] [Don’t start with microservices – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
 - [From Microservices to Distributed Systems: A Survival Guide for Java Devs](https://dzone.com/articles/from-microservices-to-distributed-systems-survival)
 - [Microservices Patterns](https://microservices.io/patterns/index.html)
 - Vitillo, Understanding Distributed Systems. What every developer should know about large distributed applications
@@ -449,6 +448,7 @@ stateDiagram-v2
 - [Scrum vs Waterfall vs Agile vs Lean vs Kanban](https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/)
 - [Atlassian Tool Suite](https://datarespons.com/atlassian-suite-tools-for-every-team-and-more-agility-in-projects/)
 - [The Code Review Pyramid](https://www.morling.dev/blog/the-code-review-pyramid/)
+- [**!OPINION**] [How Big Tech Runs Tech Projects and the Curious Absence of Scrum](https://blog.pragmaticengineer.com/project-management-at-big-tech/)
 
 ---
 
@@ -471,8 +471,8 @@ stateDiagram-v2
     - [Google Best Practices for Java Libraries](https://jlbp.dev/)
 - Software Design:
     - [Alternatives to DTO](https://blog.frankel.ch/alternatives-dto/)
-    - [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
-    - [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
+    - [**!OPINION**] [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
+    - [**!OPINION**] [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
 - Code Formatting:
     - [EditorConfig](https://editorconfig.org/)
     - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
@@ -498,6 +498,7 @@ stateDiagram-v2
    - [Attack of the mutant tags!. Or why tag mutability is a real security threat](https://sysdig.com/blog/toctou-tag-mutability/)
    - [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/)
 - Distributed Systems:
+  - [**!OPINION**] [Don’t start with microservices – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
   - [Fallacies of Distributed Systems](https://architecturenotes.co/fallacies-of-distributed-systems/)
 ---
 # Beyond Java and the Web
