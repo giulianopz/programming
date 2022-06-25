@@ -42,7 +42,7 @@ stateDiagram-v2
 ## Java
 - [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)
 - Programming Language Fundamentals[^1]:
-  - JRE, JDK & JVM
+  - JRE, JDK & [JVM](https://shipilev.net/jvm/anatomy-quarks/)
   - Byte Code vs. Machine Code
        - [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
   - Compiling with `javac` and Running with Arguments from CLI
@@ -127,6 +127,8 @@ stateDiagram-v2
 - Kopec, Classic Computer Science Problems in Java
 - [Open Data Structures (in Java)](http://opendatastructures.org/ods-java/)
 - [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
+- [HackerRank](https://www.hackerrank.com/)
+- [LeetCode](https://leetcode.com/)
 
 ---
 
@@ -140,6 +142,7 @@ stateDiagram-v2
 - Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 - Beck & Fowler, Refactoring: Improving the Design of Existing Code
 - Winters et al., Software Engineering at Google: Lessons Learned from Programming Over Time
+- [**!OPINION**] [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
 - [**!BONUS**] Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
 - [**!BONUS**] Alexander et al., [The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) + [*A Pattern Language: Towns, Buildings Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
 - [**!BONUS**] Meadows, Thinking in Systems: A Primer
@@ -381,6 +384,7 @@ stateDiagram-v2
 
 ## The UNIX Toolbox
 - [Survival guide for Unix newbies ](https://matt.might.net/articles/basic-unix/)
+- [Settling into Unix](https://matt.might.net/articles/settling-into-unix/)
 - [Shell programming with bash: by example, by counter-example](https://matt.might.net/articles/bash-by-example/)
 - [Sculpting text with regex, grep, sed, awk, emacs and vim](https://matt.might.net/articles/sculpting-text/)
 - [vi Survival Guide](https://www.nuxified.org/vi_survival_guide/)
@@ -427,6 +431,7 @@ stateDiagram-v2
 - [Four Eras of JavaScript Frameworks](https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks)
 - [Move over JavaScript: Back-end languages are coming to the front-end](https://github.com/readme/featured/server-side-languages-for-front-end)
 - [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
+- [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)
 
 ---
 
@@ -575,6 +580,7 @@ stateDiagram-v2
 - [Sam Zeloof](http://sam.zeloof.xyz/)
 - [Box of Cables](https://boxofcables.dev/)
 - [antirez](http://antirez.com/latest/0)
+- [The Buckblog, assorted ramblings by Jamis Buck]([java-be-learning-path.md](https://weblog.jamisbuck.org/))
 - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
 - [JDeploy](https://jdeploy.substack.com/archive)
 - [Baeldung Weekly Review](https://www.baeldung.com/category/weekly-review/)
