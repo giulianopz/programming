@@ -142,7 +142,6 @@ stateDiagram-v2
 - Martin, Clean Code: A Handbook of Agile Software Craftsmanship
 - Beck & Fowler, Refactoring: Improving the Design of Existing Code
 - Winters et al., Software Engineering at Google: Lessons Learned from Programming Over Time
-- [**!OPINION**] [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
 - [**!BONUS**] Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
 - [**!BONUS**] Alexander et al., [The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) + [*A Pattern Language: Towns, Buildings Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
 - [**!BONUS**] Meadows, Thinking in Systems: A Primer
@@ -470,10 +469,10 @@ stateDiagram-v2
    - [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
 - Libraries
     - [Google Best Practices for Java Libraries](https://jlbp.dev/)
-- Clean Code:
-    - [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
-- Design Patterns:
+- Software Design:
     - [Alternatives to DTO](https://blog.frankel.ch/alternatives-dto/)
+    - [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
+    - [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
 - Code Formatting:
     - [EditorConfig](https://editorconfig.org/)
     - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
