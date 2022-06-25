@@ -580,7 +580,7 @@ stateDiagram-v2
 - [Sam Zeloof](http://sam.zeloof.xyz/)
 - [Box of Cables](https://boxofcables.dev/)
 - [antirez](http://antirez.com/latest/0)
-- [The Buckblog, assorted ramblings by Jamis Buck]([java-be-learning-path.md](https://weblog.jamisbuck.org/))
+- [The Buckblog, assorted ramblings by Jamis Buck](https://weblog.jamisbuck.org/)
 - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
 - [JDeploy](https://jdeploy.substack.com/archive)
 - [Baeldung Weekly Review](https://www.baeldung.com/category/weekly-review/)
@@ -609,15 +609,9 @@ stateDiagram-v2
     <summary>more</summary>
 
     - [A Tour of Go](https://go.dev/tour/welcome/1)
-    - [Docs & Tutorials](https://go.dev/doc/)
-    - [Play with Go](https://play-with-go.dev/)
     - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
-    - [Go by Example](https://gobyexample.com/)
-    - [Gophercises](https://gophercises.com/)
     - [Go Roadmap](https://roadmap.sh/golang)
     - [Awesome Go](https://github.com/avelino/awesome-go)
-    - [REST Servers in Go](https://eli.thegreenplace.net/2021/rest-servers-in-go-part-1-standard-library/)
-    - [Ellis, Everyday Golang](https://openfaas.gumroad.com/l/everyday-golang)
 
   </details>
 
