@@ -107,7 +107,8 @@ stateDiagram-v2
        - [Applying Concurrency and Multi-threading to Common Java Patterns](https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading)
        - [Advanced Java Concurrent Patterns](https://www.pluralsight.com/courses/java-concurrent-patterns-advanced)
        - [Java Fundamentals: Asynchronous Programming Using CompletionStage](https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage)
-       - [**!WIP**] [Project Loom](https://cr.openjdk.java.net/~rpressler/loom/Loom-Proposal.html)
+       - [**!WIP**] [Project Loom](https://openjdk.org/jeps/425)
+         - [**!WARNING**] [Loom and Thread Fairness](https://www.morling.dev/blog/loom-and-thread-fairness/)
    - Reactive Programming
        - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
        - [The Essence of Reactive Programming in Java](https://www.scnsoft.com/blog/java-reactive-programming)
@@ -582,10 +583,11 @@ stateDiagram-v2
 - [antirez](http://antirez.com/latest/0)
 - [The Buckblog, assorted ramblings by Jamis Buck](https://weblog.jamisbuck.org/)
 - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
-- [JDeploy](https://jdeploy.substack.com/archive)
-- [Baeldung Weekly Review](https://www.baeldung.com/category/weekly-review/)
+- [Coding Horror](https://blog.codinghorror.com/)
 - [Opensource.com](https://opensource.com/)
 - [Enable Sysadmin](https://www.redhat.com/sysadmin/welcome-enable-sysadmin)
+- [Baeldung Weekly Review](https://www.baeldung.com/category/weekly-review/)
+- [JDeploy](https://jdeploy.substack.com/archive)
 
 ---
 
