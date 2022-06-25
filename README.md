@@ -603,7 +603,7 @@ stateDiagram-v2
 
   </details>
 
-- [GO](https://go.dev/tour/welcome/1)
+- GO
 
     <details>
     <summary>more</summary>
