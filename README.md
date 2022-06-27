@@ -259,42 +259,45 @@ stateDiagram-v2
 ## Inter-Process Communication (IPC)
 - [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
 - Approaches:
- - Legacy Technologies:
-   - Simple Object Access Protocol (SOAP)
-   - Remote Method Invocation (RMI)
-   - Common Object Request Broker Architecture (CORBA)
- - Synchronous Communication:
-   - Representational state transfer (REST)
-   - [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
-   - [gRPC](../luoghi/cibo/veneto.csv)
-   - [Falcor](https://netflix.github.io/falcor/starter/what-is-falcor.html)
- - Asynchronous Communication:
-   - Message Queues
-   - Publish–Subscribe Pattern
+  - Legacy Technologies:
+    - Simple Object Access Protocol (SOAP)
+    - Remote Method Invocation (RMI)
+    - Common Object Request Broker Architecture (CORBA)
+  - Synchronous Communication:
+    - Representational state transfer (REST)
+    - [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
+    - [gRPC](../luoghi/cibo/veneto.csv)
+    - [Falcor](https://netflix.github.io/falcor/starter/what-is-falcor.html)
+  - Asynchronous Communication:
+    - Message Queues
+    - Publish–Subscribe Pattern
 - Protocols:
- - Sockets:
-   - Network Sockets:
-     - TCP
-       - [HTTP/-1, HTTP/2 and HTTP/3](https://medium.com/@sandeep-verma/http-1-to-http-2-to-http-3-647e73df67a8)
-       - [WebSocket](https://www.baeldung.com/java-websockets)
-     - [UDP](https://www.baeldung.com/udp-in-java)
-   - [Unix Domain Sockets](https://nipafx.dev/java-unix-domain-sockets/)
- - Messaging:
-   - AMQP
-   - MQTT
-   - STOMP
+  - Sockets:
+    - Network Sockets:
+      - TCP
+        - [HTTP/-1, HTTP/2 and HTTP/3](https://medium.com/@sandeep-verma/http-1-to-http-2-to-http-3-647e73df67a8)
+        - [WebSocket](https://www.baeldung.com/java-websockets)
+      - [UDP](https://www.baeldung.com/udp-in-java)
+    - [Unix Domain Sockets](https://nipafx.dev/java-unix-domain-sockets/)
+  - Messaging:
+    - AMQP
+    - MQTT
+    - STOMP
 - [Gough et al., Mastering API Architecture](https://www.oreilly.com/library/view/mastering-api-architecture/9781492090625/)
+- [**!BONUS**] [Free Public APIs for Developers](https://rapidapi.com/collection/list-of-free-apis)
+- [Difference between SPI and API](https://stackoverflow.com/questions/2954372/difference-between-spi-and-api)
 
 ---
 
 ## Databases & SQL
 - [**!BONUS**] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
+- [**!BONUS**] [Introduction to SQL](https://sqlbolt.com/)
 - Basic Concepts:
- - [Database Normalization Basics](https://www.lifewire.com/database-normalization-basics-1019735)
- - [Database Indexes Explained](https://www.essentialsql.com/what-is-a-database-index/)
- - [Table Compression and Partitioning](https://docs.oracle.com/en/database/oracle/oracle-database/21/vldbg/partition-table-compression.html#GUID-F26AFD78-DC1D-4E6B-9B37-375C59FD1787)
-- [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
-- [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
+  - [Database Normalization Basics](https://www.lifewire.com/database-normalization-basics-1019735)
+  - [Database Indexes Explained](https://www.essentialsql.com/what-is-a-database-index/)
+  - [Table Compression and Partitioning](https://docs.oracle.com/en/database/oracle/oracle-database/21/vldbg/partition-table-compression.html#GUID-F26AFD78-DC1D-4E6B-9B37-375C59FD1787)
+  - [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
+  - [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
 - Database Internals:
   - How Database Work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
   - [How does a relational database work](http://coding-geek.com/how-databases-work/)
@@ -587,7 +590,8 @@ stateDiagram-v2
 - [Opensource.com](https://opensource.com/)
 - [Enable Sysadmin](https://www.redhat.com/sysadmin/welcome-enable-sysadmin)
 - [Baeldung Weekly Review](https://www.baeldung.com/category/weekly-review/)
-- [JDeploy](https://jdeploy.substack.com/archive)
+- [Architecture Notes](https://architecturenotes.co/)
+- [ByteByteGo, by Alex Xu](https://blog.bytebytego.com/?utm_source=site)
 
 ---
 
