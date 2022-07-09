@@ -130,6 +130,7 @@ stateDiagram-v2
 - [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 - [HackerRank](https://www.hackerrank.com/)
 - [LeetCode](https://leetcode.com/)
+- [**!BONUS**] [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 
 ---
 
@@ -502,8 +503,12 @@ stateDiagram-v2
    - [Attack of the mutant tags!. Or why tag mutability is a real security threat](https://sysdig.com/blog/toctou-tag-mutability/)
    - [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/)
 - Distributed Systems:
-  - [**!OPINION**] [Don’t start with microservices – monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
+  - [**!OPINION**] [Don't start with microservices - monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
   - [Fallacies of Distributed Systems](https://architecturenotes.co/fallacies-of-distributed-systems/)
+  - [You Are Not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb)
+  - [Microservices and the Big Ball of Mud](https://www.infoq.com/news/2014/08/microservices_ballmud/)
+- Miscellanea:
+  - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
 ---
 # Beyond Java and the Web
 
@@ -524,6 +529,7 @@ stateDiagram-v2
 - Nisan and Schocken, The Elements of Computing Systems (nand2tetris)
 - Arpaci-Dusseau and Arpaci-Dusseau, Operating Systems: Three Easy Pieces
 - Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
+- [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
 - Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
 - Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)
@@ -584,6 +590,7 @@ stateDiagram-v2
 - [Sam Zeloof](http://sam.zeloof.xyz/)
 - [Box of Cables](https://boxofcables.dev/)
 - [antirez](http://antirez.com/latest/0)
+- [The Lunduke Journal of Technology](https://lunduke.substack.com/)
 - [The Buckblog, assorted ramblings by Jamis Buck](https://weblog.jamisbuck.org/)
 - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
 - [Coding Horror](https://blog.codinghorror.com/)
@@ -592,6 +599,7 @@ stateDiagram-v2
 - [Baeldung Weekly Review](https://www.baeldung.com/category/weekly-review/)
 - [Architecture Notes](https://architecturenotes.co/)
 - [ByteByteGo, by Alex Xu](https://blog.bytebytego.com/?utm_source=site)
+- [The History of the Web](https://thehistoryoftheweb.com/)
 
 ---
 
@@ -616,6 +624,7 @@ stateDiagram-v2
 
     - [A Tour of Go](https://go.dev/tour/welcome/1)
     - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
+    - [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
     - [Go Roadmap](https://roadmap.sh/golang)
     - [Awesome Go](https://github.com/avelino/awesome-go)
 
