@@ -1,8 +1,10 @@
 # Java back-end web development
 
-This list does not aim by no means to be complete, nor even an exhaustive treatment of the topic, since it's based just on my personal (limited) experience and it's more oriented to offer a roughly sketched learning path to get into Java for server-side programming with web development in mind mentioning the most relevant concepts and tools a newbie can encounter in his/her work routine.
+This list does not aim by no means to be complete, since just based on my personal (limited) experience. It's rather meant to offer a roughly sketched learning path to get into Java for server-side programming with web development in mind: it mentions the most relevant concepts and tools a newbie can encounter in his/her work routine as a Java developer. The last sections tries to go beyond Java.
 
-For a mere list of stuff regarding Java, see [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management). For a broader view of what is useful/required to develop for the web, see the [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap).
+Other stuff you may like:
+- [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management): a huge list of stuff regarding Java
+- [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap): for a broader view of what is useful/required to develop for the web, in general.
 
 ```mermaid
 stateDiagram-v2
@@ -610,7 +612,7 @@ stateDiagram-v2
 ## Other Programming Languages
 - Rust
 
-  <details>
+<details>
     <summary>more</summary>
 
     - [The Rust Programming Language](https://doc.rust-lang.org/book/index.html)
@@ -636,8 +638,9 @@ stateDiagram-v2
 
 - Kotlin
 - Scala
-- Python
 - Ruby
+- Python
+- Nim
 
 ---
 
