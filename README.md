@@ -32,7 +32,7 @@ stateDiagram-v2
     IPC --> REST
 
     IPC --> RPC
-    IPC --> GrahQL
+    IPC --> GraphQL
     IPC --> Networks
     Networks --> Web
     Web --> Security
