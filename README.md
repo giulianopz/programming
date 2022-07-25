@@ -4,8 +4,10 @@ This list does not aim by no means to be complete, since just based on my person
 
 Other stuff you may like:
 - [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management): a huge list of stuff regarding Java
-- [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap): for a broader view of what is useful/required to develop for the web, in general.
+- [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap): for a more general view of what is useful/required to develop for the web.
 
+
+Below you can find a visual summary of the list:
 ```mermaid
 stateDiagram-v2
     [*] --> Java
