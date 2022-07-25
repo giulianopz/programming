@@ -614,7 +614,7 @@ stateDiagram-v2
 ## Other Programming Languages
 - Rust
 
-<details>
+  <details>
     <summary>more</summary>
 
     - [The Rust Programming Language](https://doc.rust-lang.org/book/index.html)
