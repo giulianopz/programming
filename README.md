@@ -457,7 +457,7 @@ stateDiagram-v2
 
 ---
 
-## Best Practices & Common Pitfalls
+## Best Practices, Common Pitfalls & Basic Facts People Often Ignore
 - Characters:
     - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
@@ -466,6 +466,8 @@ stateDiagram-v2
     - [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
     - [Storing UTC is not a silver bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
     - [Designing a REST API: Unix time vs ISO-8601](https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601)
+- Numbers:
+  - [Floating Point Math](https://0.30000000000000004.com/)
 - RegEx:
     - [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
     - [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
@@ -486,7 +488,7 @@ stateDiagram-v2
      - [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
      - [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
      - [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
-   - [The perils of the “real” client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
+   - [The perils of the "real" client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
 - REST APIs:
    - [OpenAPI Specification](https://oai.github.io/Documentation/specification.html)
    - [**!OPINION**] [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
@@ -509,6 +511,8 @@ stateDiagram-v2
   - [Microservices and the Big Ball of Mud](https://www.infoq.com/news/2014/08/microservices_ballmud/)
 - Miscellanea:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
+  - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
+  - [What happens when you load a URL?](https://danluu.com/navigate-url/)
 ---
 # Beyond Java and the Web
 
