@@ -157,7 +157,6 @@ stateDiagram-v2
 
 ## Most Popular Libraries, Frameworks and Tools for Java
 - [**!BONUS**] [Technology Radar. An opinionated guide to technology frontiers](https://www.thoughtworks.com/radar)
-- Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
  - [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
  - [Mapped Diagnostic Context (MDC)](https://www.baeldung.com/mdc-in-log4j-2-logback)
 - Boilerplate Code Auto-generation: [Project Lombok](https://projectlombok.org/)
@@ -234,8 +233,13 @@ stateDiagram-v2
      - [**Testcontainers**](https://www.testcontainers.org/)
    - E2E Testing:
      - [**Selenium**](https://www.selenium.dev/documentation/guidelines/)
-- Log Aggregation: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana), Fluentd
-- Dynamic Instrumentation, Performance Monitoring and Distributed Tracing: Apache JMeter, OpenTracing, Jaeger, Prometheus + Grafana
+- Observability: 
+  - Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
+    - Log Aggregation: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana), Fluentd
+  - Metrics: Prometheus + Grafana
+  - Tracing: OpenTelemetry (Jaeger)
+    - [Deprecating OpenTracing](https://github.com/opentracing/specification/issues/163)
+  - Performance: Apache JMeter
 - Thread and Memory Monitoring:
  - [How to Get the Number of Threads in a Java Process](https://www.baeldung.com/java-get-number-of-threads)
  - [JConsole](https://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html)
