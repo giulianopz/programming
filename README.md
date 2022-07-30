@@ -429,13 +429,17 @@ stateDiagram-v2
 ## Networking, Web & Browsers
 - [What is a network?](https://study-ccna.com/what-is-a-network/)
 - [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
-- [SSL Termination](https://avinetworks.com/glossary/ssl-termination/)
+- [Introduction to Networks](https://cs.lmu.edu/~ray/notes/netsandinets/)
+- [Daryl's TCP/IP Primer](https://www.ipprimer.com/#/)
+- [Packet Traveling](https://www.practicalnetworking.net/series/packet-traveling/packet-traveling/)
+- [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html)
 - [Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
 - Sanders, Practical Packet Analysis
 - [SRE books](https://sre.google/books/)
 - [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
 - [**!BONUS**] [Web Browser Engineering](https://browser.engineering/)
 - [**!BONUS**] [HTTP Toolkit](https://httptoolkit.tech/)
+- [SSL Termination](https://avinetworks.com/glossary/ssl-termination/)
 - [Web scraping](https://scrapism.lav.io/)
 - [Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
 - [The Modern JavaScript Tutorial](https://javascript.info/)
@@ -549,6 +553,8 @@ stateDiagram-v2
 - Knuth, Patashnik, and Graham, Concrete Mathematics: A Foundation for Computer Science
 - Bishop, Pattern Recognition and Machine Learning
 - Norvig, Paradigms of Artificial Intelligence Programming
+- Tanenbaum and Wetherall, Computer Networks (6ed)
+- Kurose and Ross, Computer Networking: A Top-Down Approach
 
 ---
 
