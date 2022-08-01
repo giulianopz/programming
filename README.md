@@ -107,7 +107,7 @@ stateDiagram-v2
    - Generics
    - Reflection
    - Concurrency, Multi-threading, Parallelism and Asynchronus Programming:
-       - [5 Things You Probably Didn’t Know About Java Concurrency](https://foojay.io/today/5-things-you-probably-didnt-know-about-java-concurrency/?utm_content=202308183&utm_medium=social&utm_source=twitter&hss_channel=tw-2599580401)
+       - [5 Things You Probably Didn't Know About Java Concurrency](https://foojay.io/today/5-things-you-probably-didnt-know-about-java-concurrency/?utm_content=202308183&utm_medium=social&utm_source=twitter&hss_channel=tw-2599580401)
        - [Applying Concurrency and Multi-threading to Common Java Patterns](https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading)
        - [Advanced Java Concurrent Patterns](https://www.pluralsight.com/courses/java-concurrent-patterns-advanced)
        - [Java Fundamentals: Asynchronous Programming Using CompletionStage](https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage)
@@ -261,7 +261,7 @@ stateDiagram-v2
 ## Software Licenses
 - [Software Licenses: Overview and Recommendations for Developers ](https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/)
 - [Software Licenses in Plain English](https://tldrlegal.com/)
-- [A Beginner’s Guide to Open Source Software Development (LFD102)](https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/)
+- [A Beginner's Guide to Open Source Software Development (LFD102)](https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/)
 
 ---
 
@@ -279,7 +279,7 @@ stateDiagram-v2
     - [Falcor](https://netflix.github.io/falcor/starter/what-is-falcor.html)
   - Asynchronous Communication:
     - Message Queues
-    - Publish–Subscribe Pattern
+    - Publish-Subscribe Pattern
 - Protocols:
   - Sockets:
     - Network Sockets:
@@ -322,7 +322,7 @@ stateDiagram-v2
 - Non-Relational DBs (**NoSQL**) by Type:
   - Wide column: Apache Cassandra
   - Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
-  - Key–value: Redis
+  - Key-value: Redis
   - Graph: Neo4J
 - Version control tools:
   - [Liquibase](https://liquibase.org/get-started/quickstart)
@@ -510,7 +510,7 @@ stateDiagram-v2
    - [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
    - [The HTTP QUERY Method](https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body--html)
 - Web:
-   - [To www or not to www – Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
+   - [To www or not to www - Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
    - [Making Websites Small](https://santurcesoftware.com/making-web-sites-small)
 - Containers:
    - [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
@@ -521,6 +521,8 @@ stateDiagram-v2
   - [Fallacies of Distributed Systems](https://architecturenotes.co/fallacies-of-distributed-systems/)
   - [You Are Not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb)
   - [Microservices and the Big Ball of Mud](https://www.infoq.com/news/2014/08/microservices_ballmud/)
+- Networks:
+  - [ICMP, Ping, and Traceroute - What I Wish I Was Taught](https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/)
 - Miscellanea:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
@@ -559,7 +561,7 @@ stateDiagram-v2
 ---
 
 ## Math
-- [Kun, A Programmer’s Introduction to Mathematics](https://pimbook.org/)
+- [Kun, A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
 - [3Blue1Brown](https://www.youtube.com/c/3blue1brown/videos)
 - [Khan Academy](https://www.khanacademy.org/math)
