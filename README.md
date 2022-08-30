@@ -236,7 +236,7 @@ stateDiagram-v2
 - Observability: 
   - Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
     - Log Aggregation: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana), Fluentd
-  - Metrics: Prometheus + Grafana
+  - Metrics: [Prometheus](https://prometheus.io/docs/tutorials/getting_started/) + Grafana
   - Tracing: OpenTelemetry (Jaeger)
     - [Deprecating OpenTracing](https://github.com/opentracing/specification/issues/163)
   - Performance: Apache JMeter
@@ -302,6 +302,7 @@ stateDiagram-v2
 - [**!BONUS**] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
 - [**!BONUS**] [Introduction to SQL](https://sqlbolt.com/)
 - Basic Concepts:
+  - [Things You Should Know About Databases](https://architecturenotes.co/things-you-should-know-about-databases/)
   - [Database Normalization Basics](https://www.lifewire.com/database-normalization-basics-1019735)
   - [Database Indexes Explained](https://www.essentialsql.com/what-is-a-database-index/)
   - [Table Compression and Partitioning](https://docs.oracle.com/en/database/oracle/oracle-database/21/vldbg/partition-table-compression.html#GUID-F26AFD78-DC1D-4E6B-9B37-375C59FD1787)
@@ -322,7 +323,7 @@ stateDiagram-v2
 - Non-Relational DBs (**NoSQL**) by Type:
   - Wide column: Apache Cassandra
   - Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
-  - Key-value: Redis
+  - Key-value: [Redis](https://architecturenotes.co/redis/)
   - Graph: Neo4J
 - Version control tools:
   - [Liquibase](https://liquibase.org/get-started/quickstart)
@@ -341,6 +342,7 @@ stateDiagram-v2
 - [Testing Distributed Systems](https://asatarin.github.io/testing-distributed-systems/)
 - [The System Design Template I Use](https://adityarohilla.com/2022/03/22/the-system-design-template-i-use/)
 - [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
+- [Architecture Playbook](https://nocomplexity.com/documents/arplaybook/introduction.html)
 
 ---
 
@@ -479,7 +481,9 @@ stateDiagram-v2
     - [Storing UTC is not a silver bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
     - [Designing a REST API: Unix time vs ISO-8601](https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601)
 - Numbers:
-  - [Floating Point Math](https://0.30000000000000004.com/)
+    - [Floating Point Math](https://0.30000000000000004.com/)
+    - [**!BONUS**] [Float Toy](https://evanw.github.io/float-toy/)
+    - [Why do arrays start at 0?](https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/)
 - RegEx:
     - [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
     - [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
@@ -540,14 +544,16 @@ stateDiagram-v2
 
 ---
 
-## Fundamentals of CS
+## Classics & Bibles
 - Sussman & Abelson, Structure and Interpretation of Computer Programs (SICP)
 - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
-  - [Dive into Systems](https://diveintosystems.org/singlepage/)
+  - [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
 - Nisan and Schocken, The Elements of Computing Systems (nand2tetris)
 - Arpaci-Dusseau and Arpaci-Dusseau, Operating Systems: Three Easy Pieces
+- Tanenbaum and Bos, Modern Operating Systems
 - Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
 - [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
+- [Rubini, Linux Device Drivers](https://lwn.net/Kernel/LDD3/)
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
 - Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
 - Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)
@@ -556,7 +562,6 @@ stateDiagram-v2
 - Bishop, Pattern Recognition and Machine Learning
 - Norvig, Paradigms of Artificial Intelligence Programming
 - Tanenbaum and Wetherall, Computer Networks (6ed)
-- Kurose and Ross, Computer Networking: A Top-Down Approach
 
 ---
 
@@ -596,7 +601,7 @@ stateDiagram-v2
 
 ---
 
-## Blogs, Forums, YT Channels, Newsletters
+## Blogs, Forums, YT Channels, Newsletters, Podcasts
 - [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
 - [Hacker News](https://news.ycombinator.com/)
 - [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
@@ -620,6 +625,7 @@ stateDiagram-v2
 - [Architecture Notes](https://architecturenotes.co/)
 - [ByteByteGo, by Alex Xu](https://blog.bytebytego.com/?utm_source=site)
 - [The History of the Web](https://thehistoryoftheweb.com/)
+- [Happy Path Programming](https://anchor.fm/happypathprogramming/episodes/66-The-Journey-to-Rust-with-Christopher-Hunt-e1meaqh)
 
 ---
 
