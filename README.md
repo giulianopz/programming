@@ -419,6 +419,7 @@ stateDiagram-v2
 - [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
 - Identity, Claims, & Tokens. An OpenID Connect Primer: [1](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1), [2](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-2), [3](https://developer.okta.com/blog/2017/08/01/oidc-primer-part-3)
 - [JWT](https://jwt.io/)
+- [Awesome Web Security Awesome](https://github.com/qazbnm456/awesome-web-security)
 - McDonald, *Web Security for Developers*
 - Zalewski, *Tangled Web. A Guide to Securing Modern Web Applications*
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
@@ -573,7 +574,8 @@ stateDiagram-v2
 
 ## CS/FOSS History and Hacking/Cyberpunk Culture
 - Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. italian version, [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
-- Raymond, The Cathedral & the Bazaar
+- [ESR, How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html#why_this)
+- ESR, The Cathedral & the Bazaar
 - Kernighan, UNIX: A History and a Memoir
 - Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security
 - Petzold, Code: The Hidden Language of Computer Hardware and Software, 2nd Edition
@@ -622,6 +624,7 @@ stateDiagram-v2
 - [Opensource.com](https://opensource.com/)
 - [Enable Sysadmin](https://www.redhat.com/sysadmin/welcome-enable-sysadmin)
 - [Baeldung Weekly Review](https://www.baeldung.com/category/weekly-review/)
+- [Java Annotated](https://blog.jetbrains.com/idea/tag/java-annotated/)
 - [Architecture Notes](https://architecturenotes.co/)
 - [ByteByteGo, by Alex Xu](https://blog.bytebytego.com/?utm_source=site)
 - [The History of the Web](https://thehistoryoftheweb.com/)
@@ -649,7 +652,7 @@ stateDiagram-v2
     <summary>more</summary>
 
     - [A Tour of Go](https://go.dev/tour/welcome/1)
-    - [Learn Web Programming in Go by Examples](https://gowebexamples.com/)
+    - [Go by Example](https://gobyexample.com/)
     - [Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/)
     - [Go Roadmap](https://roadmap.sh/golang)
     - [Awesome Go](https://github.com/avelino/awesome-go)
@@ -665,8 +668,10 @@ stateDiagram-v2
 ---
 
 ## Getting Closer to the Metal
+- [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
 - [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
 - [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
+- [**!BONUS**] [Post-apocalyptic programming](https://zserge.com/posts/post-apocalyptic-programming/)
 
 ## Career Advice
 - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
