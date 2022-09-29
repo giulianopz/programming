@@ -550,7 +550,7 @@ stateDiagram-v2
 ## Classics & Bibles
 - Sussman & Abelson, Structure and Interpretation of Computer Programs (SICP)
 - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
-  - [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
+- [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
 - Nisan and Schocken, The Elements of Computing Systems (nand2tetris)
 - Arpaci-Dusseau and Arpaci-Dusseau, Operating Systems: Three Easy Pieces
 - Tanenbaum and Bos, Modern Operating Systems
