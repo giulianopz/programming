@@ -233,6 +233,8 @@ stateDiagram-v2
      - [**Testcontainers**](https://www.testcontainers.org/)
    - E2E Testing:
      - [**Selenium**](https://www.selenium.dev/documentation/guidelines/)
+   - Mutation Testing:
+     - [Pitest](https://pitest.org/)
 - Observability: 
   - Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
     - Log Aggregation: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana), Fluentd
@@ -557,6 +559,7 @@ stateDiagram-v2
 - [Rubini, Linux Device Drivers](https://lwn.net/Kernel/LDD3/)
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
 - Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
+- [**!FUTURE CLASSIC**] [Nystrom, Crafting Interpreters](https://craftinginterpreters.com/)
 - Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)
 - Kernighan and Ritchie, The C Programming Language
 - Knuth, Patashnik, and Graham, Concrete Mathematics: A Foundation for Computer Science
@@ -615,6 +618,7 @@ stateDiagram-v2
 - [Martin Kleppmann](https://martin.kleppmann.com/)
 - [Ben Eater](https://eater.net/)
 - [Sam Zeloof](http://sam.zeloof.xyz/)
+- [Paolo Aliverti](https://www.youtube.com/c/paoloaliverti/featured) [ITA]
 - [Box of Cables](https://boxofcables.dev/)
 - [antirez](http://antirez.com/latest/0)
 - [The Lunduke Journal of Technology](https://lunduke.substack.com/)
