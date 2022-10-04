@@ -407,6 +407,7 @@ stateDiagram-v2
 - [The Art Of Scripting HTTP Requests Using Curl](https://curl.haxx.se/docs/httpscripting.html)
 - [How I use cron in Linux](https://opensource.com/article/17/11/how-use-cron-linux)
 - [RegexOne. Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
+- [Cosmopolitan Libc](https://justine.lol/cosmopolitan/functions.html)
 - [**!BONUS**] [Learn the ways of Linux-fu, for free](https://linuxjourney.com/)
 - [**!BONUS**] [Vim Adventures](https://vim-adventures.com/)
 - [**!BONUS**] [The Unix Game](https://www.unixgame.io/unix50)
@@ -563,6 +564,7 @@ stateDiagram-v2
 - Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)
 - Kernighan and Ritchie, The C Programming Language
 - Knuth, Patashnik, and Graham, Concrete Mathematics: A Foundation for Computer Science
+- Knuth, The Art of Computer Programming
 - Bishop, Pattern Recognition and Machine Learning
 - Norvig, Paradigms of Artificial Intelligence Programming
 - Tanenbaum and Wetherall, Computer Networks (6ed)
