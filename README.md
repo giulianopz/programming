@@ -1,11 +1,6 @@
 # Java back-end web development
 
-This list does not aim by no means to be complete, since just based on my personal (limited) experience. It's rather meant to offer a roughly sketched learning path to get into Java for server-side programming with web development in mind: it mentions the most relevant concepts and tools a newbie can encounter in his/her work routine as a Java developer. The last sections tries to go beyond Java.
-
-Other stuff you may like:
-- [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management): a huge list of stuff regarding Java
-- [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap): for a more general view of what is useful/required to develop for the web.
-
+Just a raw list, based on my personal (limited) experience, meant to offer a roughly sketched learning path to get into Java for server-side programming with web development in mind: it mentions the most relevant concepts and tools a newbie can encounter in his/her work routine as a Java developer[^1]. The last sections goes well beyond Java.
 
 Below you can find a visual summary of the list:
 ```mermaid
@@ -45,12 +40,12 @@ stateDiagram-v2
 ---
 ## Java
 - [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)
-- Programming Language Fundamentals[^1]:
+- Programming Language Fundamentals[^2]:
   - JRE, JDK & [JVM](https://shipilev.net/jvm/anatomy-quarks/)
   - Byte Code vs. Machine Code
        - [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
   - Compiling with `javac` and Running with Arguments from CLI
-  - IDE[^2]
+  - IDE[^3]
      - [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
      - [VSCode](https://code.visualstudio.com/docs/languages/java)
      - [Debugging](https://code.visualstudio.com/docs/java/java-debugging)
@@ -222,7 +217,7 @@ stateDiagram-v2
  - [**Eclipse Vert.x**](https://vertx.io/docs/vertx-core/java/)
  - [**Netty**](https://medium.com/geekculture/a-tour-of-netty-5020ecee5494)
 - Test-Driven Development:
-   - Unit/Integration Testing:
+   - Unit Testing:
      - [**JUnit 5**](https://www.baeldung.com/junit-5)
      - [**Mockito**](https://www.baeldung.com/mockito-series)
      - [**Hamcrest**](http://hamcrest.org/JavaHamcrest/tutorial)
@@ -233,6 +228,8 @@ stateDiagram-v2
      - [**Testcontainers**](https://www.testcontainers.org/)
    - E2E Testing:
      - [**Selenium**](https://www.selenium.dev/documentation/guidelines/)
+   - Fuzz Testing:
+     - [Jazzer](https://www.code-intelligence.com/blog/fuzz-targets-jazzer)
    - Mutation Testing:
      - [Pitest](https://pitest.org/)
 - Observability: 
@@ -531,8 +528,11 @@ stateDiagram-v2
   - [Microservices and the Big Ball of Mud](https://www.infoq.com/news/2014/08/microservices_ballmud/)
 - Networks:
   - [ICMP, Ping, and Traceroute - What I Wish I Was Taught](https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/)
+- Performance:
+  - [Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832)
 - Miscellanea:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
+  - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
   - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
   - [What happens when you load a URL?](https://danluu.com/navigate-url/)
 ---
@@ -665,11 +665,15 @@ stateDiagram-v2
 
   </details>
 
-- Kotlin
-- Scala
-- Ruby
-- Python
-- Nim
+- [C/C++](https://www.toptal.com/c/the-ultimate-list-of-resources-to-learn-c-and-c-plus-plus)
+- [Kotlin](https://kotlinlang.org/docs/getting-started.html)
+- [Scala](https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
+- [Ruby](https://www.ruby-lang.org/en/documentation/quickstart/)
+- [Python](https://docs.python.org/3/tutorial/)
+- [Nim](https://nim-lang.org/docs/tut1.html)
+- [Erlang](https://www.erlang.org/doc/getting_started/intro.html#prerequisites)
+- [elixir](https://elixir-lang.org/getting-started/introduction.html)
+- [Zig](https://ziglang.org/learn/overview/)
 
 ---
 
@@ -683,6 +687,10 @@ stateDiagram-v2
 - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 
-[^1]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by Wayne and Sedgewick.
+[^1]: Other similar stuff you may find useful: 
+- [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management), a huge list of stuff regarding Java
+- [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap), for a more general view of what is useful/required to develop for the web.
 
-[^2]: There's a number of [IDEs](https://www.tutorialworks.com/java-ide/) available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to [open a remote folder on any remote machine, virtual machine, or container with a running SSH server](https://code.visualstudio.com/docs/remote/ssh) (also integrating nicely with [WSL](https://code.visualstudio.com/docs/remote/wsl)), [visualize data structures](https://addyosmani.com/blog/visualize-data-structures-vscode/) while debugging and can run in a lightweight version in a [web browser](https://vscode.dev/) without installing anything.
+[^2]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by Wayne and Sedgewick.
+
+[^3]: There's a number of [IDEs](https://www.tutorialworks.com/java-ide/) available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to [open a remote folder on any remote machine, virtual machine, or container with a running SSH server](https://code.visualstudio.com/docs/remote/ssh) (also integrating nicely with [WSL](https://code.visualstudio.com/docs/remote/wsl)), [visualize data structures](https://addyosmani.com/blog/visualize-data-structures-vscode/) while debugging and can run in a lightweight version in a [web browser](https://vscode.dev/) without installing anything.
