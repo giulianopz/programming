@@ -687,9 +687,7 @@ stateDiagram-v2
 - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 
-[^1]: Other similar stuff you may find useful: 
-- [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management), a huge list of stuff regarding Java
-- [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap), for a more general view of what is useful/required to develop for the web.
+[^1]: Other similar stuff you may find useful: [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management) (huge list of stuff regarding Java), [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap) (more general view of what is useful/required to develop for the web).
 
 [^2]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by Wayne and Sedgewick.
 
