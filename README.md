@@ -1,8 +1,8 @@
 # Java back-end web development
 
-Just a raw list, based on my personal (limited) experience, meant to offer a roughly sketched learning path to get into Java for server-side programming with web development in mind: it mentions the most relevant concepts and tools a newbie can encounter in his/her work routine as a Java developer[^1]. The last sections goes well beyond Java.
+Just a raw list, based on my personal (limited) experience, meant to offer a roughly sketched learning path to get into Java for server-side programming for the web: it mentions the most relevant concepts and tools a newbie can encounter in his/her work routine as a Java developer[^1]. The last sections goes well beyond Java.
 
-Below you can find a visual summary of the list:
+Below you can find a visual summary of the main topics discussed in this list:
 ```mermaid
 stateDiagram-v2
     [*] --> Java
@@ -472,7 +472,7 @@ stateDiagram-v2
 
 ---
 
-## Best Practices, Common Pitfalls & Basic Facts People Often Ignore
+## Best Practices, Common Pitfalls & Basic Facts People Often Ignore/Forget
 - Characters:
     - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
@@ -528,6 +528,7 @@ stateDiagram-v2
   - [Microservices and the Big Ball of Mud](https://www.infoq.com/news/2014/08/microservices_ballmud/)
 - Networks:
   - [ICMP, Ping, and Traceroute - What I Wish I Was Taught](https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/)
+  - [How to hide your IP address](https://educatedguesswork.org/posts/traffic-relaying/)
 - Performance:
   - [Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832)
 - Miscellanea:
@@ -535,6 +536,11 @@ stateDiagram-v2
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
   - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
   - [What happens when you load a URL?](https://danluu.com/navigate-url/)
+- Programming Languages and Compilers:
+  - [Is every language written in C?](https://softwareengineering.stackexchange.com/questions/267086/is-every-language-written-in-c)
+  - [Introduction to Language Theory](https://cs.lmu.edu/~ray/notes/languagetheory/)
+  - [Syntax Design](https://cs.lmu.edu/~ray/notes/syntaxdesign/)
+  - [Backus–Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
 ---
 # Beyond Java and the Web
 
@@ -652,7 +658,7 @@ stateDiagram-v2
 
   </details>
 
-- GO
+- Go
 
     <details>
     <summary>more</summary>
