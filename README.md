@@ -574,6 +574,7 @@ stateDiagram-v2
 - Bishop, Pattern Recognition and Machine Learning
 - Norvig, Paradigms of Artificial Intelligence Programming
 - Tanenbaum and Wetherall, Computer Networks (6ed)
+- Jurafsky & Martin, [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/) (SLP3)
 
 ---
 
