@@ -236,6 +236,7 @@ stateDiagram-v2
   - Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
     - Log Aggregation: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana), Fluentd
   - Metrics: [Prometheus](https://prometheus.io/docs/tutorials/getting_started/) + Grafana
+    - [Learning Prometheus and PromQL](https://iximiuz.com/en/series/learning-prometheus-and-promql/)
   - Tracing: OpenTelemetry (Jaeger)
     - [Deprecating OpenTracing](https://github.com/opentracing/specification/issues/163)
   - Performance: Apache JMeter
@@ -433,6 +434,7 @@ stateDiagram-v2
 - [What is a network?](https://study-ccna.com/what-is-a-network/)
 - [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
 - [Introduction to Networks](https://cs.lmu.edu/~ray/notes/netsandinets/)
+- [Computer Networking Fundamentals](https://iximiuz.com/en/series/computer-networking-fundamentals/)
 - [Daryl's TCP/IP Primer](https://www.ipprimer.com/#/)
 - [Packet Traveling](https://www.practicalnetworking.net/series/packet-traveling/packet-traveling/)
 - [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html)
@@ -450,7 +452,9 @@ stateDiagram-v2
 - [Move over JavaScript: Back-end languages are coming to the front-end](https://github.com/readme/featured/server-side-languages-for-front-end)
 - [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
 - [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)
-
+- [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
+- [Beej's Guide to Unix Interprocess Communication](https://beej.us/guide/bgipc/)
+  
 ---
 
 ## Software Documentation
@@ -473,6 +477,10 @@ stateDiagram-v2
 ---
 
 ## Best Practices, Common Pitfalls & Basic Facts People Often Ignore/Forget
+- Git:
+  - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+- Shell Scripting
+  - [Shell Script Best Practices](https://sharats.me/posts/shell-script-best-practices/)
 - Characters:
     - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
@@ -506,6 +514,7 @@ stateDiagram-v2
      - [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
      - [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
    - [The perils of the "real" client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
+   - [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for)
 - REST APIs:
    - [OpenAPI Specification](https://oai.github.io/Documentation/specification.html)
    - [**!OPINION**] [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
@@ -633,6 +642,7 @@ stateDiagram-v2
 - [The Lunduke Journal of Technology](https://lunduke.substack.com/)
 - [The Buckblog, assorted ramblings by Jamis Buck](https://weblog.jamisbuck.org/)
 - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
+- [Schneier on Security](https://www.schneier.com/)
 - [Coding Horror](https://blog.codinghorror.com/)
 - [Opensource.com](https://opensource.com/)
 - [Enable Sysadmin](https://www.redhat.com/sysadmin/welcome-enable-sysadmin)
@@ -693,6 +703,7 @@ stateDiagram-v2
 ## Career Advice
 - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
+- [Awesome Italia Remote](https://github.com/italiaremote/awesome-italia-remote)
 
 [^1]: Other similar stuff you may find useful: [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management) (huge list of stuff regarding Java), [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap) (more general view of what is useful/required to develop for the web).
 
