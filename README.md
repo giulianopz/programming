@@ -688,8 +688,7 @@ stateDiagram-v2
 - [Ruby](https://www.ruby-lang.org/en/documentation/quickstart/)
 - [Python](https://docs.python.org/3/tutorial/)
 - [Nim](https://nim-lang.org/docs/tut1.html)
-- [Erlang](https://www.erlang.org/doc/getting_started/intro.html#prerequisites)
-- [elixir](https://elixir-lang.org/getting-started/introduction.html)
+- [Erlang](https://www.erlang.org/doc/getting_started/intro.html#prerequisites)/[elixir](https://elixir-lang.org/getting-started/introduction.html)
 - [Zig](https://ziglang.org/learn/overview/)
 
 ---
