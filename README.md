@@ -1,8 +1,8 @@
 # Java back-end web development
 
-Just a raw list, based on my personal (limited) experience, meant to offer a roughly sketched learning path to get into Java for server-side programming for the web: it mentions the most relevant concepts and tools a newbie can encounter in his/her work routine as a Java developer[^1]. The last sections goes well beyond Java.
+Just a raw list, based on my personal (limited) experience, meant to offer a roughly sketched learning path to get into Java for server-side programming for the web: it mentions the most relevant concepts and tools a newbie can encounter in his/her work routine as a (Java) developer[^1]. The last sections goes well beyond Java.
 
-Below you can find a visual summary of the main topics discussed in this list:
+Below you can find a visual summary of the main topics mentioned in this list:
 ```mermaid
 stateDiagram-v2
     [*] --> Java
@@ -355,6 +355,7 @@ stateDiagram-v2
  - [Container image formats under the hood](https://snyk.io/blog/container-image-formats/)
  - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
  - [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
+ - [Containers are chroot with a Marketing Budget](https://earthly.dev/blog/chroot/)
  - [Docker](https://github.com/docker/labs/tree/master/developer-tools/java)
  - [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
  - Container/Cluster Managers:
