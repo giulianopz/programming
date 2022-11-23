@@ -1,6 +1,6 @@
 # Java back-end web development
 
-Just a raw list, based on my personal (limited) experience, meant to offer a roughly sketched learning path to get into Java for server-side programming for the web: it mentions the most relevant concepts and tools a newbie can encounter in his/her work routine as a (Java) developer[^1]. The last sections goes well beyond Java.
+Just a raw list, based on my personal (and limited) experience, meant to offer a roughly sketched learning path to get into Java with a focus on server-side programming for the web: it tries to mention the most relevant concepts and tools a newbie can encounter in his/her work routine as a (Java) developer[^1]. The last sections goes well beyond Java.
 
 Below you can find a visual summary of the main topics mentioned in this list:
 ```mermaid
@@ -9,9 +9,9 @@ stateDiagram-v2
     Java --> Maven
     Maven --> Libs
 
-    Java --> DesignPatterns
-    DesignPatterns --> SoftwareDesign
-    SoftwareDesign --> SystemDesign
+    Java --> Design_Patterns
+    Design_Patterns --> Software_Design
+    Software_Design --> System_Design
     Java --> Git
     Git --> Bash
     Bash --> Vim
@@ -19,10 +19,10 @@ stateDiagram-v2
     Linux --> Containers
     Containers --> Docker/Podman
     Docker/Podman --> Kubernetes
-    Linux --> ComputerSystems
+    Linux --> Computer_Systems
 
-    Java --> DataStructures
-    DataStructures --> Algorithms
+    Java --> Data_Structures
+    Data_Structures --> Algorithms
 
     Java --> SQL
     SQL --> Databases
