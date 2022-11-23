@@ -413,6 +413,8 @@ stateDiagram-v2
 - [**!BONUS**] [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
 - [**!BONUS**] [Awesome UNIX®](https://github.com/sirredbeard/Awesome-UNIX)
 - Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner
+- Love, Linux System Programming
+- [The Linux Kernel documentation](https://www.kernel.org/doc/html/latest/)
 
 ---
 
@@ -550,7 +552,7 @@ stateDiagram-v2
   - [Is every language written in C?](https://softwareengineering.stackexchange.com/questions/267086/is-every-language-written-in-c)
   - [Introduction to Language Theory](https://cs.lmu.edu/~ray/notes/languagetheory/)
   - [Syntax Design](https://cs.lmu.edu/~ray/notes/syntaxdesign/)
-  - [Backus–Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
+  - [Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
 ---
 # Beyond Java and the Web
 
@@ -572,8 +574,9 @@ stateDiagram-v2
 - Arpaci-Dusseau and Arpaci-Dusseau, Operating Systems: Three Easy Pieces
 - Tanenbaum and Bos, Modern Operating Systems
 - Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
-- [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
+- Bovet & Cesati, Understanding the Linux Kernel
 - [Rubini, Linux Device Drivers](https://lwn.net/Kernel/LDD3/)
+- [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
 - Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
 - [**!FUTURE CLASSIC**] [Nystrom, Crafting Interpreters](https://craftinginterpreters.com/)
@@ -699,6 +702,7 @@ stateDiagram-v2
 - [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
 - [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
 - [**!BONUS**] [Post-apocalyptic programming](https://zserge.com/posts/post-apocalyptic-programming/)
+- [**!BONUS**] [A Journey in Creating an Operating System Kernel](https://539kernel.com/book/)
 
 ## Career Advice
 - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
