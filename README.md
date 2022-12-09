@@ -449,15 +449,20 @@ stateDiagram-v2
 - [**!BONUS**] [HTTP Toolkit](https://httptoolkit.tech/)
 - [SSL Termination](https://avinetworks.com/glossary/ssl-termination/)
 - [Web scraping](https://scrapism.lav.io/)
-- [Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
-- [The Modern JavaScript Tutorial](https://javascript.info/)
-- [Four Eras of JavaScript Frameworks](https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks)
-- [Move over JavaScript: Back-end languages are coming to the front-end](https://github.com/readme/featured/server-side-languages-for-front-end)
-- [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
-- [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)
 - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
 - [Beej's Guide to Unix Interprocess Communication](https://beej.us/guide/bgipc/)
-  
+- HTML & CSS & JS:
+  - [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
+  - [180 websites in 180 days](https://jenniferdewalt.com/)
+  - [htmldog](https://htmldog.com/)
+  - [(New) Responsive Web Design](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+  - [Learn web development](https://developer.mozilla.org/en-US/docs/Learn)
+  - [The Modern JavaScript Tutorial](https://javascript.info/)
+  - [Four Eras of JavaScript Frameworks](https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks)
+  - [Move over JavaScript: Back-end languages are coming to the front-end](https://github.com/readme/featured/server-side-languages-for-front-end)
+  - [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
+  - [**!OPINION**] [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)
+    
 ---
 
 ## Software Documentation
@@ -487,6 +492,7 @@ stateDiagram-v2
 - Characters:
     - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
+    - [Invisible characters](https://invisible-characters.com/)
 - Dates:
     - [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
     - [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
@@ -571,12 +577,8 @@ stateDiagram-v2
 - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
 - [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
 - Nisan and Schocken, The Elements of Computing Systems (nand2tetris)
-- Arpaci-Dusseau and Arpaci-Dusseau, Operating Systems: Three Easy Pieces
 - Tanenbaum and Bos, Modern Operating Systems
-- Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
-- Bovet & Cesati, Understanding the Linux Kernel
-- [Rubini, Linux Device Drivers](https://lwn.net/Kernel/LDD3/)
-- [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
+- Tanenbaum and Wetherall, Computer Networks (6ed)
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
 - Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
 - [**!FUTURE CLASSIC**] [Nystrom, Crafting Interpreters](https://craftinginterpreters.com/)
@@ -586,8 +588,12 @@ stateDiagram-v2
 - Knuth, The Art of Computer Programming
 - Bishop, Pattern Recognition and Machine Learning
 - Norvig, Paradigms of Artificial Intelligence Programming
-- Tanenbaum and Wetherall, Computer Networks (6ed)
 - Jurafsky & Martin, [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/) (SLP3)
+- Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
+- Bovet & Cesati, Understanding the Linux Kernel
+- [Rubini, Linux Device Drivers](https://lwn.net/Kernel/LDD3/)
+- [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
+- [Brendan, Systems Performance: Enterprise and the Cloud](https://www.brendangregg.com/systems-performance-2nd-edition-book.html)
 
 ---
 
