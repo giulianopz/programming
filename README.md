@@ -360,6 +360,7 @@ stateDiagram-v2
  - [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
  - Container/Cluster Managers:
    - [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
+     - [WebAssembly vs. Kubernetes](https://thenewstack.io/yes-webassembly-can-replace-kubernetes/)
      - Distributions:
          - Self-Managed (Local):
            - minikube
@@ -405,6 +406,8 @@ stateDiagram-v2
 - [**!BONUS**] [Learn Git Branching](https://learngitbranching.js.org/)
 - [The Art Of Scripting HTTP Requests Using Curl](https://curl.haxx.se/docs/httpscripting.html)
 - [How I use cron in Linux](https://opensource.com/article/17/11/how-use-cron-linux)
+- [Getting started with tmux](https://ittavern.com/getting-started-with-tmux/)
+- [Tmux for mere mortals](https://zserge.com/posts/tmux/)
 - [RegexOne. Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
 - [Cosmopolitan Libc](https://justine.lol/cosmopolitan/functions.html)
 - [**!BONUS**] [Learn the ways of Linux-fu, for free](https://linuxjourney.com/)
@@ -421,6 +424,7 @@ stateDiagram-v2
 ## Security
 - [API authentication and authorization](https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html)
 - [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
+- [An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
 - Identity, Claims, & Tokens. An OpenID Connect Primer: [1](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1), [2](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-2), [3](https://developer.okta.com/blog/2017/08/01/oidc-primer-part-3)
 - [JWT](https://jwt.io/)
 - [Awesome Web Security Awesome](https://github.com/qazbnm456/awesome-web-security)
@@ -662,6 +666,7 @@ stateDiagram-v2
 - [ByteByteGo, by Alex Xu](https://blog.bytebytego.com/?utm_source=site)
 - [The History of the Web](https://thehistoryoftheweb.com/)
 - [Happy Path Programming](https://anchor.fm/happypathprogramming/episodes/66-The-Journey-to-Rust-with-Christopher-Hunt-e1meaqh)
+- [Programming Talks](https://www.programmingtalks.org)
 
 ---
 
@@ -693,8 +698,7 @@ stateDiagram-v2
   </details>
 
 - [C/C++](https://www.toptal.com/c/the-ultimate-list-of-resources-to-learn-c-and-c-plus-plus)
-- [Kotlin](https://kotlinlang.org/docs/getting-started.html)
-- [Scala](https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
+- [Kotlin](https://kotlinlang.org/docs/getting-started.html)/[Scala](https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
 - [Ruby](https://www.ruby-lang.org/en/documentation/quickstart/)
 - [Python](https://docs.python.org/3/tutorial/)
 - [Nim](https://nim-lang.org/docs/tut1.html)
@@ -707,13 +711,19 @@ stateDiagram-v2
 - [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
 - [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
 - [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
+- [**!BONUS**] [Assembly Language Adventures](https://www.xorpd.net/pages/x86_adventures.html)
 - [**!BONUS**] [Post-apocalyptic programming](https://zserge.com/posts/post-apocalyptic-programming/)
 - [**!BONUS**] [A Journey in Creating an Operating System Kernel](https://539kernel.com/book/)
 
-## Career Advice
+---
+
+## Job Hunting
 - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 - [Awesome Italia Remote](https://github.com/italiaremote/awesome-italia-remote)
+- [Reverse interview](https://github.com/viraptor/reverse-interview)
+- [The Joel Test: 12 Steps to Better Code]( https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+- [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
 
 [^1]: Other similar stuff you may find useful: [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management) (huge list of stuff regarding Java), [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap) (more general view of what is useful/required to develop for the web).
 
