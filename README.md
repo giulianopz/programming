@@ -708,9 +708,10 @@ stateDiagram-v2
 ---
 
 ## Getting Closer to the Metal
-- [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
 - [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
+- [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
 - [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
+- [From the Transistor to the Web Browser](https://github.com/geohot/fromthetransistor)
 - [**!BONUS**] [Assembly Language Adventures](https://www.xorpd.net/pages/x86_adventures.html)
 - [**!BONUS**] [Post-apocalyptic programming](https://zserge.com/posts/post-apocalyptic-programming/)
 - [**!BONUS**] [A Journey in Creating an Operating System Kernel](https://539kernel.com/book/)
