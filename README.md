@@ -511,6 +511,9 @@ stateDiagram-v2
 - RegEx:
     - [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
     - [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
+- OS Compatibility:
+  - [A Guide to POSIX](https://www.baeldung.com/linux/posix)
+  - [The Power of the XDG Base Directory Specification](https://maex.me/2019/12/the-power-of-the-xdg-base-directory-specification/)
 - Unit-Testing:
    - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
    - [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
@@ -566,6 +569,7 @@ stateDiagram-v2
   - [Syntax Design](https://cs.lmu.edu/~ray/notes/syntaxdesign/)
   - [Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
 ---
+
 # Beyond Java and the Web
 
 ---
