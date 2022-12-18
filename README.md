@@ -497,6 +497,8 @@ stateDiagram-v2
     - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
     - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
     - [Invisible characters](https://invisible-characters.com/)
+- Internationalization and localization (i18n)
+  - [PO Files](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html)
 - Dates:
     - [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
     - [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
@@ -667,6 +669,7 @@ stateDiagram-v2
 - [The History of the Web](https://thehistoryoftheweb.com/)
 - [Happy Path Programming](https://anchor.fm/happypathprogramming/episodes/66-The-Journey-to-Rust-with-Christopher-Hunt-e1meaqh)
 - [Programming Talks](https://www.programmingtalks.org)
+- [FriendlyWire](https://friendlywire.com/)
 
 ---
 
