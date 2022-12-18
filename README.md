@@ -581,14 +581,15 @@ stateDiagram-v2
 ## Classics & Bibles
 - Sussman & Abelson, Structure and Interpretation of Computer Programs (SICP)
 - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
-- [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
+  - [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
 - Nisan and Schocken, The Elements of Computing Systems (nand2tetris)
 - Tanenbaum and Bos, Modern Operating Systems
 - Tanenbaum and Wetherall, Computer Networks (6ed)
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
 - Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
-- [**!FUTURE CLASSIC**] [Nystrom, Crafting Interpreters](https://craftinginterpreters.com/)
+  - [**!FUTURE CLASSIC**] [Nystrom, Crafting Interpreters](https://craftinginterpreters.com/)
 - Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)
+  - [**!BEGINNER-FRIENDLY**] [Sedgewick and Wayne, Algorithms](https://algs4.cs.princeton.edu/home/) (4ed)
 - Kernighan and Ritchie, The C Programming Language
 - Knuth, Patashnik, and Graham, Concrete Mathematics: A Foundation for Computer Science
 - Knuth, The Art of Computer Programming
@@ -710,11 +711,15 @@ stateDiagram-v2
 
 ---
 
-## Getting Closer to the Metal
+## Getting Closer to the Metal: Embedded Systems and Electronics
 - [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
 - [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
+- [Make: Learn Electronics with Arduino](https://www.makershed.com/collections/arduino/products/make-learn-electronics-with-arduino)
+- [Intel HEX](https://en.wikipedia.org/wiki/Intel_HEX)
 - [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
+- [iFixit](https://www.ifixit.com/)
 - [From the Transistor to the Web Browser](https://github.com/geohot/fromthetransistor)
+- [ So you want to build an embedded Linux system?](https://jaycarlson.net/embedded-linux/)
 - [**!BONUS**] [Assembly Language Adventures](https://www.xorpd.net/pages/x86_adventures.html)
 - [**!BONUS**] [Post-apocalyptic programming](https://zserge.com/posts/post-apocalyptic-programming/)
 - [**!BONUS**] [A Journey in Creating an Operating System Kernel](https://539kernel.com/book/)
