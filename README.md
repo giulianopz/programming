@@ -126,9 +126,11 @@ stateDiagram-v2
 - Sedgewick & Wayne, Algorithms [1](https://www.coursera.org/learn/algorithms-part1) + [2](https://www.coursera.org/learn/algorithms-part2)
 - Kopec, Classic Computer Science Problems in Java
 - [Open Data Structures (in Java)](http://opendatastructures.org/ods-java/)
+- [**!DRILL**] [HackerRank](https://www.hackerrank.com/)
+  - [data-structures](https://www.hackerrank.com/domains/data-structures)
+  - [algorithms](https://www.hackerrank.com/domains/algorithms)
+- [**!DRILL**] [LeetCode](https://leetcode.com/)
 - [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
-- [HackerRank](https://www.hackerrank.com/)
-- [LeetCode](https://leetcode.com/)
 - [**!BONUS**] [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 
 ---
@@ -637,7 +639,7 @@ stateDiagram-v2
 - Mitnick &s Simon, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
 - Erickson, Hacking: The Art of Exploitation
 - Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware
-- Naitoh, How to the ThinkPad Changed the World ― and Is Shaping the Future
+- Naitoh, How the ThinkPad Changed the World ― and Is Shaping the Future
 - Gibson, Neuromancer
 - Dick, Do Androids Dream of Electric Sheep?
 - Shirow, The Ghost in the Shell
@@ -718,7 +720,7 @@ stateDiagram-v2
 ## Getting Closer to the Metal: Embedded Systems and Electronics
 - [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
 - [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
-- [Make: Learn Electronics with Arduino](https://www.makershed.com/collections/arduino/products/make-learn-electronics-with-arduino)
+- Platt, Electronics: Learning by Discovery: A hands-on primer for the new electronics enthusiast
 - [Intel HEX](https://en.wikipedia.org/wiki/Intel_HEX)
 - [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
 - [iFixit](https://www.ifixit.com/)
@@ -733,6 +735,7 @@ stateDiagram-v2
 ## Job Hunting
 - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
+- [Interview Preparation Kits](https://www.hackerrank.com/interview/preparation-kits)
 - [Awesome Italia Remote](https://github.com/italiaremote/awesome-italia-remote)
 - [Reverse interview](https://github.com/viraptor/reverse-interview)
 - [The Joel Test: 12 Steps to Better Code]( https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
