@@ -659,7 +659,7 @@ stateDiagram-v2
 - [Martin Kleppmann](https://martin.kleppmann.com/)
 - [Ben Eater](https://eater.net/)
 - [Sam Zeloof](http://sam.zeloof.xyz/)
-- [Paolo Aliverti](https://www.youtube.com/c/paoloaliverti/featured) [ITA]
+- [**!ITA**] [Paolo Aliverti](https://www.youtube.com/c/paoloaliverti/featured)
 - [Box of Cables](https://boxofcables.dev/)
 - [antirez](http://antirez.com/latest/0)
 - [The Lunduke Journal of Technology](https://lunduke.substack.com/)
@@ -733,13 +733,16 @@ stateDiagram-v2
 ---
 
 ## Job Hunting
+- [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job)
+  - [**!ITA**] [Awesome Italia Remote](https://github.com/italiaremote/awesome-italia-remote)
 - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 - [Interview Preparation Kits](https://www.hackerrank.com/interview/preparation-kits)
-- [Awesome Italia Remote](https://github.com/italiaremote/awesome-italia-remote)
+- [Top Interview Questions](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
+- [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 - [Reverse interview](https://github.com/viraptor/reverse-interview)
-- [The Joel Test: 12 Steps to Better Code]( https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 - [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
+- [The Joel Test: 12 Steps to Better Code]( https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 
 [^1]: Other similar stuff you may find useful: [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management) (huge list of stuff regarding Java), [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap) (more general view of what is useful/required to develop for the web).
 
