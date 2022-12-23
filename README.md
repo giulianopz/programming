@@ -732,7 +732,7 @@
 
   ---
 
-  ## Embedded Systems, Electronics, DIY & Right to Repair
+  ## Embedded Systems & Electronics
   - [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
   - [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
   - Platt, Electronics: Learning by Discovery: A hands-on primer for the new electronics enthusiast
@@ -743,6 +743,14 @@
   - [**!BONUS**] [Assembly Language Adventures](https://www.xorpd.net/pages/x86_adventures.html)
   - [**!BONUS**] [Post-apocalyptic programming](https://zserge.com/posts/post-apocalyptic-programming/)
   - [**!BONUS**] [A Journey in Creating an Operating System Kernel](https://539kernel.com/book/)
+
+---
+
+  ## Open Source, DIY & Right to Repair
+  - [6 pivotal moments in open source history](https://opensource.com/article/18/2/pivotal-moments-history-open-source)
+  - [Convivial software (or, why open source matters)](https://comment.org/convivial-software-or-why-open-source-matters/)
+  - [What is open hardware?](https://opensource.com/resources/what-open-hardware)
+  - [Open Source Ecology](https://opensourceecology.dozuki.com/#Section_What_is_OSE)
   - [iFixit](https://www.ifixit.com/)
   - [Repair Manifesto](https://www.platform21.nl/download/4375)
   - [Right to Repair](https://repair.eu/)https://www.repaircafe.org/en/
