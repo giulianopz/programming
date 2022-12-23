@@ -126,12 +126,18 @@ stateDiagram-v2
 - Sedgewick & Wayne, Algorithms [1](https://www.coursera.org/learn/algorithms-part1) + [2](https://www.coursera.org/learn/algorithms-part2)
 - Kopec, Classic Computer Science Problems in Java
 - [Open Data Structures (in Java)](http://opendatastructures.org/ods-java/)
-- [**!DRILL**] [HackerRank](https://www.hackerrank.com/)
-  - [data-structures](https://www.hackerrank.com/domains/data-structures)
-  - [algorithms](https://www.hackerrank.com/domains/algorithms)
-- [**!DRILL**] [LeetCode](https://leetcode.com/)
 - [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 - [**!BONUS**] [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
+- Patterns:
+  - [Algorithmic Patterns](https://cs.lmu.edu/~ray/notes/algpatterns/)
+  - [The Sliding Window Pattern](https://nan-archive.vercel.app/sliding-window)
+  - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+  - [Grokking Coding Interview Patterns in Go](https://www.educative.io/courses/grokking-coding-interview-patterns-go)
+- [Deliberate Practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice):
+  - [LeetCode](https://leetcode.com/)
+  - [HackerRank](https://www.hackerrank.com/)
+    - [data-structures](https://www.hackerrank.com/domains/data-structures)
+    - [algorithms](https://www.hackerrank.com/domains/algorithms)
 
 ---
 
@@ -400,6 +406,7 @@ stateDiagram-v2
 ---
 
 ## The UNIX Toolbox
+- [Introduction to Bash](https://cs.lmu.edu/~ray/notes/bash/)
 - [Survival guide for Unix newbies ](https://matt.might.net/articles/basic-unix/)
 - [Settling into Unix](https://matt.might.net/articles/settling-into-unix/)
 - [Shell programming with bash: by example, by counter-example](https://matt.might.net/articles/bash-by-example/)
@@ -560,16 +567,21 @@ stateDiagram-v2
   - [How to hide your IP address](https://educatedguesswork.org/posts/traffic-relaying/)
 - Performance:
   - [Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832)
+- Programming Languages and Compilers:
+  - [Is every language written in C?](https://softwareengineering.stackexchange.com/questions/267086/is-every-language-written-in-c)
+  - [Assembly code vs Machine code vs Object code?](https://stackoverflow.com/questions/466790/assembly-code-vs-machine-code-vs-object-code)
+  - [Introduction to Language Theory](https://cs.lmu.edu/~ray/notes/languagetheory/)
+  - [Syntax](https://cs.lmu.edu/~ray/notes/syntax/)
+  - [Syntax Design](https://cs.lmu.edu/~ray/notes/syntaxdesign/)
+  - [Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
+  - [Resources for Amateur Compiler Writers](https://c9x.me/compile/bib/)
+  - [**!BONUS**]  [Compiler Explorer](https://godbolt.org/)
 - Miscellanea:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
   - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
   - [What happens when you load a URL?](https://danluu.com/navigate-url/)
-- Programming Languages and Compilers:
-  - [Is every language written in C?](https://softwareengineering.stackexchange.com/questions/267086/is-every-language-written-in-c)
-  - [Introduction to Language Theory](https://cs.lmu.edu/~ray/notes/languagetheory/)
-  - [Syntax Design](https://cs.lmu.edu/~ray/notes/syntaxdesign/)
-  - [Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
+  - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
 ---
 
 # Beyond Java and the Web
@@ -587,15 +599,15 @@ stateDiagram-v2
 ## Classics & Bibles
 - Sussman & Abelson, Structure and Interpretation of Computer Programs (SICP)
 - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
-  - [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
+- [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
 - Nisan and Schocken, The Elements of Computing Systems (nand2tetris)
 - Tanenbaum and Bos, Modern Operating Systems
 - Tanenbaum and Wetherall, Computer Networks (6ed)
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
 - Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
-  - [**!FUTURE CLASSIC**] [Nystrom, Crafting Interpreters](https://craftinginterpreters.com/)
+- [**!FUTURE CLASSIC**] [Nystrom, Crafting Interpreters](https://craftinginterpreters.com/)
 - Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)
-  - [**!BEGINNER-FRIENDLY**] [Sedgewick and Wayne, Algorithms](https://algs4.cs.princeton.edu/home/) (4ed)
+- [**!BEGINNER-FRIENDLY**] [Sedgewick and Wayne, Algorithms](https://algs4.cs.princeton.edu/home/) (4ed)
 - Kernighan and Ritchie, The C Programming Language
 - Knuth, Patashnik, and Graham, Concrete Mathematics: A Foundation for Computer Science
 - Knuth, The Art of Computer Programming
@@ -607,6 +619,8 @@ stateDiagram-v2
 - [Rubini, Linux Device Drivers](https://lwn.net/Kernel/LDD3/)
 - [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
 - [Brendan, Systems Performance: Enterprise and the Cloud](https://www.brendangregg.com/systems-performance-2nd-edition-book.html)
+- [**!FUTURE CLASSIC**] Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
+- [**!FUTURE CLASSIC**] Petrov, [Database Internals: A Deep Dive Into How Distributed Data Systems Work](https://www.databass.dev/)
 
 ---
 
@@ -647,7 +661,8 @@ stateDiagram-v2
 
 ---
 
-## Blogs, Forums, YT Channels, Newsletters, Podcasts
+## Finest Sources of Geek Entertainment
+- [LWN.net](https://lwn.net/)
 - [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
 - [Hacker News](https://news.ycombinator.com/)
 - [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
@@ -739,6 +754,7 @@ stateDiagram-v2
 - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
 - [Interview Preparation Kits](https://www.hackerrank.com/interview/preparation-kits)
 - [Top Interview Questions](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
+- [Grokking Coding Interview Patterns in Go](https://www.educative.io/courses/grokking-coding-interview-patterns-go)
 - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 - [Reverse interview](https://github.com/viraptor/reverse-interview)
 - [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
@@ -746,6 +762,6 @@ stateDiagram-v2
 
 [^1]: Other similar stuff you may find useful: [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management) (huge list of stuff regarding Java), [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap) (more general view of what is useful/required to develop for the web).
 
-[^2]: It's hard to choose a specific course since there's plenty of training material available on the [web](https://dev.to/javinpaul/8-best-online-java-courses-to-learn-programming-in-2021-4clb), so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by Wayne and Sedgewick.
+[^2]: It's hard to choose a specific course since there's plenty of training material available on the web, so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by Wayne and Sedgewick.
 
 [^3]: There's a number of [IDEs](https://www.tutorialworks.com/java-ide/) available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to [open a remote folder on any remote machine, virtual machine, or container with a running SSH server](https://code.visualstudio.com/docs/remote/ssh) (also integrating nicely with [WSL](https://code.visualstudio.com/docs/remote/wsl)), [visualize data structures](https://addyosmani.com/blog/visualize-data-structures-vscode/) while debugging and can run in a lightweight version in a [web browser](https://vscode.dev/) without installing anything.
