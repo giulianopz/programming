@@ -430,6 +430,7 @@
   - [**!BONUS**] [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
   - [**!BONUS**] [Awesome UNIX®](https://github.com/sirredbeard/Awesome-UNIX)
   - Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner
+  - [How much memory my program uses or the tale of working set size](https://biriukov.dev/docs/page-cache/7-how-much-memory-my-program-uses-or-the-tale-of-working-set-size/#how-much-memory-my-program-uses-or-the-tale-of-working-set-size)
   - Love, Linux System Programming
   - [The Linux Kernel documentation](https://www.kernel.org/doc/html/latest/)
 
@@ -480,6 +481,7 @@
     - [Move over JavaScript: Back-end languages are coming to the front-end](https://github.com/readme/featured/server-side-languages-for-front-end)
     - [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
     - [**!OPINION**] [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)
+    - [**!OPINION**] [The Web's Next Transition](https://www.epicweb.dev/the-webs-next-transition)
       
   ---
 
@@ -580,6 +582,7 @@
     - [Syntax Design](https://cs.lmu.edu/~ray/notes/syntaxdesign/)
     - [Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
     - [Resources for Amateur Compiler Writers](https://c9x.me/compile/bib/)
+    - [Low-Code and the Democratization of Programming. Rethinking Where Programming Is Headed](https://www.oreilly.com/radar/low-code-and-the-democratization-of-programming/)
     - [**!BONUS**]  [Compiler Explorer](https://godbolt.org/)
   - Miscellanea:
     - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
