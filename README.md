@@ -37,6 +37,10 @@
       Web --> Security
   ```
 
+  Altough the list is very dense, the reader must keep in mind that the focus of learning to code should always be on learning abstract concepts and skills which underlie the tech stack used in modern programming:
+  > Modern programming is becoming complex, uninteresting, full of layers that just need to be glued. It is losing most of its beauty. In that sense, most programming is no longer art nor high engineering (most programs written at big and small corporations are trivial: coders just need to understand certain ad-hoc abstractions, and write some logic and **glue code**). Only very few programmers are facing the artistic face of programming. Only very few programmers are facing high engineering in programming. 
+  >> (Salvatore Sanfilippo, aka [antirez](http://invece.org/))
+
   ---
   ## Java
   - [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)
@@ -402,6 +406,7 @@
   - Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
   - Eisele and Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
   - [Introduction to Cloud Infrastructure Technologies](https://www.edx.org/course/introduction-to-cloud-infrastructure-technologies?utm_medium=partner-marketing&utm_source=social&utm_campaign=linuxfoundation&utm_content=twitter-lfs151)
+  - [**!OPINION**] [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/) 
 
   ---
 
@@ -734,7 +739,12 @@
 
   ## Embedded Systems & Electronics
   - [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
+  - [What is an Arduino?](https://opensource.com/resources/what-arduino)
+  - [What is a Raspberry Pi?](https://opensource.com/resources/raspberry-pi)
+  - [FPGA vs. Microcontroller. What is the Difference?](https://www.mclpcb.com/blog/fpga-vs-microcontroller/)
   - [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
+  - [Basic knowledge about principles and techniques behind the Arduino ecosystem](https://docs.arduino.cc/learn/)
+  - [The Untold History of Arduino](https://arduinohistory.github.io/)
   - Platt, Electronics: Learning by Discovery: A hands-on primer for the new electronics enthusiast
   - [Intel HEX](https://en.wikipedia.org/wiki/Intel_HEX)
   - [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
