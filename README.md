@@ -1,6 +1,6 @@
   # Java back-end web development
 
-  Just a raw list, based on my personal (and limited) experience, meant to offer a roughly sketched learning path to get into Java with a focus on server-side programming for the web: it tries to mention the most relevant concepts and tools a newbie can encounter in his/her work routine as a (Java) developer[^1]. The last sections goes well beyond Java.
+  Just a raw list, based on my personal (and limited) experience, meant to offer to the adventurous learner a roughly sketched learning path to get into back-end (or server-side) programming for the web in Java: it tries to mention the most relevant **concepts** and **tools** a newbie can encounter in his/her work routine as a developer[^1]. The last sections goes well beyond Java, which is just the typical entry-point programming language for many people in enterprise software development.
 
   Below you can find a visual summary of the main topics mentioned in this list:
   ```mermaid
@@ -37,9 +37,15 @@
       Web --> Security
   ```
 
-  Altough the list is very dense, the reader must keep in mind that the focus of learning to code should always be on learning abstract concepts and skills which underlie the tech stack used in modern programming:
+  Altough the list is very dense (even lacking proper structure of information), one must keep in mind that the focus of learning to code should always be on learning abstract concepts and their low-level implementation which underlie the tech stack used in modern programming, rather than specific and ephemeral tools (e.g. libraries, frameworks, etc.):
   > Modern programming is becoming complex, uninteresting, full of layers that just need to be glued. It is losing most of its beauty. In that sense, most programming is no longer art nor high engineering (most programs written at big and small corporations are trivial: coders just need to understand certain ad-hoc abstractions, and write some logic and **glue code**). Only very few programmers are facing the artistic face of programming. Only very few programmers are facing high engineering in programming. 
   >> (Salvatore Sanfilippo, aka [antirez](http://invece.org/))
+
+  In fact, an [application software](https://en.wikipedia.org/wiki/Application_software) usually consists of levels (or layers) of [abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Levels_of_abstraction), wherein each level represents a different model of the same information and processes, but with varying amounts of detail. Each relatively abstract, higher level builds on a relatively concrete, lower level, which tends to provide an increasingly granular representation.
+
+  Abstractions are useful, but all non-trivial abstractions, to some degree, are [leaky](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/). So, blindly ignoring what happens at lower levels can cause performance issues or (worst) unintended bugs which are hard to debug (e.g. inscrutable [incidents](https://www.andrewdoss.dev/writing/timeouts/) in production). Solving such issues thanks to Q&A websites like Stack Overflow does not help learning what actually went wrong leaving a certain sense of frustration (a common feeling for [Linux](https://fabiensanglard.net/a_linux_evening/index.html) users).
+
+  Unfortunately, the enterprise software world is largely dominated by the use of frameworks (e.g. Spring vs Quarkus on back-end side, Angular vs React on front-end side, PyTorch vs TensorFlow on machine learning side) which the developers are supposed to master according to their alternating fortunes, sometimes influenced by mere whimsy. The only way to avoid to be forced to learn a framework every N years is to understand computer science in depth, getting as closer as possible to the metal.
 
   ---
   ## Java
@@ -138,6 +144,7 @@
     - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
     - [Grokking Coding Interview Patterns in Go](https://www.educative.io/courses/grokking-coding-interview-patterns-go)
   - [Deliberate Practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice):
+    - [exercism](https://exercism.org/)
     - [LeetCode](https://leetcode.com/)
     - [HackerRank](https://www.hackerrank.com/)
       - [data-structures](https://www.hackerrank.com/domains/data-structures)
@@ -449,6 +456,7 @@
   - [Practical Cryptography for Developers](https://cryptobook.nakov.com/)
   - [**!BONUS**] [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
   - [How to find third-party vulnerabilities in your Java code](https://www.redhat.com/sysadmin/find-java-vulnerabilities)
+  - [**!BONUS**] [Flipper Zero](https://www.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269?pldnSite=1)
 
   ---
 
@@ -590,6 +598,7 @@
     - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
     - [What happens when you load a URL?](https://danluu.com/navigate-url/)
     - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
+    - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
   ---
 
   # Beyond Java and the Web
@@ -599,6 +608,8 @@
   ## Teaching Yourself CS
   - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
   - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+    - [Learn how computers work](https://blog.bradfieldcs.com/learn-how-computers-work-e7d33dba0238)
+    - [How to learn about database systems](https://blog.bradfieldcs.com/how-to-learn-about-database-systems-40c7432f471d#.5rjlp4fqq)
   - [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
   - [From the Transistor to the Web Browser](https://github.com/geohotfromthetransistor)
 
@@ -607,6 +618,7 @@
   ## Classics & Bibles
   - Sussman & Abelson, Structure and Interpretation of Computer Programs (SICP)
   - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
+  - Patterson and Hennessy, [Computer Organization and Design (MIPS Edition). The Hardware/Software Interface](https://shop.elsevier.com/books/computer-organization-and-design-mips-edition/patterson/978-0-12-407726-3#full-description)
   - [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
   - Nisan and Schocken, The Elements of Computing Systems (nand2tetris)
   - Tanenbaum and Bos, Modern Operating Systems
@@ -730,7 +742,7 @@
 
     </details>
 
-  - [C/C++](https://www.toptal.com/c/the-ultimate-list-of-resources-to-learn-c-and-c-plus-plus)
+  - [C](https://blog.bradfieldcs.com/how-to-learn-c-59222a627a4c)/C++
   - [Kotlin](https://kotlinlang.org/docs/getting-started.html)/[Scala](https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
   - [Ruby](https://www.ruby-lang.org/en/documentation/quickstart/)
   - [Python](https://docs.python.org/3/tutorial/)
@@ -751,7 +763,6 @@
   - Platt, Electronics: Learning by Discovery: A hands-on primer for the new electronics enthusiast
   - [Intel HEX](https://en.wikipedia.org/wiki/Intel_HEX)
   - [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
-  - [From the Transistor to the Web Browser](https://github.com/geohot/fromthetransistor)
   - [ So you want to build an embedded Linux system?](https://jaycarlson.net/embedded-linux/)
   - [**!BONUS**] [Assembly Language Adventures](https://www.xorpd.net/pages/x86_adventures.html)
   - [**!BONUS**] [Post-apocalyptic programming](https://zserge.com/posts/post-apocalyptic-programming/)
