@@ -1,6 +1,6 @@
   # Java back-end web development
 
-  Just a raw list, based on my personal (and limited) experience, meant to offer to the adventurous learner a roughly sketched learning path to get into back-end (or server-side) programming for the web in Java: it tries to mention the most relevant **concepts** and **tools** a newbie can encounter in his/her work routine as a developer[^1]. The last sections goes well beyond Java, which is just the typical entry-point programming language for many people in enterprise software development.
+  Just a raw list, based on my personal (and limited) experience, meant to offer to the adventurous learner a map to orient him/herself and a roughly sketched  learning path to get into back-end (or server-side) programming for the web in Java: it tries to mention the most relevant **concepts** and **tools** a newbie can encounter in his/her work routine as a developer[^1][^2]. The last sections goes well beyond Java, which is just the typical entry-point programming language for many people in enterprise software development.
 
   Below you can find a visual summary of the main topics mentioned in this list:
   ```mermaid
@@ -37,7 +37,7 @@
       Web --> Security
   ```
 
-  Altough the list is very dense (even lacking proper structure of information), one must keep in mind that the focus of learning to code should always be on learning abstract concepts and their low-level implementation which underlie the tech stack used in modern programming, rather than specific and ephemeral tools (e.g. libraries, frameworks, etc.):
+  Altough the list is very dense (and even lacking proper structure of information), one must keep in mind that the focus of learning to code should always be on learning abstract concepts and their low-level implementation details which underlie the tech stack used in modern programming, rather than specific and ephemeral tools (e.g. libraries, frameworks, etc.):
   > Modern programming is becoming complex, uninteresting, full of layers that just need to be glued. It is losing most of its beauty. In that sense, most programming is no longer art nor high engineering (most programs written at big and small corporations are trivial: coders just need to understand certain ad-hoc abstractions, and write some logic and **glue code**). Only very few programmers are facing the artistic face of programming. Only very few programmers are facing high engineering in programming. 
   >> (Salvatore Sanfilippo, aka [antirez](http://invece.org/))
 
@@ -45,17 +45,17 @@
 
   Abstractions are useful, but all non-trivial abstractions, to some degree, are [leaky](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/). So, blindly ignoring what happens at lower levels can cause performance issues or (worst) unintended bugs which are hard to debug (e.g. inscrutable [incidents](https://www.andrewdoss.dev/writing/timeouts/) in production). Solving such issues thanks to Q&A websites like Stack Overflow does not help learning what actually went wrong leaving a certain sense of frustration (a common feeling for [Linux](https://fabiensanglard.net/a_linux_evening/index.html) users).
 
-  Unfortunately, the enterprise software world is largely dominated by the use of frameworks (e.g. Spring vs Quarkus on back-end side, Angular vs React on front-end side, PyTorch vs TensorFlow on machine learning side) which the developers are supposed to master according to their alternating fortunes, sometimes influenced by mere whimsy. The only way to avoid to be forced to learn a framework every N years is to understand computer science in depth, getting as closer as possible to the metal.
+  Unfortunately, the enterprise software world is largely dominated by the use of [frameworks](https://en.wikipedia.org/wiki/Software_framework) (e.g. Spring vs Quarkus on back-end side, Angular vs React on front-end side), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as "innovative" for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which in turn means to get a good grasp of computer architecture investigating what happens at the hardware/software interface (*getting closer to the metal*, as they say).
 
   ---
   ## Java
   - [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)
-  - Programming Language Fundamentals[^2]:
+  - Programming Language Fundamentals[^3]:
     - JRE, JDK & [JVM](https://shipilev.net/jvm/anatomy-quarks/)
     - Byte Code vs. Machine Code
         - [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
     - Compiling with `javac` and Running with Arguments from CLI
-    - IDE[^3]
+    - IDE[^4]
       - [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
       - [VSCode](https://code.visualstudio.com/docs/languages/java)
       - [Debugging](https://code.visualstudio.com/docs/java/java-debugging)
@@ -512,7 +512,7 @@
 
   ---
 
-  ## Best Practices, Common Pitfalls & Basic Facts People Often Ignore/Forget
+  ## Best Practices, Common Pitfalls & Basic Things You Should Know
   - Git:
     - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
   - Shell Scripting
@@ -580,6 +580,8 @@
   - Networks:
     - [ICMP, Ping, and Traceroute - What I Wish I Was Taught](https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/)
     - [How to hide your IP address](https://educatedguesswork.org/posts/traffic-relaying/)
+  - Memory:
+    - [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
   - Performance:
     - [Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832)
   - Programming Languages and Compilers:
@@ -620,7 +622,7 @@
   - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
   - Patterson and Hennessy, [Computer Organization and Design (MIPS Edition). The Hardware/Software Interface](https://shop.elsevier.com/books/computer-organization-and-design-mips-edition/patterson/978-0-12-407726-3#full-description)
   - [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
-  - Nisan and Schocken, The Elements of Computing Systems (nand2tetris)
+  - Nisan and Schocken, The lifecylElements of Computing Systems (nand2tetris)
   - Tanenbaum and Bos, Modern Operating Systems
   - Tanenbaum and Wetherall, Computer Networks (6ed)
   - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
@@ -777,7 +779,7 @@
   - [Open Source Ecology](https://opensourceecology.dozuki.com/#Section_What_is_OSE)
   - [iFixit](https://www.ifixit.com/)
   - [Repair Manifesto](https://www.platform21.nl/download/4375)
-  - [Right to Repair](https://repair.eu/)https://www.repaircafe.org/en/
+  - [Right to Repair](https://repair.eu/)
   - [RepairCafé](https://www.repaircafe.org/en/)
 
   ---
@@ -797,6 +799,11 @@
 
   [^1]: Other similar stuff you may find useful: [Awesome Java](https://github.com/akullpp/awesome-java#cluster-management) (huge list of stuff regarding Java), [Web Developer RoadMap](https://github.com/kamranahmedse/developer-roadmap) (more general view of what is useful/required to develop for the web).
 
-  [^2]: It's hard to choose a specific course since there's plenty of training material available on the web, so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by Wayne and Sedgewick.
+  [^2]: A tempative classification of roles in software world:
+  - software programmer/coder/developer: someone usually without a CS degree who learns programming in a bottom-up approach by building software
+  - computer scientist: academic researcher who learns computer systems in a top-down approach
+  - software engineer/architect: someone between the two above who is responsible for the overall design and lifecycle of the software
 
-  [^3]: There's a number of [IDEs](https://www.tutorialworks.com/java-ide/) available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to [open a remote folder on any remote machine, virtual machine, or container with a running SSH server](https://code.visualstudio.com/docs/remote/ssh) (also integrating nicely with [WSL](https://code.visualstudio.com/docs/remote/wsl)), [visualize data structures](https://addyosmani.com/blog/visualize-data-structures-vscode/) while debugging and can run in a lightweight version in a [web browser](https://vscode.dev/) without installing anything.
+  [^3]: It's hard to choose a specific course since there's plenty of training material available on the web, so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures ([1](https://www.coursera.org/learn/cs-programming-java) + [2](https://www.coursera.org/learn/cs-algorithms-theory-machines)) of the book [Computer Science: An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) by Wayne and Sedgewick.
+
+  [^4]: There's a number of [IDEs](https://www.tutorialworks.com/java-ide/) available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to [open a remote folder on any remote machine, virtual machine, or container with a running SSH server](https://code.visualstudio.com/docs/remote/ssh) (also integrating nicely with [WSL](https://code.visualstudio.com/docs/remote/wsl)), [visualize data structures](https://addyosmani.com/blog/visualize-data-structures-vscode/) while debugging and can run in a lightweight version in a [web browser](https://vscode.dev/) without installing anything.
