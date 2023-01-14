@@ -770,6 +770,7 @@
   - [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
   - [Basic knowledge about principles and techniques behind the Arduino ecosystem](https://docs.arduino.cc/learn/)
   - [The Untold History of Arduino](https://arduinohistory.github.io/)
+  - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
   - Platt, Electronics: Learning by Discovery: A hands-on primer for the new electronics enthusiast
   - [Intel HEX](https://en.wikipedia.org/wiki/Intel_HEX)
   - [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
