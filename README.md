@@ -133,6 +133,7 @@
 
   ## Algorithms & Data Structures
   - [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
+  - [Learn Data Structures and Algorithms](https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?ref=shm)
   - Sedgewick & Wayne, Algorithms [1](https://www.coursera.org/learn/algorithms-part1) + [2](https://www.coursera.org/learn/algorithms-part2)
   - Kopec, Classic Computer Science Problems in Java
   - [Open Data Structures (in Java)](http://opendatastructures.org/ods-java/)
@@ -469,6 +470,8 @@
   - [Packet Traveling](https://www.practicalnetworking.net/series/packet-traveling/packet-traveling/)
   - [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html)
   - [Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance](https://hpbn.co/)
+  - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
+  - [Beej's Guide to Unix Interprocess Communication](https://beej.us/guide/bgipc/)
   - Sanders, Practical Packet Analysis
   - [SRE books](https://sre.google/books/)
   - [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
@@ -476,8 +479,6 @@
   - [**!BONUS**] [HTTP Toolkit](https://httptoolkit.tech/)
   - [SSL Termination](https://avinetworks.com/glossary/ssl-termination/)
   - [Web scraping](https://scrapism.lav.io/)
-  - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
-  - [Beej's Guide to Unix Interprocess Communication](https://beej.us/guide/bgipc/)
   - HTML & CSS & JS:
     - [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
     - [180 websites in 180 days](https://jenniferdewalt.com/)
@@ -490,6 +491,7 @@
     - [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
     - [**!OPINION**] [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)
     - [**!OPINION**] [The Web's Next Transition](https://www.epicweb.dev/the-webs-next-transition)
+    - [**!OPINION**] [The Web Is Fucked](https://thewebisfucked.com/)
       
   ---
 
@@ -582,6 +584,7 @@
     - [How to hide your IP address](https://educatedguesswork.org/posts/traffic-relaying/)
   - Memory:
     - [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
+    - [What Should I Know About Garbage Collection as a Java Developer?](https://www.azul.com/blog/what-should-i-know-about-garbage-collection-as-a-java-developer/)
   - Performance:
     - [Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832)
   - Programming Languages and Compilers:
@@ -593,14 +596,17 @@
     - [Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
     - [Resources for Amateur Compiler Writers](https://c9x.me/compile/bib/)
     - [Low-Code and the Democratization of Programming. Rethinking Where Programming Is Headed](https://www.oreilly.com/radar/low-code-and-the-democratization-of-programming/)
+    - [The faker's guide to reading (x86) assembly language](https://www.timdbg.com/posts/fakers-guide-to-assembly/)
     - [**!BONUS**]  [Compiler Explorer](https://godbolt.org/)
+    - [Favorite compiler and interpreter resources](https://lists.eatonphil.com/compilers-and-interpreters.html)
   - Miscellanea:
     - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
     - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
-    - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
-    - [What happens when you load a URL?](https://danluu.com/navigate-url/)
     - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
     - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+    - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
+    - [What happens when you load a URL?](https://danluu.com/navigate-url/)
+    - [What Happens When A CPU Starts](https://lateblt.tripod.com/bit68.txt)
   ---
 
   # Beyond Java and the Web
@@ -714,6 +720,8 @@
   - [Happy Path Programming](https://anchor.fm/happypathprogramming/episodes/66-The-Journey-to-Rust-with-Christopher-Hunt-e1meaqh)
   - [Programming Talks](https://www.programmingtalks.org)
   - [FriendlyWire](https://friendlywire.com/)
+  - [The Cloudflare Blog](https://blog.cloudflare.com/tag/engineering/)
+  - [The Netflix Tech Blog](https://netflixtechblog.com/)
 
   ---
 
@@ -785,9 +793,10 @@
   ---
 
   ## Job Hunting
+  - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
+  - [How to Learn to Code & Get a Developer Job in 2023](https://www.freecodecamp.org/news/learn-to-code-book/)
   - [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job)
     - [**!ITA**] [Awesome Italia Remote](https://github.com/italiaremote/awesome-italia-remote)
-  - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
   - [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/)
   - [Interview Preparation Kits](https://www.hackerrank.com/interview/preparation-kits)
   - [Top Interview Questions](https://leetcode.com/explore/interview/card/top-interview-questions-easy/)
