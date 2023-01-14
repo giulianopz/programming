@@ -1,0 +1,28 @@
+## CS/FOSS History and Hacking/Cyberpunk Culture
+  - Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. italian version, [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
+  - [ESR, How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html#why_this)
+  - ESR, The Cathedral & the Bazaar
+  - Kernighan, UNIX: A History and a Memoir
+  - Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security
+  - Petzold, Code: The Hidden Language of Computer Hardware and Software, 2nd Edition
+  - Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
+  - Torvalds, Just for Fun
+  - Knuth, Things a Computer Scientist Rarely Talks About
+  - Hafner, Where wizards stay up late
+  - Waldrop, The Dream Machine: Licklider and the Revolution That Made Computing Personal
+  - Rheingold, Tools for Thought. The History and Future of Mind-Expanding Technology
+  - Bhattacharya, The Man from the Future: The Visionary Life of John von Neumann
+  - [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
+  - Gleick, The Information: A History, a Theory, a Flood
+  - Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid
+  - Kidder, The Soul of a New Machine
+  - Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
+  - Levy, Hackers: Heroes of the Computer Revolution
+  - Mitnick &s Simon, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
+  - Erickson, Hacking: The Art of Exploitation
+  - Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware
+  - Naitoh, How the ThinkPad Changed the World ― and Is Shaping the Future
+  - Gibson, Neuromancer
+  - Dick, Do Androids Dream of Electric Sheep?
+  - Shirow, The Ghost in the Shell
+  - Otomo, Akira
