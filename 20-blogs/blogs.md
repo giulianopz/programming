@@ -14,6 +14,7 @@
   - [**!ITA**] [Paolo Aliverti](https://www.youtube.com/c/paoloaliverti/featured)
   - [Box of Cables](https://boxofcables.dev/)
   - [antirez](http://antirez.com/latest/0)
+  - [jwz](https://www.jwz.org/)
   - [The Lunduke Journal of Technology](https://lunduke.substack.com/)
   - [The Buckblog, assorted ramblings by Jamis Buck](https://weblog.jamisbuck.org/)
   - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
