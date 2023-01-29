@@ -15,6 +15,7 @@
   - [Box of Cables](https://boxofcables.dev/)
   - [antirez](http://antirez.com/latest/0)
   - [jwz](https://www.jwz.org/)
+  - [lcamtuf](https://lcamtuf.coredump.cx/)
   - [The Lunduke Journal of Technology](https://lunduke.substack.com/)
   - [The Buckblog, assorted ramblings by Jamis Buck](https://weblog.jamisbuck.org/)
   - [Jon Skeet's coding blog](https://codeblog.jonskeet.uk/)
