@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Classics &amp; Bibles - Good links to learn programming</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="java.html"><strong aria-hidden="true">2.</strong> Java</a></li><li class="chapter-item expanded "><a href="libs.html"><strong aria-hidden="true">3.</strong> Most Popular Libraries, Frameworks and Tools for Java</a></li><li class="chapter-item expanded "><a href="algs.html"><strong aria-hidden="true">4.</strong> Algorithms & Data Structures</a></li><li class="chapter-item expanded "><a href="design.html"><strong aria-hidden="true">5.</strong> Software Design</a></li><li class="chapter-item expanded "><a href="ipc.html"><strong aria-hidden="true">6.</strong> Inter-Process Communication (IPC)</a></li><li class="chapter-item expanded "><a href="db.html"><strong aria-hidden="true">7.</strong> Databases & SQL</a></li><li class="chapter-item expanded "><a href="microservices.html"><strong aria-hidden="true">8.</strong> Microservices, Distributed Systems & System Design</a></li><li class="chapter-item expanded "><a href="cloud.html"><strong aria-hidden="true">9.</strong> Cloud Computing & DevOps</a></li><li class="chapter-item expanded "><a href="unix.html"><strong aria-hidden="true">10.</strong> The UNIX Toolbox</a></li><li class="chapter-item expanded "><a href="security.html"><strong aria-hidden="true">11.</strong> Security</a></li><li class="chapter-item expanded "><a href="networks.html"><strong aria-hidden="true">12.</strong> Networking, Web & Browsers</a></li><li class="chapter-item expanded "><a href="fe.html"><strong aria-hidden="true">13.</strong> HTML, CSS & JS</a></li><li class="chapter-item expanded "><a href="team.html"><strong aria-hidden="true">14.</strong> Development and Team Organization</a></li><li class="chapter-item expanded "><a href="licenses.html"><strong aria-hidden="true">15.</strong> Software Licenses</a></li><li class="chapter-item expanded "><a href="best-practices.html"><strong aria-hidden="true">16.</strong> Best Practices, Common Pitfalls & Basic Things You Should Know</a></li><li class="chapter-item expanded "><a href="teach.html"><strong aria-hidden="true">17.</strong> Teaching Yourself CS</a></li><li class="chapter-item expanded "><a href="classics.html" class="active"><strong aria-hidden="true">18.</strong> Classics & Bibles</a></li><li class="chapter-item expanded "><a href="math.html"><strong aria-hidden="true">19.</strong> Math</a></li><li class="chapter-item expanded "><a href="history.html"><strong aria-hidden="true">20.</strong> CS/FOSS History and Hacking/Cyberpunk Culture</a></li><li class="chapter-item expanded "><a href="blogs.html"><strong aria-hidden="true">21.</strong> Finest Sources of Geek Entertainment</a></li><li class="chapter-item expanded "><a href="prog-languages.html"><strong aria-hidden="true">22.</strong> Other Programming Languages</a></li><li class="chapter-item expanded "><a href="metal.html"><strong aria-hidden="true">23.</strong> Embedded Systems & Electronics</a></li><li class="chapter-item expanded "><a href="open.html"><strong aria-hidden="true">24.</strong> Open Source, DIY & Right to Repair</a></li><li class="chapter-item expanded "><a href="job.html"><strong aria-hidden="true">25.</strong> Job Hunting</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Good links to learn programming</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="classics--bibles"><a class="header" href="#classics--bibles">Classics &amp; Bibles</a></h2>
+<ul>
+<li>Sussman &amp; Abelson, Structure and Interpretation of Computer Programs (SICP)</li>
+<li>Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)</li>
+<li>Patterson and Hennessy, <a href="https://shop.elsevier.com/books/computer-organization-and-design-mips-edition/patterson/978-0-12-407726-3#full-description">Computer Organization and Design (MIPS Edition). The Hardware/Software Interface</a></li>
+<li>[<strong>!FUTURE CLASSIC</strong>] <a href="https://diveintosystems.org/singlepage/">Dive into Systems</a></li>
+<li>Nisan and Schocken, The lifecylElements of Computing Systems (nand2tetris)</li>
+<li>Tanenbaum and Bos, Modern Operating Systems</li>
+<li>Tanenbaum and Wetherall, Computer Networks (6ed)</li>
+<li>Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)</li>
+<li>Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)</li>
+<li>[<strong>!FUTURE CLASSIC</strong>] <a href="https://craftinginterpreters.com/">Nystrom, Crafting Interpreters</a></li>
+<li>Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)</li>
+<li>[<strong>!BEGINNER-FRIENDLY</strong>] <a href="https://algs4.cs.princeton.edu/home/">Sedgewick and Wayne, Algorithms</a> (4ed)</li>
+<li>Kernighan and Ritchie, The C Programming Language</li>
+<li>Knuth, Patashnik, and Graham, Concrete Mathematics: A Foundation for Computer Science</li>
+<li>Knuth, The Art of Computer Programming</li>
+<li>Bishop, Pattern Recognition and Machine Learning</li>
+<li>Norvig, Paradigms of Artificial Intelligence Programming</li>
+<li>Jurafsky &amp; Martin, <a href="https://web.stanford.edu/~jurafsky/slp3/">Speech and Language Processing (3rd ed. draft)</a> (SLP3)</li>
+<li>Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook</li>
+<li>Bovet &amp; Cesati, Understanding the Linux Kernel</li>
+<li><a href="https://lwn.net/Kernel/LDD3/">Rubini, Linux Device Drivers</a></li>
+<li><a href="https://man7.org/tlpi/">Kerrisk, The Linux Programming Interface</a></li>
+<li><a href="https://www.brendangregg.com/systems-performance-2nd-edition-book.html">Brendan, Systems Performance: Enterprise and the Cloud</a></li>
+<li>[<strong>!FUTURE CLASSIC</strong>] Kleppmann, <a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/">Designing Data-Intensive Applications</a></li>
+<li>[<strong>!FUTURE CLASSIC</strong>] Petrov, <a href="https://www.databass.dev/">Database Internals: A Deep Dive Into How Distributed Data Systems Work</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="teach.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="math.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="teach.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="math.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

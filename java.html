@@ -1,0 +1,330 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Java - Good links to learn programming</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="java.html" class="active"><strong aria-hidden="true">2.</strong> Java</a></li><li class="chapter-item expanded "><a href="libs.html"><strong aria-hidden="true">3.</strong> Most Popular Libraries, Frameworks and Tools for Java</a></li><li class="chapter-item expanded "><a href="algs.html"><strong aria-hidden="true">4.</strong> Algorithms & Data Structures</a></li><li class="chapter-item expanded "><a href="design.html"><strong aria-hidden="true">5.</strong> Software Design</a></li><li class="chapter-item expanded "><a href="ipc.html"><strong aria-hidden="true">6.</strong> Inter-Process Communication (IPC)</a></li><li class="chapter-item expanded "><a href="db.html"><strong aria-hidden="true">7.</strong> Databases & SQL</a></li><li class="chapter-item expanded "><a href="microservices.html"><strong aria-hidden="true">8.</strong> Microservices, Distributed Systems & System Design</a></li><li class="chapter-item expanded "><a href="cloud.html"><strong aria-hidden="true">9.</strong> Cloud Computing & DevOps</a></li><li class="chapter-item expanded "><a href="unix.html"><strong aria-hidden="true">10.</strong> The UNIX Toolbox</a></li><li class="chapter-item expanded "><a href="security.html"><strong aria-hidden="true">11.</strong> Security</a></li><li class="chapter-item expanded "><a href="networks.html"><strong aria-hidden="true">12.</strong> Networking, Web & Browsers</a></li><li class="chapter-item expanded "><a href="fe.html"><strong aria-hidden="true">13.</strong> HTML, CSS & JS</a></li><li class="chapter-item expanded "><a href="team.html"><strong aria-hidden="true">14.</strong> Development and Team Organization</a></li><li class="chapter-item expanded "><a href="licenses.html"><strong aria-hidden="true">15.</strong> Software Licenses</a></li><li class="chapter-item expanded "><a href="best-practices.html"><strong aria-hidden="true">16.</strong> Best Practices, Common Pitfalls & Basic Things You Should Know</a></li><li class="chapter-item expanded "><a href="teach.html"><strong aria-hidden="true">17.</strong> Teaching Yourself CS</a></li><li class="chapter-item expanded "><a href="classics.html"><strong aria-hidden="true">18.</strong> Classics & Bibles</a></li><li class="chapter-item expanded "><a href="math.html"><strong aria-hidden="true">19.</strong> Math</a></li><li class="chapter-item expanded "><a href="history.html"><strong aria-hidden="true">20.</strong> CS/FOSS History and Hacking/Cyberpunk Culture</a></li><li class="chapter-item expanded "><a href="blogs.html"><strong aria-hidden="true">21.</strong> Finest Sources of Geek Entertainment</a></li><li class="chapter-item expanded "><a href="prog-languages.html"><strong aria-hidden="true">22.</strong> Other Programming Languages</a></li><li class="chapter-item expanded "><a href="metal.html"><strong aria-hidden="true">23.</strong> Embedded Systems & Electronics</a></li><li class="chapter-item expanded "><a href="open.html"><strong aria-hidden="true">24.</strong> Open Source, DIY & Right to Repair</a></li><li class="chapter-item expanded "><a href="job.html"><strong aria-hidden="true">25.</strong> Job Hunting</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Good links to learn programming</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="java"><a class="header" href="#java">Java</a></h2>
+<ul>
+<li><a href="https://www.baeldung.com/java-history">A Brief History of the Java Programming Language</a></li>
+<li>Programming Language Fundamentals<sup class="footnote-reference"><a href="#1">1</a></sup>:
+<ul>
+<li>JRE, JDK &amp; <a href="https://shipilev.net/jvm/anatomy-quarks/">JVM</a></li>
+<li>Byte Code vs. Machine Code
+<ul>
+<li><a href="https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/">Java Bytecode Simplified: Journey to the Wonderland</a></li>
+</ul>
+</li>
+<li>Compiling with <code>javac</code> and Running with Arguments from CLI</li>
+<li>IDE<sup class="footnote-reference"><a href="#2">2</a></sup>
+<ul>
+<li>[<strong>!OPINION</strong>] <a href="https://nora.codes/post/stop-making-students-use-eclipse/">Stop Making Students Use Eclipse</a></li>
+<li><a href="https://code.visualstudio.com/docs/languages/java">VSCode</a></li>
+<li><a href="https://code.visualstudio.com/docs/java/java-debugging">Debugging</a></li>
+</ul>
+</li>
+<li>Heap &amp; Stack</li>
+<li>Variables</li>
+<li>Arithmetic &amp; Boolean Expressions</li>
+<li>Built-in Types of Data</li>
+<li>Default Initialization</li>
+<li>Wrappers &amp; Autoboxing</li>
+<li>Arrays</li>
+<li>The Object Class
+<ul>
+<li><code>this</code> &amp; <code>super</code> keywords</li>
+<li><code>equals()</code> &amp; <code>hashCode()</code> methods</li>
+</ul>
+</li>
+<li>Constants &amp; Enumerations</li>
+<li>Access Modifiers</li>
+<li>Classes &amp; Object-Oriented Programming (OOP) Basic Concepts
+<ul>
+<li>Interfaces vs. Abstract Classes (Abstraction)</li>
+<li>Nested Classes, Inner Classes &amp; Anonymous Classes</li>
+<li>Inheritance vs. Composition</li>
+<li>Polymorphism &amp; Upcasting vs. Downcasting</li>
+<li>Encapsulation &amp; Data Hiding</li>
+</ul>
+</li>
+<li>Control Flow Statements</li>
+<li>Methods
+<ul>
+<li>Passing-by-Value vs. Passing-by-Reference</li>
+<li>Overloading &amp; Overriding</li>
+<li>The <code>main</code> method</li>
+</ul>
+</li>
+<li>Exceptions
+<ul>
+<li>Throwable, Exception &amp; Error</li>
+<li>Checked vs. Unchecked</li>
+<li>Try/Catch &amp; Catch-or-Declare Requirement</li>
+</ul>
+</li>
+<li>Collections
+<ul>
+<li>Iterable &amp; Iterator</li>
+<li>Comparable &amp; Comparator</li>
+<li>Sorting &amp; Searching</li>
+<li>Stack &amp; Queue</li>
+<li>List, Set &amp; Map</li>
+</ul>
+</li>
+<li>I/O</li>
+<li>Streams</li>
+<li>Lambda Expressions &amp; Method References</li>
+<li>Recursion
+<ul>
+<li><a href="https://pages.di.unipi.it/marino/python/Recursion/TheThreeLawsofRecursion.html">The Three Laws of Recursion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Build Automation Tools:
+<ul>
+<li><a href="https://www.baeldung.com/ant-maven-gradle">Ant vs Maven vs Gradle</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://phauer.com/2018/moving-back-from-gradle-to-maven/">Why I Moved Back from Gradle to Maven</a></li>
+</ul>
+</li>
+<li>Scripting: JShell, <a href="https://github.com/maxandersen/jbang">JBang</a></li>
+<li>Horstmann, Core Java Fundementals (Vol. 1 &amp; 2)</li>
+<li>Bloch, Effective Java</li>
+<li><a href="https://java-design-patterns.com/">Design Patterns</a></li>
+<li>Unit Testing:
+<ul>
+<li>Kosleka, Effective Unit Testing</li>
+<li>Tahchiev, JUnit in Action</li>
+<li>Kosleka, Test Driven: TDD and Acceptance TDD for Java Developers</li>
+</ul>
+</li>
+<li>Advanced Topics:
+<ul>
+<li>Generics</li>
+<li>Reflection</li>
+<li>Concurrency, Multi-threading, Parallelism and Asynchronus Programming:
+<ul>
+<li><a href="https://foojay.io/today/5-things-you-probably-didnt-know-about-java-concurrency/?utm_content=202308183&amp;utm_medium=social&amp;utm_source=twitter&amp;hss_channel=tw-2599580401">5 Things You Probably Didn't Know About Java Concurrency</a></li>
+<li><a href="https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading">Applying Concurrency and Multi-threading to Common Java Patterns</a></li>
+<li><a href="https://www.pluralsight.com/courses/java-concurrent-patterns-advanced">Advanced Java Concurrent Patterns</a></li>
+<li><a href="https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage">Java Fundamentals: Asynchronous Programming Using CompletionStage</a></li>
+<li>[<strong>!WIP</strong>] <a href="https://openjdk.org/jeps/425">Project Loom</a>
+<ul>
+<li>[<strong>!WARNING</strong>] <a href="https://www.morling.dev/blog/loom-and-thread-fairness/">Loom and Thread Fairness</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Reactive Programming
+<ul>
+<li><a href="https://gist.github.com/staltz/868e7e9bc2a7b8c1f754">The introduction to Reactive Programming you've been missing</a></li>
+<li><a href="https://www.scnsoft.com/blog/java-reactive-programming">The Essence of Reactive Programming in Java</a></li>
+<li><a href="https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming">5 Things to Know About Reactive Programming</a></li>
+<li><a href="https://nickolasfisher.com/blog/The-Difference-Between-a-Reactive-NonBlocking-Model-and-Classic-Asynchronous-Code">The Difference Between a Reactive Non-Blocking Model and Classic Asynchronous Code</a></li>
+<li><a href="https://singhkaushal.medium.com/spring-webflux-eventloop-vs-thread-per-request-model-a42d07ee8502">EventLoop vs Thread per Request Model</a></li>
+<li><a href="https://iximiuz.com/en/posts/explain-event-loop-in-100-lines-of-code/">Explaining event loop in 100 lines of code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Java APIs
+<ul>
+<li><a href="https://javaalmanac.io/">The Java Version Almanac</a></li>
+<li><a href="https://advancedweb.hu/new-language-features-since-java-8-to-17/">New language features since Java 8 to 17</a></li>
+</ul>
+</li>
+</ul>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>It's hard to choose a specific course since there's plenty of training material available on the web, so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures (<a href="https://www.coursera.org/learn/cs-programming-java">1</a> + <a href="https://www.coursera.org/learn/cs-algorithms-theory-machines">2</a>) of the book <a href="https://introcs.cs.princeton.edu/java/home/">Computer Science: An Interdisciplinary Approach</a> by Wayne and Sedgewick.</p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p>There's a number of <a href="https://www.tutorialworks.com/java-ide/">IDEs</a> available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to <a href="https://code.visualstudio.com/docs/remote/ssh">open a remote folder on any remote machine, virtual machine, or container with a running SSH server</a> (also integrating nicely with <a href="https://code.visualstudio.com/docs/remote/wsl">WSL</a>), <a href="https://addyosmani.com/blog/visualize-data-structures-vscode/">visualize data structures</a> while debugging and can run in a lightweight version in a <a href="https://vscode.dev/">web browser</a> without installing anything.</p>
+</div>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="intro.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="libs.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="intro.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="libs.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

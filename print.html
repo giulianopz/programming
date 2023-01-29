@@ -1,0 +1,1232 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Good links to learn programming</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="java.html"><strong aria-hidden="true">2.</strong> Java</a></li><li class="chapter-item expanded "><a href="libs.html"><strong aria-hidden="true">3.</strong> Most Popular Libraries, Frameworks and Tools for Java</a></li><li class="chapter-item expanded "><a href="algs.html"><strong aria-hidden="true">4.</strong> Algorithms & Data Structures</a></li><li class="chapter-item expanded "><a href="design.html"><strong aria-hidden="true">5.</strong> Software Design</a></li><li class="chapter-item expanded "><a href="ipc.html"><strong aria-hidden="true">6.</strong> Inter-Process Communication (IPC)</a></li><li class="chapter-item expanded "><a href="db.html"><strong aria-hidden="true">7.</strong> Databases & SQL</a></li><li class="chapter-item expanded "><a href="microservices.html"><strong aria-hidden="true">8.</strong> Microservices, Distributed Systems & System Design</a></li><li class="chapter-item expanded "><a href="cloud.html"><strong aria-hidden="true">9.</strong> Cloud Computing & DevOps</a></li><li class="chapter-item expanded "><a href="unix.html"><strong aria-hidden="true">10.</strong> The UNIX Toolbox</a></li><li class="chapter-item expanded "><a href="security.html"><strong aria-hidden="true">11.</strong> Security</a></li><li class="chapter-item expanded "><a href="networks.html"><strong aria-hidden="true">12.</strong> Networking, Web & Browsers</a></li><li class="chapter-item expanded "><a href="fe.html"><strong aria-hidden="true">13.</strong> HTML, CSS & JS</a></li><li class="chapter-item expanded "><a href="team.html"><strong aria-hidden="true">14.</strong> Development and Team Organization</a></li><li class="chapter-item expanded "><a href="licenses.html"><strong aria-hidden="true">15.</strong> Software Licenses</a></li><li class="chapter-item expanded "><a href="best-practices.html"><strong aria-hidden="true">16.</strong> Best Practices, Common Pitfalls & Basic Things You Should Know</a></li><li class="chapter-item expanded "><a href="teach.html"><strong aria-hidden="true">17.</strong> Teaching Yourself CS</a></li><li class="chapter-item expanded "><a href="classics.html"><strong aria-hidden="true">18.</strong> Classics & Bibles</a></li><li class="chapter-item expanded "><a href="math.html"><strong aria-hidden="true">19.</strong> Math</a></li><li class="chapter-item expanded "><a href="history.html"><strong aria-hidden="true">20.</strong> CS/FOSS History and Hacking/Cyberpunk Culture</a></li><li class="chapter-item expanded "><a href="blogs.html"><strong aria-hidden="true">21.</strong> Finest Sources of Geek Entertainment</a></li><li class="chapter-item expanded "><a href="prog-languages.html"><strong aria-hidden="true">22.</strong> Other Programming Languages</a></li><li class="chapter-item expanded "><a href="metal.html"><strong aria-hidden="true">23.</strong> Embedded Systems & Electronics</a></li><li class="chapter-item expanded "><a href="open.html"><strong aria-hidden="true">24.</strong> Open Source, DIY & Right to Repair</a></li><li class="chapter-item expanded "><a href="job.html"><strong aria-hidden="true">25.</strong> Job Hunting</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Good links to learn programming</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
+<p>This is just a raw list of good links, organized by topic, I keep collecting while I progress as a software programmer. I use it to have a personal log of the best resources I discover wandering in the web. </p>
+<p>Ideally, these links describe a learning path to get into programming, with a strong focus on backend and Java, which is just the typical entry-point programming language for many people in enterprise software development. </p>
+<p>Despite all the criticism, believe it or not, the world still runs on Java 8<sup class="footnote-reference"><a href="#1">1</a></sup>, so it makes sense to start from Java. </p>
+<p>On the other hand, some of these critics are well-founded<sup class="footnote-reference"><a href="#2">2</a></sup>. So, equally, it does make sense to have a look to <a href="./prog-languages.html">modern programming languages</a> also. Especially to Go, which really seems to be the favorite in replacing Java pretty everywhere.</p>
+<p>Altough the list is very dense, one must keep in mind that the focus of learning to code should always be on learning abstract concepts and their low-level implementation details, which underlie the tech stack used in modern programming, rather than specific and ephemeral tools (e.g. libraries, frameworks, etc.):</p>
+<blockquote>
+<p>Modern programming is becoming complex, uninteresting, full of layers that just need to be glued. It is losing most of its beauty. In that sense, most programming is no longer art nor high engineering (most programs written at big and small corporations are trivial: coders just need to understand certain ad-hoc abstractions, and write some logic and <a href="https://en.m.wikipedia.org/wiki/Glue_code">glue code</a>). Only very few programmers are facing the artistic face of programming. Only very few programmers are facing high engineering in programming. </p>
+<blockquote>
+<p>Salvatore Sanfilippo<sup class="footnote-reference"><a href="#3">3</a></sup></p>
+</blockquote>
+</blockquote>
+<p>In fact, an <a href="https://en.wikipedia.org/wiki/Application_software">application software</a> usually consists of levels (or layers) of <a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Levels_of_abstraction">abstraction</a>, wherein each level represents a different model of the same information and processes, but with varying amounts of detail. Each relatively abstract, higher level builds on a relatively concrete, lower level, which tends to provide an increasingly granular representation.</p>
+<p>Abstractions are useful, but all non-trivial abstractions, to some degree, are leaky<sup class="footnote-reference"><a href="#4">4</a></sup>. So, blindly ignoring what happens at lower levels can cause performance issues or (worst) unintended bugs which are hard to debug (e.g. inscrutable incidents in production<sup class="footnote-reference"><a href="#5">5</a></sup>). Solving such issues thanks to Q&amp;A websites like Stack Overflow does not help learning what actually went wrong leaving a certain sense of frustration (a common feeling for Linux users<sup class="footnote-reference"><a href="#6">6</a></sup>).</p>
+<p>Unfortunately, the enterprise software world is largely dominated by the use of <a href="https://en.wikipedia.org/wiki/Software_framework">frameworks</a> (e.g. Spring vs Quarkus on backend side, Angular vs React on frontend side), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as &quot;innovative&quot; for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which in turn means to get a good grasp of computer architecture investigating what happens at the hardware/software interface (<em>getting closer to the metal</em>, as the cool kids say). Once learned the basics of programming, a first step in this direction is to re-implement from scratch <a href="https://redis.pjam.me/">a good piece of software</a>.</p>
+<p>In this respect, this book of links naturally derails from application programming to <a href="https://en.wikipedia.org/wiki/Systems_programming">system programming</a> in the last chapters.</p>
+<hr />
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>Vicki Boykis, <a href="https://vickiboykis.com/2019/05/10/it-runs-on-java-8/">IT runs on Java 8</a></p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p>Jamis Buck, <a href="https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming">LEGOs, Play-Doh, and Programming</a></p>
+</div>
+<div class="footnote-definition" id="3"><sup class="footnote-definition-label">3</sup>
+<p>aka <a href="http://invece.org/">antirez</a></p>
+</div>
+<div class="footnote-definition" id="4"><sup class="footnote-definition-label">4</sup>
+<p>Joel Spolsky, <a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">The Law of Leaky Abstractions</a></p>
+</div>
+<div class="footnote-definition" id="5"><sup class="footnote-definition-label">5</sup>
+<p>Andrew Doss, <a href="https://www.andrewdoss.dev/writing/timeouts/">How Long is a Negative Timeout?</a></p>
+</div>
+<div class="footnote-definition" id="6"><sup class="footnote-definition-label">6</sup>
+<p>Fabien Sanglard, <a href="https://fabiensanglard.net/a_linux_evening/index.html">A Linux evening...</a></p>
+</div>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="java"><a class="header" href="#java">Java</a></h2>
+<ul>
+<li><a href="https://www.baeldung.com/java-history">A Brief History of the Java Programming Language</a></li>
+<li>Programming Language Fundamentals<sup class="footnote-reference"><a href="#1">1</a></sup>:
+<ul>
+<li>JRE, JDK &amp; <a href="https://shipilev.net/jvm/anatomy-quarks/">JVM</a></li>
+<li>Byte Code vs. Machine Code
+<ul>
+<li><a href="https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/">Java Bytecode Simplified: Journey to the Wonderland</a></li>
+</ul>
+</li>
+<li>Compiling with <code>javac</code> and Running with Arguments from CLI</li>
+<li>IDE<sup class="footnote-reference"><a href="#2">2</a></sup>
+<ul>
+<li>[<strong>!OPINION</strong>] <a href="https://nora.codes/post/stop-making-students-use-eclipse/">Stop Making Students Use Eclipse</a></li>
+<li><a href="https://code.visualstudio.com/docs/languages/java">VSCode</a></li>
+<li><a href="https://code.visualstudio.com/docs/java/java-debugging">Debugging</a></li>
+</ul>
+</li>
+<li>Heap &amp; Stack</li>
+<li>Variables</li>
+<li>Arithmetic &amp; Boolean Expressions</li>
+<li>Built-in Types of Data</li>
+<li>Default Initialization</li>
+<li>Wrappers &amp; Autoboxing</li>
+<li>Arrays</li>
+<li>The Object Class
+<ul>
+<li><code>this</code> &amp; <code>super</code> keywords</li>
+<li><code>equals()</code> &amp; <code>hashCode()</code> methods</li>
+</ul>
+</li>
+<li>Constants &amp; Enumerations</li>
+<li>Access Modifiers</li>
+<li>Classes &amp; Object-Oriented Programming (OOP) Basic Concepts
+<ul>
+<li>Interfaces vs. Abstract Classes (Abstraction)</li>
+<li>Nested Classes, Inner Classes &amp; Anonymous Classes</li>
+<li>Inheritance vs. Composition</li>
+<li>Polymorphism &amp; Upcasting vs. Downcasting</li>
+<li>Encapsulation &amp; Data Hiding</li>
+</ul>
+</li>
+<li>Control Flow Statements</li>
+<li>Methods
+<ul>
+<li>Passing-by-Value vs. Passing-by-Reference</li>
+<li>Overloading &amp; Overriding</li>
+<li>The <code>main</code> method</li>
+</ul>
+</li>
+<li>Exceptions
+<ul>
+<li>Throwable, Exception &amp; Error</li>
+<li>Checked vs. Unchecked</li>
+<li>Try/Catch &amp; Catch-or-Declare Requirement</li>
+</ul>
+</li>
+<li>Collections
+<ul>
+<li>Iterable &amp; Iterator</li>
+<li>Comparable &amp; Comparator</li>
+<li>Sorting &amp; Searching</li>
+<li>Stack &amp; Queue</li>
+<li>List, Set &amp; Map</li>
+</ul>
+</li>
+<li>I/O</li>
+<li>Streams</li>
+<li>Lambda Expressions &amp; Method References</li>
+<li>Recursion
+<ul>
+<li><a href="https://pages.di.unipi.it/marino/python/Recursion/TheThreeLawsofRecursion.html">The Three Laws of Recursion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Build Automation Tools:
+<ul>
+<li><a href="https://www.baeldung.com/ant-maven-gradle">Ant vs Maven vs Gradle</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://phauer.com/2018/moving-back-from-gradle-to-maven/">Why I Moved Back from Gradle to Maven</a></li>
+</ul>
+</li>
+<li>Scripting: JShell, <a href="https://github.com/maxandersen/jbang">JBang</a></li>
+<li>Horstmann, Core Java Fundementals (Vol. 1 &amp; 2)</li>
+<li>Bloch, Effective Java</li>
+<li><a href="https://java-design-patterns.com/">Design Patterns</a></li>
+<li>Unit Testing:
+<ul>
+<li>Kosleka, Effective Unit Testing</li>
+<li>Tahchiev, JUnit in Action</li>
+<li>Kosleka, Test Driven: TDD and Acceptance TDD for Java Developers</li>
+</ul>
+</li>
+<li>Advanced Topics:
+<ul>
+<li>Generics</li>
+<li>Reflection</li>
+<li>Concurrency, Multi-threading, Parallelism and Asynchronus Programming:
+<ul>
+<li><a href="https://foojay.io/today/5-things-you-probably-didnt-know-about-java-concurrency/?utm_content=202308183&amp;utm_medium=social&amp;utm_source=twitter&amp;hss_channel=tw-2599580401">5 Things You Probably Didn't Know About Java Concurrency</a></li>
+<li><a href="https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading">Applying Concurrency and Multi-threading to Common Java Patterns</a></li>
+<li><a href="https://www.pluralsight.com/courses/java-concurrent-patterns-advanced">Advanced Java Concurrent Patterns</a></li>
+<li><a href="https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage">Java Fundamentals: Asynchronous Programming Using CompletionStage</a></li>
+<li>[<strong>!WIP</strong>] <a href="https://openjdk.org/jeps/425">Project Loom</a>
+<ul>
+<li>[<strong>!WARNING</strong>] <a href="https://www.morling.dev/blog/loom-and-thread-fairness/">Loom and Thread Fairness</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Reactive Programming
+<ul>
+<li><a href="https://gist.github.com/staltz/868e7e9bc2a7b8c1f754">The introduction to Reactive Programming you've been missing</a></li>
+<li><a href="https://www.scnsoft.com/blog/java-reactive-programming">The Essence of Reactive Programming in Java</a></li>
+<li><a href="https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming">5 Things to Know About Reactive Programming</a></li>
+<li><a href="https://nickolasfisher.com/blog/The-Difference-Between-a-Reactive-NonBlocking-Model-and-Classic-Asynchronous-Code">The Difference Between a Reactive Non-Blocking Model and Classic Asynchronous Code</a></li>
+<li><a href="https://singhkaushal.medium.com/spring-webflux-eventloop-vs-thread-per-request-model-a42d07ee8502">EventLoop vs Thread per Request Model</a></li>
+<li><a href="https://iximiuz.com/en/posts/explain-event-loop-in-100-lines-of-code/">Explaining event loop in 100 lines of code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Java APIs
+<ul>
+<li><a href="https://javaalmanac.io/">The Java Version Almanac</a></li>
+<li><a href="https://advancedweb.hu/new-language-features-since-java-8-to-17/">New language features since Java 8 to 17</a></li>
+</ul>
+</li>
+</ul>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>It's hard to choose a specific course since there's plenty of training material available on the web, so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures (<a href="https://www.coursera.org/learn/cs-programming-java">1</a> + <a href="https://www.coursera.org/learn/cs-algorithms-theory-machines">2</a>) of the book <a href="https://introcs.cs.princeton.edu/java/home/">Computer Science: An Interdisciplinary Approach</a> by Wayne and Sedgewick.</p>
+</div>
+<div class="footnote-definition" id="2"><sup class="footnote-definition-label">2</sup>
+<p>There's a number of <a href="https://www.tutorialworks.com/java-ide/">IDEs</a> available for Java in this day and age, but my personal preference goes to Visual Studio Code as the ideal programming environment for polyglot developers: just to mention some features, VSCode allows you to <a href="https://code.visualstudio.com/docs/remote/ssh">open a remote folder on any remote machine, virtual machine, or container with a running SSH server</a> (also integrating nicely with <a href="https://code.visualstudio.com/docs/remote/wsl">WSL</a>), <a href="https://addyosmani.com/blog/visualize-data-structures-vscode/">visualize data structures</a> while debugging and can run in a lightweight version in a <a href="https://vscode.dev/">web browser</a> without installing anything.</p>
+</div>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="most-popular-libraries-frameworks-and-tools-for-java"><a class="header" href="#most-popular-libraries-frameworks-and-tools-for-java">Most Popular Libraries, Frameworks and Tools for Java</a></h2>
+<ul>
+<li>[<strong>!BONUS</strong>] <a href="https://www.thoughtworks.com/radar">Technology Radar. An opinionated guide to technology frontiers</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging">Why not use java.util.logging?</a></li>
+<li><a href="https://www.baeldung.com/mdc-in-log4j-2-logback">Mapped Diagnostic Context (MDC)</a></li>
+<li>Boilerplate Code Auto-generation: <a href="https://projectlombok.org/">Project Lombok</a></li>
+<li>POJO-DTO Mapping: <a href="https://mapstruct.org/"><strong>MapStruct</strong></a></li>
+<li>Bean Validation: <a href="https://hibernate.org/validator/documentation/getting-started/">Hibernate Validator</a></li>
+<li>Persistence:
+<ul>
+<li><a href="https://www.baeldung.com/jpa-vs-jdbc">JDBC</a></li>
+<li>JPA
+<ul>
+<li><a href="https://www.baeldung.com/learn-jpa-hibernate">Hibernate</a>
+<ul>
+<li><a href="https://docs.jboss.org/hibernate/orm/-3/devguide/en-US/html/ch-html">HQL/JPQL</a></li>
+<li>Vlad Mihalcea, <a href="https://vladmihalcea.com/blog/">blog</a> + <a href="https://vladmihalcea.com/books/high-performance-java-persistence/">High-Performance Java Persistence</a></li>
+<li><a href="https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/?utm_source=social&amp;utm_medium=twitter&amp;utm_campaign=tutorial">Hibernate Performance Tuning Tips</a></li>
+</ul>
+</li>
+<li>EclipseLink</li>
+<li>Apache OpenJPA</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://blog.frankel.ch/choose-cache/2/">Cache Providers</a>: Caffeine, Ehcache, Infinispan, Hazelcast, Redis, Apache Ignite</li>
+<li>Message Processing:</li>
+<li>JMS (<strong>Apache ActiveMQ</strong>, <strong>RabbitMQ</strong>)</li>
+<li>Event Streaming:</li>
+<li><strong>Apache Kafka</strong></li>
+<li>Data Serialization:
+<ul>
+<li>Java Serialization (Native APIs)
+<ul>
+<li>[<strong>!OPINION</strong>] <a href="https://stackoverflow.com/questions/19447623/why-javas-serialization-slower-than-3rd-party-apis">Why Java's serialization slower than 3rd party APIs?</a></li>
+</ul>
+</li>
+<li>Language-agnostic Formats:
+<ul>
+<li>XML:
+<ul>
+<li>Java Architecture for XML Binding (JAXB)</li>
+</ul>
+</li>
+<li>JSON:
+<ul>
+<li><a href="https://www.baeldung.com/jackson"><strong>Jackson</strong></a>
+<ul>
+<li><a href="https://github.com/FasterXML/jackson-docs/wiki/Presentation:-Jackson-Performance">Turbo-charging Jackson</a></li>
+</ul>
+</li>
+<li>Gson</li>
+<li>JSON-P &amp; JSON-B</li>
+</ul>
+</li>
+<li>YAML:
+<ul>
+<li>YAML Beans</li>
+<li>SnakeYAML</li>
+</ul>
+</li>
+<li><a href="https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html">Schema-based Binary Format</a>:
+<ul>
+<li><a href="https://developers.google.com/protocol-buffers/docs/javatutorial"><strong>Protocol Buffers</strong></a> (protobuf)</li>
+<li><a href="https://thrift.apache.org/tutorial/java.html"><strong>Apache Thrift</strong></a></li>
+<li><a href="https://avro.apache.org/docs/current/gettingstartedjava.html"><strong>Apache Avro</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>File Manipulation:</li>
+<li>Microsoft Documents: <a href="https://www.baeldung.com/java-microsoft-excel"><strong>Apache POI</strong></a></li>
+<li>PDF: <a href="https://www.baeldung.com/java-pdf-creation"><strong>iText</strong></a>/<a href="https://github.com/LibrePDF/OpenPDF"><strong>OpenPDF</strong></a></li>
+<li>HTML: <a href="https://www.baeldung.com/mustache"><strong>Mustache</strong></a></li>
+<li><a href="https://www.baeldung.com/jax-ws">JAX-WS</a> (<strong>Axis2</strong>, <strong>Apache CXF</strong>)</li>
+<li><a href="https://www.baeldung.com/jax-rs-spec-and-implementations">JAX-RS</a> (<strong>RESTEasy</strong>, <strong>Jersey</strong>, <strong>Apache CXF</strong>)</li>
+<li>API documentation: <a href="https://swagger.io/tools/open-source/open-source-integrations/"><strong>Swagger</strong></a></li>
+<li><a href="https://www.baeldung.com/java-enterprise-evolution">JEE</a> (<strong>Apache Tomcat</strong>, <strong>Jetty</strong>, <strong>WebSphere</strong>, <strong>WildFly</strong>, <strong>GlassFish</strong>, <strong>JBoss EAP</strong>, <strong>Open Liberty</strong>):</li>
+<li><a href="https://www.oreilly.com/content/modern-java-ee-design-patterns/">Modern Java EE design patterns</a></li>
+<li><a href="https://stackoverflow.com/questions/5039354/difference-between-an-application-server-and-a-servlet-container">Difference between an application server and a servlet container?</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server#">Why Kubernetes is The New Application Server</a></li>
+<li><a href="https://dzone.com/articles/dependency-injection-implementation-in-core-java-1">Dependency Injection</a>:</li>
+<li><a href="https://spring.io/projects/">Spring</a>:
+<ul>
+<li>Walls, Spring in Action</li>
+<li>Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide</li>
+</ul>
+</li>
+<li><a href="https://www.baeldung.com/java-ee-cdi">CDI</a>:
+<ul>
+<li><a href="https://quarkus.io/guides/">Quarkus</a>:
+<ul>
+<li><a href="https://quarkus.io/blog/resteasy-reactive-faq/">Massive performance without headaches</a></li>
+<li><a href="https://quarkus.io/version/-2/guides/quarkus-reactive-architecture">Quarkus Reactive Architecture</a></li>
+<li><a href="https://quarkus.io/version/-2/guides/context-propagation">Context Propagation in Quarkus</a></li>
+<li><a href="https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/">Overview of Bean Scopes in Quarkus</a></li>
+<li>Deandrea, Quarkus for Spring developers</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Reactive Programming:</li>
+<li><a href="https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2"><strong>RxJava</strong></a></li>
+<li><a href="https://smallrye.io/smallrye-mutiny/guides"><strong>Mutiny</strong></a></li>
+<li><a href="https://vertx.io/docs/vertx-core/java/"><strong>Eclipse Vert.x</strong></a></li>
+<li><a href="https://medium.com/geekculture/a-tour-of-netty-5020ecee5494"><strong>Netty</strong></a></li>
+<li>Test-Driven Development:
+<ul>
+<li>Unit Testing:
+<ul>
+<li><a href="https://www.baeldung.com/junit-5"><strong>JUnit 5</strong></a></li>
+<li><a href="https://www.baeldung.com/mockito-series"><strong>Mockito</strong></a></li>
+<li><a href="http://hamcrest.org/JavaHamcrest/tutorial"><strong>Hamcrest</strong></a></li>
+</ul>
+</li>
+<li>Integration Testing:
+<ul>
+<li><a href="http://www.h2database.com/html/tutorial.html"><strong>H2</strong></a></li>
+<li><a href="http://wiremock.org/docs/getting-started/"><strong>WireMock</strong></a></li>
+<li><a href="https://www.baeldung.com/rest-assured-tutorial"><strong>RestAssured</strong></a></li>
+<li><a href="https://www.testcontainers.org/"><strong>Testcontainers</strong></a></li>
+</ul>
+</li>
+<li>E2E Testing:
+<ul>
+<li><a href="https://www.selenium.dev/documentation/guidelines/"><strong>Selenium</strong></a></li>
+</ul>
+</li>
+<li>Fuzz Testing:
+<ul>
+<li><a href="https://www.code-intelligence.com/blog/fuzz-targets-jazzer">Jazzer</a></li>
+</ul>
+</li>
+<li>Mutation Testing:
+<ul>
+<li><a href="https://pitest.org/">Pitest</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Observability: 
+<ul>
+<li>Logging: <a href="https://www.baeldung.com/slf4j-with-log4j2-logback"><strong>SLF4J</strong></a> (Log4J2, Logback)
+<ul>
+<li>Log Aggregation: Splunk, Elastic Stack (or <strong>ELK</strong>, i.e. ElasticSearch + Logstash + Kibana), Fluentd</li>
+</ul>
+</li>
+<li>Metrics: <a href="https://prometheus.io/docs/tutorials/getting_started/">Prometheus</a> + Grafana
+<ul>
+<li><a href="https://iximiuz.com/en/series/learning-prometheus-and-promql/">Learning Prometheus and PromQL</a></li>
+</ul>
+</li>
+<li>Tracing: OpenTelemetry (Jaeger)
+<ul>
+<li><a href="https://github.com/opentracing/specification/issues/163">Deprecating OpenTracing</a></li>
+</ul>
+</li>
+<li>Performance: Apache JMeter</li>
+</ul>
+</li>
+<li>Thread and Memory Monitoring:</li>
+<li><a href="https://www.baeldung.com/java-get-number-of-threads">How to Get the Number of Threads in a Java Process</a></li>
+<li><a href="https://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html">JConsole</a></li>
+<li><a href="https://sysdig.com/blog/monitoring-java-jre/">Monitoring Java applications: Memory usage, threads and other JRE metrics</a></li>
+<li>Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow</li>
+<li>Cloud Patterns:</li>
+<li><a href="https://spring.io/projects/spring-cloud-netflix">Spring Cloud Netflix</a>:
+<ul>
+<li>Eureka (Service Discovery)</li>
+<li>Hystrix (Circuit Breaker)</li>
+<li>Zuul (Routing)</li>
+<li>Ribbon (Load Balancing)</li>
+</ul>
+</li>
+<li><a href="https://developers.googleblog.com/2020/05/java-11-for-cloud-functions.html">Cloud Functions</a>
+<ul>
+<li><a href="https://www.edx.org/course/introduction-to-serverless-on-kubernetes">Introduction to Serverless on Kubernetes</a></li>
+</ul>
+</li>
+<li>Kubernetes Operator Toolkit: Java Operator SDK (<a href="https://javaoperatorsdk.io/">JOSDK</a>)</li>
+<li><a href="https://developer.okta.com/blog/2021/06/18/native-java-framework-comparison">Native Build</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="algorithms--data-structures"><a class="header" href="#algorithms--data-structures">Algorithms &amp; Data Structures</a></h2>
+<ul>
+<li><a href="https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation">Asymptotic notation</a></li>
+<li><a href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?ref=shm">Learn Data Structures and Algorithms</a></li>
+<li>Sedgewick &amp; Wayne, Algorithms <a href="https://www.coursera.org/learn/algorithms-part1">1</a> + <a href="https://www.coursera.org/learn/algorithms-part2">2</a></li>
+<li>Kopec, Classic Computer Science Problems in Java</li>
+<li><a href="http://opendatastructures.org/ods-java/">Open Data Structures (in Java)</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/">Data Structures &amp; Algorithms I Used Working at Tech Companies</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://bost.ocks.org/mike/algorithms/">Visualizing Algorithms</a></li>
+<li>Patterns:
+<ul>
+<li><a href="https://cs.lmu.edu/~ray/notes/algpatterns/">Algorithmic Patterns</a></li>
+<li><a href="https://nan-archive.vercel.app/sliding-window">The Sliding Window Pattern</a></li>
+<li><a href="https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed">14 Patterns to Ace Any Coding Interview Question</a></li>
+<li><a href="https://www.educative.io/courses/grokking-coding-interview-patterns-go">Grokking Coding Interview Patterns in Go</a></li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice">Deliberate Practice</a>:
+<ul>
+<li><a href="https://exercism.org/">exercism</a></li>
+<li><a href="https://leetcode.com/">LeetCode</a></li>
+<li><a href="https://www.hackerrank.com/">HackerRank</a>
+<ul>
+<li><a href="https://www.hackerrank.com/domains/data-structures">data-structures</a></li>
+<li><a href="https://www.hackerrank.com/domains/algorithms">algorithms</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="software-design"><a class="header" href="#software-design">Software Design</a></h2>
+<ul>
+<li>Ousterhout, A Philosophy of Software Design</li>
+<li>Martin, Clean Code</li>
+<li>Hunt &amp; Thomas, The Pragmatic Programmer: From Journeyman to Master</li>
+<li>Brooks, The Mythical Man-Month</li>
+<li>Fowler, Patterns of Enterprise Application Architecture</li>
+<li>GoF, Design Patterns: Elements of Reusable Object-Oriented Software</li>
+<li>Martin, Clean Code: A Handbook of Agile Software Craftsmanship</li>
+<li>Beck &amp; Fowler, Refactoring: Improving the Design of Existing Code</li>
+<li>Winters et al., Software Engineering at Google: Lessons Learned from Programming Over Time</li>
+<li>[<strong>!BONUS</strong>] Norman, <a href="https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things"><em>The Design of Everyday Things</em></a></li>
+<li>[<strong>!BONUS</strong>] Alexander et al., <a href="https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building">The Timeless Way of Building</a> + <a href="https://en.wikipedia.org/wiki/A_Pattern_Language"><em>A Pattern Language: Towns, Buildings Construction</em></a></li>
+<li>[<strong>!BONUS</strong>] Meadows, Thinking in Systems: A Primer</li>
+<li>[<strong>!BONUS</strong>] Hermans, The Programmer's Brain: What every programmer needs to know about cognition</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="inter-process-communication-ipc"><a class="header" href="#inter-process-communication-ipc">Inter-Process Communication (IPC)</a></h2>
+<ul>
+<li><a href="https://www.nginx.com/blog/building-microservices-inter-process-communication/">Inter-Process Communication in a Microservices Architecture</a></li>
+<li>Approaches:</li>
+<li>Legacy Technologies:
+<ul>
+<li>Simple Object Access Protocol (SOAP)</li>
+<li>Remote Method Invocation (RMI)</li>
+<li>Common Object Request Broker Architecture (CORBA)</li>
+</ul>
+</li>
+<li>Synchronous Communication:
+<ul>
+<li>Representational state transfer (REST)</li>
+<li><a href="https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&amp;utm_medium=twitter&amp;utm_campaign=mooc">GraphQL</a></li>
+<li><a href="../luoghi/cibo/veneto.csv">gRPC</a></li>
+<li><a href="https://netflix.github.io/falcor/starter/what-is-falcor.html">Falcor</a></li>
+</ul>
+</li>
+<li>Asynchronous Communication:
+<ul>
+<li>Message Queues</li>
+<li>Publish-Subscribe Pattern</li>
+</ul>
+</li>
+<li>Protocols:</li>
+<li>Sockets:
+<ul>
+<li>Network Sockets:</li>
+<li>TCP
+<ul>
+<li><a href="https://medium.com/@sandeep-verma/http-1-to-http-2-to-http-3-647e73df67a8">HTTP/-1, HTTP/2 and HTTP/3</a></li>
+<li><a href="https://www.baeldung.com/java-websockets">WebSocket</a></li>
+</ul>
+</li>
+<li><a href="https://www.baeldung.com/udp-in-java">UDP</a></li>
+<li><a href="https://nipafx.dev/java-unix-domain-sockets/">Unix Domain Sockets</a></li>
+</ul>
+</li>
+<li>Messaging:
+<ul>
+<li>AMQP</li>
+<li>MQTT</li>
+<li>STOMP</li>
+</ul>
+</li>
+<li><a href="https://www.oreilly.com/library/view/mastering-api-architecture/9781492090625/">Gough et al., Mastering API Architecture</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://rapidapi.com/collection/list-of-free-apis">Free Public APIs for Developers</a></li>
+<li><a href="https://stackoverflow.com/questions/2954372/difference-between-spi-and-api">Difference between SPI and API</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="databases--sql"><a class="header" href="#databases--sql">Databases &amp; SQL</a></h2>
+<ul>
+<li>[<strong>!BONUS</strong>] <a href="https://app.bytescout.com/sql-trainer/index.html">ByteScout SQL Trainer</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://sqlbolt.com/">Introduction to SQL</a></li>
+<li>Basic Concepts:</li>
+<li><a href="https://architecturenotes.co/things-you-should-know-about-databases/">Things You Should Know About Databases</a></li>
+<li><a href="https://www.lifewire.com/database-normalization-basics-1019735">Database Normalization Basics</a></li>
+<li><a href="https://www.essentialsql.com/what-is-a-database-index/">Database Indexes Explained</a></li>
+<li><a href="https://docs.oracle.com/en/database/oracle/oracle-database/21/vldbg/partition-table-compression.html#GUID-F26AFD78-DC1D-4E6B-9B37-375C59FD1787">Table Compression and Partitioning</a></li>
+<li><a href="https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78">Things I Wished More Developers Knew About Databases</a></li>
+<li><a href="https://www.prisma.io/dataguide/intro/comparing-database-types">Comparing database types: how database types evolved to meet different needs</a></li>
+<li>Database Internals:</li>
+<li>How Database Work: <a href="https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/">FE</a> &amp; <a href="https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/">BE</a></li>
+<li><a href="http://coding-geek.com/how-databases-work/">How does a relational database work</a></li>
+<li>Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work</li>
+<li>Common Relational DBs:</li>
+<li>Oracle Database</li>
+<li>MySQL</li>
+<li>Microsoft SQL Server</li>
+<li>PostgreSQL</li>
+<li>IBM Db2</li>
+<li>SQLite</li>
+<li>MariaDB</li>
+<li>Non-Relational DBs (<strong>NoSQL</strong>) by Type:</li>
+<li>Wide column: Apache Cassandra</li>
+<li>Document: <a href="https://www.baeldung.com/elasticsearch-java">ElasticSearch</a>, MongoDB</li>
+<li>Key-value: <a href="https://architecturenotes.co/redis/">Redis</a></li>
+<li>Graph: Neo4J</li>
+<li>Version control tools:</li>
+<li><a href="https://liquibase.org/get-started/quickstart">Liquibase</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="microservices-distributed-systems--system-design"><a class="header" href="#microservices-distributed-systems--system-design">Microservices, Distributed Systems &amp; System Design</a></h2>
+<ul>
+<li><a href="https://dzone.com/articles/from-microservices-to-distributed-systems-survival">From Microservices to Distributed Systems: A Survival Guide for Java Devs</a></li>
+<li><a href="https://microservices.io/patterns/index.html">Microservices Patterns</a></li>
+<li>Vitillo, Understanding Distributed Systems. What every developer should know about large distributed applications</li>
+<li>Newman, Building Microservices (2nd ed.)</li>
+<li>Kleppmann, <a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/">Designing Data-Intensive Applications</a></li>
+<li>Martin, <a href="https://github.com/donnemartin/system-design-primer">The System Design Primer</a></li>
+<li><a href="https://12factor.net/">The Twelve Factors</a></li>
+<li><a href="https://principles.reactive.foundation/">The Reactive Principles. Design Principles for Distributed Applications</a></li>
+<li><a href="https://asatarin.github.io/testing-distributed-systems/">Testing Distributed Systems</a></li>
+<li><a href="https://adityarohilla.com/2022/03/22/the-system-design-template-i-use/">The System Design Template I Use</a></li>
+<li><a href="https://aosabook.org/en/index.html">The Architecture of Open Source Applications</a></li>
+<li><a href="https://nocomplexity.com/documents/arplaybook/introduction.html">Architecture Playbook</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="cloud-computing--devops"><a class="header" href="#cloud-computing--devops">Cloud Computing &amp; DevOps</a></h2>
+<ul>
+<li><a href="https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools">Java Cloud Development Introduction and Tools</a></li>
+<li><a href="https://opensource.com/article/19/4/devops-pipeline">A beginner's guide to building DevOps pipelines with open source tools</a></li>
+<li><a href="https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/">Cloud Application Platform vs Container as a Service vs VM hosted application</a></li>
+<li>Containers and Orchestration:</li>
+<li><a href="https://opensource.com/article/21/8/container-image">What is a container image?</a></li>
+<li><a href="https://snyk.io/blog/container-image-formats/">Container image formats under the hood</a></li>
+<li><a href="https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#">A Practical Introduction to Container Terminology</a></li>
+<li><a href="https://iximiuz.com/en/posts/container-learning-path/">Learning Containers From The Bottom Up</a></li>
+<li><a href="https://earthly.dev/blog/chroot/">Containers are chroot with a Marketing Budget</a></li>
+<li><a href="https://github.com/docker/labs/tree/master/developer-tools/java">Docker</a></li>
+<li><a href="https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo">Podman + Skopeo + Buildah</a></li>
+<li>Container/Cluster Managers:
+<ul>
+<li><a href="https://kube.academy/">Kubernetes</a> + <a href="https://helm.sh/docs/">Helm</a>
+<ul>
+<li><a href="https://thenewstack.io/yes-webassembly-can-replace-kubernetes/">WebAssembly vs. Kubernetes</a></li>
+<li>Distributions:
+<ul>
+<li>Self-Managed (Local):
+<ul>
+<li>minikube</li>
+<li>kind</li>
+<li>Microk8s</li>
+<li>CodeReady Containers (CRC) (a minimal OpenShift -x cluster)</li>
+<li>Minishift (a minimal OpenShift -x cluster)</li>
+</ul>
+</li>
+<li>IoT &amp; Edge Computing:
+<ul>
+<li>k3s</li>
+</ul>
+</li>
+<li>Self-Managed (On Premises/Hybrid)
+<ul>
+<li><a href="https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications">RedHat Openshift</a></li>
+<li>Rancher</li>
+<li>VMware Tanzu Kubernetes Grid (TKG)</li>
+</ul>
+</li>
+<li>Kubernetes-as-a-Service (On Cloud)
+<ul>
+<li>Google Kubernetes Engine (GKE)</li>
+<li>Amazon Elastic Kubernetes Service (Amazon EKS)</li>
+<li>Azure Container Service (AKS)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://docs.docker.com/engine/swarm/">Docker Swarm</a></li>
+<li><a href="https://mesos.apache.org/">Apache Mesos</a></li>
+<li><a href="https://linuxcontainers.org/lxd/">LXD</a></li>
+<li><a href="https://docs.cloudfoundry.org/buildpacks/java/index.html">Cloud Foundry</a></li>
+<li><a href="https://www.nomadproject.io/">Nomad</a></li>
+</ul>
+</li>
+<li>CI/CD Pipelines:
+<ul>
+<li><a href="https://www.edx.org/course/introduction-to-jenkins">Jenkins</a></li>
+<li><a href="https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines#">A developer's guide to CI/CD and GitOps with Jenkins Pipelines</a></li>
+</ul>
+</li>
+<li>Cloud Platforms:
+<ul>
+<li>Amazon Web Services <a href="https://adayinthelifeof.nl/2020/05/20/aws.html">(AWS)</a></li>
+<li><a href="https://azure.microsoft.com/en-us/develop/java/">Microsoft Azure</a></li>
+<li>Google Cloud Platform (GCP)</li>
+<li>Heroku</li>
+</ul>
+</li>
+<li>Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations</li>
+<li>Eisele and Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers</li>
+<li><a href="https://www.edx.org/course/introduction-to-cloud-infrastructure-technologies?utm_medium=partner-marketing&amp;utm_source=social&amp;utm_campaign=linuxfoundation&amp;utm_content=twitter-lfs151">Introduction to Cloud Infrastructure Technologies</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/">The cloudy layers of modern-day programming</a> </li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="the-unix-toolbox"><a class="header" href="#the-unix-toolbox">The UNIX Toolbox</a></h2>
+<ul>
+<li><a href="https://cs.lmu.edu/~ray/notes/bash/">Introduction to Bash</a></li>
+<li><a href="https://matt.might.net/articles/basic-unix/">Survival guide for Unix newbies </a></li>
+<li><a href="https://matt.might.net/articles/settling-into-unix/">Settling into Unix</a></li>
+<li><a href="https://matt.might.net/articles/bash-by-example/">Shell programming with bash: by example, by counter-example</a></li>
+<li><a href="https://matt.might.net/articles/sculpting-text/">Sculpting text with regex, grep, sed, awk, emacs and vim</a></li>
+<li><a href="https://www.nuxified.org/vi_survival_guide/">vi Survival Guide</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://learngitbranching.js.org/">Learn Git Branching</a></li>
+<li><a href="https://curl.haxx.se/docs/httpscripting.html">The Art Of Scripting HTTP Requests Using Curl</a></li>
+<li><a href="https://opensource.com/article/17/11/how-use-cron-linux">How I use cron in Linux</a></li>
+<li><a href="https://ittavern.com/getting-started-with-tmux/">Getting started with tmux</a></li>
+<li><a href="https://zserge.com/posts/tmux/">Tmux for mere mortals</a></li>
+<li><a href="https://regexone.com/">RegexOne. Learn Regular Expressions with simple, interactive exercises</a></li>
+<li><a href="https://justine.lol/cosmopolitan/functions.html">Cosmopolitan Libc</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://linuxjourney.com/">Learn the ways of Linux-fu, for free</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://vim-adventures.com/">Vim Adventures</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://www.unixgame.io/unix50">The Unix Game</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode">WSL as a Linux Development Environment on Windows</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://github.com/sirredbeard/Awesome-UNIX">Awesome UNIX®</a></li>
+<li>Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner</li>
+<li><a href="https://biriukov.dev/docs/page-cache/7-how-much-memory-my-program-uses-or-the-tale-of-working-set-size/#how-much-memory-my-program-uses-or-the-tale-of-working-set-size">How much memory my program uses or the tale of working set size</a></li>
+<li>Love, Linux System Programming</li>
+<li><a href="https://www.kernel.org/doc/html/latest/">The Linux Kernel documentation</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="security"><a class="header" href="#security">Security</a></h2>
+<ul>
+<li><a href="https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html">API authentication and authorization</a></li>
+<li><a href="https://nullsweep.com/http-security-headers-a-complete-guide/">HTTP Security Headers</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2">An Introduction to OAuth 2</a></li>
+<li>Identity, Claims, &amp; Tokens. An OpenID Connect Primer: <a href="https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1">1</a>, <a href="https://developer.okta.com/blog/2017/07/25/oidc-primer-part-2">2</a>, <a href="https://developer.okta.com/blog/2017/08/01/oidc-primer-part-3">3</a></li>
+<li><a href="https://jwt.io/">JWT</a></li>
+<li><a href="https://github.com/qazbnm456/awesome-web-security">Awesome Web Security Awesome</a></li>
+<li>McDonald, <em>Web Security for Developers</em></li>
+<li>Zalewski, <em>Tangled Web. A Guide to Securing Modern Web Applications</em></li>
+<li><a href="https://cheatsheetseries.owasp.org/index.html">OWASP Cheat Sheet Series</a></li>
+<li><a href="https://cryptobook.nakov.com/">Practical Cryptography for Developers</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://portswigger.net/web-security">Web Security Academy</a> (n.b. this course is the updated version of the book <em>The Web Application Hacker's Handbook</em>)</li>
+<li><a href="https://www.redhat.com/sysadmin/find-java-vulnerabilities">How to find third-party vulnerabilities in your Java code</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://flipperzero.one/">Flipper Zero</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="networking-web--browsers"><a class="header" href="#networking-web--browsers">Networking, Web &amp; Browsers</a></h2>
+<ul>
+<li><a href="https://study-ccna.com/what-is-a-network/">What is a network?</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols">An Introduction to Networking Terminology, Interfaces, and Protocols</a></li>
+<li><a href="https://cs.lmu.edu/~ray/notes/netsandinets/">Introduction to Networks</a></li>
+<li><a href="https://iximiuz.com/en/series/computer-networking-fundamentals/">Computer Networking Fundamentals</a></li>
+<li><a href="https://www.ipprimer.com/#/">Daryl's TCP/IP Primer</a></li>
+<li><a href="https://www.practicalnetworking.net/series/packet-traveling/packet-traveling/">Packet Traveling</a></li>
+<li><a href="https://book.systemsapproach.org/index.html">Computer Networks: A Systems Approach</a></li>
+<li><a href="https://hpbn.co/">Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance</a></li>
+<li><a href="https://beej.us/guide/bgnet/">Beej's Guide to Network Programming</a></li>
+<li><a href="https://beej.us/guide/bgipc/">Beej's Guide to Unix Interprocess Communication</a></li>
+<li>Sanders, Practical Packet Analysis</li>
+<li><a href="https://sre.google/books/">SRE books</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web">Web technology for developers</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://browser.engineering/">Web Browser Engineering</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://httptoolkit.tech/">HTTP Toolkit</a></li>
+<li><a href="https://avinetworks.com/glossary/ssl-termination/">SSL Termination</a></li>
+<li><a href="https://scrapism.lav.io/">Web scraping</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://driftingin.space/posts/all-software-is-web-software">All software is web software now</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://www.epicweb.dev/the-webs-next-transition">The Web's Next Transition</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://thewebisfucked.com/">The Web Is Fucked</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="html--css--js"><a class="header" href="#html--css--js">HTML &amp; CSS &amp; JS</a></h2>
+<ul>
+<li><a href="https://learn.shayhowe.com/html-css/">Learn to Code HTML &amp; CSS</a></li>
+<li><a href="https://jenniferdewalt.com/">180 websites in 180 days</a></li>
+<li><a href="https://htmldog.com/">htmldog</a></li>
+<li><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web Design</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Learn">Learn web development</a></li>
+<li><a href="https://javascript.info/">The Modern JavaScript Tutorial</a></li>
+<li><a href="https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks">Four Eras of JavaScript Frameworks</a></li>
+<li><a href="https://github.com/readme/featured/server-side-languages-for-front-end">Move over JavaScript: Back-end languages are coming to the front-end</a></li>
+<li><a href="https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/">The Future of Web Software Is HTML-over-WebSockets</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="development-and-team-organization"><a class="header" href="#development-and-team-organization">Development and Team Organization</a></h2>
+<ul>
+<li><a href="http://www.dfpug.de/loseblattsammlung/online/workshop/design_patterns/sonstiges.htm">Organization and Team Patterns</a></li>
+<li><a href="https://www.timsommer.be/famous-laws-of-software-development/">Famous Laws of Software Development</a></li>
+<li><a href="https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/">Scrum vs Waterfall vs Agile vs Lean vs Kanban</a></li>
+<li><a href="https://datarespons.com/atlassian-suite-tools-for-every-team-and-more-agility-in-projects/">Atlassian Tool Suite</a></li>
+<li><a href="https://www.morling.dev/blog/the-code-review-pyramid/">The Code Review Pyramid</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://blog.pragmaticengineer.com/project-management-at-big-tech/">How Big Tech Runs Tech Projects and the Curious Absence of Scrum</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="software-licenses"><a class="header" href="#software-licenses">Software Licenses</a></h2>
+<ul>
+<li><a href="https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/">Software Licenses: Overview and Recommendations for Developers </a></li>
+<li><a href="https://tldrlegal.com/">Software Licenses in Plain English</a></li>
+<li><a href="https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/">A Beginner's Guide to Open Source Software Development (LFD102)</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="best-practices-common-pitfalls--basic-things-you-should-know"><a class="header" href="#best-practices-common-pitfalls--basic-things-you-should-know">Best Practices, Common Pitfalls &amp; Basic Things You Should Know</a></h2>
+<ul>
+<li>Git:
+<ul>
+<li><a href="https://cbea.ms/git-commit/">How to Write a Git Commit Message</a></li>
+</ul>
+</li>
+<li>Shell Scripting
+<ul>
+<li><a href="https://sharats.me/posts/shell-script-best-practices/">Shell Script Best Practices</a></li>
+</ul>
+</li>
+<li>Characters:
+<ul>
+<li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)</a></li>
+<li><a href="https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/">ASCII Table</a></li>
+<li><a href="https://invisible-characters.com/">Invisible characters</a></li>
+</ul>
+</li>
+<li>Internationalization and localization (i18n)
+<ul>
+<li><a href="https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html">PO Files</a></li>
+</ul>
+</li>
+<li>Dates:
+<ul>
+<li><a href="https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/">All About java.util.Date</a></li>
+<li><a href="https://zachholman.com/talk/utc-is-enough-for-everyone-right">UTC is enough for everyone... right?</a></li>
+<li><a href="https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/">Storing UTC is not a silver bullet</a></li>
+<li><a href="https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601">Designing a REST API: Unix time vs ISO-8601</a></li>
+</ul>
+</li>
+<li>Numbers:
+<ul>
+<li><a href="https://0.30000000000000004.com/">Floating Point Math</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://evanw.github.io/float-toy/">Float Toy</a></li>
+<li><a href="https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/">Why do arrays start at 0?</a></li>
+</ul>
+</li>
+<li>RegEx:
+<ul>
+<li><a href="https://www.regular-expressions.info/email.html">How to Find or Validate an Email Address</a></li>
+<li><a href="https://www.regular-expressions.info/possessive.html">Possessive Quantifiers</a></li>
+</ul>
+</li>
+<li>OS Compatibility:
+<ul>
+<li><a href="https://www.baeldung.com/linux/posix">A Guide to POSIX</a></li>
+<li><a href="https://maex.me/2019/12/the-power-of-the-xdg-base-directory-specification/">The Power of the XDG Base Directory Specification</a></li>
+</ul>
+</li>
+<li>Unit-Testing:
+<ul>
+<li><a href="https://phauer.com/2019/modern-best-practices-testing-java/">Modern Best Practices for Testing in Java</a></li>
+<li><a href="https://reflectoring.io/objectmother-fluent-builder/">Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory</a></li>
+</ul>
+</li>
+<li>Libraries
+<ul>
+<li><a href="https://jlbp.dev/">Google Best Practices for Java Libraries</a></li>
+</ul>
+</li>
+<li>Software Design:
+<ul>
+<li><a href="https://blog.frankel.ch/alternatives-dto/">Alternatives to DTO</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://iximiuz.com/en/posts/my-10-years-of-programming-experience/">My 10 Years of Programming Experience</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming">LEGOs, Play-Doh, and Programming</a></li>
+</ul>
+</li>
+<li>Code Formatting:
+<ul>
+<li><a href="https://editorconfig.org/">EditorConfig</a></li>
+<li><a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a></li>
+</ul>
+</li>
+<li>HTTP:
+<ul>
+<li>CORS:
+<ul>
+<li><a href="https://fosterelli.co/developers-dont-understand-cors">Developers don't understand CORS</a></li>
+<li><a href="https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/">You don't need that CORS request</a></li>
+<li><a href="https://web.dev/same-site-same-origin/">Understanding &quot;same-site&quot; and &quot;same-origin&quot;</a></li>
+</ul>
+</li>
+<li><a href="https://adam-p.ca/blog/2022/03/x-forwarded-for/">The perils of the &quot;real&quot; client IP</a></li>
+<li><a href="https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for">The HTTP crash course nobody asked for</a></li>
+</ul>
+</li>
+<li>REST APIs:
+<ul>
+<li><a href="https://oai.github.io/Documentation/specification.html">OpenAPI Specification</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://twobithistory.org/2020/06/28/rest.html">Roy Fielding's Misappropriated REST Dissertation</a></li>
+<li><a href="https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Best Practices for Designing a Pragmatic RESTful API</a></li>
+<li><a href="https://opensource.zalando.com/restful-api-guidelines/">Zalando RESTful API and Event Guidelines</a></li>
+<li><a href="https://standards.rest/">Standards.REST</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">List of HTTP status codes</a></li>
+<li><a href="https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body--html">The HTTP QUERY Method</a></li>
+</ul>
+</li>
+<li>Web:
+<ul>
+<li><a href="https://www.bjornjohansen.com/www-or-not">To www or not to www - Should you use www or not in your domain?</a></li>
+<li><a href="https://santurcesoftware.com/making-web-sites-small">Making Websites Small</a></li>
+</ul>
+</li>
+<li>Containers:
+<ul>
+<li><a href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/">Best practices for writing Dockerfiles</a></li>
+<li><a href="https://sysdig.com/blog/toctou-tag-mutability/">Attack of the mutant tags!. Or why tag mutability is a real security threat</a></li>
+<li><a href="https://sysdig.com/blog/container-security-best-practices/">Container security best practices: Comprehensive guide</a></li>
+</ul>
+</li>
+<li>Distributed Systems:
+<ul>
+<li>[<strong>!OPINION</strong>] <a href="https://arnoldgalovics.com/microservices-in-production/">Don't start with microservices - monoliths are your friend</a></li>
+<li><a href="https://architecturenotes.co/fallacies-of-distributed-systems/">Fallacies of Distributed Systems</a></li>
+<li><a href="https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb">You Are Not Google</a></li>
+<li><a href="https://www.infoq.com/news/2014/08/microservices_ballmud/">Microservices and the Big Ball of Mud</a></li>
+</ul>
+</li>
+<li>Networks:
+<ul>
+<li><a href="https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/">ICMP, Ping, and Traceroute - What I Wish I Was Taught</a></li>
+<li><a href="https://educatedguesswork.org/posts/traffic-relaying/">How to hide your IP address</a></li>
+</ul>
+</li>
+<li>Memory:
+<ul>
+<li><a href="https://people.freebsd.org/~lstewart/articles/cpumemory.pdf">What Every Programmer Should Know About Memory</a></li>
+<li><a href="https://www.azul.com/blog/what-should-i-know-about-garbage-collection-as-a-java-developer/">What Should I Know About Garbage Collection as a Java Developer?</a></li>
+</ul>
+</li>
+<li>Performance:
+<ul>
+<li><a href="https://gist.github.com/jboner/2841832">Latency Numbers Every Programmer Should Know</a></li>
+</ul>
+</li>
+<li>Programming Languages and Compilers:
+<ul>
+<li><a href="https://softwareengineering.stackexchange.com/questions/267086/is-every-language-written-in-c">Is every language written in C?</a></li>
+<li><a href="https://stackoverflow.com/questions/466790/assembly-code-vs-machine-code-vs-object-code">Assembly code vs Machine code vs Object code?</a></li>
+<li><a href="https://cs.lmu.edu/~ray/notes/languagetheory/">Introduction to Language Theory</a></li>
+<li><a href="https://cs.lmu.edu/~ray/notes/syntax/">Syntax</a></li>
+<li><a href="https://cs.lmu.edu/~ray/notes/syntaxdesign/">Syntax Design</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form">Backus-Naur form</a></li>
+<li><a href="https://c9x.me/compile/bib/">Resources for Amateur Compiler Writers</a></li>
+<li><a href="https://www.oreilly.com/radar/low-code-and-the-democratization-of-programming/">Low-Code and the Democratization of Programming. Rethinking Where Programming Is Headed</a></li>
+<li><a href="https://www.timdbg.com/posts/fakers-guide-to-assembly/">The faker's guide to reading (x86) assembly language</a></li>
+<li>[<strong>!BONUS</strong>]  <a href="https://godbolt.org/">Compiler Explorer</a></li>
+<li><a href="https://lists.eatonphil.com/compilers-and-interpreters.html">Favorite compiler and interpreter resources</a></li>
+</ul>
+</li>
+<li>Miscellanea:
+<ul>
+<li><a href="https://blog.frankel.ch/hard-things-computer-science/">Hard things in Computer Science</a></li>
+<li><a href="https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">How to name things: the hardest problem in programming</a></li>
+<li><a href="https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line">What is the difference between Terminal, Console, Shell, and Command Line?</a></li>
+<li><a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">The Law of Leaky Abstractions</a></li>
+<li><a href="https://jvns.ca/blog/2022/07/20/pseudoterminals/">What happens when you press a key in your terminal?</a></li>
+<li><a href="https://danluu.com/navigate-url/">What happens when you load a URL?</a></li>
+<li><a href="https://lateblt.tripod.com/bit68.txt">What Happens When A CPU Starts</a></li>
+</ul>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="teaching-yourself-cs"><a class="header" href="#teaching-yourself-cs">Teaching Yourself CS</a></h2>
+<ul>
+<li><a href="https://norvig.com/21-days.html">Teach Yourself Programming in Ten Years</a></li>
+<li><a href="https://teachyourselfcs.com/">Teach Yourself Computer Science</a>
+<ul>
+<li><a href="https://blog.bradfieldcs.com/learn-how-computers-work-e7d33dba0238">Learn how computers work</a></li>
+<li><a href="https://blog.bradfieldcs.com/how-to-learn-about-database-systems-40c7432f471d#.5rjlp4fqq">How to learn about database systems</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/ossu/computer-science">Path to a free self-taught education in Computer Science!</a></li>
+<li><a href="https://github.com/geohotfromthetransistor">From the Transistor to the Web Browser</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="classics--bibles"><a class="header" href="#classics--bibles">Classics &amp; Bibles</a></h2>
+<ul>
+<li>Sussman &amp; Abelson, Structure and Interpretation of Computer Programs (SICP)</li>
+<li>Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)</li>
+<li>Patterson and Hennessy, <a href="https://shop.elsevier.com/books/computer-organization-and-design-mips-edition/patterson/978-0-12-407726-3#full-description">Computer Organization and Design (MIPS Edition). The Hardware/Software Interface</a></li>
+<li>[<strong>!FUTURE CLASSIC</strong>] <a href="https://diveintosystems.org/singlepage/">Dive into Systems</a></li>
+<li>Nisan and Schocken, The lifecylElements of Computing Systems (nand2tetris)</li>
+<li>Tanenbaum and Bos, Modern Operating Systems</li>
+<li>Tanenbaum and Wetherall, Computer Networks (6ed)</li>
+<li>Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)</li>
+<li>Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)</li>
+<li>[<strong>!FUTURE CLASSIC</strong>] <a href="https://craftinginterpreters.com/">Nystrom, Crafting Interpreters</a></li>
+<li>Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)</li>
+<li>[<strong>!BEGINNER-FRIENDLY</strong>] <a href="https://algs4.cs.princeton.edu/home/">Sedgewick and Wayne, Algorithms</a> (4ed)</li>
+<li>Kernighan and Ritchie, The C Programming Language</li>
+<li>Knuth, Patashnik, and Graham, Concrete Mathematics: A Foundation for Computer Science</li>
+<li>Knuth, The Art of Computer Programming</li>
+<li>Bishop, Pattern Recognition and Machine Learning</li>
+<li>Norvig, Paradigms of Artificial Intelligence Programming</li>
+<li>Jurafsky &amp; Martin, <a href="https://web.stanford.edu/~jurafsky/slp3/">Speech and Language Processing (3rd ed. draft)</a> (SLP3)</li>
+<li>Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook</li>
+<li>Bovet &amp; Cesati, Understanding the Linux Kernel</li>
+<li><a href="https://lwn.net/Kernel/LDD3/">Rubini, Linux Device Drivers</a></li>
+<li><a href="https://man7.org/tlpi/">Kerrisk, The Linux Programming Interface</a></li>
+<li><a href="https://www.brendangregg.com/systems-performance-2nd-edition-book.html">Brendan, Systems Performance: Enterprise and the Cloud</a></li>
+<li>[<strong>!FUTURE CLASSIC</strong>] Kleppmann, <a href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/">Designing Data-Intensive Applications</a></li>
+<li>[<strong>!FUTURE CLASSIC</strong>] Petrov, <a href="https://www.databass.dev/">Database Internals: A Deep Dive Into How Distributed Data Systems Work</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="math"><a class="header" href="#math">Math</a></h2>
+<ul>
+<li><a href="https://pimbook.org/">Kun, A Programmer's Introduction to Mathematics</a></li>
+<li><a href="https://www.neilwithdata.com/mathematics-self-learner">Mathematics for the adventurous self-learner</a></li>
+<li><a href="https://www.youtube.com/c/3blue1brown/videos">3Blue1Brown</a></li>
+<li><a href="https://www.khanacademy.org/math">Khan Academy</a></li>
+<li><a href="https://textbooks.math.gatech.edu/ila/index2.html">Interactive Linear Algebra</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="csfoss-history-and-hackingcyberpunk-culture"><a class="header" href="#csfoss-history-and-hackingcyberpunk-culture">CS/FOSS History and Hacking/Cyberpunk Culture</a></h2>
+<ul>
+<li>Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. italian version, <a href="https://www.mimesisedizioni.it/libro/9788857547046">Utopia del Software Libero</a>)</li>
+<li><a href="http://www.catb.org/~esr/faqs/hacker-howto.html#why_this">ESR, How To Become A Hacker</a></li>
+<li>ESR, The Cathedral &amp; the Bazaar</li>
+<li>Kernighan, UNIX: A History and a Memoir</li>
+<li>Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security</li>
+<li>Petzold, Code: The Hidden Language of Computer Hardware and Software, 2nd Edition</li>
+<li>Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software</li>
+<li>Torvalds, Just for Fun</li>
+<li>Knuth, Things a Computer Scientist Rarely Talks About</li>
+<li>Hafner, Where wizards stay up late</li>
+<li>Waldrop, The Dream Machine: Licklider and the Revolution That Made Computing Personal</li>
+<li>Rheingold, Tools for Thought. The History and Future of Mind-Expanding Technology</li>
+<li>Bhattacharya, The Man from the Future: The Visionary Life of John von Neumann</li>
+<li><a href="https://lunduke.substack.com/p/the-history-of-the-graphical-user">The History of the Graphical User Interface - 1945 to 1980</a></li>
+<li>Gleick, The Information: A History, a Theory, a Flood</li>
+<li>Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid</li>
+<li>Kidder, The Soul of a New Machine</li>
+<li>Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture</li>
+<li>Levy, Hackers: Heroes of the Computer Revolution</li>
+<li>Mitnick &amp;s Simon, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker</li>
+<li>Erickson, Hacking: The Art of Exploitation</li>
+<li>Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware</li>
+<li>Naitoh, How the ThinkPad Changed the World ― and Is Shaping the Future</li>
+<li>Gibson, Neuromancer</li>
+<li>Dick, Do Androids Dream of Electric Sheep?</li>
+<li>Shirow, The Ghost in the Shell</li>
+<li>Otomo, Akira</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="finest-sources-of-geek-entertainment"><a class="header" href="#finest-sources-of-geek-entertainment">Finest Sources of Geek Entertainment</a></h2>
+<ul>
+<li><a href="https://lwn.net/">LWN.net</a></li>
+<li><a href="https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA">Computerphile</a></li>
+<li><a href="https://news.ycombinator.com/">Hacker News</a></li>
+<li><a href="https://blog.pragmaticengineer.com/">The Pragmatic Engineer</a></li>
+<li><a href="http://veekaybee.github.io/">Vicki Boykis</a></li>
+<li><a href="https://jvns.ca/">Julia Evans</a></li>
+<li><a href="https://simonwillison.net/">Simon Willison</a></li>
+<li><a href="https://www.gwern.net/">Gwern</a></li>
+<li><a href="https://iximiuz.com/en/">Ivan Velichko</a></li>
+<li><a href="https://martin.kleppmann.com/">Martin Kleppmann</a></li>
+<li><a href="https://eater.net/">Ben Eater</a></li>
+<li><a href="http://sam.zeloof.xyz/">Sam Zeloof</a></li>
+<li>[<strong>!ITA</strong>] <a href="https://www.youtube.com/c/paoloaliverti/featured">Paolo Aliverti</a></li>
+<li><a href="https://boxofcables.dev/">Box of Cables</a></li>
+<li><a href="http://antirez.com/latest/0">antirez</a></li>
+<li><a href="https://www.jwz.org/">jwz</a></li>
+<li><a href="https://lcamtuf.coredump.cx/">lcamtuf</a></li>
+<li><a href="https://lunduke.substack.com/">The Lunduke Journal of Technology</a></li>
+<li><a href="https://weblog.jamisbuck.org/">The Buckblog, assorted ramblings by Jamis Buck</a></li>
+<li><a href="https://codeblog.jonskeet.uk/">Jon Skeet's coding blog</a></li>
+<li><a href="https://www.schneier.com/">Schneier on Security</a></li>
+<li><a href="https://blog.codinghorror.com/">Coding Horror</a></li>
+<li><a href="https://opensource.com/">Opensource.com</a></li>
+<li><a href="https://www.redhat.com/sysadmin/welcome-enable-sysadmin">Enable Sysadmin</a></li>
+<li><a href="https://www.baeldung.com/category/weekly-review/">Baeldung Weekly Review</a></li>
+<li><a href="https://blog.jetbrains.com/idea/tag/java-annotated/">Java Annotated</a></li>
+<li><a href="https://architecturenotes.co/">Architecture Notes</a></li>
+<li><a href="https://blog.bytebytego.com/?utm_source=site">ByteByteGo, by Alex Xu</a></li>
+<li><a href="https://thehistoryoftheweb.com/">The History of the Web</a></li>
+<li><a href="https://anchor.fm/happypathprogramming/episodes/66-The-Journey-to-Rust-with-Christopher-Hunt-e1meaqh">Happy Path Programming</a></li>
+<li><a href="https://www.programmingtalks.org">Programming Talks</a></li>
+<li><a href="https://friendlywire.com/">FriendlyWire</a></li>
+<li><a href="https://blog.cloudflare.com/tag/engineering/">The Cloudflare Blog</a></li>
+<li><a href="https://netflixtechblog.com/">The Netflix Tech Blog</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="other-programming-languages"><a class="header" href="#other-programming-languages">Other Programming Languages</a></h2>
+<ul>
+<li>
+<p>Rust</p>
+<details>
+  <summary>more</summary>
+<ul>
+<li><a href="https://doc.rust-lang.org/book/index.html">The Rust Programming Language</a></li>
+<li><a href="https://docs.rust-embedded.org/book/index.html">The Embedded Rust Book</a></li>
+<li><a href="https://github.com/LukeMathWalker/build-your-own-jira-with-rust">Build your own JIRA with Rust</a></li>
+<li><a href="https://www.zero2prod.com/index.html">Zero To Production In Rust. An introduction to backend development</a></li>
+<li><a href="https://blog.logrocket.com/current-state-rust-web-frameworks/">The current state of Rust web frameworks</a></li>
+</ul>
+</details>
+</li>
+<li>
+<p>Go</p>
+<details>
+  <summary>more</summary>
+<ul>
+<li><a href="https://go.dev/tour/welcome/1">A Tour of Go</a></li>
+<li><a href="https://gobyexample.com/">Go by Example</a></li>
+<li><a href="https://quii.gitbook.io/learn-go-with-tests/">Learn Go with Tests</a></li>
+<li><a href="https://roadmap.sh/golang">Go Roadmap</a></li>
+<li><a href="https://github.com/avelino/awesome-go">Awesome Go</a></li>
+</ul>
+</details>
+</li>
+<li>
+<p><a href="https://blog.bradfieldcs.com/how-to-learn-c-59222a627a4c">C</a> / C++</p>
+</li>
+<li>
+<p><a href="https://kotlinlang.org/docs/getting-started.html">Kotlin</a> / <a href="https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html">Scala</a></p>
+</li>
+<li>
+<p><a href="https://www.ruby-lang.org/en/documentation/quickstart/">Ruby</a></p>
+</li>
+<li>
+<p><a href="https://docs.python.org/3/tutorial/">Python</a></p>
+</li>
+<li>
+<p><a href="https://nim-lang.org/docs/tut1.html">Nim</a></p>
+</li>
+<li>
+<p><a href="https://www.erlang.org/doc/getting_started/intro.html#prerequisites">Erlang</a> / <a href="https://elixir-lang.org/getting-started/introduction.html">elixir</a></p>
+</li>
+<li>
+<p><a href="https://ziglang.org/learn/overview/">Zig</a></p>
+</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="embedded-systems--electronics"><a class="header" href="#embedded-systems--electronics">Embedded Systems &amp; Electronics</a></h2>
+<ul>
+<li><a href="https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/">A guide to getting started with embedded systems</a></li>
+<li><a href="https://opensource.com/resources/what-arduino">What is an Arduino?</a></li>
+<li><a href="https://opensource.com/resources/raspberry-pi">What is a Raspberry Pi?</a></li>
+<li><a href="https://www.mclpcb.com/blog/fpga-vs-microcontroller/">FPGA vs. Microcontroller. What is the Difference?</a></li>
+<li><a href="https://store.arduino.cc/products/arduino-starter-kit-multi-language">Arduino Starter Kit</a></li>
+<li><a href="https://docs.arduino.cc/learn/">Basic knowledge about principles and techniques behind the Arduino ecosystem</a></li>
+<li><a href="https://arduinohistory.github.io/">The Untold History of Arduino</a></li>
+<li><a href="https://lcamtuf.coredump.cx/electronics/">Concise electronics for geeks</a></li>
+<li><a href="https://www.allaboutcircuits.com/textbook/">Lessons in Electric Circuits</a></li>
+<li>Platt, Electronics: Learning by Discovery: A hands-on primer for the new electronics enthusiast</li>
+<li><a href="https://www.allaboutcircuits.com/textbook/radio-frequency-analysis-design/">Practical Guide to Radio-Frequency Analysis and Design</a></li>
+<li><a href="https://triq.org/">SDR I/Q tools</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Intel_HEX">Intel HEX</a></li>
+<li><a href="https://www.youtube.com/watch?v=xFqA9u6y0Fk&amp;list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt">Microsoldering 101</a></li>
+<li><a href="https://jaycarlson.net/embedded-linux/"> So you want to build an embedded Linux system?</a></li>
+<li><a href="https://florian.noeding.com/posts/risc-v-toy-cpu/cpu-from-scratch/">How a CPU works: Bare metal C on my RISC-V toy CPU</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://www.xorpd.net/pages/x86_adventures.html">Assembly Language Adventures</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://zserge.com/posts/post-apocalyptic-programming/">Post-apocalyptic programming</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://539kernel.com/book/">A Journey in Creating an Operating System Kernel</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="open-source-diy--right-to-repair"><a class="header" href="#open-source-diy--right-to-repair">Open Source, DIY &amp; Right to Repair</a></h2>
+<ul>
+<li><a href="https://opensource.com/article/18/2/pivotal-moments-history-open-source">Pivotal moments in open source history</a></li>
+<li><a href="https://comment.org/convivial-software-or-why-open-source-matters/">Convivial software (or, why open source matters)</a></li>
+<li><a href="https://opensource.com/resources/what-open-hardware">What is open hardware?</a></li>
+<li><a href="https://opensourceecology.dozuki.com/#Section_What_is_OSE">Open Source Ecology</a></li>
+<li><a href="https://www.ifixit.com/">iFixit</a></li>
+<li><a href="https://www.platform21.nl/download/4375">Repair Manifesto</a></li>
+<li><a href="https://repair.eu/">Right to Repair</a></li>
+<li><a href="https://www.repaircafe.org/en/">RepairCafé</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="job-hunting"><a class="header" href="#job-hunting">Job Hunting</a></h2>
+<ul>
+<li><a href="https://randallkanna.com/get-the-ultimate-list/">Kanna, Job Hunting Resources for Developers</a></li>
+<li><a href="https://www.freecodecamp.org/news/learn-to-code-book/">How to Learn to Code &amp; Get a Developer Job in 2023</a></li>
+<li><a href="https://github.com/lukasz-madon/awesome-remote-job">Awesome Remote Job</a></li>
+<li>[<strong>!ITA</strong>] <a href="https://github.com/italiaremote/awesome-italia-remote">Awesome Italia Remote</a></li>
+<li><a href="https://www.crackingthecodinginterview.com/">Cracking the Coding Interview</a></li>
+<li><a href="https://www.hackerrank.com/interview/preparation-kits">Interview Preparation Kits</a></li>
+<li><a href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/">Top Interview Questions</a></li>
+<li><a href="https://www.educative.io/courses/grokking-coding-interview-patterns-go">Grokking Coding Interview Patterns in Go</a></li>
+<li><a href="https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed">14 Patterns to Ace Any Coding Interview Question</a></li>
+<li><a href="https://github.com/viraptor/reverse-interview">Reverse interview</a></li>
+<li><a href="https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/">Questions I'm asking in interviews</a></li>
+<li><a href="https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/">The Joel Test: 12 Steps to Better Code</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script>
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>

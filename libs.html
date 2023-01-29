@@ -1,0 +1,379 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Most Popular Libraries, Frameworks and Tools for Java - Good links to learn programming</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="java.html"><strong aria-hidden="true">2.</strong> Java</a></li><li class="chapter-item expanded "><a href="libs.html" class="active"><strong aria-hidden="true">3.</strong> Most Popular Libraries, Frameworks and Tools for Java</a></li><li class="chapter-item expanded "><a href="algs.html"><strong aria-hidden="true">4.</strong> Algorithms & Data Structures</a></li><li class="chapter-item expanded "><a href="design.html"><strong aria-hidden="true">5.</strong> Software Design</a></li><li class="chapter-item expanded "><a href="ipc.html"><strong aria-hidden="true">6.</strong> Inter-Process Communication (IPC)</a></li><li class="chapter-item expanded "><a href="db.html"><strong aria-hidden="true">7.</strong> Databases & SQL</a></li><li class="chapter-item expanded "><a href="microservices.html"><strong aria-hidden="true">8.</strong> Microservices, Distributed Systems & System Design</a></li><li class="chapter-item expanded "><a href="cloud.html"><strong aria-hidden="true">9.</strong> Cloud Computing & DevOps</a></li><li class="chapter-item expanded "><a href="unix.html"><strong aria-hidden="true">10.</strong> The UNIX Toolbox</a></li><li class="chapter-item expanded "><a href="security.html"><strong aria-hidden="true">11.</strong> Security</a></li><li class="chapter-item expanded "><a href="networks.html"><strong aria-hidden="true">12.</strong> Networking, Web & Browsers</a></li><li class="chapter-item expanded "><a href="fe.html"><strong aria-hidden="true">13.</strong> HTML, CSS & JS</a></li><li class="chapter-item expanded "><a href="team.html"><strong aria-hidden="true">14.</strong> Development and Team Organization</a></li><li class="chapter-item expanded "><a href="licenses.html"><strong aria-hidden="true">15.</strong> Software Licenses</a></li><li class="chapter-item expanded "><a href="best-practices.html"><strong aria-hidden="true">16.</strong> Best Practices, Common Pitfalls & Basic Things You Should Know</a></li><li class="chapter-item expanded "><a href="teach.html"><strong aria-hidden="true">17.</strong> Teaching Yourself CS</a></li><li class="chapter-item expanded "><a href="classics.html"><strong aria-hidden="true">18.</strong> Classics & Bibles</a></li><li class="chapter-item expanded "><a href="math.html"><strong aria-hidden="true">19.</strong> Math</a></li><li class="chapter-item expanded "><a href="history.html"><strong aria-hidden="true">20.</strong> CS/FOSS History and Hacking/Cyberpunk Culture</a></li><li class="chapter-item expanded "><a href="blogs.html"><strong aria-hidden="true">21.</strong> Finest Sources of Geek Entertainment</a></li><li class="chapter-item expanded "><a href="prog-languages.html"><strong aria-hidden="true">22.</strong> Other Programming Languages</a></li><li class="chapter-item expanded "><a href="metal.html"><strong aria-hidden="true">23.</strong> Embedded Systems & Electronics</a></li><li class="chapter-item expanded "><a href="open.html"><strong aria-hidden="true">24.</strong> Open Source, DIY & Right to Repair</a></li><li class="chapter-item expanded "><a href="job.html"><strong aria-hidden="true">25.</strong> Job Hunting</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Good links to learn programming</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="most-popular-libraries-frameworks-and-tools-for-java"><a class="header" href="#most-popular-libraries-frameworks-and-tools-for-java">Most Popular Libraries, Frameworks and Tools for Java</a></h2>
+<ul>
+<li>[<strong>!BONUS</strong>] <a href="https://www.thoughtworks.com/radar">Technology Radar. An opinionated guide to technology frontiers</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging">Why not use java.util.logging?</a></li>
+<li><a href="https://www.baeldung.com/mdc-in-log4j-2-logback">Mapped Diagnostic Context (MDC)</a></li>
+<li>Boilerplate Code Auto-generation: <a href="https://projectlombok.org/">Project Lombok</a></li>
+<li>POJO-DTO Mapping: <a href="https://mapstruct.org/"><strong>MapStruct</strong></a></li>
+<li>Bean Validation: <a href="https://hibernate.org/validator/documentation/getting-started/">Hibernate Validator</a></li>
+<li>Persistence:
+<ul>
+<li><a href="https://www.baeldung.com/jpa-vs-jdbc">JDBC</a></li>
+<li>JPA
+<ul>
+<li><a href="https://www.baeldung.com/learn-jpa-hibernate">Hibernate</a>
+<ul>
+<li><a href="https://docs.jboss.org/hibernate/orm/-3/devguide/en-US/html/ch-html">HQL/JPQL</a></li>
+<li>Vlad Mihalcea, <a href="https://vladmihalcea.com/blog/">blog</a> + <a href="https://vladmihalcea.com/books/high-performance-java-persistence/">High-Performance Java Persistence</a></li>
+<li><a href="https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/?utm_source=social&amp;utm_medium=twitter&amp;utm_campaign=tutorial">Hibernate Performance Tuning Tips</a></li>
+</ul>
+</li>
+<li>EclipseLink</li>
+<li>Apache OpenJPA</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://blog.frankel.ch/choose-cache/2/">Cache Providers</a>: Caffeine, Ehcache, Infinispan, Hazelcast, Redis, Apache Ignite</li>
+<li>Message Processing:</li>
+<li>JMS (<strong>Apache ActiveMQ</strong>, <strong>RabbitMQ</strong>)</li>
+<li>Event Streaming:</li>
+<li><strong>Apache Kafka</strong></li>
+<li>Data Serialization:
+<ul>
+<li>Java Serialization (Native APIs)
+<ul>
+<li>[<strong>!OPINION</strong>] <a href="https://stackoverflow.com/questions/19447623/why-javas-serialization-slower-than-3rd-party-apis">Why Java's serialization slower than 3rd party APIs?</a></li>
+</ul>
+</li>
+<li>Language-agnostic Formats:
+<ul>
+<li>XML:
+<ul>
+<li>Java Architecture for XML Binding (JAXB)</li>
+</ul>
+</li>
+<li>JSON:
+<ul>
+<li><a href="https://www.baeldung.com/jackson"><strong>Jackson</strong></a>
+<ul>
+<li><a href="https://github.com/FasterXML/jackson-docs/wiki/Presentation:-Jackson-Performance">Turbo-charging Jackson</a></li>
+</ul>
+</li>
+<li>Gson</li>
+<li>JSON-P &amp; JSON-B</li>
+</ul>
+</li>
+<li>YAML:
+<ul>
+<li>YAML Beans</li>
+<li>SnakeYAML</li>
+</ul>
+</li>
+<li><a href="https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html">Schema-based Binary Format</a>:
+<ul>
+<li><a href="https://developers.google.com/protocol-buffers/docs/javatutorial"><strong>Protocol Buffers</strong></a> (protobuf)</li>
+<li><a href="https://thrift.apache.org/tutorial/java.html"><strong>Apache Thrift</strong></a></li>
+<li><a href="https://avro.apache.org/docs/current/gettingstartedjava.html"><strong>Apache Avro</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>File Manipulation:</li>
+<li>Microsoft Documents: <a href="https://www.baeldung.com/java-microsoft-excel"><strong>Apache POI</strong></a></li>
+<li>PDF: <a href="https://www.baeldung.com/java-pdf-creation"><strong>iText</strong></a>/<a href="https://github.com/LibrePDF/OpenPDF"><strong>OpenPDF</strong></a></li>
+<li>HTML: <a href="https://www.baeldung.com/mustache"><strong>Mustache</strong></a></li>
+<li><a href="https://www.baeldung.com/jax-ws">JAX-WS</a> (<strong>Axis2</strong>, <strong>Apache CXF</strong>)</li>
+<li><a href="https://www.baeldung.com/jax-rs-spec-and-implementations">JAX-RS</a> (<strong>RESTEasy</strong>, <strong>Jersey</strong>, <strong>Apache CXF</strong>)</li>
+<li>API documentation: <a href="https://swagger.io/tools/open-source/open-source-integrations/"><strong>Swagger</strong></a></li>
+<li><a href="https://www.baeldung.com/java-enterprise-evolution">JEE</a> (<strong>Apache Tomcat</strong>, <strong>Jetty</strong>, <strong>WebSphere</strong>, <strong>WildFly</strong>, <strong>GlassFish</strong>, <strong>JBoss EAP</strong>, <strong>Open Liberty</strong>):</li>
+<li><a href="https://www.oreilly.com/content/modern-java-ee-design-patterns/">Modern Java EE design patterns</a></li>
+<li><a href="https://stackoverflow.com/questions/5039354/difference-between-an-application-server-and-a-servlet-container">Difference between an application server and a servlet container?</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server#">Why Kubernetes is The New Application Server</a></li>
+<li><a href="https://dzone.com/articles/dependency-injection-implementation-in-core-java-1">Dependency Injection</a>:</li>
+<li><a href="https://spring.io/projects/">Spring</a>:
+<ul>
+<li>Walls, Spring in Action</li>
+<li>Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide</li>
+</ul>
+</li>
+<li><a href="https://www.baeldung.com/java-ee-cdi">CDI</a>:
+<ul>
+<li><a href="https://quarkus.io/guides/">Quarkus</a>:
+<ul>
+<li><a href="https://quarkus.io/blog/resteasy-reactive-faq/">Massive performance without headaches</a></li>
+<li><a href="https://quarkus.io/version/-2/guides/quarkus-reactive-architecture">Quarkus Reactive Architecture</a></li>
+<li><a href="https://quarkus.io/version/-2/guides/context-propagation">Context Propagation in Quarkus</a></li>
+<li><a href="https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/">Overview of Bean Scopes in Quarkus</a></li>
+<li>Deandrea, Quarkus for Spring developers</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Reactive Programming:</li>
+<li><a href="https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2"><strong>RxJava</strong></a></li>
+<li><a href="https://smallrye.io/smallrye-mutiny/guides"><strong>Mutiny</strong></a></li>
+<li><a href="https://vertx.io/docs/vertx-core/java/"><strong>Eclipse Vert.x</strong></a></li>
+<li><a href="https://medium.com/geekculture/a-tour-of-netty-5020ecee5494"><strong>Netty</strong></a></li>
+<li>Test-Driven Development:
+<ul>
+<li>Unit Testing:
+<ul>
+<li><a href="https://www.baeldung.com/junit-5"><strong>JUnit 5</strong></a></li>
+<li><a href="https://www.baeldung.com/mockito-series"><strong>Mockito</strong></a></li>
+<li><a href="http://hamcrest.org/JavaHamcrest/tutorial"><strong>Hamcrest</strong></a></li>
+</ul>
+</li>
+<li>Integration Testing:
+<ul>
+<li><a href="http://www.h2database.com/html/tutorial.html"><strong>H2</strong></a></li>
+<li><a href="http://wiremock.org/docs/getting-started/"><strong>WireMock</strong></a></li>
+<li><a href="https://www.baeldung.com/rest-assured-tutorial"><strong>RestAssured</strong></a></li>
+<li><a href="https://www.testcontainers.org/"><strong>Testcontainers</strong></a></li>
+</ul>
+</li>
+<li>E2E Testing:
+<ul>
+<li><a href="https://www.selenium.dev/documentation/guidelines/"><strong>Selenium</strong></a></li>
+</ul>
+</li>
+<li>Fuzz Testing:
+<ul>
+<li><a href="https://www.code-intelligence.com/blog/fuzz-targets-jazzer">Jazzer</a></li>
+</ul>
+</li>
+<li>Mutation Testing:
+<ul>
+<li><a href="https://pitest.org/">Pitest</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Observability: 
+<ul>
+<li>Logging: <a href="https://www.baeldung.com/slf4j-with-log4j2-logback"><strong>SLF4J</strong></a> (Log4J2, Logback)
+<ul>
+<li>Log Aggregation: Splunk, Elastic Stack (or <strong>ELK</strong>, i.e. ElasticSearch + Logstash + Kibana), Fluentd</li>
+</ul>
+</li>
+<li>Metrics: <a href="https://prometheus.io/docs/tutorials/getting_started/">Prometheus</a> + Grafana
+<ul>
+<li><a href="https://iximiuz.com/en/series/learning-prometheus-and-promql/">Learning Prometheus and PromQL</a></li>
+</ul>
+</li>
+<li>Tracing: OpenTelemetry (Jaeger)
+<ul>
+<li><a href="https://github.com/opentracing/specification/issues/163">Deprecating OpenTracing</a></li>
+</ul>
+</li>
+<li>Performance: Apache JMeter</li>
+</ul>
+</li>
+<li>Thread and Memory Monitoring:</li>
+<li><a href="https://www.baeldung.com/java-get-number-of-threads">How to Get the Number of Threads in a Java Process</a></li>
+<li><a href="https://docs.oracle.com/javase/7/docs/technotes/guides/management/jconsole.html">JConsole</a></li>
+<li><a href="https://sysdig.com/blog/monitoring-java-jre/">Monitoring Java applications: Memory usage, threads and other JRE metrics</a></li>
+<li>Workflow Engines: jBPM, Activiti, Flowable, COPPER, nFlow</li>
+<li>Cloud Patterns:</li>
+<li><a href="https://spring.io/projects/spring-cloud-netflix">Spring Cloud Netflix</a>:
+<ul>
+<li>Eureka (Service Discovery)</li>
+<li>Hystrix (Circuit Breaker)</li>
+<li>Zuul (Routing)</li>
+<li>Ribbon (Load Balancing)</li>
+</ul>
+</li>
+<li><a href="https://developers.googleblog.com/2020/05/java-11-for-cloud-functions.html">Cloud Functions</a>
+<ul>
+<li><a href="https://www.edx.org/course/introduction-to-serverless-on-kubernetes">Introduction to Serverless on Kubernetes</a></li>
+</ul>
+</li>
+<li>Kubernetes Operator Toolkit: Java Operator SDK (<a href="https://javaoperatorsdk.io/">JOSDK</a>)</li>
+<li><a href="https://developer.okta.com/blog/2021/06/18/native-java-framework-comparison">Native Build</a></li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="java.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="algs.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="java.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="algs.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

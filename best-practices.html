@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Best Practices, Common Pitfalls &amp; Basic Things You Should Know - Good links to learn programming</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="java.html"><strong aria-hidden="true">2.</strong> Java</a></li><li class="chapter-item expanded "><a href="libs.html"><strong aria-hidden="true">3.</strong> Most Popular Libraries, Frameworks and Tools for Java</a></li><li class="chapter-item expanded "><a href="algs.html"><strong aria-hidden="true">4.</strong> Algorithms & Data Structures</a></li><li class="chapter-item expanded "><a href="design.html"><strong aria-hidden="true">5.</strong> Software Design</a></li><li class="chapter-item expanded "><a href="ipc.html"><strong aria-hidden="true">6.</strong> Inter-Process Communication (IPC)</a></li><li class="chapter-item expanded "><a href="db.html"><strong aria-hidden="true">7.</strong> Databases & SQL</a></li><li class="chapter-item expanded "><a href="microservices.html"><strong aria-hidden="true">8.</strong> Microservices, Distributed Systems & System Design</a></li><li class="chapter-item expanded "><a href="cloud.html"><strong aria-hidden="true">9.</strong> Cloud Computing & DevOps</a></li><li class="chapter-item expanded "><a href="unix.html"><strong aria-hidden="true">10.</strong> The UNIX Toolbox</a></li><li class="chapter-item expanded "><a href="security.html"><strong aria-hidden="true">11.</strong> Security</a></li><li class="chapter-item expanded "><a href="networks.html"><strong aria-hidden="true">12.</strong> Networking, Web & Browsers</a></li><li class="chapter-item expanded "><a href="fe.html"><strong aria-hidden="true">13.</strong> HTML, CSS & JS</a></li><li class="chapter-item expanded "><a href="team.html"><strong aria-hidden="true">14.</strong> Development and Team Organization</a></li><li class="chapter-item expanded "><a href="licenses.html"><strong aria-hidden="true">15.</strong> Software Licenses</a></li><li class="chapter-item expanded "><a href="best-practices.html" class="active"><strong aria-hidden="true">16.</strong> Best Practices, Common Pitfalls & Basic Things You Should Know</a></li><li class="chapter-item expanded "><a href="teach.html"><strong aria-hidden="true">17.</strong> Teaching Yourself CS</a></li><li class="chapter-item expanded "><a href="classics.html"><strong aria-hidden="true">18.</strong> Classics & Bibles</a></li><li class="chapter-item expanded "><a href="math.html"><strong aria-hidden="true">19.</strong> Math</a></li><li class="chapter-item expanded "><a href="history.html"><strong aria-hidden="true">20.</strong> CS/FOSS History and Hacking/Cyberpunk Culture</a></li><li class="chapter-item expanded "><a href="blogs.html"><strong aria-hidden="true">21.</strong> Finest Sources of Geek Entertainment</a></li><li class="chapter-item expanded "><a href="prog-languages.html"><strong aria-hidden="true">22.</strong> Other Programming Languages</a></li><li class="chapter-item expanded "><a href="metal.html"><strong aria-hidden="true">23.</strong> Embedded Systems & Electronics</a></li><li class="chapter-item expanded "><a href="open.html"><strong aria-hidden="true">24.</strong> Open Source, DIY & Right to Repair</a></li><li class="chapter-item expanded "><a href="job.html"><strong aria-hidden="true">25.</strong> Job Hunting</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Good links to learn programming</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="best-practices-common-pitfalls--basic-things-you-should-know"><a class="header" href="#best-practices-common-pitfalls--basic-things-you-should-know">Best Practices, Common Pitfalls &amp; Basic Things You Should Know</a></h2>
+<ul>
+<li>Git:
+<ul>
+<li><a href="https://cbea.ms/git-commit/">How to Write a Git Commit Message</a></li>
+</ul>
+</li>
+<li>Shell Scripting
+<ul>
+<li><a href="https://sharats.me/posts/shell-script-best-practices/">Shell Script Best Practices</a></li>
+</ul>
+</li>
+<li>Characters:
+<ul>
+<li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)</a></li>
+<li><a href="https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/">ASCII Table</a></li>
+<li><a href="https://invisible-characters.com/">Invisible characters</a></li>
+</ul>
+</li>
+<li>Internationalization and localization (i18n)
+<ul>
+<li><a href="https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html">PO Files</a></li>
+</ul>
+</li>
+<li>Dates:
+<ul>
+<li><a href="https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/">All About java.util.Date</a></li>
+<li><a href="https://zachholman.com/talk/utc-is-enough-for-everyone-right">UTC is enough for everyone... right?</a></li>
+<li><a href="https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/">Storing UTC is not a silver bullet</a></li>
+<li><a href="https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601">Designing a REST API: Unix time vs ISO-8601</a></li>
+</ul>
+</li>
+<li>Numbers:
+<ul>
+<li><a href="https://0.30000000000000004.com/">Floating Point Math</a></li>
+<li>[<strong>!BONUS</strong>] <a href="https://evanw.github.io/float-toy/">Float Toy</a></li>
+<li><a href="https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/">Why do arrays start at 0?</a></li>
+</ul>
+</li>
+<li>RegEx:
+<ul>
+<li><a href="https://www.regular-expressions.info/email.html">How to Find or Validate an Email Address</a></li>
+<li><a href="https://www.regular-expressions.info/possessive.html">Possessive Quantifiers</a></li>
+</ul>
+</li>
+<li>OS Compatibility:
+<ul>
+<li><a href="https://www.baeldung.com/linux/posix">A Guide to POSIX</a></li>
+<li><a href="https://maex.me/2019/12/the-power-of-the-xdg-base-directory-specification/">The Power of the XDG Base Directory Specification</a></li>
+</ul>
+</li>
+<li>Unit-Testing:
+<ul>
+<li><a href="https://phauer.com/2019/modern-best-practices-testing-java/">Modern Best Practices for Testing in Java</a></li>
+<li><a href="https://reflectoring.io/objectmother-fluent-builder/">Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory</a></li>
+</ul>
+</li>
+<li>Libraries
+<ul>
+<li><a href="https://jlbp.dev/">Google Best Practices for Java Libraries</a></li>
+</ul>
+</li>
+<li>Software Design:
+<ul>
+<li><a href="https://blog.frankel.ch/alternatives-dto/">Alternatives to DTO</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://iximiuz.com/en/posts/my-10-years-of-programming-experience/">My 10 Years of Programming Experience</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming">LEGOs, Play-Doh, and Programming</a></li>
+</ul>
+</li>
+<li>Code Formatting:
+<ul>
+<li><a href="https://editorconfig.org/">EditorConfig</a></li>
+<li><a href="https://google.github.io/styleguide/javaguide.html">Google Java Style Guide</a></li>
+</ul>
+</li>
+<li>HTTP:
+<ul>
+<li>CORS:
+<ul>
+<li><a href="https://fosterelli.co/developers-dont-understand-cors">Developers don't understand CORS</a></li>
+<li><a href="https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/">You don't need that CORS request</a></li>
+<li><a href="https://web.dev/same-site-same-origin/">Understanding &quot;same-site&quot; and &quot;same-origin&quot;</a></li>
+</ul>
+</li>
+<li><a href="https://adam-p.ca/blog/2022/03/x-forwarded-for/">The perils of the &quot;real&quot; client IP</a></li>
+<li><a href="https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for">The HTTP crash course nobody asked for</a></li>
+</ul>
+</li>
+<li>REST APIs:
+<ul>
+<li><a href="https://oai.github.io/Documentation/specification.html">OpenAPI Specification</a></li>
+<li>[<strong>!OPINION</strong>] <a href="https://twobithistory.org/2020/06/28/rest.html">Roy Fielding's Misappropriated REST Dissertation</a></li>
+<li><a href="https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api">Best Practices for Designing a Pragmatic RESTful API</a></li>
+<li><a href="https://opensource.zalando.com/restful-api-guidelines/">Zalando RESTful API and Event Guidelines</a></li>
+<li><a href="https://standards.rest/">Standards.REST</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">List of HTTP status codes</a></li>
+<li><a href="https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body--html">The HTTP QUERY Method</a></li>
+</ul>
+</li>
+<li>Web:
+<ul>
+<li><a href="https://www.bjornjohansen.com/www-or-not">To www or not to www - Should you use www or not in your domain?</a></li>
+<li><a href="https://santurcesoftware.com/making-web-sites-small">Making Websites Small</a></li>
+</ul>
+</li>
+<li>Containers:
+<ul>
+<li><a href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/">Best practices for writing Dockerfiles</a></li>
+<li><a href="https://sysdig.com/blog/toctou-tag-mutability/">Attack of the mutant tags!. Or why tag mutability is a real security threat</a></li>
+<li><a href="https://sysdig.com/blog/container-security-best-practices/">Container security best practices: Comprehensive guide</a></li>
+</ul>
+</li>
+<li>Distributed Systems:
+<ul>
+<li>[<strong>!OPINION</strong>] <a href="https://arnoldgalovics.com/microservices-in-production/">Don't start with microservices - monoliths are your friend</a></li>
+<li><a href="https://architecturenotes.co/fallacies-of-distributed-systems/">Fallacies of Distributed Systems</a></li>
+<li><a href="https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb">You Are Not Google</a></li>
+<li><a href="https://www.infoq.com/news/2014/08/microservices_ballmud/">Microservices and the Big Ball of Mud</a></li>
+</ul>
+</li>
+<li>Networks:
+<ul>
+<li><a href="https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/">ICMP, Ping, and Traceroute - What I Wish I Was Taught</a></li>
+<li><a href="https://educatedguesswork.org/posts/traffic-relaying/">How to hide your IP address</a></li>
+</ul>
+</li>
+<li>Memory:
+<ul>
+<li><a href="https://people.freebsd.org/~lstewart/articles/cpumemory.pdf">What Every Programmer Should Know About Memory</a></li>
+<li><a href="https://www.azul.com/blog/what-should-i-know-about-garbage-collection-as-a-java-developer/">What Should I Know About Garbage Collection as a Java Developer?</a></li>
+</ul>
+</li>
+<li>Performance:
+<ul>
+<li><a href="https://gist.github.com/jboner/2841832">Latency Numbers Every Programmer Should Know</a></li>
+</ul>
+</li>
+<li>Programming Languages and Compilers:
+<ul>
+<li><a href="https://softwareengineering.stackexchange.com/questions/267086/is-every-language-written-in-c">Is every language written in C?</a></li>
+<li><a href="https://stackoverflow.com/questions/466790/assembly-code-vs-machine-code-vs-object-code">Assembly code vs Machine code vs Object code?</a></li>
+<li><a href="https://cs.lmu.edu/~ray/notes/languagetheory/">Introduction to Language Theory</a></li>
+<li><a href="https://cs.lmu.edu/~ray/notes/syntax/">Syntax</a></li>
+<li><a href="https://cs.lmu.edu/~ray/notes/syntaxdesign/">Syntax Design</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form">Backus-Naur form</a></li>
+<li><a href="https://c9x.me/compile/bib/">Resources for Amateur Compiler Writers</a></li>
+<li><a href="https://www.oreilly.com/radar/low-code-and-the-democratization-of-programming/">Low-Code and the Democratization of Programming. Rethinking Where Programming Is Headed</a></li>
+<li><a href="https://www.timdbg.com/posts/fakers-guide-to-assembly/">The faker's guide to reading (x86) assembly language</a></li>
+<li>[<strong>!BONUS</strong>]  <a href="https://godbolt.org/">Compiler Explorer</a></li>
+<li><a href="https://lists.eatonphil.com/compilers-and-interpreters.html">Favorite compiler and interpreter resources</a></li>
+</ul>
+</li>
+<li>Miscellanea:
+<ul>
+<li><a href="https://blog.frankel.ch/hard-things-computer-science/">Hard things in Computer Science</a></li>
+<li><a href="https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">How to name things: the hardest problem in programming</a></li>
+<li><a href="https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line">What is the difference between Terminal, Console, Shell, and Command Line?</a></li>
+<li><a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">The Law of Leaky Abstractions</a></li>
+<li><a href="https://jvns.ca/blog/2022/07/20/pseudoterminals/">What happens when you press a key in your terminal?</a></li>
+<li><a href="https://danluu.com/navigate-url/">What happens when you load a URL?</a></li>
+<li><a href="https://lateblt.tripod.com/bit68.txt">What Happens When A CPU Starts</a></li>
+</ul>
+</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="licenses.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="teach.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="licenses.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="teach.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
