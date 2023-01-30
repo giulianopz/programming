@@ -7,3 +7,6 @@ title = "Good links to learn programming"
 
 [output.html]
 site-url = "/programming/"
+git-repository-url = "https://github.com/giulianopz/programming"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/giulianopz/programming/edit/master/{path} "
