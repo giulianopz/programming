@@ -4,7 +4,7 @@
 - [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
 - [An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
 - Identity, Claims, & Tokens. An OpenID Connect Primer: [1](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1), [2](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-2), [3](https://developer.okta.com/blog/2017/08/01/oidc-primer-part-3)
-- [JWT](https://jwt.io/)
+- [jwt.io](https://jwt.io/)
 - [Awesome Web Security Awesome](https://github.com/qazbnm456/awesome-web-security)
 - McDonald, *Web Security for Developers*
 - Zalewski, *Tangled Web. A Guide to Securing Modern Web Applications*

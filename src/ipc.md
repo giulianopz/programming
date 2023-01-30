@@ -15,17 +15,17 @@
     - Message Queues
     - Publish-Subscribe Pattern
 - Protocols:
-- Sockets:
-    - Network Sockets:
-    - TCP
-        - [HTTP/-1, HTTP/2 and HTTP/3](https://medium.com/@sandeep-verma/http-1-to-http-2-to-http-3-647e73df67a8)
-        - [WebSocket](https://www.baeldung.com/java-websockets)
-    - [UDP](https://www.baeldung.com/udp-in-java)
-    - [Unix Domain Sockets](https://nipafx.dev/java-unix-domain-sockets/)
-- Messaging:
-    - AMQP
-    - MQTT
-    - STOMP
+    - Sockets:
+        - Network Sockets:
+        - TCP
+            - [HTTP/-1, HTTP/2 and HTTP/3](https://medium.com/@sandeep-verma/http-1-to-http-2-to-http-3-647e73df67a8)
+            - [WebSocket](https://www.baeldung.com/java-websockets)
+        - [UDP](https://www.baeldung.com/udp-in-java)
+        - [Unix Domain Sockets](https://nipafx.dev/java-unix-domain-sockets/)
+    - Messaging:
+        - AMQP
+        - MQTT
+        - STOMP
 - [Gough et al., Mastering API Architecture](https://www.oreilly.com/library/view/mastering-api-architecture/9781492090625/)
 - [**!BONUS**] [Free Public APIs for Developers](https://rapidapi.com/collection/list-of-free-apis)
 - [Difference between SPI and API](https://stackoverflow.com/questions/2954372/difference-between-spi-and-api)

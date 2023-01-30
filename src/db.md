@@ -11,6 +11,7 @@
 - [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
 - Database Internals:
 - How Database Work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
+- [How to learn about database systems](https://blog.bradfieldcs.com/how-to-learn-about-database-systems-40c7432f471d#.5rjlp4fqq)
 - [How does a relational database work](http://coding-geek.com/how-databases-work/)
 - Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
 - Common Relational DBs:

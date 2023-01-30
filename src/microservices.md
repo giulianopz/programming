@@ -2,7 +2,7 @@
 
 - [From Microservices to Distributed Systems: A Survival Guide for Java Devs](https://dzone.com/articles/from-microservices-to-distributed-systems-survival)
 - [Microservices Patterns](https://microservices.io/patterns/index.html)
-- Vitillo, Understanding Distributed Systems. What every developer should know about large distributed applications
+- Vitillo, [Understanding Distributed Systems. What every developer should know about large distributed applications](https://understandingdistributed.systems/)
 - Newman, Building Microservices (2nd ed.)
 - Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 - Martin, [The System Design Primer](https://github.com/donnemartin/system-design-primer)

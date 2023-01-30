@@ -1,6 +1,6 @@
 # Introduction
 
-This is a raw list of concepts, tools, etc. provided with good links and organized by topic, I keep collecting as I progress as a software programmer. I use it to have a personal log of the best resources I discover while wandering the web.
+This is a raw list of concepts, tools, books, tutorials, etc. provided with links (when available) and organized by topic, I keep collecting as I progress as a software programmer. I use it to have a personal log of the best resources I discover while wandering the web.
 
 Ideally, these links describe a learning path to get into programming, with a strong focus on backend and Java, which is just the typical entry-point programming language for many people in enterprise software development. 
 
