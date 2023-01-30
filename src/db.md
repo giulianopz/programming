@@ -14,17 +14,17 @@
 - [How does a relational database work](http://coding-geek.com/how-databases-work/)
 - Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
 - Common Relational DBs:
-- Oracle Database
-- MySQL
-- Microsoft SQL Server
-- PostgreSQL
-- IBM Db2
-- SQLite
-- MariaDB
+    - Oracle Database
+    - MySQL
+    - Microsoft SQL Server
+    - PostgreSQL
+    - IBM Db2
+    - SQLite
+    - MariaDB
 - Non-Relational DBs (**NoSQL**) by Type:
-- Wide column: Apache Cassandra
-- Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
-- Key-value: [Redis](https://architecturenotes.co/redis/)
-- Graph: Neo4J
+    - Wide column: Apache Cassandra
+    - Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
+    - Key-value: [Redis](https://architecturenotes.co/redis/)
+    - Graph: Neo4J
 - Version control tools:
-- [Liquibase](https://liquibase.org/get-started/quickstart)
+    - [Liquibase](https://liquibase.org/get-started/quickstart)

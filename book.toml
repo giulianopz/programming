@@ -6,4 +6,4 @@ src = "src"
 title = "Good links to learn programming"
 
 [output.html]
-site-url = "/programming-links/"
+site-url = "/programming/"

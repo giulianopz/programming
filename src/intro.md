@@ -1,6 +1,6 @@
 # Introduction
 
-This is just a raw list of good links, organized by topic, I keep collecting while I progress as a software programmer. I use it to have a personal log of the best resources I discover wandering in the web. 
+This is a raw list of concepts, tools, etc. provided with good links and organized by topic, I keep collecting as I progress as a software programmer. I use it to have a personal log of the best resources I discover while wandering the web.
 
 Ideally, these links describe a learning path to get into programming, with a strong focus on backend and Java, which is just the typical entry-point programming language for many people in enterprise software development. 
 
@@ -19,7 +19,7 @@ Abstractions are useful, but all non-trivial abstractions, to some degree, are l
 
 Unfortunately, the enterprise software world is largely dominated by the use of [frameworks](https://en.wikipedia.org/wiki/Software_framework) (e.g. Spring vs Quarkus on backend side, Angular vs React on frontend side), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as "innovative" for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which in turn means to get a good grasp of computer architecture investigating what happens at the hardware/software interface (*getting closer to the metal*, as the cool kids say). Once learned the basics of programming, a first step in this direction is to re-implement from scratch [a good piece of software](https://redis.pjam.me/).
 
-In this respect, this book of links naturally derails from application programming to [system programming](https://en.wikipedia.org/wiki/Systems_programming) in the last chapters.
+In this respect, this book naturally derails from application programming to [system programming](https://en.wikipedia.org/wiki/Systems_programming) in the last chapters.
 
 ---
 

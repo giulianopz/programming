@@ -12,9 +12,7 @@
   - [The Sliding Window Pattern](https://nan-archive.vercel.app/sliding-window)
   - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
   - [Grokking Coding Interview Patterns in Go](https://www.educative.io/courses/grokking-coding-interview-patterns-go)
-- [Deliberate Practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice):
-  - [exercism](https://exercism.org/)
+- Online platforms to learn through [deliberate practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice):
   - [LeetCode](https://leetcode.com/)
   - [HackerRank](https://www.hackerrank.com/)
-    - [data-structures](https://www.hackerrank.com/domains/data-structures)
-    - [algorithms](https://www.hackerrank.com/domains/algorithms)
+  - [exercism](https://exercism.org/)
