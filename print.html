@@ -143,7 +143,7 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
-<p>This is just a raw list of good links, organized by topic, I keep collecting while I progress as a software programmer. I use it to have a personal log of the best resources I discover wandering in the web. </p>
+<p>This is a raw list of concepts, tools, etc. provided with good links and organized by topic, I keep collecting as I progress as a software programmer. I use it to have a personal log of the best resources I discover while wandering the web.</p>
 <p>Ideally, these links describe a learning path to get into programming, with a strong focus on backend and Java, which is just the typical entry-point programming language for many people in enterprise software development. </p>
 <p>Despite all the criticism, believe it or not, the world still runs on Java 8<sup class="footnote-reference"><a href="#1">1</a></sup>, so it makes sense to start from Java. </p>
 <p>On the other hand, some of these critics are well-founded<sup class="footnote-reference"><a href="#2">2</a></sup>. So, equally, it does make sense to have a look to <a href="./prog-languages.html">modern programming languages</a> also. Especially to Go, which really seems to be the favorite in replacing Java pretty everywhere.</p>
@@ -157,7 +157,7 @@
 <p>In fact, an <a href="https://en.wikipedia.org/wiki/Application_software">application software</a> usually consists of levels (or layers) of <a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Levels_of_abstraction">abstraction</a>, wherein each level represents a different model of the same information and processes, but with varying amounts of detail. Each relatively abstract, higher level builds on a relatively concrete, lower level, which tends to provide an increasingly granular representation.</p>
 <p>Abstractions are useful, but all non-trivial abstractions, to some degree, are leaky<sup class="footnote-reference"><a href="#4">4</a></sup>. So, blindly ignoring what happens at lower levels can cause performance issues or (worst) unintended bugs which are hard to debug (e.g. inscrutable incidents in production<sup class="footnote-reference"><a href="#5">5</a></sup>). Solving such issues thanks to Q&amp;A websites like Stack Overflow does not help learning what actually went wrong leaving a certain sense of frustration (a common feeling for Linux users<sup class="footnote-reference"><a href="#6">6</a></sup>).</p>
 <p>Unfortunately, the enterprise software world is largely dominated by the use of <a href="https://en.wikipedia.org/wiki/Software_framework">frameworks</a> (e.g. Spring vs Quarkus on backend side, Angular vs React on frontend side), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as &quot;innovative&quot; for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which in turn means to get a good grasp of computer architecture investigating what happens at the hardware/software interface (<em>getting closer to the metal</em>, as the cool kids say). Once learned the basics of programming, a first step in this direction is to re-implement from scratch <a href="https://redis.pjam.me/">a good piece of software</a>.</p>
-<p>In this respect, this book of links naturally derails from application programming to <a href="https://en.wikipedia.org/wiki/Systems_programming">system programming</a> in the last chapters.</p>
+<p>In this respect, this book naturally derails from application programming to <a href="https://en.wikipedia.org/wiki/Systems_programming">system programming</a> in the last chapters.</p>
 <hr />
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>Vicki Boykis, <a href="https://vickiboykis.com/2019/05/10/it-runs-on-java-8/">IT runs on Java 8</a></p>
@@ -307,6 +307,7 @@
 </ul>
 </li>
 </ul>
+<hr />
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>It's hard to choose a specific course since there's plenty of training material available on the web, so just pick one and make sure that you really understand the topics mentioned below. If in doubt, try with the video lectures (<a href="https://www.coursera.org/learn/cs-programming-java">1</a> + <a href="https://www.coursera.org/learn/cs-algorithms-theory-machines">2</a>) of the book <a href="https://introcs.cs.princeton.edu/java/home/">Computer Science: An Interdisciplinary Approach</a> by Wayne and Sedgewick.</p>
 </div>
@@ -515,16 +516,11 @@
 <li><a href="https://www.educative.io/courses/grokking-coding-interview-patterns-go">Grokking Coding Interview Patterns in Go</a></li>
 </ul>
 </li>
-<li><a href="https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice">Deliberate Practice</a>:
+<li>Online platforms to learn through <a href="https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice">deliberate practice</a>:
 <ul>
-<li><a href="https://exercism.org/">exercism</a></li>
 <li><a href="https://leetcode.com/">LeetCode</a></li>
-<li><a href="https://www.hackerrank.com/">HackerRank</a>
-<ul>
-<li><a href="https://www.hackerrank.com/domains/data-structures">data-structures</a></li>
-<li><a href="https://www.hackerrank.com/domains/algorithms">algorithms</a></li>
-</ul>
-</li>
+<li><a href="https://www.hackerrank.com/">HackerRank</a></li>
+<li><a href="https://exercism.org/">exercism</a></li>
 </ul>
 </li>
 </ul>
@@ -609,7 +605,8 @@
 <li>How Database Work: <a href="https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/">FE</a> &amp; <a href="https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/">BE</a></li>
 <li><a href="http://coding-geek.com/how-databases-work/">How does a relational database work</a></li>
 <li>Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work</li>
-<li>Common Relational DBs:</li>
+<li>Common Relational DBs:
+<ul>
 <li>Oracle Database</li>
 <li>MySQL</li>
 <li>Microsoft SQL Server</li>
@@ -617,13 +614,21 @@
 <li>IBM Db2</li>
 <li>SQLite</li>
 <li>MariaDB</li>
-<li>Non-Relational DBs (<strong>NoSQL</strong>) by Type:</li>
+</ul>
+</li>
+<li>Non-Relational DBs (<strong>NoSQL</strong>) by Type:
+<ul>
 <li>Wide column: Apache Cassandra</li>
 <li>Document: <a href="https://www.baeldung.com/elasticsearch-java">ElasticSearch</a>, MongoDB</li>
 <li>Key-value: <a href="https://architecturenotes.co/redis/">Redis</a></li>
 <li>Graph: Neo4J</li>
-<li>Version control tools:</li>
+</ul>
+</li>
+<li>Version control tools:
+<ul>
 <li><a href="https://liquibase.org/get-started/quickstart">Liquibase</a></li>
+</ul>
+</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="microservices-distributed-systems--system-design"><a class="header" href="#microservices-distributed-systems--system-design">Microservices, Distributed Systems &amp; System Design</a></h2>
 <ul>
