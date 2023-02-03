@@ -8,3 +8,5 @@
 - [Repair Manifesto](https://www.platform21.nl/download/4375)
 - [Right to Repair](https://repair.eu/)
 - [RepairCafé](https://www.repaircafe.org/en/)
+- [FOSDEM](https://fosdem.org/)
+- [**!ITA**] [Open Source Saturday Italy](https://oss-italy.github.io/)
