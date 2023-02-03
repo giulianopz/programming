@@ -17,9 +17,11 @@ In fact, an [application software](https://en.wikipedia.org/wiki/Application_sof
 
 Abstractions are useful, but all non-trivial abstractions, to some degree, are leaky[^4]. So, blindly ignoring what happens at lower levels can cause performance issues or (worst) unintended bugs which are hard to debug (e.g. inscrutable incidents in production[^5]). Solving such issues thanks to Q&A websites like Stack Overflow does not help learning what actually went wrong leaving a certain sense of frustration (a common feeling for Linux users[^6]).
 
-Unfortunately, the enterprise software world is largely dominated by the use of [frameworks](https://en.wikipedia.org/wiki/Software_framework) (e.g. Spring vs Quarkus on backend side, Angular vs React on frontend side), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as "innovative" for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which in turn means to get a good grasp of computer architecture investigating what happens at the hardware/software interface (*getting closer to the metal*, as the cool kids say). Once learned the basics of programming, a first step in this direction is to re-implement from scratch [a good piece of software](https://redis.pjam.me/).
+Unfortunately, the enterprise software world is largely dominated by the use of [frameworks](https://en.wikipedia.org/wiki/Software_framework) (e.g. Spring vs Quarkus on backend side, Angular vs React on frontend side), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as "innovative" for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which in turn means to get a good grasp of computer architecture investigating what happens at the hardware/software interface (*getting closer to the metal*, as the cool kids say). Once learned the basics of programming, a good way to go deeper is to re-implement from scratch a good piece of software[^7].
 
-In this respect, this book naturally derails from application programming to [system programming](https://en.wikipedia.org/wiki/Systems_programming) in the last chapters.
+Undoubtedly, this crafting or artistic view[^8] of the act of programming implies a longer (lifelong?) learning journey than any fancy Youtube tutorial would commit to, but this is still better than limiting oneself to the role of the [code monkey](https://en.wikipedia.org/wiki/Code_monkey). 
+
+In this respect, this book naturally derails from application programming to [system programming](https://en.wikipedia.org/wiki/Systems_programming), to arrive at hardware programming in the last chapters.
 
 ---
 
@@ -34,3 +36,7 @@ In this respect, this book naturally derails from application programming to [sy
 [^5]: Andrew Doss, [How Long is a Negative Timeout?](https://www.andrewdoss.dev/writing/timeouts/)
 
 [^6]: Fabien Sanglard, [A Linux evening...](https://fabiensanglard.net/a_linux_evening/index.html)
+
+[^7]: e.g. Redis: [Build Your Own Redis with C/C++](https://build-your-own.org/redis/), [Rebuilding Redis in Ruby](https://redis.pjam.me/)
+
+[^8]: Peter Norvig, [pytudes](https://github.com/giulianopz/pytudes)
