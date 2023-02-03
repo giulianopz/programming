@@ -2,7 +2,9 @@
 
 - [A Brief History of the Java Programming Language](https://www.baeldung.com/java-history)
 - Programming Language Fundamentals[^1]:
-  - JRE, JDK & [JVM](https://shipilev.net/jvm/anatomy-quarks/)
+  - JRE, JDK & JVM
+    - [JVM Anatomy Quarks](https://shipilev.net/jvm/anatomy-quarks/)
+    - [JVM Field Guide: Memory](https://serce.me/posts/01-02-2023-jvm-field-guide-memory)
   - Byte Code vs. Machine Code
       - [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
   - Compiling with `javac` and Running with Arguments from CLI
