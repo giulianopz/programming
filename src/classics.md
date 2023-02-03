@@ -18,6 +18,7 @@
 - Bishop, Pattern Recognition and Machine Learning
 - Norvig, Paradigms of Artificial Intelligence Programming
 - Jurafsky & Martin, [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/) (SLP3)
+- Norvig and Russel, [Artificial Intelligence: A Modern Approach](https://aima.cs.berkeley.edu/)
 - Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
 - Bovet & Cesati, Understanding the Linux Kernel
 - [Rubini, Linux Device Drivers](https://lwn.net/Kernel/LDD3/)

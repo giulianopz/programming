@@ -1,4 +1,4 @@
-## Cloud Computing & DevOps
+## Cloud Computing, Containers & DevOps
 
 - [Java Cloud Development Introduction and Tools](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools)
 - [A beginner's guide to building DevOps pipelines with open source tools](https://opensource.com/article/19/4/devops-pipeline)

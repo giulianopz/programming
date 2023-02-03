@@ -19,9 +19,9 @@ Abstractions are useful, but all non-trivial abstractions, to some degree, are l
 
 Unfortunately, the enterprise software world is largely dominated by the use of [frameworks](https://en.wikipedia.org/wiki/Software_framework) (e.g. Spring vs Quarkus on backend side, Angular vs React on frontend side), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as "innovative" for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which in turn means to get a good grasp of computer architecture investigating what happens at the hardware/software interface (*getting closer to the metal*, as the cool kids say). Once learned the basics of programming, a good way to go deeper is to re-implement from scratch a good piece of software[^7].
 
-Undoubtedly, this crafting or artistic view[^8] of the act of programming implies a longer (lifelong?) learning journey than any fancy Youtube tutorial would commit to, but this is still better than limiting oneself to the role of the [code monkey](https://en.wikipedia.org/wiki/Code_monkey). 
+Undoubtedly, this crafting or artistic view[^8] of the act of programming implies a longer (lifelong[^9]?) learning journey than any fancy Youtube tutorial would commit to, but this is still better than limiting oneself to the role of the [code monkey](https://en.wikipedia.org/wiki/Code_monkey) or the blue collar. 
 
-In this respect, this book naturally derails from application programming to [system programming](https://en.wikipedia.org/wiki/Systems_programming), to arrive at hardware programming in the last chapters.
+In this respect, this book naturally derails from application programming to [system programming](https://en.wikipedia.org/wiki/Systems_programming), to arrive at hardware programming. The last chapters mostly deal with collateral but enjoyable aspects of programming.
 
 ---
 
@@ -40,3 +40,5 @@ In this respect, this book naturally derails from application programming to [sy
 [^7]: e.g. Redis: [Build Your Own Redis with C/C++](https://build-your-own.org/redis/), [Rebuilding Redis in Ruby](https://redis.pjam.me/)
 
 [^8]: Peter Norvig, [pytudes](https://github.com/giulianopz/pytudes)
+
+[^9]: Peter Norvig, [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)

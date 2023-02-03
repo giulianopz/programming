@@ -34,3 +34,4 @@
 - [FriendlyWire](https://friendlywire.com/)
 - [The Cloudflare Blog](https://blog.cloudflare.com/tag/engineering/)
 - [The Netflix Tech Blog](https://netflixtechblog.com/)
+- [Green Tea Press](https://greenteapress.com/wp/)
