@@ -161,8 +161,9 @@
 </blockquote>
 <p>In fact, an <a href="https://en.wikipedia.org/wiki/Application_software">application software</a> usually consists of levels (or layers) of <a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Levels_of_abstraction">abstraction</a>, wherein each level represents a different model of the same information and processes, but with varying amounts of detail. Each relatively abstract, higher level builds on a relatively concrete, lower level, which tends to provide an increasingly granular representation.</p>
 <p>Abstractions are useful, but all non-trivial abstractions, to some degree, are leaky<sup class="footnote-reference"><a href="#4">4</a></sup>. So, blindly ignoring what happens at lower levels can cause performance issues or (worst) unintended bugs which are hard to debug (e.g. inscrutable incidents in production<sup class="footnote-reference"><a href="#5">5</a></sup>). Solving such issues thanks to Q&amp;A websites like Stack Overflow does not help learning what actually went wrong leaving a certain sense of frustration (a common feeling for Linux users<sup class="footnote-reference"><a href="#6">6</a></sup>).</p>
-<p>Unfortunately, the enterprise software world is largely dominated by the use of <a href="https://en.wikipedia.org/wiki/Software_framework">frameworks</a> (e.g. Spring vs Quarkus on backend side, Angular vs React on frontend side), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as &quot;innovative&quot; for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which in turn means to get a good grasp of computer architecture investigating what happens at the hardware/software interface (<em>getting closer to the metal</em>, as the cool kids say). Once learned the basics of programming, a first step in this direction is to re-implement from scratch <a href="https://redis.pjam.me/">a good piece of software</a>.</p>
-<p>In this respect, this book naturally derails from application programming to <a href="https://en.wikipedia.org/wiki/Systems_programming">system programming</a> in the last chapters.</p>
+<p>Unfortunately, the enterprise software world is largely dominated by the use of <a href="https://en.wikipedia.org/wiki/Software_framework">frameworks</a> (e.g. Spring vs Quarkus on backend side, Angular vs React on frontend side), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as &quot;innovative&quot; for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which in turn means to get a good grasp of computer architecture investigating what happens at the hardware/software interface (<em>getting closer to the metal</em>, as the cool kids say). Once learned the basics of programming, a good way to go deeper is to re-implement from scratch a good piece of software<sup class="footnote-reference"><a href="#7">7</a></sup>.</p>
+<p>Undoubtedly, this crafting or artistic view<sup class="footnote-reference"><a href="#8">8</a></sup> of the act of programming implies a longer (lifelong?) learning journey than any fancy Youtube tutorial would commit to, but this is still better than limiting oneself to the role of the <a href="https://en.wikipedia.org/wiki/Code_monkey">code monkey</a>. </p>
+<p>In this respect, this book naturally derails from application programming to <a href="https://en.wikipedia.org/wiki/Systems_programming">system programming</a>, to arrive at hardware programming in the last chapters.</p>
 <hr />
 <div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
 <p>Vicki Boykis, <a href="https://vickiboykis.com/2019/05/10/it-runs-on-java-8/">IT runs on Java 8</a></p>
@@ -181,6 +182,12 @@
 </div>
 <div class="footnote-definition" id="6"><sup class="footnote-definition-label">6</sup>
 <p>Fabien Sanglard, <a href="https://fabiensanglard.net/a_linux_evening/index.html">A Linux evening...</a></p>
+</div>
+<div class="footnote-definition" id="7"><sup class="footnote-definition-label">7</sup>
+<p>e.g. Redis: <a href="https://build-your-own.org/redis/">Build Your Own Redis with C/C++</a>, <a href="https://redis.pjam.me/">Rebuilding Redis in Ruby</a></p>
+</div>
+<div class="footnote-definition" id="8"><sup class="footnote-definition-label">8</sup>
+<p>Peter Norvig, <a href="https://github.com/giulianopz/pytudes">pytudes</a></p>
 </div>
 
                     </main>
