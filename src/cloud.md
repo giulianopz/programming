@@ -12,8 +12,9 @@
 - [Docker](https://github.com/docker/labs/tree/master/developer-tools/java)
 - [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
 - Container/Cluster Managers:
-  - [Kubernetes](https://kube.academy/) + [Helm](https://helm.sh/docs/)
-    - [WebAssembly vs. Kubernetes](https://thenewstack.io/yes-webassembly-can-replace-kubernetes/)
+  - [Kubernetes](https://www.jeremyjordan.me/kubernetes/) + [Helm](https://helm.sh/docs/)
+    - [**!COURSE**] [KubeAcademy](https://kube.academy/)
+    - [**!OPINION**] [WebAssembly vs. Kubernetes](https://thenewstack.io/yes-webassembly-can-replace-kubernetes/)
     - Distributions:
         - Self-Managed (Local):
           - minikube
