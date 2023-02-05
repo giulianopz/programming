@@ -1,10 +1,8 @@
 # Introduction
 
-This is a raw list of concepts, tools, books, tutorials, etc. provided with links (when available) and organized by topic, I keep collecting as I progress as a software programmer. I use it to have a personal log of the best resources I discover while wandering the web.
+This is a raw list of concepts, tools, books, tutorials, etc. provided with links (when available) and organized by topic, I keep collecting as I progress as a software programmer. I use it to have a personal log of good stuff I discover while wandering the web.
 
-Ideally, these links describe a learning path to get into programming, with a strong focus on backend and Java, which is just the typical entry-point programming language for many people in enterprise software development. 
-
-Despite all the criticism, believe it or not, the world still runs on Java 8[^1], so it makes sense to start from Java. 
+Ideally, the list describe a learning path to get into programming, with a strong focus on backend and Java, which is just the typical entry-point programming language for many people in enterprise software development. Despite all the criticism, believe it or not, the world still runs on Java 8[^1], so it makes sense to start from Java. 
 
 On the other hand, some of these critics are well-founded[^2]. So, equally, it does make sense to have a look to [modern programming languages](./prog-languages.md) also. Especially to Go, which really seems to be the favorite in replacing Java pretty everywhere.
 
