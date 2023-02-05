@@ -1,6 +1,7 @@
 # Summary
 
-- [Introduction](./intro.md)
+[Introduction](./intro.md)
+
 - [Teaching Yourself CS](./teach.md)
 - [Java](./java.md)
 - [Most Popular Libraries, Frameworks and Tools for Java](./libs.md)
