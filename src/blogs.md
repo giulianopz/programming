@@ -35,3 +35,6 @@
 - [The Cloudflare Blog](https://blog.cloudflare.com/tag/engineering/)
 - [The Netflix Tech Blog](https://netflixtechblog.com/)
 - [Green Tea Press](https://greenteapress.com/wp/)
+- [Oddly Influenced](https://podcast.oddly-influenced.dev/)
+- [CoRecursive](https://corecursive.com/)
+- [FOSDEM video recordings](https://video.fosdem.org/)
