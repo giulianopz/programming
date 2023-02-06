@@ -1,6 +1,8 @@
 ## CS/FOSS History and Hacking/Cyberpunk Culture
 
-- Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. italian version, [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
+- [List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
+- [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
+- Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. [**!ITA**], [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
 - [ESR, How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html#why_this)
 - ESR, The Cathedral & the Bazaar
 - Kernighan, UNIX: A History and a Memoir
@@ -13,8 +15,8 @@
 - Waldrop, The Dream Machine: Licklider and the Revolution That Made Computing Personal
 - Rheingold, Tools for Thought. The History and Future of Mind-Expanding Technology
 - Bhattacharya, The Man from the Future: The Visionary Life of John von Neumann
-- [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
 - Gleick, The Information: A History, a Theory, a Flood
+- Soni & Goodman, A Mind at Play: How Claude Shannon Invented the Information Age
 - Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid
 - Kidder, The Soul of a New Machine
 - Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
