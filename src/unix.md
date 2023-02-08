@@ -1,27 +1,29 @@
 ## The UNIX Toolbox
 
+- [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
 - [Introduction to Bash](https://cs.lmu.edu/~ray/notes/bash/)
 - [Survival guide for Unix newbies ](https://matt.might.net/articles/basic-unix/)
 - [Settling into Unix](https://matt.might.net/articles/settling-into-unix/)
 - [Shell programming with bash: by example, by counter-example](https://matt.might.net/articles/bash-by-example/)
 - [Sculpting text with regex, grep, sed, awk, emacs and vim](https://matt.might.net/articles/sculpting-text/)
-- [Unix for Poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf)
+- [RegexOne. Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
 - [vi Survival Guide](https://www.nuxified.org/vi_survival_guide/)
+- [Pro Git](https://git-scm.com/book/en/v2)
 - [The Art Of Scripting HTTP Requests Using Curl](https://curl.haxx.se/docs/httpscripting.html)
 - [How I use cron in Linux](https://opensource.com/article/17/11/how-use-cron-linux)
 - [Getting started with tmux](https://ittavern.com/getting-started-with-tmux/)
 - [Tmux for mere mortals](https://zserge.com/posts/tmux/)
-- [RegexOne. Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
 - [Cosmopolitan Libc](https://justine.lol/cosmopolitan/functions.html)
-- Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner
-- Love, Linux System Programming
 - [How much memory my program uses or the tale of working set size](https://biriukov.dev/docs/page-cache/7-how-much-memory-my-program-uses-or-the-tale-of-working-set-size/#how-much-memory-my-program-uses-or-the-tale-of-working-set-size)
-- [Pro Git](https://git-scm.com/book/en/v2)
+- Raymond, The Art of Unix Programming
+- Stevens and Rago, Advanced Programming in the UNIX Environment
+- Love, Linux System Programming
+- Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner
 - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
 - [The Linux Kernel documentation](https://www.kernel.org/doc/html/latest/)
 - [**!BONUS**] [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/)
 - [**!BONUS**] [Learn Git Branching](https://learngitbranching.js.org/)
 - [**!BONUS**] [Vim Adventures](https://vim-adventures.com/)
+- [**!BONUS**] [Unix for Poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf)
 - [**!BONUS**] [The Unix Game](https://www.unixgame.io/unix50)
-- [**!BONUS**] [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
 - [**!BONUS**] [Awesome UNIX®](https://github.com/sirredbeard/Awesome-UNIX)

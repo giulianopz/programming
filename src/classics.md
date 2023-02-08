@@ -13,14 +13,16 @@
 - Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)
 - [**!BEGINNER-FRIENDLY**] [Sedgewick and Wayne, Algorithms](https://algs4.cs.princeton.edu/home/) (4ed)
 - Kernighan and Ritchie, The C Programming Language
+- Kernighan and Pike, [The Practice of Programming](https://www.cs.princeton.edu/~bwk/tpop.webpage/)
+- Kernighan and Pike, [The Unix Programming Environment](https://www.cs.princeton.edu/~bwk/upe/upe.html)
 - Knuth, Patashnik, and Graham, Concrete Mathematics: A Foundation for Computer Science
 - Knuth, The Art of Computer Programming
 - Bishop, Pattern Recognition and Machine Learning
 - Norvig, Paradigms of Artificial Intelligence Programming
-- Jurafsky & Martin, [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/) (SLP3)
+- Jurafsky and Martin, [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/) (SLP3)
 - Norvig and Russel, [Artificial Intelligence: A Modern Approach](https://aima.cs.berkeley.edu/)
 - Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
-- Bovet & Cesati, Understanding the Linux Kernel
+- Bovet and Cesati, Understanding the Linux Kernel
 - [Rubini, Linux Device Drivers](https://lwn.net/Kernel/LDD3/)
 - [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
 - [Brendan, Systems Performance: Enterprise and the Cloud](https://www.brendangregg.com/systems-performance-2nd-edition-book.html)

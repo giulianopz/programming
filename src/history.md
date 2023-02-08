@@ -3,6 +3,7 @@
 - [List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
 - [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
 - Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. [**!ITA**], [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
+- Himanen, The Hacker Ethic and the Spirit of the Information Age
 - [ESR, How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html#why_this)
 - ESR, The Cathedral & the Bazaar
 - Kernighan, UNIX: A History and a Memoir
