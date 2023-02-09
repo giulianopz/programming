@@ -1,6 +1,8 @@
 ## The UNIX Toolbox
 
-- [WSL as a Linux Development Environment on Windows](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-docker-tmux-and-vscode)
+- [What is GNU/Linux?](https://www.debian.org/releases/buster/amd64/ch01s02.en.html)
+- [Unix wars](https://en.wikipedia.org/wiki/Unix_wars)
+- [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
 - [Introduction to Bash](https://cs.lmu.edu/~ray/notes/bash/)
 - [Survival guide for Unix newbies ](https://matt.might.net/articles/basic-unix/)
 - [Settling into Unix](https://matt.might.net/articles/settling-into-unix/)
