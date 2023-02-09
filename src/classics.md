@@ -4,7 +4,7 @@
 - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
 - Patterson and Hennessy, [Computer Organization and Design (MIPS Edition). The Hardware/Software Interface](https://shop.elsevier.com/books/computer-organization-and-design-mips-edition/patterson/978-0-12-407726-3#full-description)
 - [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
-- Nisan and Schocken, The lifecylElements of Computing Systems (nand2tetris)
+- Nisan and Schocken, [Elements of Computing Systems](https://www.nand2tetris.org/) (nand2tetris)
 - Tanenbaum and Bos, Modern Operating Systems
 - Tanenbaum and Wetherall, Computer Networks (6ed)
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
@@ -19,7 +19,7 @@
 - Knuth, The Art of Computer Programming
 - Bishop, Pattern Recognition and Machine Learning
 - Norvig, Paradigms of Artificial Intelligence Programming
-- Jurafsky and Martin, [Speech and Language Processing (3rd ed. draft)](https://web.stanford.edu/~jurafsky/slp3/) (SLP3)
+- Jurafsky and Martin, [Speech and Language Processing (3rd ed., draft)](https://web.stanford.edu/~jurafsky/slp3/) (SLP3)
 - Norvig and Russel, [Artificial Intelligence: A Modern Approach](https://aima.cs.berkeley.edu/)
 - Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
 - Bovet and Cesati, Understanding the Linux Kernel
