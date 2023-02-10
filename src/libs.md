@@ -1,8 +1,6 @@
 ## Most Popular Libraries, Frameworks and Tools for Java
 
 - [**!BONUS**] [Technology Radar. An opinionated guide to technology frontiers](https://www.thoughtworks.com/radar)
-- [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
-- [Mapped Diagnostic Context (MDC)](https://www.baeldung.com/mdc-in-log4j-2-logback)
 - Boilerplate Code Auto-generation: [Project Lombok](https://projectlombok.org/)
 - POJO-DTO Mapping: [**MapStruct**](https://mapstruct.org/)
 - Bean Validation: [Hibernate Validator](https://hibernate.org/validator/documentation/getting-started/)
@@ -16,10 +14,16 @@
     - EclipseLink
     - Apache OpenJPA
 - [Cache Providers](https://blog.frankel.ch/choose-cache/2/): Caffeine, Ehcache, Infinispan, Hazelcast, Redis, Apache Ignite
+- HTTP Clients:
+  - [HttpClient](https://openjdk.org/groups/net/httpclient/intro.html) (built-in)
+  - Apache HTTPClient
+  - Jetty HttpClient
+  - OkHttp
+  - Spring WebClient 
 - Message Processing:
-- JMS (**Apache ActiveMQ**, **RabbitMQ**)
+  - JMS (**Apache ActiveMQ**, **RabbitMQ**)
 - Event Streaming:
-- **Apache Kafka**
+  - **Apache Kafka**
 - Data Serialization:
   - Java Serialization (Native APIs)
     - [**!OPINION**] [Why Java's serialization slower than 3rd party APIs?](https://stackoverflow.com/questions/19447623/why-javas-serialization-slower-than-3rd-party-apis)
@@ -49,22 +53,22 @@
 - [Modern Java EE design patterns](https://www.oreilly.com/content/modern-java-ee-design-patterns/)
 - [Difference between an application server and a servlet container?](https://stackoverflow.com/questions/5039354/difference-between-an-application-server-and-a-servlet-container)
 - [**!OPINION**] [Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server#)
-- [Dependency Injection](https://dzone.com/articles/dependency-injection-implementation-in-core-java-1):
-- [Spring](https://spring.io/projects/):
-    - Walls, Spring in Action
-    - Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide
-- [CDI](https://www.baeldung.com/java-ee-cdi):
-  - [Quarkus](https://quarkus.io/guides/):
-    - [Massive performance without headaches](https://quarkus.io/blog/resteasy-reactive-faq/)
-    - [Quarkus Reactive Architecture](https://quarkus.io/version/-2/guides/quarkus-reactive-architecture)
-    - [Context Propagation in Quarkus](https://quarkus.io/version/-2/guides/context-propagation)
-    - [Overview of Bean Scopes in Quarkus](https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/)
-    - Deandrea, Quarkus for Spring developers
+- [Dependency-Injection](https://dzone.com/articles/dependency-injection-implementation-in-core-java-1)-based frameworks:
+  - [Spring](https://spring.io/projects/):
+      - Walls, Spring in Action
+      - Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide
+  - [CDI](https://www.baeldung.com/java-ee-cdi):
+    - [Quarkus](https://quarkus.io/guides/):
+      - [Massive performance without headaches](https://quarkus.io/blog/resteasy-reactive-faq/)
+      - [Quarkus Reactive Architecture](https://quarkus.io/version/-2/guides/quarkus-reactive-architecture)
+      - [Context Propagation in Quarkus](https://quarkus.io/version/-2/guides/context-propagation)
+      - [Overview of Bean Scopes in Quarkus](https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/)
+      - Deandrea, Quarkus for Spring developers
 - Reactive Programming:
-- [**RxJava**](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
-- [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides)
-- [**Eclipse Vert.x**](https://vertx.io/docs/vertx-core/java/)
-- [**Netty**](https://medium.com/geekculture/a-tour-of-netty-5020ecee5494)
+  - [**RxJava**](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
+  - [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides)
+  - [**Eclipse Vert.x**](https://vertx.io/docs/vertx-core/java/)
+  - [**Netty**](https://medium.com/geekculture/a-tour-of-netty-5020ecee5494)
 - Test-Driven Development:
   - Unit Testing:
     - [**JUnit 5**](https://www.baeldung.com/junit-5)
@@ -83,6 +87,8 @@
     - [Pitest](https://pitest.org/)
 - Observability: 
   - Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
+    - [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
+    - [Mapped Diagnostic Context (MDC)](https://www.baeldung.com/mdc-in-log4j-2-logback)
     - Log Aggregation: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana), Fluentd
   - Metrics: [Prometheus](https://prometheus.io/docs/tutorials/getting_started/) + Grafana
     - [Learning Prometheus and PromQL](https://iximiuz.com/en/series/learning-prometheus-and-promql/)
