@@ -29,3 +29,6 @@
     - Graph: Neo4J
 - Version control tools:
     - [Liquibase](https://liquibase.org/get-started/quickstart)
+- Data Platform:
+  - [Data Mesh vs. Data Fabric vs. Data Lake](https://www.zuar.com/blog/data-mesh-vs-data-fabric-vs-data-lake/)
+  - [Data Mesh Architecture](https://www.datamesh-architecture.com/)

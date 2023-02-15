@@ -6,6 +6,7 @@
   - [Shell Script Best Practices](https://sharats.me/posts/shell-script-best-practices/)
 - Characters:
     - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+    - [The Great Newline Schism](https://blog.codinghorror.com/the-great-newline-schism/)
     - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
     - [Invisible characters](https://invisible-characters.com/)
 - Internationalization and localization (i18n)
