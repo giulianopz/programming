@@ -20,7 +20,7 @@
 - [Machine Learning and Deep Learning](./mldl.md)
 - [Embedded Systems & Electronics](./metal.md)
 - [Open Source, DIY & Right to Repair](open.md)
-- [Best Practices, Common Pitfalls & Basic Things You Should Know](./best-practices.md)
+- [Best Practices, Common Pitfalls, Curious Stuff & Basic Things You Should Know](./best-practices.md)
 - [Classics & Bibles](./classics.md)
 - [CS/FOSS History and Hacking/Cyberpunk Culture](./history.md)
 - [Finest Sources of Geek Entertainment](./blogs.md)

@@ -1,4 +1,4 @@
-## Best Practices, Common Pitfalls & Basic Things You Should Know
+## Best Practices, Common Pitfalls, Curious Stuff & Basic Things You Should Know
 
 - Git:
   - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
@@ -85,11 +85,17 @@
   - [The faker's guide to reading (x86) assembly language](https://www.timdbg.com/posts/fakers-guide-to-assembly/)
   - [**!BONUS**]  [Compiler Explorer](https://godbolt.org/)
   - [Favorite compiler and interpreter resources](https://lists.eatonphil.com/compilers-and-interpreters.html)
-- Miscellanea:
-  - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
-  - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
-  - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
+- Laws and Principles:
+  - [Programming Principles](https://java-design-patterns.com/principles/)
   - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+  - [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
+- What Happens When:
+  - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
   - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
   - [What happens when you load a URL?](https://danluu.com/navigate-url/)
   - [What Happens When A CPU Starts](https://lateblt.tripod.com/bit68.txt)
+- Hard Stuff:
+  - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
+  - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
+- Miscellanea:
+  - [Quantum computing for the very curious](https://quantum.country/qcvc)
