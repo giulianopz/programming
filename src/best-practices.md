@@ -90,9 +90,12 @@
   - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
   - [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
 - What Happens When:
+  - [What happens when you run 'Hello, world'](https://jvns.ca/blog/2013/11/29/what-happens-when-you-run-a-unix-program/)
   - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
   - [What happens when you load a URL?](https://danluu.com/navigate-url/)
-  - [What Happens When A CPU Starts](https://lateblt.tripod.com/bit68.txt)
+  - [What happens when a CPU starts](https://lateblt.tripod.com/bit68.txt)
+  - [What happens when you start a process on Linux?](https://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/)
+  - [What happens when you update your DNS?](https://jvns.ca/blog/how-updating-dns-works/)
 - Hard Stuff:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
