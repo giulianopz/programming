@@ -46,3 +46,4 @@
 - [Enable Sysadmin](https://www.redhat.com/sysadmin/welcome-enable-sysadmin)
 - [Opensource.com](https://opensource.com/)
 - [FOSDEM video recordings](https://video.fosdem.org/)
+- [Explained from First Principles](https://explained-from-first-principles.com/)
