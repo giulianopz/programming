@@ -6,9 +6,13 @@
 - [fast.ai — Making neural nets uncool again](https://www.fast.ai/)
 - [MIT Introduction to Deep Learning](http://introtodeeplearning.com/)
 - [Dive into Deep Learning](https://d2l.ai/)
+- Manning & Schutze, Foundations of Statistical Natural Language Processing
 - Jurafsky & Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
+- Eisenstein, [Introduction to Natural Language Processing]
 - Molnar, [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
 - McKay, [Information Theory, Inference and Learning Algorithms](http://www.inference.org.uk/mackay/itprnn/book.html)
 - Hastie, Tibshirani & Friedman, The Elements of Statistical Learning
-- [nlp-library](https://github.com/mihail911/nlp-library)
 - [Visualizing machine learning one concept at a time](https://jalammar.github.io/)
+- [The Gradient](https://thegradient.pub/)
+- [ruder.io](https://www.ruder.io/tag/natural-language-processing/)
+- [nlp-library](https://github.com/mihail911/nlp-library)
