@@ -1,6 +1,6 @@
 # Introduction
 
-This is a list of lists of concepts, tools, books, tutorials, courses, etc. provided with links (when available) and organized by topic, I keep collecting as I progress as a software programmer. I use it to have a personal log of good stuff I discover while wandering about in the web.
+This is a list of lists of concepts, tools, books, tutorials, courses, blogs, essays, etc. provided with links (when available) and organized by topic, I keep collecting as I progress as a software programmer. I use it to have a personal log of good stuff I discover while wandering about in the web.
 
 Ideally, the list describes a learning path to get into programming starting from Java, which is just the typical entry point (or entry level) programming language for many people in enterprise software development. Despite all the [criticism](https://en.wikipedia.org/wiki/Criticism_of_Java), the world still runs on Java 8[^1]: since it's an ubiquitous language, you will encounter it even in the most remote places (e.g. in a [Playstation](https://www.mikekohn.net/micro/playstation2_java.php)). On the other hand, some of these critics are well-founded[^2]. So, equally, having a look to [modern programming languages](./prog-languages.md) sounds reasonable. Especially to Go, which really seems to be destined to replace Java pretty everywhere. Generally speaking, any programming language is good as long as it allows you to get your job done (just like any natural language is good as long as it allows you to express yourself).
 
@@ -15,7 +15,9 @@ Abstractions are useful, but all non-trivial abstractions, to some degree, are l
 
 Unfortunately, the enterprise software world is largely dominated by the use of [frameworks](https://en.wikipedia.org/wiki/Software_framework) (e.g. Spring vs Quarkus on backend side, Angular vs React on frontend side), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as "innovative" for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which means to develop a good intuition of what happens at the hardware/software interface (*getting closer to the metal*, as the kool kids say). This is why so frequently people attempt to re-implement from scratch a good piece of software[^7].
 
-Undoubtedly, this crafting or artistic view[^8] of the act of programming implies a longer (lifelong[^9]?) learning journey than any fancy Youtube tutorial would commit to, but this is still better than limiting oneself to the role of the [code monkey](https://en.wikipedia.org/wiki/Code_monkey) or the blue collar. 
+Undoubtedly, this crafting or artistic view[^8] of the act of programming implies a longer (lifelong[^9]?) and steeper learning curve than any fancy Youtube tutorial would commit to, but this is still better than getting stuck in a plateau after a brief exponential growth where developers end up acting merely as code monkeys or blue collars. Sometimes the working environment of IT companies with big moneys itself tricks you into:
+
+> voluntarily ceasing to improve because of a belief that expert status has been reached and thus further improvement is not possible.. This opting into indefinite mediocrity is the entry into an oblique phase in skills acquisition that I will call "Expert Beginner"[^10].
 
 In this respect, the following chapters naturally derail from application programming to [system programming](https://en.wikipedia.org/wiki/Systems_programming), and finally to hardware stuff. The last chapters mostly deal with collateral and/or enjoyable aspects of programming.
 
@@ -38,3 +40,5 @@ In this respect, the following chapters naturally derail from application progra
 [^8]: Peter Norvig, [pytudes](https://github.com/giulianopz/pytudes)
 
 [^9]: Peter Norvig, [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
+
+[^10]:  Erik Dietrich, [How Developers Stop Learning: Rise of the Expert Beginner](https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)

@@ -90,7 +90,6 @@
   - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
   - [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
 - What Happens When:
-  - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
   - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
   - [What happens when you load a URL?](https://danluu.com/navigate-url/)
   - [What Happens When A CPU Starts](https://lateblt.tripod.com/bit68.txt)
@@ -98,4 +97,5 @@
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
 - Miscellanea:
+  - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
   - [Quantum computing for the very curious](https://quantum.country/qcvc)
