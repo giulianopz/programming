@@ -26,11 +26,10 @@
 - OS Compatibility:
   - [A Guide to POSIX](https://www.baeldung.com/linux/posix)
   - [The Power of the XDG Base Directory Specification](https://maex.me/2019/12/the-power-of-the-xdg-base-directory-specification/)
-- Unit-Testing:
-  - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
-  - [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
 - Libraries
     - [Google Best Practices for Java Libraries](https://jlbp.dev/)
+- Testing:
+  - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
 - Software Design:
     - [Alternatives to DTO](https://blog.frankel.ch/alternatives-dto/)
     - [**!OPINION**] [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)

@@ -58,9 +58,7 @@
 - Bloch, Effective Java
 - [Design Patterns](https://java-design-patterns.com/)
 - Unit Testing:
-  - Kosleka, Effective Unit Testing
   - Tahchiev, JUnit in Action
-  - Kosleka, Test Driven: TDD and Acceptance TDD for Java Developers
 - Advanced Topics:
   - Generics
   - Reflection

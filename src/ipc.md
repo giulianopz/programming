@@ -17,10 +17,10 @@
 - Protocols:
     - Sockets:
         - Network Sockets:
-        - TCP
-            - [HTTP/-1, HTTP/2 and HTTP/3](https://medium.com/@sandeep-verma/http-1-to-http-2-to-http-3-647e73df67a8)
-            - [WebSocket](https://www.baeldung.com/java-websockets)
-        - [UDP](https://www.baeldung.com/udp-in-java)
+          - TCP
+              - [HTTP/-1, HTTP/2 and HTTP/3](https://medium.com/@sandeep-verma/http-1-to-http-2-to-http-3-647e73df67a8)
+              - [WebSocket](https://www.baeldung.com/java-websockets)
+          - [UDP](https://www.baeldung.com/udp-in-java)
         - [Unix Domain Sockets](https://nipafx.dev/java-unix-domain-sockets/)
     - Messaging:
         - AMQP

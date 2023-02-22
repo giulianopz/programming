@@ -17,6 +17,8 @@
 - [**!BONUS**] [HTTP Toolkit](https://httptoolkit.tech/)
 - [SSL Termination](https://avinetworks.com/glossary/ssl-termination/)
 - [Web scraping](https://scrapism.lav.io/)
+- [Four Ways to Build Web Apps](https://tomhummel.com/posts/four-web-apps/)
+- [Self hosting in 2023](https://grifel.dev/decentralization/)
 - [**!OPINION**] [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)
 - [**!OPINION**] [The Web's Next Transition](https://www.epicweb.dev/the-webs-next-transition)
 - [**!OPINION**] [The Web Is Fucked](https://thewebisfucked.com/)

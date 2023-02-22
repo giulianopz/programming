@@ -6,6 +6,7 @@
 - [Java](./java.md)
 - [Most Popular Libraries, Frameworks and Tools for Java](./libs.md)
 - [Other Programming Languages](./prog-languages.md)
+- [Software Testing](./testing.md)
 - [Algorithms & Data Structures](./algs.md)
 - [Software Design](./design.md)
 - [Inter-Process Communication (IPC)](./ipc.md)
