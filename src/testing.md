@@ -10,7 +10,6 @@
     - Chaos engineering
   - Acceptance testing
 - [Software Testing Anti-patterns](https://blog.codepipes.com/testing/software-testing-antipatterns.html)
-- [Growing Object-Oriented Software Guided by Tests](http://www.growing-object-oriented-software.com/)
 - [Test Fixture](https://en.wikipedia.org/wiki/Test_fixture#Software)
 - [TestDouble](https://martinfowler.com/bliki/TestDouble.html)
 - [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)

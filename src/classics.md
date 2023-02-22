@@ -1,5 +1,10 @@
 ## Classics & Bibles
 
+- Hunt & Thomas, [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
+- Brooks, The Mythical Man-Month: Essays on Software Engineering
+- C. Martin, Clean Code: A Handbook of Agile Software Craftsmanship
+- Freeman & Pryce, [Growing Object-Oriented Software, Guided by Tests](http://www.growing-object-oriented-software.com/) (GOOS)
+- Fowler & Beck, [Refactoring](https://martinfowler.com/books/refactoring.html)
 - Sussman & Abelson, Structure and Interpretation of Computer Programs (SICP)
 - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
 - Patterson and Hennessy, [Computer Organization and Design (MIPS Edition). The Hardware/Software Interface](https://shop.elsevier.com/books/computer-organization-and-design-mips-edition/patterson/978-0-12-407726-3#full-description)
