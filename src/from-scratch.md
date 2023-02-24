@@ -1,0 +1,15 @@
+## From Scratch
+
+- [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/index.html)
+- [Build Your Own Redis with C/C++](https://build-your-own.org/redis/)  
+- [Rebuilding Redis in Ruby](https://redis.pjam.me/)
+- [The Ray Tracer Challenge](http://raytracerchallenge.com/)
+- [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
+- [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
+- [Crafting Interpreters](http://www.craftinginterpreters.com/)
+- [Writing an OS in Rust](http://www.craftinginterpreters.com/)
+- [Rails Tutorial: A microblog web app](https://www.railstutorial.org/)
+- [Linux From Scratch](http://www.linuxfromscratch.org/)
+- [Handmade Hero](https://handmadehero.org/)
+- [Project Based Learning](https://github.com/practical-tutorials/project-based-learning#go)
+- [Projects-from-Scratch](https://github.com/AlgoryL/Projects-from-Scratch)

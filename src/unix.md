@@ -23,6 +23,7 @@
 - Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner
 - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
 - [The Linux Kernel documentation](https://www.kernel.org/doc/html/latest/)
+- [A Brief Introduction to termios: termios(3) and stty](https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios-termios3-and-stty/)
 - [**!BONUS**] [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/)
 - [**!BONUS**] [Learn Git Branching](https://learngitbranching.js.org/)
 - [**!BONUS**] [Vim Adventures](https://vim-adventures.com/)
