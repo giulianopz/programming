@@ -9,3 +9,4 @@
 - [Ruby](https://www.ruby-lang.org/en/documentation/quickstart/)
 - [Nim](https://nim-lang.org/docs/tut1.html)
 - [Erlang](https://www.erlang.org/doc/getting_started/intro.html#prerequisites) / [elixir](https://elixir-lang.org/getting-started/introduction.html)
+- [Haskell](https://www.haskell.org/get-started/)
