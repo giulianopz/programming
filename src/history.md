@@ -9,24 +9,23 @@
 - ESR, The Cathedral & the Bazaar
 - Kernighan, UNIX: A History and a Memoir
 - Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security
-- Petzold, Code: The Hidden Language of Computer Hardware and Software, 2nd Edition
 - Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
 - Torvalds, Just for Fun
 - Knuth, Things a Computer Scientist Rarely Talks About
+- Levy, Hackers: Heroes of the Computer Revolution
+- Kidder, The Soul of a New Machine
 - Hafner, Where wizards stay up late
 - Waldrop, The Dream Machine: Licklider and the Revolution That Made Computing Personal
 - Rheingold, Tools for Thought. The History and Future of Mind-Expanding Technology
 - Bhattacharya, The Man from the Future: The Visionary Life of John von Neumann
-- Gleick, The Information: A History, a Theory, a Flood
 - Soni & Goodman, A Mind at Play: How Claude Shannon Invented the Information Age
+- Gleick, The Information: A History, a Theory, a Flood
 - Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid
-- Kidder, The Soul of a New Machine
 - Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture
-- Levy, Hackers: Heroes of the Computer Revolution
+- Naitoh, How the ThinkPad Changed the World ― and Is Shaping the Future
 - Mitnick &s Simon, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
 - Erickson, Hacking: The Art of Exploitation
 - Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware
-- Naitoh, How the ThinkPad Changed the World ― and Is Shaping the Future
 - Gibson, Neuromancer
 - Dick, Do Androids Dream of Electric Sheep?
 - Shirow, The Ghost in the Shell
