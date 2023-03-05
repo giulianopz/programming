@@ -71,10 +71,12 @@
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -1235,24 +1237,23 @@
 <li>ESR, The Cathedral &amp; the Bazaar</li>
 <li>Kernighan, UNIX: A History and a Memoir</li>
 <li>Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security</li>
-<li>Petzold, Code: The Hidden Language of Computer Hardware and Software, 2nd Edition</li>
 <li>Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software</li>
 <li>Torvalds, Just for Fun</li>
 <li>Knuth, Things a Computer Scientist Rarely Talks About</li>
+<li>Levy, Hackers: Heroes of the Computer Revolution</li>
+<li>Kidder, The Soul of a New Machine</li>
 <li>Hafner, Where wizards stay up late</li>
 <li>Waldrop, The Dream Machine: Licklider and the Revolution That Made Computing Personal</li>
 <li>Rheingold, Tools for Thought. The History and Future of Mind-Expanding Technology</li>
 <li>Bhattacharya, The Man from the Future: The Visionary Life of John von Neumann</li>
-<li>Gleick, The Information: A History, a Theory, a Flood</li>
 <li>Soni &amp; Goodman, A Mind at Play: How Claude Shannon Invented the Information Age</li>
+<li>Gleick, The Information: A History, a Theory, a Flood</li>
 <li>Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid</li>
-<li>Kidder, The Soul of a New Machine</li>
 <li>Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture</li>
-<li>Levy, Hackers: Heroes of the Computer Revolution</li>
+<li>Naitoh, How the ThinkPad Changed the World ― and Is Shaping the Future</li>
 <li>Mitnick &amp;s Simon, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker</li>
 <li>Erickson, Hacking: The Art of Exploitation</li>
 <li>Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware</li>
-<li>Naitoh, How the ThinkPad Changed the World ― and Is Shaping the Future</li>
 <li>Gibson, Neuromancer</li>
 <li>Dick, Do Androids Dream of Electric Sheep?</li>
 <li>Shirow, The Ghost in the Shell</li>
