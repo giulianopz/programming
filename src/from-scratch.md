@@ -3,6 +3,7 @@
 - [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/index.html)
 - [Build Your Own Redis with C/C++](https://build-your-own.org/redis/)  
 - [Rebuilding Redis in Ruby](https://redis.pjam.me/)
+- [Build Your Own Database From Scratch](https://build-your-own.org/database/)
 - [The Ray Tracer Challenge](http://raytracerchallenge.com/)
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
 - [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
