@@ -7,6 +7,7 @@
 - Freeman & Pryce, [Growing Object-Oriented Software, Guided by Tests](http://www.growing-object-oriented-software.com/) (GOOS)
 - Fowler & Beck, [Refactoring](https://martinfowler.com/books/refactoring.html)
 - Sussman & Abelson, Structure and Interpretation of Computer Programs (SICP)
+- Jon Louis Bentley ,Programming Pearls
 - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
 - Patterson and Hennessy, [Computer Organization and Design (MIPS Edition). The Hardware/Software Interface](https://shop.elsevier.com/books/computer-organization-and-design-mips-edition/patterson/978-0-12-407726-3#full-description)
 - [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
