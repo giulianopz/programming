@@ -23,6 +23,9 @@
 - Kernighan and Pike, [The Practice of Programming](https://www.cs.princeton.edu/~bwk/tpop.webpage/)
 - Kernighan and Pike, [The Unix Programming Environment](https://www.cs.princeton.edu/~bwk/upe/upe.html)
 - ESR, [The Art of Unix Programming](http://catb.org/~esr/writings/taoup/)
+- Rochkind, Advanced Unix Programming 
+- Stevens. Advanced Programming In The Unix Environment
+- Bach, The Design Of The Unix Operating System
 - Knuth, Patashnik, and Graham, Concrete Mathematics: A Foundation for Computer Science
 - Knuth, The Art of Computer Programming
 - Bishop, Pattern Recognition and Machine Learning
