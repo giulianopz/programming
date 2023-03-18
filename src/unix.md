@@ -17,8 +17,6 @@
 - [Tmux for mere mortals](https://zserge.com/posts/tmux/)
 - [Cosmopolitan Libc](https://justine.lol/cosmopolitan/functions.html)
 - [How much memory my program uses or the tale of working set size](https://biriukov.dev/docs/page-cache/7-how-much-memory-my-program-uses-or-the-tale-of-working-set-size/#how-much-memory-my-program-uses-or-the-tale-of-working-set-size)
-- Raymond, The Art of Unix Programming
-- Stevens and Rago, Advanced Programming in the UNIX Environment
 - Love, Linux System Programming
 - Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner
 - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)

@@ -6,6 +6,7 @@
 - Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. [**!ITA**], [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
 - Himanen, The Hacker Ethic and the Spirit of the Information Age
 - [ESR, How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html#why_this)
+- [The Glider: A Universal Hacker Emblem](http://www.catb.org/hacker-emblem/)
 - ESR, The Cathedral & the Bazaar
 - Kernighan, UNIX: A History and a Memoir
 - Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security
