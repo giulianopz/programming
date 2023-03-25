@@ -25,7 +25,7 @@
     - [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
 - OS Compatibility:
   - [A Guide to POSIX](https://www.baeldung.com/linux/posix)
-  - [The Power of the XDG Base Directory Specification](https://maex.me/2019/12/the-power-of-the-xdg-base-directory-specification/)
+  - [Use the XDG Base Directory Specification!](https://xdgbasedirectoryspecification.com/)
 - Libraries
     - [Google Best Practices for Java Libraries](https://jlbp.dev/)
 - Testing:
