@@ -1,6 +1,7 @@
 ## Software Design
 
 - Ousterhout, A Philosophy of Software Design
+- Foote & Yoder, [Big Ball of Mud](http://www.laputan.org/mud/)
 - Martin, Clean Code
 - Hunt & Thomas, The Pragmatic Programmer: From Journeyman to Master
 - Brooks, The Mythical Man-Month
