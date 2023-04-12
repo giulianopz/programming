@@ -12,4 +12,5 @@
 - [Practical Cryptography for Developers](https://cryptobook.nakov.com/)
 - [**!BONUS**] [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
 - [How to find third-party vulnerabilities in your Java code](https://www.redhat.com/sysadmin/find-java-vulnerabilities)
+- [**!BONUS**] [the cryptopals crypto challenges](https://cryptopals.com/)
 - [**!BONUS**] [Flipper Zero](https://flipperzero.one/)

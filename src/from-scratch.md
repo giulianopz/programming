@@ -9,6 +9,8 @@
 - [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
 - [Crafting Interpreters](http://www.craftinginterpreters.com/)
 - [Writing an OS in Rust](http://www.craftinginterpreters.com/)
+- [Write a time-series database engine from scratch](https://nakabonne.dev/posts/write-tsdb-from-scratch/)
+- [tinywm](http://incise.org/tinywm.html)
 - [Rails Tutorial: A microblog web app](https://www.railstutorial.org/)
 - [Linux From Scratch](http://www.linuxfromscratch.org/)
 - [Handmade Hero](https://handmadehero.org/)
