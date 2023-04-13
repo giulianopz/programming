@@ -11,6 +11,7 @@
 - [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/)
 - [Beej's Guide to Networking Concepts](https://beej.us/guide/bgnet0/)
 - [Beej's Guide to Unix Interprocess Communication](https://beej.us/guide/bgipc/)
+- [Michael W. Lucas, Networking for System Administrators](https://mwl.io/nonfiction/networking#n4sa)
 - Sanders, Practical Packet Analysis
 - [SRE books](https://sre.google/books/)
 - [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
