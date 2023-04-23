@@ -1,6 +1,7 @@
 ## CS/FOSS History and Hacking/Cyberpunk Culture
 
 - [List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
+- [Emerson, Reading Writing Interfaces. From the Digital to the Bookbound](https://www.upress.umn.edu/book-division/books/reading-writing-interfaces)
 - [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
 - [PAPERCRAFT MODELS](https://rockybergen.com/papercraft)
 - [Computer Science academic papers selected by the Fermat’s Library Journal Club ](https://fermatslibrary.com/journal_club)

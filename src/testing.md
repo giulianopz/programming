@@ -14,3 +14,4 @@
 - [TestDouble](https://martinfowler.com/bliki/TestDouble.html)
 - [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
 - [Combining Object Mother and Fluent Builder for the Ultimate Test Data Factory](https://reflectoring.io/objectmother-fluent-builder/)
+- [Google Testing Blog](https://testing.googleblog.com/)

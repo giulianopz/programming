@@ -18,6 +18,7 @@
 - [HTML, CSS & JS](./fe.md)
 - [The UNIX Toolbox](./unix.md)
 - [From Scratch](./from-scratch.md)
+- [Playgrounds](./playgrounds.md)
 - [Embedded Systems & Electronics](./metal.md)
 - [Open Source, DIY & Right to Repair](open.md)
 - [Math](./math.md)
