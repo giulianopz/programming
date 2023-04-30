@@ -21,6 +21,7 @@
 - [Web scraping](https://scrapism.lav.io/)
 - [Four Ways to Build Web Apps](https://tomhummel.com/posts/four-web-apps/)
 - [Self hosting in 2023](https://grifel.dev/decentralization/)
-- [**!OPINION**] [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)
 - [**!OPINION**] [The Web's Next Transition](https://www.epicweb.dev/the-webs-next-transition)
 - [**!OPINION**] [The Web Is Fucked](https://thewebisfucked.com/)
+- [**!OPINION**] [The Web We Lost, and The Web We Must Rebuild](https://github.com/pzwang/lostweb)
+- [**!OPINION**] [Who Controls the Internet? And should they?](https://berthub.eu/articles/posts/who-controls-the-internet/)

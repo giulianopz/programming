@@ -12,3 +12,4 @@
 - [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
 - [**!BONUS**] [Can I use?](https://caniuse.com/)
 - [**!BONUS**] [Web Design Museum](https://www.webdesignmuseum.org/)
+- [**!OPINION**] [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)

@@ -9,6 +9,7 @@ Tutorials:
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
 - [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
 - [Crafting Interpreters](http://www.craftinginterpreters.com/)
+- [Writing an Interpreter In Go](https://interpreterbook.com/) + [Writing a Compiler In Go](https://compilerbook.com/)
 - [Writing an OS in Rust](http://www.craftinginterpreters.com/)
 - [Write a time-series database engine from scratch](https://nakabonne.dev/posts/write-tsdb-from-scratch/)
 - [tinywm](http://incise.org/tinywm.html)
@@ -18,6 +19,7 @@ Tutorials:
 - [Handmade Hero](https://handmadehero.org/)
 - [C++ Neural Network in a Weekend](https://github.com/jeremyong/cpp_nn_in_a_weekend)
 - [Transformers from Scratch](https://e2eml.school/transformers.html)
+- [Build Your Own Lisp](https://buildyourownlisp.com/contents)
 
 Lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
