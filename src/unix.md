@@ -15,13 +15,14 @@
 - [How I use cron in Linux](https://opensource.com/article/17/11/how-use-cron-linux)
 - [Getting started with tmux](https://ittavern.com/getting-started-with-tmux/)
 - [Tmux for mere mortals](https://zserge.com/posts/tmux/)
-- [Cosmopolitan Libc](https://justine.lol/cosmopolitan/functions.html)
 - [How much memory my program uses or the tale of working set size](https://biriukov.dev/docs/page-cache/7-how-much-memory-my-program-uses-or-the-tale-of-working-set-size/#how-much-memory-my-program-uses-or-the-tale-of-working-set-size)
-- Love, Linux System Programming
 - Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner
-- [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
 - [The Linux Kernel documentation](https://www.kernel.org/doc/html/latest/)
+- Love, Linux System Programming
 - [A Brief Introduction to termios: termios(3) and stty](https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios-termios3-and-stty/)
+- [Cosmopolitan Libc](https://justine.lol/cosmopolitan/functions.html)
+- [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
+- [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
 - [**!BONUS**] [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/)
 - [**!BONUS**] [Learn Git Branching](https://learngitbranching.js.org/)
 - [**!BONUS**] [Vim Adventures](https://vim-adventures.com/)
