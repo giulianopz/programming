@@ -1,5 +1,6 @@
 ## From Scratch
 
+Tutorials:
 - [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/index.html)
 - [Build Your Own Redis with C/C++](https://build-your-own.org/redis/)  
 - [Rebuilding Redis in Ruby](https://redis.pjam.me/)
@@ -10,10 +11,18 @@
 - [Crafting Interpreters](http://www.craftinginterpreters.com/)
 - [Creating an Operating System](https://wiki.osdev.org/Creating_an_Operating_System)
 - [Writing an OS in Rust](https://os.phil-opp.com/)
+- [Writing an Interpreter In Go](https://interpreterbook.com/) + [Writing a Compiler In Go](https://compilerbook.com/)
 - [Write a time-series database engine from scratch](https://nakabonne.dev/posts/write-tsdb-from-scratch/)
 - [tinywm](http://incise.org/tinywm.html)
 - [Rails Tutorial: A microblog web app](https://www.railstutorial.org/)
 - [Linux From Scratch](http://www.linuxfromscratch.org/)
+- [Your First LTE](https://open5gs.org/open5gs/docs/tutorial/01-your-first-lte/)
 - [Handmade Hero](https://handmadehero.org/)
+- [C++ Neural Network in a Weekend](https://github.com/jeremyong/cpp_nn_in_a_weekend)
+- [Transformers from Scratch](https://e2eml.school/transformers.html)
+- [Build Your Own Lisp](https://buildyourownlisp.com/contents)
+
+Lists:
+- [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning#go)
 - [Projects-from-Scratch](https://github.com/AlgoryL/Projects-from-Scratch)
