@@ -68,14 +68,11 @@
       - [Advanced Java Concurrent Patterns](https://www.pluralsight.com/courses/java-concurrent-patterns-advanced)
       - [Java Fundamentals: Asynchronous Programming Using CompletionStage](https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage)
       - [**!WIP**] [Project Loom](https://openjdk.org/jeps/425)
-        - [**!WARNING**] [Loom and Thread Fairness](https://www.morling.dev/blog/loom-and-thread-fairness/)
+      - [**!WARNING**] [Loom and Thread Fairness](https://www.morling.dev/blog/loom-and-thread-fairness/)
   - Reactive Programming
-      - [The introduction to Reactive Programming you've been missing](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
       - [The Essence of Reactive Programming in Java](https://www.scnsoft.com/blog/java-reactive-programming)
-      - [5 Things to Know About Reactive Programming](https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming)
       - [The Difference Between a Reactive Non-Blocking Model and Classic Asynchronous Code](https://nickolasfisher.com/blog/The-Difference-Between-a-Reactive-NonBlocking-Model-and-Classic-Asynchronous-Code)
       - [EventLoop vs Thread per Request Model](https://singhkaushal.medium.com/spring-webflux-eventloop-vs-thread-per-request-model-a42d07ee8502)
-      - [Explaining event loop in 100 lines of code](https://iximiuz.com/en/posts/explain-event-loop-in-100-lines-of-code/)
 - Java APIs
   - [The Java Version Almanac](https://javaalmanac.io/)
   - [New language features since Java 8 to 17](https://advancedweb.hu/new-language-features-since-java-8-to-17/)

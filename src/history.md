@@ -9,6 +9,7 @@
 - Himanen, The Hacker Ethic and the Spirit of the Information Age
 - [ESR, How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html#why_this)
 - [The Glider: A Universal Hacker Emblem](http://www.catb.org/hacker-emblem/)
+- [The Backbone](https://technicshistory.com/the-backbone/)
 - ESR, The Cathedral & the Bazaar
 - Kernighan, UNIX: A History and a Memoir
 - Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security

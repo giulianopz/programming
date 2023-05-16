@@ -3,6 +3,7 @@
 - [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
 - [What is an Arduino?](https://opensource.com/resources/what-arduino)
 - [What is a Raspberry Pi?](https://opensource.com/resources/raspberry-pi)
+- [How Does an FPGA Work?](https://learn.sparkfun.com/tutorials/how-does-an-fpga-work/all)
 - [FPGA vs. Microcontroller. What is the Difference?](https://www.mclpcb.com/blog/fpga-vs-microcontroller/)
 - [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
 - [Basic knowledge about principles and techniques behind the Arduino ecosystem](https://docs.arduino.cc/learn/)

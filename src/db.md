@@ -3,17 +3,18 @@
 - [**!BONUS**] [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
 - [**!BONUS**] [Introduction to SQL](https://sqlbolt.com/)
 - Basic Concepts:
-- [Things You Should Know About Databases](https://architecturenotes.co/things-you-should-know-about-databases/)
-- [Database Normalization Basics](https://www.lifewire.com/database-normalization-basics-1019735)
-- [Database Indexes Explained](https://www.essentialsql.com/what-is-a-database-index/)
-- [Table Compression and Partitioning](https://docs.oracle.com/en/database/oracle/oracle-database/21/vldbg/partition-table-compression.html#GUID-F26AFD78-DC1D-4E6B-9B37-375C59FD1787)
-- [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
-- [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
+    - [Things You Should Know About Databases](https://architecturenotes.co/things-you-should-know-about-databases/)
+    - [Database Normalization Basics](https://www.lifewire.com/database-normalization-basics-1019735)
+    - [Database Indexes Explained](https://www.essentialsql.com/what-is-a-database-index/)
+    - [Table Compression and Partitioning](https://docs.oracle.com/en/database/oracle/oracle-database/21/vldbg/partition-table-compression.html#GUID-F26AFD78-DC1D-4E6B-9B37-375C59FD1787)
+    - [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
+    - [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
+    - [Database design basics](https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
 - Database Internals:
-- How Database Work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
-- [How to learn about database systems](https://blog.bradfieldcs.com/how-to-learn-about-database-systems-40c7432f471d#.5rjlp4fqq)
-- [How does a relational database work](http://coding-geek.com/how-databases-work/)
-- Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
+    - How Database Work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
+    - [How to learn about database systems](https://blog.bradfieldcs.com/how-to-learn-about-database-systems-40c7432f471d#.5rjlp4fqq)
+    - [How does a relational database work](http://coding-geek.com/how-databases-work/)
+    - Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
 - Common Relational DBs:
     - Oracle Database
     - MySQL
@@ -27,8 +28,10 @@
     - Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
     - Key-value: [Redis](https://architecturenotes.co/redis/)
     - Graph: Neo4J
+- [**!BONUS**] [What is a Vector Database?](https://www.pinecone.io/learn/vector-database/)
 - Version control tools:
     - [Liquibase](https://liquibase.org/get-started/quickstart)
-- Data Platform:
+- Paradigms for managing data:
   - [Data Mesh vs. Data Fabric vs. Data Lake](https://www.zuar.com/blog/data-mesh-vs-data-fabric-vs-data-lake/)
   - [Data Mesh Architecture](https://www.datamesh-architecture.com/)
+- [Entity Relationship Diagrams with draw.io](https://drawio-app.com/blog/entity-relationship-diagrams-with-draw-io/)

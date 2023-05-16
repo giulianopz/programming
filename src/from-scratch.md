@@ -21,6 +21,10 @@ Tutorials:
 - [C++ Neural Network in a Weekend](https://github.com/jeremyong/cpp_nn_in_a_weekend)
 - [Transformers from Scratch](https://e2eml.school/transformers.html)
 - [Build Your Own Lisp](https://buildyourownlisp.com/contents)
+- [Implementing a toy version of TLS 1.3](https://jvns.ca/blog/2022/03/23/a-toy-version-of-tls/)
+- [Let's build a Full-Text Search engine](https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/)
+- [Let's write a compiler](https://briancallahan.net/blog/20210814.html)
+- [Explaining event loop in 100 lines of code](https://iximiuz.com/en/posts/explain-event-loop-in-100-lines-of-code/)
 
 Lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

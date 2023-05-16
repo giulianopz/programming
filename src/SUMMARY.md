@@ -10,6 +10,7 @@
 - [Algorithms & Data Structures](./algs.md)
 - [Software Design](./design.md)
 - [Inter-Process Communication (IPC)](./ipc.md)
+- [I/O](./io.md)
 - [Databases & SQL](./db.md)
 - [Microservices, Distributed Systems & System Design](./microservices.md)
 - [Cloud Computing, Containers & DevOps](./cloud.md)
