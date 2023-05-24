@@ -1,6 +1,6 @@
 # Introduction
 
-This is a list of lists of concepts, tools, books, tutorials, courses, blogs, essays, etc. provided with links (when available) and organized by topic, I keep collecting as I progress as a software programmer. I use it to have a personal log of good stuff I discover while wandering about in the web.
+This is a list of lists of concepts, tools, books, tutorials, courses, blogs, essays, etc. full of links and organized by topic, I keep collecting as I progress as a software programmer. I use it to have a personal log of good stuff I discover while wandering about in the web.
 
 Ideally, the list describes a learning path to get into programming starting from Java, which is just the typical entry point (or entry level) programming language for many people in enterprise software development. Despite all the [criticism](https://en.wikipedia.org/wiki/Criticism_of_Java), the world still runs on Java 8[^1]: since it's an ubiquitous language, you will encounter it even in the most remote places (e.g. in a [PlayStation](https://www.mikekohn.net/micro/playstation2_java.php)). On the other hand, some of these critics are well-founded[^2]. So, equally, having a look to [modern programming languages](./prog-languages.md) sounds reasonable. Especially to Go, which really seems to be destined to replace Java pretty everywhere. Generally speaking, any programming language is good as long as it allows you to get your job done (just like any natural language is good as long as it allows you to express yourself).
 
@@ -37,7 +37,7 @@ In this respect, the following chapters naturally derail from application progra
 
 [^7]: Julia Evans, [Get better at programming by learning how things work](https://jvns.ca/blog/learn-how-things-work/)
 
-[^8]: Peter Norvig, [pytudes](https://github.com/giulianopz/pytudes)
+[^8]: Peter Norvig, [pytudes](https://github.com/norvig/pytudes)
 
 [^9]: Peter Norvig, [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 
