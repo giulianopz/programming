@@ -25,6 +25,7 @@ Tutorials:
 - [Let's build a Full-Text Search engine](https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/)
 - [Let's write a compiler](https://briancallahan.net/blog/20210814.html)
 - [Explaining event loop in 100 lines of code](https://iximiuz.com/en/posts/explain-event-loop-in-100-lines-of-code/)
+- [Implementing a distributed key-value store on top of implementing Raft in Go](https://notes.eatonphil.com/2023-05-25-raft.html)
 
 Lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

@@ -13,3 +13,4 @@
 - [The System Design Template I Use](https://adityarohilla.com/2022/03/22/the-system-design-template-i-use/)
 - [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
 - [Architecture Playbook](https://nocomplexity.com/documents/arplaybook/introduction.html)
+- [Jepsen](https://jepsen.io/)
