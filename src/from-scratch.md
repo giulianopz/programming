@@ -26,6 +26,7 @@ Tutorials:
 - [Let's write a compiler](https://briancallahan.net/blog/20210814.html)
 - [Explaining event loop in 100 lines of code](https://iximiuz.com/en/posts/explain-event-loop-in-100-lines-of-code/)
 - [Implementing a distributed key-value store on top of implementing Raft in Go](https://notes.eatonphil.com/2023-05-25-raft.html)
+- [Learn x86-64 assembly by writing a GUI from scratch](https://gaultier.github.io/blog/x11_x64.html)
 
 Lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
