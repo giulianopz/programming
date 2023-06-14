@@ -3,6 +3,7 @@
 - [Input/output](https://en.wikipedia.org/wiki/Input/output)
 - [Async IO fundamentals](https://www.ncameron.org/blog/async-io-fundamentals/)
 - [Asynchronous vs. non-blocking calls](https://stackoverflow.com/questions/2625493/asynchronous-and-non-blocking-calls-also-between-blocking-and-synchronous)
+- [Asynchronous Programming Under Linux](https://unixism.net/loti/async_intro.html)
 - [Explain non-blocking I/O like I’m five](https://www.codecentric.de/wissens-hub/blog/explain-non-blocking-i-o-like-im-five)
 - [Nonblocking I/O](https://copyconstruct.medium.com/nonblocking-i-o-99948ad7c957)
 - [The method to epoll’s madness](https://copyconstruct.medium.com/the-method-to-epolls-madness-d9d2d6378642)

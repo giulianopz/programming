@@ -14,3 +14,5 @@
 - [The Architecture of Open Source Applications](https://aosabook.org/en/index.html)
 - [Architecture Playbook](https://nocomplexity.com/documents/arplaybook/introduction.html)
 - [Jepsen](https://jepsen.io/)
+- [ByteByteGo](https://www.youtube.com/@ByteByteGo/videos)
+- [System Design Interview](https://www.youtube.com/@SystemDesignInterview)

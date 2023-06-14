@@ -5,7 +5,7 @@
 - [Teaching Yourself CS](./teach.md)
 - [Java](./java.md)
 - [Most Popular Libraries, Frameworks and Tools for Java](./libs.md)
-- [Other Programming Languages](./prog-languages.md)
+- [Other Programming Languages](./languages.md)
 - [Software Testing](./testing.md)
 - [Algorithms & Data Structures](./algs.md)
 - [Software Design](./design.md)

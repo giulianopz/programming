@@ -27,6 +27,14 @@ Tutorials:
 - [Explaining event loop in 100 lines of code](https://iximiuz.com/en/posts/explain-event-loop-in-100-lines-of-code/)
 - [Implementing a distributed key-value store on top of implementing Raft in Go](https://notes.eatonphil.com/2023-05-25-raft.html)
 - [Learn x86-64 assembly by writing a GUI from scratch](https://gaultier.github.io/blog/x11_x64.html)
+- [Writing a Linux Debugger](https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/)
+- [Let's make a Teeny Tiny compiler](https://austinhenley.com/blog/teenytinycompiler1.html)
+- [How to build a window manager in Python](https://monroeclinton.com/build-your-own-window-manager/)
+- [Implementing cosine in C from scratch](https://austinhenley.com/blog/cosine.html)
+- [Let's Build a Simple Database. Writing a sqlite clone from scratch in C](https://cstack.github.io/db_tutorial/)
+- [A Compiler Writing Journey](https://github.com/DoctorWkt/acwj)
+- [Writing a C Compiler](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
+- [Statically Recompiling NES Games into Native Executables with LLVM and Go](https://andrewkelley.me/post/jamulator.html)
 
 Lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
