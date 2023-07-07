@@ -89,11 +89,33 @@
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -767,6 +789,7 @@
 <li><a href="https://jepsen.io/">Jepsen</a></li>
 <li><a href="https://www.youtube.com/@ByteByteGo/videos">ByteByteGo</a></li>
 <li><a href="https://www.youtube.com/@SystemDesignInterview">System Design Interview</a></li>
+<li><a href="https://www.youtube.com/playlist?app=desktop&amp;list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&amp;cbrd=1">MIT 6.824 Distributed Systems (Spring 2020)</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="cloud-computing-containers--devops"><a class="header" href="#cloud-computing-containers--devops">Cloud Computing, Containers &amp; DevOps</a></h2>
 <ul>
@@ -871,11 +894,12 @@
 <li><a href="https://study-ccna.com/what-is-a-network/">What is a network?</a></li>
 <li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols">An Introduction to Networking Terminology, Interfaces, and Protocols</a></li>
 <li><a href="https://cs.lmu.edu/~ray/notes/netsandinets/">Introduction to Networks</a></li>
+<li><a href="https://book.systemsapproach.org/index.html">Computer Networks: A Systems Approach</a></li>
+<li><a href="https://hpbn.co/">Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance</a></li>
 <li><a href="https://iximiuz.com/en/series/computer-networking-fundamentals/">Computer Networking Fundamentals</a></li>
 <li><a href="https://www.ipprimer.com/#/">Daryl's TCP/IP Primer</a></li>
 <li><a href="https://www.practicalnetworking.net/series/packet-traveling/packet-traveling/">Packet Traveling</a></li>
-<li><a href="https://book.systemsapproach.org/index.html">Computer Networks: A Systems Approach</a></li>
-<li><a href="https://hpbn.co/">Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance</a></li>
+<li><a href="https://educatedguesswork.org/posts/nat-part-1/">Everything you never knew about NATs and wish you hadn't asked</a></li>
 <li><a href="https://beej.us/guide/bgnet/">Beej's Guide to Network Programming</a></li>
 <li><a href="https://beej.us/guide/bgnet0/">Beej's Guide to Networking Concepts</a></li>
 <li><a href="https://beej.us/guide/bgipc/">Beej's Guide to Unix Interprocess Communication</a></li>
@@ -934,6 +958,7 @@
 <li><a href="https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios-termios3-and-stty/">A Brief Introduction to termios: termios(3) and stty</a></li>
 <li><a href="https://justine.lol/cosmopolitan/functions.html">Cosmopolitan Libc</a></li>
 <li><a href="https://sysprog21.github.io/lkmpg/">The Linux Kernel Module Programming Guide</a></li>
+<li><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html">Linux Kernel Teaching</a></li>
 <li><a href="https://madaidans-insecurities.github.io/guides/linux-hardening.html">Linux Hardening Guide</a></li>
 <li>[<strong>!BONUS</strong>] <a href="https://linuxsurvival.com/linux-tutorial-introduction/">Linux Survival</a></li>
 <li>[<strong>!BONUS</strong>] <a href="https://learngitbranching.js.org/">Learn Git Branching</a></li>
@@ -1028,6 +1053,7 @@
 <li><a href="https://www.youtube.com/watch?v=xFqA9u6y0Fk&amp;list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt">Microsoldering 101</a></li>
 <li><a href="https://jaycarlson.net/embedded-linux/"> So you want to build an embedded Linux system?</a></li>
 <li><a href="https://florian.noeding.com/posts/risc-v-toy-cpu/cpu-from-scratch/">How a CPU works: Bare metal C on my RISC-V toy CPU</a></li>
+<li><a href="https://www.electronics-notes.com/">ElectronicsNotes</a></li>
 <li>[<strong>!BONUS</strong>] <a href="https://www.xorpd.net/pages/x86_adventures.html">Assembly Language Adventures</a></li>
 <li>[<strong>!BONUS</strong>] <a href="https://zserge.com/posts/post-apocalyptic-programming/">Post-apocalyptic programming</a></li>
 <li>[<strong>!BONUS</strong>] <a href="https://539kernel.com/book/">A Journey in Creating an Operating System Kernel</a></li>
@@ -1074,6 +1100,8 @@
 <li>McKay, <a href="http://www.inference.org.uk/mackay/itprnn/book.html">Information Theory, Inference and Learning Algorithms</a></li>
 <li>Hastie, Tibshirani &amp; Friedman, The Elements of Statistical Learning</li>
 <li><a href="https://jalammar.github.io/">Visualizing machine learning one concept at a time</a></li>
+<li><a href="https://vickiboykis.com/what_are_embeddings/">What are embeddings?</a></li>
+<li><a href="https://mark-riedl.medium.com/a-very-gentle-introduction-to-large-language-models-without-the-hype-5f67941fa59e">A Very Gentle Introduction to Large Language Models without the Hype</a></li>
 <li><a href="https://thegradient.pub/">The Gradient</a></li>
 <li><a href="https://www.ruder.io/tag/natural-language-processing/">ruder.io</a></li>
 <li><a href="https://github.com/mihail911/nlp-library">nlp-library</a></li>
@@ -1417,6 +1445,8 @@
 <li><a href="https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed">14 Patterns to Ace Any Coding Interview Question</a></li>
 <li><a href="https://github.com/lukasz-madon/awesome-remote-job">Awesome Remote Job</a></li>
 <li><a href="https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/">How Developers Stop Learning: Rise of the Expert Beginner</a></li>
+<li><a href="https://interviewing.io/guides/hiring-process">A Senior Engineer’s Guide to FAANG Interviews</a></li>
+<li><a href="https://phauer.com/2022/leveling-up-job-interviews/">Leveling Up in Job Interviews for Software Engineers</a></li>
 </ul>
 
                     </main>

@@ -88,11 +88,33 @@
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -155,11 +177,12 @@
 <li><a href="https://study-ccna.com/what-is-a-network/">What is a network?</a></li>
 <li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols">An Introduction to Networking Terminology, Interfaces, and Protocols</a></li>
 <li><a href="https://cs.lmu.edu/~ray/notes/netsandinets/">Introduction to Networks</a></li>
+<li><a href="https://book.systemsapproach.org/index.html">Computer Networks: A Systems Approach</a></li>
+<li><a href="https://hpbn.co/">Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance</a></li>
 <li><a href="https://iximiuz.com/en/series/computer-networking-fundamentals/">Computer Networking Fundamentals</a></li>
 <li><a href="https://www.ipprimer.com/#/">Daryl's TCP/IP Primer</a></li>
 <li><a href="https://www.practicalnetworking.net/series/packet-traveling/packet-traveling/">Packet Traveling</a></li>
-<li><a href="https://book.systemsapproach.org/index.html">Computer Networks: A Systems Approach</a></li>
-<li><a href="https://hpbn.co/">Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance</a></li>
+<li><a href="https://educatedguesswork.org/posts/nat-part-1/">Everything you never knew about NATs and wish you hadn't asked</a></li>
 <li><a href="https://beej.us/guide/bgnet/">Beej's Guide to Network Programming</a></li>
 <li><a href="https://beej.us/guide/bgnet0/">Beej's Guide to Networking Concepts</a></li>
 <li><a href="https://beej.us/guide/bgipc/">Beej's Guide to Unix Interprocess Communication</a></li>

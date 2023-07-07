@@ -88,11 +88,33 @@
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
                                 <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky bordered">
+                <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
@@ -166,6 +188,8 @@
 <li>McKay, <a href="http://www.inference.org.uk/mackay/itprnn/book.html">Information Theory, Inference and Learning Algorithms</a></li>
 <li>Hastie, Tibshirani &amp; Friedman, The Elements of Statistical Learning</li>
 <li><a href="https://jalammar.github.io/">Visualizing machine learning one concept at a time</a></li>
+<li><a href="https://vickiboykis.com/what_are_embeddings/">What are embeddings?</a></li>
+<li><a href="https://mark-riedl.medium.com/a-very-gentle-introduction-to-large-language-models-without-the-hype-5f67941fa59e">A Very Gentle Introduction to Large Language Models without the Hype</a></li>
 <li><a href="https://thegradient.pub/">The Gradient</a></li>
 <li><a href="https://www.ruder.io/tag/natural-language-processing/">ruder.io</a></li>
 <li><a href="https://github.com/mihail911/nlp-library">nlp-library</a></li>
