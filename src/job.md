@@ -11,3 +11,5 @@
 - [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 - [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job)
 - [How Developers Stop Learning: Rise of the Expert Beginner](https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)
+- [A Senior Engineer’s Guide to FAANG Interviews](https://interviewing.io/guides/hiring-process)
+- [Leveling Up in Job Interviews for Software Engineers](https://phauer.com/2022/leveling-up-job-interviews/)

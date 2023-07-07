@@ -16,3 +16,4 @@
 - [Jepsen](https://jepsen.io/)
 - [ByteByteGo](https://www.youtube.com/@ByteByteGo/videos)
 - [System Design Interview](https://www.youtube.com/@SystemDesignInterview)
+- [MIT 6.824 Distributed Systems (Spring 2020)](https://www.youtube.com/playlist?app=desktop&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&cbrd=1)

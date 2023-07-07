@@ -22,6 +22,7 @@
 - [A Brief Introduction to termios: termios(3) and stty](https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios-termios3-and-stty/)
 - [Cosmopolitan Libc](https://justine.lol/cosmopolitan/functions.html)
 - [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
+- [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html)
 - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
 - [**!BONUS**] [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/)
 - [**!BONUS**] [Learn Git Branching](https://learngitbranching.js.org/)

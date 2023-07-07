@@ -14,6 +14,8 @@
 - McKay, [Information Theory, Inference and Learning Algorithms](http://www.inference.org.uk/mackay/itprnn/book.html)
 - Hastie, Tibshirani & Friedman, The Elements of Statistical Learning
 - [Visualizing machine learning one concept at a time](https://jalammar.github.io/)
+- [What are embeddings?](https://vickiboykis.com/what_are_embeddings/)
+- [A Very Gentle Introduction to Large Language Models without the Hype](https://mark-riedl.medium.com/a-very-gentle-introduction-to-large-language-models-without-the-hype-5f67941fa59e)
 - [The Gradient](https://thegradient.pub/)
 - [ruder.io](https://www.ruder.io/tag/natural-language-processing/)
 - [nlp-library](https://github.com/mihail911/nlp-library)
