@@ -8,6 +8,7 @@
 - [Arduino Starter Kit](https://store.arduino.cc/products/arduino-starter-kit-multi-language)
 - [Basic knowledge about principles and techniques behind the Arduino ecosystem](https://docs.arduino.cc/learn/)
 - [The Untold History of Arduino](https://arduinohistory.github.io/)
+- [Learn electronics by practice](https://beletronics.wordpress.com/)
 - [Concise electronics for geeks](https://lcamtuf.coredump.cx/electronics/)
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
 - Platt, Electronics: Learning by Discovery: A hands-on primer for the new electronics enthusiast
