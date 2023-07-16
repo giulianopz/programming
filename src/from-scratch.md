@@ -5,6 +5,8 @@ Tutorials:
 - [Build Your Own Redis with C/C++](https://build-your-own.org/redis/)  
 - [Rebuilding Redis in Ruby](https://redis.pjam.me/)
 - [Build Your Own Database From Scratch](https://build-your-own.org/database/)
+- [Build Your Own Search Engine](https://wiby.me/about/guide.html)
+- [Build Your Own Docker](https://akashrajpurohit.com/blog/build-your-own-docker-with-linux-namespaces-cgroups-and-chroot-handson-guide/)
 - [The Ray Tracer Challenge](http://raytracerchallenge.com/)
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
 - [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
@@ -35,6 +37,7 @@ Tutorials:
 - [A Compiler Writing Journey](https://github.com/DoctorWkt/acwj)
 - [Writing a C Compiler](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
 - [Statically Recompiling NES Games into Native Executables with LLVM and Go](https://andrewkelley.me/post/jamulator.html)
+- [A slack clone in 5 lines of bash](https://the-dam.org/docs/explanations/suc.html)
 
 Lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

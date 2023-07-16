@@ -1,6 +1,7 @@
 ## Open Source, DIY & Right to Repair
 
 - [The Open Source Definition](https://opensource.org/osd/)
+- [What is Free Software?](https://writefreesoftware.org/learn/)
 - [Pivotal moments in open source history](https://opensource.com/article/18/2/pivotal-moments-history-open-source)
 - [Convivial software (or, why open source matters)](https://comment.org/convivial-software-or-why-open-source-matters/)
 - [What is open hardware?](https://opensource.com/resources/what-open-hardware)
