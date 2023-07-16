@@ -33,8 +33,6 @@
 - Jurafsky and Martin, [Speech and Language Processing (3rd ed., draft)](https://web.stanford.edu/~jurafsky/slp3/) (SLP3)
 - Norvig and Russel, [Artificial Intelligence: A Modern Approach](https://aima.cs.berkeley.edu/)
 - Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
-- Bovet and Cesati, Understanding the Linux Kernel
-- [Rubini, Linux Device Drivers](https://lwn.net/Kernel/LDD3/)
 - [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
 - [Brendan, Systems Performance: Enterprise and the Cloud](https://www.brendangregg.com/systems-performance-2nd-edition-book.html)
 - [**!FUTURE CLASSIC**] Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
