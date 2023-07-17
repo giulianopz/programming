@@ -16,8 +16,8 @@
 - [How I use cron in Linux](https://opensource.com/article/17/11/how-use-cron-linux)
 - [Getting started with tmux](https://ittavern.com/getting-started-with-tmux/)
 - [Tmux for mere mortals](https://zserge.com/posts/tmux/)
-- [How much memory my program uses or the tale of working set size](https://biriukov.dev/docs/page-cache/7-how-much-memory-my-program-uses-or-the-tale-of-working-set-size/#how-much-memory-my-program-uses-or-the-tale-of-working-set-size)
 - Hausenblas, Learning Modern Linux. A Handbook for the Cloud Native Practitioner
+- [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
 - [**!BONUS**] [Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/)
 - [**!BONUS**] [Linux Journey](https://linuxjourney.com/)
 - [**!BONUS**] [Learn Git Branching](https://learngitbranching.js.org/)
