@@ -84,10 +84,11 @@
   - [The faker's guide to reading (x86) assembly language](https://www.timdbg.com/posts/fakers-guide-to-assembly/)
   - [**!BONUS**]  [Compiler Explorer](https://godbolt.org/)
   - [Favorite compiler and interpreter resources](https://lists.eatonphil.com/compilers-and-interpreters.html)
-- Laws and Principles:
+- Laws, Principles and Mantra:
   - [Programming Principles](https://java-design-patterns.com/principles/)
   - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
   - [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
+  - [Make It Work Make It Right Make It Fast](https://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast)
 - What Happens When:
   - [What happens when you run 'Hello, world'](https://jvns.ca/blog/2013/11/29/what-happens-when-you-run-a-unix-program/)
   - [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
