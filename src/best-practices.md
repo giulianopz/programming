@@ -99,6 +99,8 @@
   - [What happens when you start a process on Linux?](https://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/)
   - [What happens when you update your DNS?](https://jvns.ca/blog/how-updating-dns-works/)
   - [What happens when...](https://github.com/alex/what-happens-when)
+- Low-Level Studd:
+- [Putting the “You” in CPU](https://cpu.land/)
 - Hard Stuff:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)

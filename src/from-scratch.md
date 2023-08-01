@@ -39,6 +39,7 @@ Tutorials:
 - [Statically Recompiling NES Games into Native Executables with LLVM and Go](https://andrewkelley.me/post/jamulator.html)
 - [A slack clone in 5 lines of bash](https://the-dam.org/docs/explanations/suc.html)
 - [NTP Implementation in Elixir](https://0x7f.dev/post/ntp-implementation-in-elixir/)
+- [A minimal operating system (2K LOC) on QEMU and a RISC-V board](https://github.com/yhzhang0128/egos-2000)
 
 Lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

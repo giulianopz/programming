@@ -1,6 +1,7 @@
 ## Microservices, Distributed Systems & System Design
 
 - [From Microservices to Distributed Systems: A Survival Guide for Java Devs](https://dzone.com/articles/from-microservices-to-distributed-systems-survival)
+- [Learning about distributed systems: where to start?](https://muratbuffalo.blogspot.com/2020/06/learning-about-distributed-systems.html?m=1)
 - [Microservices Patterns](https://microservices.io/patterns/index.html)
 - [Patterns of Distributed Systems](https://martinfowler.com/articles/patterns-of-distributed-systems/)
 - Vitillo, [Understanding Distributed Systems. What every developer should know about large distributed applications](https://understandingdistributed.systems/)
