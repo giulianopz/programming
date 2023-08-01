@@ -26,6 +26,7 @@
         - AMQP
         - MQTT
         - STOMP
+- [An introduction to APIs](https://zapier.com/resources/guides/apis)        
+- [Difference between SPI and API](https://stackoverflow.com/questions/2954372/difference-between-spi-and-api)
 - [Gough et al., Mastering API Architecture](https://www.oreilly.com/library/view/mastering-api-architecture/9781492090625/)
 - [**!BONUS**] [Free Public APIs for Developers](https://rapidapi.com/collection/list-of-free-apis)
-- [Difference between SPI and API](https://stackoverflow.com/questions/2954372/difference-between-spi-and-api)

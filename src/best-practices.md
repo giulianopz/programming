@@ -34,6 +34,8 @@
     - [Alternatives to DTO](https://blog.frankel.ch/alternatives-dto/)
     - [**!OPINION**] [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
     - [**!OPINION**] [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
+- Anti-patterns:
+    - [Interface Pollution](https://rakyll.org/interface-pollution/)
 - Code Formatting:
     - [EditorConfig](https://editorconfig.org/)
     - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)

@@ -19,6 +19,7 @@
 - [ So you want to build an embedded Linux system?](https://jaycarlson.net/embedded-linux/)
 - [How a CPU works: Bare metal C on my RISC-V toy CPU](https://florian.noeding.com/posts/risc-v-toy-cpu/cpu-from-scratch/)
 - [ElectronicsNotes](https://www.electronics-notes.com/)
+- [Hardware Hacking](http://www.nicolascollins.com/texts/originalhackingmanual.pdf)
 - [**!BONUS**] [Assembly Language Adventures](https://www.xorpd.net/pages/x86_adventures.html)
 - [**!BONUS**] [Post-apocalyptic programming](https://zserge.com/posts/post-apocalyptic-programming/)
 - [**!BONUS**] [A Journey in Creating an Operating System Kernel](https://539kernel.com/book/)
