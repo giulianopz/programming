@@ -45,9 +45,10 @@
 - [Green Tea Press](https://greenteapress.com/wp/)
 - [Enable Sysadmin](https://www.redhat.com/sysadmin/welcome-enable-sysadmin)
 - [Opensource.com](https://opensource.com/)
-- [FOSDEM video recordings](https://video.fosdem.org/)
 - [Explained from First Principles](https://explained-from-first-principles.com/)
 - [Let's read source code](https://www.youtube.com/@ants_are_everywhere/videos)
+- [FOSDEM](https://fosdem.org/)
 - [Strange Loop](https://www.thestrangeloop.com/index.html)
+- [DEFCON](https://defcon.org/)
 
 > You can subscribe to blog feeds via an RSS/Atom reader, as explained [here](https://aboutfeeds.com/). 
