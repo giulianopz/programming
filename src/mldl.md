@@ -19,4 +19,4 @@
 - [The Gradient](https://thegradient.pub/)
 - [ruder.io](https://www.ruder.io/tag/natural-language-processing/)
 - [nlp-library](https://github.com/mihail911/nlp-library)
-- [**!BONUS**] [Neural networks from scratch](https://aegeorge42.github.io/)
+- [Neural networks from scratch](https://aegeorge42.github.io/)

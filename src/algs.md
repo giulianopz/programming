@@ -5,8 +5,8 @@
 - Sedgewick & Wayne, Algorithms [1](https://www.coursera.org/learn/algorithms-part1) + [2](https://www.coursera.org/learn/algorithms-part2)
 - Kopec, Classic Computer Science Problems in Java
 - [Open Data Structures (in Java)](http://opendatastructures.org/ods-java/)
-- [**!OPINION**] [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
-- [**!BONUS**] [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
+- [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
+- [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 - Patterns:
   - [Algorithmic Patterns](https://cs.lmu.edu/~ray/notes/algpatterns/)
   - [The Sliding Window Pattern](https://nan-archive.vercel.app/sliding-window)
@@ -16,4 +16,4 @@
   - [LeetCode](https://leetcode.com/)
   - [HackerRank](https://www.hackerrank.com/)
   - [exercism](https://exercism.org/)
-- [**!BONUS**] [The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf)
+- [The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf)

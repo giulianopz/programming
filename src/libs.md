@@ -1,6 +1,6 @@
 ## Most Popular Libraries, Frameworks and Tools for Java
 
-- [**!BONUS**] [Technology Radar. An opinionated guide to technology frontiers](https://www.thoughtworks.com/radar)
+- [Technology Radar. An opinionated guide to technology frontiers](https://www.thoughtworks.com/radar)
 - Boilerplate Code Auto-generation: [Project Lombok](https://projectlombok.org/)
 - POJO-DTO Mapping: [**MapStruct**](https://mapstruct.org/)
 - Bean Validation: [Hibernate Validator](https://hibernate.org/validator/documentation/getting-started/)
@@ -8,7 +8,7 @@
   - [JDBC](https://www.baeldung.com/jpa-vs-jdbc)
   - JPA
     - [Hibernate](https://www.baeldung.com/learn-jpa-hibernate)
-      - [HQL/JPQL](https://docs.jboss.org/hibernate/orm/-3/devguide/en-US/html/ch-html)
+      - [HQL/JPQL](https://docs.jboss.org/hibernate/orm/4.3/devguide/en-US/html/ch11.html)
       - Vlad Mihalcea, [blog](https://vladmihalcea.com/blog/) + [High-Performance Java Persistence](https://vladmihalcea.com/books/high-performance-java-persistence/)
       - [Hibernate Performance Tuning Tips](https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/?utm_source=social&utm_medium=twitter&utm_campaign=tutorial)
     - EclipseLink
@@ -26,7 +26,7 @@
   - **Apache Kafka**
 - Data Serialization:
   - Java Serialization (Native APIs)
-    - [**!OPINION**] [Why Java's serialization slower than 3rd party APIs?](https://stackoverflow.com/questions/19447623/why-javas-serialization-slower-than-3rd-party-apis)
+    - [Why Java's serialization slower than 3rd party APIs?](https://stackoverflow.com/questions/19447623/why-javas-serialization-slower-than-3rd-party-apis)
   - Language-agnostic Formats:
     - XML:
       - Java Architecture for XML Binding (JAXB)
@@ -41,7 +41,7 @@
     - [Schema-based Binary Format](https://martin.kleppmann.com/2012/12/05/schema-evolution-in-avro-protocol-buffers-thrift.html):
       - [**Protocol Buffers**](https://developers.google.com/protocol-buffers/docs/javatutorial) (protobuf)
       - [**Apache Thrift**](https://thrift.apache.org/tutorial/java.html)
-      - [**Apache Avro**](https://avro.apache.org/docs/current/gettingstartedjava.html)
+      - [**Apache Avro**](https://avro.apache.org/docs/)
 - File Manipulation:
 - Microsoft Documents: [**Apache POI**](https://www.baeldung.com/java-microsoft-excel)
 - PDF: [**iText**](https://www.baeldung.com/java-pdf-creation)/[**OpenPDF**](https://github.com/LibrePDF/OpenPDF)
@@ -52,21 +52,16 @@
 - [JEE](https://www.baeldung.com/java-enterprise-evolution) (**Apache Tomcat**, **Jetty**, **WebSphere**, **WildFly**, **GlassFish**, **JBoss EAP**, **Open Liberty**):
 - [Modern Java EE design patterns](https://www.oreilly.com/content/modern-java-ee-design-patterns/)
 - [Difference between an application server and a servlet container?](https://stackoverflow.com/questions/5039354/difference-between-an-application-server-and-a-servlet-container)
-- [**!OPINION**] [Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server#)
+- [Why Kubernetes is The New Application Server](https://developers.redhat.com/blog/2018/06/28/why-kubernetes-is-the-new-application-server#)
 - [Dependency-Injection](https://dzone.com/articles/dependency-injection-implementation-in-core-java-1)-based frameworks:
   - [Spring](https://spring.io/projects/):
       - Walls, Spring in Action
       - Cosmina, Pivotal Certified Professional Spring Developer Exam: A Study Guide
   - [CDI](https://www.baeldung.com/java-ee-cdi):
-    - [Quarkus](https://quarkus.io/guides/):
-      - [Massive performance without headaches](https://quarkus.io/blog/resteasy-reactive-faq/)
-      - [Quarkus Reactive Architecture](https://quarkus.io/version/-2/guides/quarkus-reactive-architecture)
-      - [Context Propagation in Quarkus](https://quarkus.io/version/-2/guides/context-propagation)
-      - [Overview of Bean Scopes in Quarkus](https://marcelkliemannel.com/articles/2021/overview-of-bean-scopes-in-quarkus/)
-      - Deandrea, Quarkus for Spring developers
+    - [Quarkus](https://quarkus.io/guides/)
 - Reactive Programming:
-  - [**RxJava**](https://www.pluralsight.com/courses/reactive-programming-java-12-rxjava-2)
-  - [**Mutiny**](https://smallrye.io/smallrye-mutiny/guides)
+  - [**RxJava**](https://github.com/ReactiveX/RxJava)
+  - [**Mutiny**](https://smallrye.io)
   - [**Eclipse Vert.x**](https://vertx.io/docs/vertx-core/java/)
   - [**Netty**](https://medium.com/geekculture/a-tour-of-netty-5020ecee5494)
 - Test-Driven Development:
@@ -87,7 +82,7 @@
     - [Pitest](https://pitest.org/)
 - Observability: 
   - Logging: [**SLF4J**](https://www.baeldung.com/slf4j-with-log4j2-logback) (Log4J2, Logback)
-    - [**!OPINION**] [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
+    - [Why not use java.util.logging?](https://stackoverflow.com/questions/11359187/why-not-use-java-util-logging)
     - [Mapped Diagnostic Context (MDC)](https://www.baeldung.com/mdc-in-log4j-2-logback)
     - Log Aggregation: Splunk, Elastic Stack (or **ELK**, i.e. ElasticSearch + Logstash + Kibana), Fluentd
   - Metrics: [Prometheus](https://prometheus.io/docs/tutorials/getting_started/) + Grafana

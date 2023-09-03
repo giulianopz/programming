@@ -9,7 +9,7 @@
       - [Java Bytecode Simplified: Journey to the Wonderland](https://foojay.io/today/java-bytecode-simplified-journey-to-the-wonderland-part-1/)
   - Compiling with `javac` and Running with Arguments from CLI
   - IDE[^2]
-    - [**!OPINION**] [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
+    - [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/)
     - [VSCode](https://code.visualstudio.com/docs/languages/java)
     - [Debugging](https://code.visualstudio.com/docs/java/java-debugging)
   - Heap & Stack
@@ -52,7 +52,7 @@
       -  [The Three Laws of Recursion](https://pages.di.unipi.it/marino/python/Recursion/TheThreeLawsofRecursion.html)
 - Build Automation Tools:
     - [Ant vs Maven vs Gradle](https://www.baeldung.com/ant-maven-gradle)
-    - [**!OPINION**] [Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
+    - [Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven/)
 - Scripting: JShell, [JBang](https://github.com/maxandersen/jbang)
 - Horstmann, Core Java Fundementals (Vol. 1 & 2)
 - Bloch, Effective Java
@@ -64,11 +64,8 @@
   - Reflection
   - Concurrency, Multi-threading, Parallelism and Asynchronus Programming:
       - [5 Things You Probably Didn't Know About Java Concurrency](https://foojay.io/today/5-things-you-probably-didnt-know-about-java-concurrency/?utm_content=202308183&utm_medium=social&utm_source=twitter&hss_channel=tw-2599580401)
-      - [Applying Concurrency and Multi-threading to Common Java Patterns](https://www.pluralsight.com/courses/java-patterns-concurrency-multi-threading)
-      - [Advanced Java Concurrent Patterns](https://www.pluralsight.com/courses/java-concurrent-patterns-advanced)
-      - [Java Fundamentals: Asynchronous Programming Using CompletionStage](https://www.pluralsight.com/courses/java-fundamentals-asynchronous-programming-completionstage)
-      - [**!WIP**] [Project Loom](https://openjdk.org/jeps/425)
-      - [**!WARNING**] [Loom and Thread Fairness](https://www.morling.dev/blog/loom-and-thread-fairness/)
+      - [Project Loom](https://openjdk.org/jeps/425)
+      - [Loom and Thread Fairness](https://www.morling.dev/blog/loom-and-thread-fairness/)
   - Reactive Programming
       - [The Essence of Reactive Programming in Java](https://www.scnsoft.com/blog/java-reactive-programming)
       - [The Difference Between a Reactive Non-Blocking Model and Classic Asynchronous Code](https://nickolasfisher.com/blog/The-Difference-Between-a-Reactive-NonBlocking-Model-and-Classic-Asynchronous-Code)

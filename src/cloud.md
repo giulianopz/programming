@@ -13,8 +13,8 @@
 - [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
 - Container/Cluster Managers:
   - [Kubernetes](https://www.jeremyjordan.me/kubernetes/) + [Helm](https://helm.sh/docs/)
-    - [**!COURSE**] [KubeAcademy](https://kube.academy/)
-    - [**!OPINION**] [WebAssembly vs. Kubernetes](https://thenewstack.io/yes-webassembly-can-replace-kubernetes/)
+    - [KubeAcademy](https://kube.academy/)
+    - [WebAssembly vs. Kubernetes](https://thenewstack.io/yes-webassembly-can-replace-kubernetes/)
     - Distributions:
         - Self-Managed (Local):
           - minikube
@@ -48,4 +48,4 @@
 - Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
 - Eisele and Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
 - [Introduction to Cloud Infrastructure Technologies](https://www.edx.org/course/introduction-to-cloud-infrastructure-technologies?utm_medium=partner-marketing&utm_source=social&utm_campaign=linuxfoundation&utm_content=twitter-lfs151)
-- [**!OPINION**] [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/) 
+- [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/) 

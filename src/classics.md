@@ -10,15 +10,15 @@
 - Jon Louis Bentley ,Programming Pearls
 - Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)
 - Patterson and Hennessy, [Computer Organization and Design (MIPS Edition). The Hardware/Software Interface](https://shop.elsevier.com/books/computer-organization-and-design-mips-edition/patterson/978-0-12-407726-3#full-description)
-- [**!FUTURE CLASSIC**] [Dive into Systems](https://diveintosystems.org/singlepage/)
+- [Dive into Systems](https://diveintosystems.org/singlepage/)
 - Nisan and Schocken, [Elements of Computing Systems](https://www.nand2tetris.org/) (nand2tetris)
 - Tanenbaum and Bos, Modern Operating Systems
 - Tanenbaum and Wetherall, Computer Networks (6ed)
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
 - Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
-- [**!FUTURE CLASSIC**] [Nystrom, Crafting Interpreters](https://craftinginterpreters.com/)
+- [Nystrom, Crafting Interpreters](https://craftinginterpreters.com/)
 - Cormen, Leiserson, Rivest, and Stein, Introduction to Algorithms (The Big Book)
-- [**!BEGINNER-FRIENDLY**] [Sedgewick and Wayne, Algorithms](https://algs4.cs.princeton.edu/home/) (4ed)
+- [Sedgewick and Wayne, Algorithms](https://algs4.cs.princeton.edu/home/) (4ed)
 - Kernighan and Ritchie, The C Programming Language
 - Kernighan and Pike, [The Practice of Programming](https://www.cs.princeton.edu/~bwk/tpop.webpage/)
 - Kernighan and Pike, [The Unix Programming Environment](https://www.cs.princeton.edu/~bwk/upe/upe.html)
@@ -35,5 +35,5 @@
 - Snyder, Nemeth, Whaley, Hein, Mackin, UNIX and Linux System Administration Handbook
 - [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
 - [Brendan, Systems Performance: Enterprise and the Cloud](https://www.brendangregg.com/systems-performance-2nd-edition-book.html)
-- [**!FUTURE CLASSIC**] Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
-- [**!FUTURE CLASSIC**] Petrov, [Database Internals: A Deep Dive Into How Distributed Data Systems Work](https://www.databass.dev/)
+- Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
+- Petrov, [Database Internals: A Deep Dive Into How Distributed Data Systems Work](https://www.databass.dev/)

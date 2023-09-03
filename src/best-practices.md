@@ -18,7 +18,7 @@
     - [Designing a REST API: Unix time vs ISO-8601](https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601)
 - Numbers:
     - [Floating Point Math](https://0.30000000000000004.com/)
-    - [**!BONUS**] [Float Toy](https://evanw.github.io/float-toy/)
+    - [Float Toy](https://evanw.github.io/float-toy/)
     - [Why do arrays start at 0?](https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/)
 - RegEx:
     - [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
@@ -32,8 +32,8 @@
   - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
 - Software Design:
     - [Alternatives to DTO](https://blog.frankel.ch/alternatives-dto/)
-    - [**!OPINION**] [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
-    - [**!OPINION**] [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
+    - [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
+    - [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
 - Anti-patterns:
     - [Interface Pollution](https://rakyll.org/interface-pollution/)
 - Code Formatting:
@@ -47,13 +47,13 @@
   - [The perils of the "real" client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
   - [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for)
 - REST APIs:
-  - [OpenAPI Specification](https://oai.github.io/Documentation/specification.html)
-  - [**!OPINION**] [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
+  - [OpenAPI Specification](https://www.openapis.org)
+  - [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
   - [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
   - [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
   - [Standards.REST](https://standards.rest/)
   - [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
-  - [The HTTP QUERY Method](https://www.ietf.org/id/draft-ietf-httpbis-safe-method-w-body--html)
+  - [The HTTP QUERY Method](https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-02.html)
 - Web:
   - [To www or not to www - Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
   - [Making Websites Small](https://santurcesoftware.com/making-web-sites-small)
@@ -62,7 +62,7 @@
   - [Attack of the mutant tags!. Or why tag mutability is a real security threat](https://sysdig.com/blog/toctou-tag-mutability/)
   - [Container security best practices: Comprehensive guide](https://sysdig.com/blog/container-security-best-practices/)
 - Distributed Systems:
-  - [**!OPINION**] [Don't start with microservices - monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
+  - [Don't start with microservices - monoliths are your friend](https://arnoldgalovics.com/microservices-in-production/)
   - [Fallacies of Distributed Systems](https://architecturenotes.co/fallacies-of-distributed-systems/)
   - [You Are Not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb)
   - [Microservices and the Big Ball of Mud](https://www.infoq.com/news/2014/08/microservices_ballmud/)
@@ -84,7 +84,7 @@
   - [Resources for Amateur Compiler Writers](https://c9x.me/compile/bib/)
   - [Low-Code and the Democratization of Programming. Rethinking Where Programming Is Headed](https://www.oreilly.com/radar/low-code-and-the-democratization-of-programming/)
   - [The faker's guide to reading (x86) assembly language](https://www.timdbg.com/posts/fakers-guide-to-assembly/)
-  - [**!BONUS**]  [Compiler Explorer](https://godbolt.org/)
+  -  [Compiler Explorer](https://godbolt.org/)
   - [Favorite compiler and interpreter resources](https://lists.eatonphil.com/compilers-and-interpreters.html)
 - Laws, Principles and Mantra:
   - [Programming Principles](https://java-design-patterns.com/principles/)

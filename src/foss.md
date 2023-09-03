@@ -11,4 +11,4 @@
 - [Right to Repair](https://repair.eu/)
 - [RepairCafé](https://www.repaircafe.org/en/)
 - [FOSDEM](https://fosdem.org/)
-- [**!ITA**] [Open Source Saturday Italy](https://oss-italy.github.io/)
+- [Open Source Saturday Italy](https://oss-italy.github.io/)
