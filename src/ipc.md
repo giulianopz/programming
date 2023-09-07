@@ -9,7 +9,7 @@
 - Synchronous Communication:
     - Representational state transfer (REST)
     - [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
-    - [gRPC](../luoghi/cibo/veneto.csv)
+    - [gRPC](https://grpc.io/docs/what-is-grpc/introduction/)
     - [Falcor](https://netflix.github.io/falcor/starter/what-is-falcor.html)
 - Asynchronous Communication:
     - Message Queues

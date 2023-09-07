@@ -36,6 +36,7 @@ Tutorials:
 - [Let's Build a Simple Database. Writing a sqlite clone from scratch in C](https://cstack.github.io/db_tutorial/)
 - [A Compiler Writing Journey](https://github.com/DoctorWkt/acwj)
 - [Writing a C Compiler](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
+- [ Writing a C compiler in 500 lines of Python](https://vgel.me/posts/c500/)
 - [Statically Recompiling NES Games into Native Executables with LLVM and Go](https://andrewkelley.me/post/jamulator.html)
 - [A slack clone in 5 lines of bash](https://the-dam.org/docs/explanations/suc.html)
 - [NTP Implementation in Elixir](https://0x7f.dev/post/ntp-implementation-in-elixir/)
