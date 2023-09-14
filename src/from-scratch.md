@@ -43,6 +43,7 @@ Tutorials:
 - [A minimal operating system (2K LOC) on QEMU and a RISC-V board](https://github.com/yhzhang0128/egos-2000)
 - [Writing a package manager](https://antonz.org/writing-package-manager/)
 - [Bare Metal Space Invaders](https://blog.fponzi.me/2023-08-13-bare-metal-space-invaders.html)
+- [Hypervisor From Scratch](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
 
 Lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
