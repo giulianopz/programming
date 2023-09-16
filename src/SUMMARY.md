@@ -29,7 +29,6 @@
 - [Classics & Bibles](./classics.md)
 - [CS/FOSS History and Hacking/Cyberpunk Culture](./history.md)
 - [Finest Sources of Geek Entertainment](./blogs.md)
-- [Articles and Essays](./articles.md)
 - [Software Licenses](./licenses.md)
 - [Development and Team Organization](./team.md)
 - [Job Hunting](job.md)
