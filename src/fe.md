@@ -8,8 +8,5 @@
 - [The Modern JavaScript Tutorial](https://javascript.info/)
 - [Four Eras of JavaScript Frameworks](https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks)
 - [Move over JavaScript: Back-end languages are coming to the front-end](https://github.com/readme/featured/server-side-languages-for-front-end)
-- [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
 - [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
 - [Can I use?](https://caniuse.com/)
-- [Web Design Museum](https://www.webdesignmuseum.org/)
-- [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)

@@ -13,7 +13,8 @@
 - [Beej's Guide to Networking Concepts](https://beej.us/guide/bgnet0/)
 - [Beej's Guide to Unix Interprocess Communication](https://beej.us/guide/bgipc/)
 - [Michael W. Lucas, Networking for System Administrators](https://mwl.io/nonfiction/networking#n4sa)
-- Sanders, Practical Packet Analysis
+- [Sanders, Practical Packet Analysis](https://nostarch.com/packetanalysis3)
+- [Protohackers. Server programming challenge](https://protohackers.com/)
 - [SRE books](https://sre.google/books/)
 - [Web technology for developers](https://developer.mozilla.org/en-US/docs/Web)
 - [Web Browser Engineering](https://browser.engineering/)
@@ -26,3 +27,8 @@
 - [The Web Is Fucked](https://thewebisfucked.com/)
 - [The Web We Lost, and The Web We Must Rebuild](https://github.com/pzwang/lostweb)
 - [Who Controls the Internet? And should they?](https://berthub.eu/articles/posts/who-controls-the-internet/)
+- [The small web is beautiful](https://benhoyt.com/writings/the-small-web-is-beautiful/)
+- [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)
+- [Web Design Museum](https://www.webdesignmuseum.org/)
+- [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
+- [Some notes on Local-First Development](https://bricolage.io/some-notes-on-local-first-development/)
