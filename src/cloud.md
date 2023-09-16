@@ -41,11 +41,10 @@
   - [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
   - [A developer's guide to CI/CD and GitOps with Jenkins Pipelines](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines#)
 - Cloud Platforms:
-  - Amazon Web Services [(AWS)](https://adayinthelifeof.nl/2020/05/20/aws.html)
-  - [Microsoft Azure](https://azure.microsoft.com/en-us/develop/java/)
+  - Amazon Web Services (AWS)
+  - Microsoft Azure
   - Google Cloud Platform (GCP)
   - Heroku
 - Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
 - Eisele and Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
-- [Introduction to Cloud Infrastructure Technologies](https://www.edx.org/course/introduction-to-cloud-infrastructure-technologies?utm_medium=partner-marketing&utm_source=social&utm_campaign=linuxfoundation&utm_content=twitter-lfs151)
 - [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/) 

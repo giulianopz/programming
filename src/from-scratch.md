@@ -45,7 +45,7 @@ Tutorials:
 - [Bare Metal Space Invaders](https://blog.fponzi.me/2023-08-13-bare-metal-space-invaders.html)
 - [Hypervisor From Scratch](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
 
-Lists:
+Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning#go)
 - [Projects-from-Scratch](https://github.com/AlgoryL/Projects-from-Scratch)

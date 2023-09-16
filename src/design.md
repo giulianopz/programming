@@ -1,7 +1,7 @@
 ## Software Design
 
 - Ousterhout, A Philosophy of Software Design
-- Foote & Yoder, [Big Ball of Mud](http://www.laputan.org/mud/)
+- [Foote & Yoder, Big Ball of Mud](http://www.laputan.org/mud/)
 - Martin, Clean Code
 - Hunt & Thomas, The Pragmatic Programmer: From Journeyman to Master
 - Brooks, The Mythical Man-Month
@@ -14,7 +14,8 @@
   - Test-driven development (TDD)
   - Behavior-driven development (BDD)
   - Domain-driven design (DDD)
-- Norman, [*The Design of Everyday Things*](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
-- Alexander et al., [The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) + [*A Pattern Language: Towns, Buildings Construction*](https://en.wikipedia.org/wiki/A_Pattern_Language)
+- [Norman, The Design of Everyday Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things)
+- [Alexander, The Timeless Way of Building](https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building) 
+- [Alexander, A Pattern Language: Towns, Buildings Construction](https://en.wikipedia.org/wiki/A_Pattern_Language)
 - Meadows, Thinking in Systems: A Primer
 - Hermans, The Programmer's Brain: What every programmer needs to know about cognition

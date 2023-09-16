@@ -27,7 +27,8 @@
   - [A Guide to POSIX](https://www.baeldung.com/linux/posix)
   - [Use the XDG Base Directory Specification!](https://xdgbasedirectoryspecification.com/)
 - Libraries
-    - [Google Best Practices for Java Libraries](https://jlbp.dev/)
+  - [Google Best Practices for Java Libraries](https://jlbp.dev/)
+  - [Choose Boring Technology](https://boringtechnology.club/)
 - Testing:
   - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
 - Software Design:
@@ -74,6 +75,7 @@
   - [What Should I Know About Garbage Collection as a Java Developer?](https://www.azul.com/blog/what-should-i-know-about-garbage-collection-as-a-java-developer/)
 - Performance:
   - [Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832)
+  - [Good performance is not just big O](https://jmmv.dev/2023/09/performance-is-not-big-o.html)
 - Programming Languages and Compilers:
   - [Is every language written in C?](https://softwareengineering.stackexchange.com/questions/267086/is-every-language-written-in-c)
   - [Assembly code vs Machine code vs Object code?](https://stackoverflow.com/questions/466790/assembly-code-vs-machine-code-vs-object-code)
@@ -100,8 +102,9 @@
   - [What happens when you update your DNS?](https://jvns.ca/blog/how-updating-dns-works/)
   - [What happens when...](https://github.com/alex/what-happens-when)
   - [Behind "Hello World" on Linux](https://jvns.ca/blog/2023/08/03/behind--hello-world/)
-- Low-Level Studd:
+- Low-Level Stuff:
 - [Putting the “You” in CPU](https://cpu.land/)
+- [Onboarding floating-point](https://www.altdevarts.com/p/onboarding-floating-point?r=yknp0&utm_campaign=post&utm_medium=web)
 - Hard Stuff:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)

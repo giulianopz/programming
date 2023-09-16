@@ -9,4 +9,5 @@
 - [Four Eras of JavaScript Frameworks](https://www.pzuraq.com/blog/four-eras-of-javascript-frameworks)
 - [Move over JavaScript: Back-end languages are coming to the front-end](https://github.com/readme/featured/server-side-languages-for-front-end)
 - [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
+- [CSS Selectors: A Visual Guide](https://fffuel.co/css-selectors/)
 - [Can I use?](https://caniuse.com/)
