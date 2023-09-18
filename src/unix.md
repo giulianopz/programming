@@ -29,3 +29,4 @@
 - [Cool, but obscure X11 tools](https://cyber.dabamos.de/unix/x11/)
 - [Linux Kernel Map](https://makelinux.github.io/kernel/map/)
 - [Programming the Kernel with eBPF](https://www.kerno.io/blog/programming-the-kernel-with-ebpf)
+- [Introduction to immutable Linux systems](https://dataswamp.org/~solene/2023-07-12-intro-to-immutable-os.html)
