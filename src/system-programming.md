@@ -1,6 +1,7 @@
 ## System Programming 
 
-- [ What Does It Take to Make a Kernel?](https://www.linuxjournal.com/content/what-does-it-take-make-kernel-0)
+- [What Does It Take to Make a Kernel?](https://www.linuxjournal.com/content/what-does-it-take-make-kernel-0)
+- [Core Knowledge That Modern Linux Kernel Developer Should Have](https://www.linuxjournal.com/content/core-knowledge-modern-linux-kernel-developer-should-have)
 - [A Beginner’s Guide to Linux Kernel Development (LFD103)](https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/)
 - [Getting started with Linux kernel development](https://gist.github.com/vegard/22200a9f91af138a99ae22a9b814a9a4)
 - [Linux From Scratch](http://www.linuxfromscratch.org/)
