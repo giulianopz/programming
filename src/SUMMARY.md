@@ -23,6 +23,7 @@
 - [Playgrounds](./playgrounds.md)
 - [Embedded Systems & Electronics](./metal.md)
 - [Open Source, DIY & Right to Repair](foss.md)
+- [Reverse Engineering](./reverse.md)
 - [Math](./math.md)
 - [Machine Learning and Deep Learning](./mldl.md)
 - [Best Practices, Common Pitfalls, Curious Stuff & Basic Things You Should Know](./best-practices.md)

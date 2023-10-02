@@ -1,6 +1,7 @@
 ## CS/FOSS History and Hacking/Cyberpunk Culture
 
 - [List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
+- [Computing History Hub](https://mollymielke.notion.site/Computing-History-Hub-be72f307fc2e4b05abe3dc67eb937521)
 - [Emerson, Reading Writing Interfaces. From the Digital to the Bookbound](https://www.upress.umn.edu/book-division/books/reading-writing-interfaces)
 - [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
 - [PAPERCRAFT MODELS](https://rockybergen.com/papercraft)
@@ -9,6 +10,7 @@
 - Himanen, The Hacker Ethic and the Spirit of the Information Age
 - [ESR, How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html#why_this)
 - [The Glider: A Universal Hacker Emblem](http://www.catb.org/hacker-emblem/)
+- [The Conscience of a Hacker](http://phrack.org/issues/7/3.html)
 - [The Backbone](https://technicshistory.com/the-backbone/)
 - ESR, The Cathedral & the Bazaar
 - Kernighan, UNIX: A History and a Memoir

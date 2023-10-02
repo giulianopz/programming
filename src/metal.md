@@ -12,6 +12,7 @@
 - [Concise electronics for geeks](https://lcamtuf.coredump.cx/electronics/)
 - [Lessons in Electric Circuits](https://www.allaboutcircuits.com/textbook/)
 - Platt, Electronics: Learning by Discovery: A hands-on primer for the new electronics enthusiast
+- [LibrePCB](https://librepcb.org/)
 - [Practical Guide to Radio-Frequency Analysis and Design](https://www.allaboutcircuits.com/textbook/radio-frequency-analysis-design/)
 - [SDR I/Q tools](https://triq.org/)
 - [Intel HEX](https://en.wikipedia.org/wiki/Intel_HEX)

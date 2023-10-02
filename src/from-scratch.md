@@ -44,6 +44,7 @@ Tutorials:
 - [Writing a package manager](https://antonz.org/writing-package-manager/)
 - [Bare Metal Space Invaders](https://blog.fponzi.me/2023-08-13-bare-metal-space-invaders.html)
 - [Hypervisor From Scratch](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
+- [Writing a Debugger From Scratch](https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-1/)
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
