@@ -106,6 +106,7 @@
 - Low-Level Stuff:
 - [Putting the “You” in CPU](https://cpu.land/)
 - [Onboarding floating-point](https://www.altdevarts.com/p/onboarding-floating-point?r=yknp0&utm_campaign=post&utm_medium=web)
+- [What scientists must know about hardware to write fast code](https://viralinstruction.com/posts/hardware/)
 - Hard Stuff:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
