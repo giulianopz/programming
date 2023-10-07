@@ -45,6 +45,7 @@ Tutorials:
 - [Bare Metal Space Invaders](https://blog.fponzi.me/2023-08-13-bare-metal-space-invaders.html)
 - [Hypervisor From Scratch](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
 - [Writing a Debugger From Scratch](https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-1/)
+- [Green Threads Explained](http://c9x.me/articles/gthreads/intro.html)
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

@@ -48,4 +48,4 @@
 - Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
 - Eisele and Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
 - [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/) 
-- [The Cloud Is a Prison](https://www.wired.com/story/the-cloud-is-a-prison-can-the-local-first-software-movement-set-us-free/)
+- [Free for Developers](https://free-for.dev)

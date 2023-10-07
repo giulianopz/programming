@@ -16,3 +16,4 @@
 - [The Illustrated TLS 1.3 Connection](https://tls13.xargs.org/)
 - [the cryptopals crypto challenges](https://cryptopals.com/)
 - [Flipper Zero](https://flipperzero.one/)
+- [HTB Cybersecurity Courses](https://academy.hackthebox.com/catalogue)
