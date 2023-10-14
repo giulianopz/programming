@@ -103,8 +103,10 @@
   - [What happens when you update your DNS?](https://jvns.ca/blog/how-updating-dns-works/)
   - [What happens when...](https://github.com/alex/what-happens-when)
   - [Behind "Hello World" on Linux](https://jvns.ca/blog/2023/08/03/behind--hello-world/)
+- How Things Work:
+  - [Putting the “You” in CPU](https://cpu.land/)
+  - [How Browsers Work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)  
 - Low-Level Stuff:
-- [Putting the “You” in CPU](https://cpu.land/)
 - [Onboarding floating-point](https://www.altdevarts.com/p/onboarding-floating-point?r=yknp0&utm_campaign=post&utm_medium=web)
 - [What scientists must know about hardware to write fast code](https://viralinstruction.com/posts/hardware/)
 - Hard Stuff:
