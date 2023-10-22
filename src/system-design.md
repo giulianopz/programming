@@ -16,6 +16,7 @@
 - [Architecture Playbook](https://nocomplexity.com/documents/arplaybook/introduction.html)
 - [Jepsen](https://jepsen.io/)
 - [ByteByteGo](https://www.youtube.com/@ByteByteGo/videos)
+- [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
 - [System Design Interview](https://www.youtube.com/@SystemDesignInterview)
 - [MIT 6.824 Distributed Systems (Spring 2020)](https://www.youtube.com/playlist?app=desktop&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&cbrd=1)
 - [So you want to write a GUI framework](http://www.cmyr.net/blog/gui-framework-ingredients.html)

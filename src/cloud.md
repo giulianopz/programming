@@ -45,6 +45,7 @@
   - Microsoft Azure
   - Google Cloud Platform (GCP)
   - Heroku
+- [What is Object storage?](https://cloud.google.com/learn/what-is-object-storage#:~:text=Object%20storage%20is%20a%20data,for%20easy%20access%20and%20retrieval.)
 - Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations
 - Eisele and Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers
 - [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/) 

@@ -14,6 +14,7 @@
 - Platt, Electronics: Learning by Discovery: A hands-on primer for the new electronics enthusiast
 - [LibrePCB](https://librepcb.org/)
 - [Practical Guide to Radio-Frequency Analysis and Design](https://www.allaboutcircuits.com/textbook/radio-frequency-analysis-design/)
+- [Beginners Guide to Building a Hardware Hacking Lab](https://voidstarsec.com/hw-hacking-lab/vss-lab-guide)
 - [SDR I/Q tools](https://triq.org/)
 - [Intel HEX](https://en.wikipedia.org/wiki/Intel_HEX)
 - [Microsoldering 101](https://www.youtube.com/watch?v=xFqA9u6y0Fk&list=PL4INaL5vWobD_CltiZXr7K46oJ33KvwBt)
