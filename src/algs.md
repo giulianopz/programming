@@ -4,7 +4,7 @@
 - [Learn Data Structures and Algorithms](https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?ref=shm)
 - Sedgewick & Wayne, Algorithms [1](https://www.coursera.org/learn/algorithms-part1) + [2](https://www.coursera.org/learn/algorithms-part2)
 - Kopec, Classic Computer Science Problems in Java
-- [Open Data Structures (in Java)](http://opendatastructures.org/ods-java/)
+- [Open Data Structures](http://opendatastructures.org/ods-java/)
 - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 - [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 - Patterns:

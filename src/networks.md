@@ -31,3 +31,4 @@
 - [All software is web software now](https://driftingin.space/posts/all-software-is-web-software)
 - [Web Design Museum](https://www.webdesignmuseum.org/)
 - [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
+- [The Whimsical Web](https://whimsical.club/)

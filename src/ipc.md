@@ -7,7 +7,7 @@
     - Remote Method Invocation (RMI)
     - Common Object Request Broker Architecture (CORBA)
 - Synchronous Communication:
-    - Representational state transfer (REST)
+    - Representational state transfer ([REST](https://www.restapitutorial.com/))
     - [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
     - [gRPC](https://grpc.io/docs/what-is-grpc/introduction/)
     - [Falcor](https://netflix.github.io/falcor/starter/what-is-falcor.html)

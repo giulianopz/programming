@@ -13,6 +13,7 @@
 - [The Glider: A Universal Hacker Emblem](http://www.catb.org/hacker-emblem/)
 - [The Conscience of a Hacker](http://phrack.org/issues/7/3.html)
 - [The Backbone](https://technicshistory.com/the-backbone/)
+- [Whole Earth Index](https://wholeearth.info/)
 - ESR, The Cathedral & the Bazaar
 - Kernighan, UNIX: A History and a Memoir
 - Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security

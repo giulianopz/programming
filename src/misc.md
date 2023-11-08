@@ -1,32 +1,39 @@
 ## Best Practices, Common Pitfalls, Curious Stuff & Basic Things You Should Know
 
 - Git:
+  - [Oh Shit, Git!?!](https://ohshitgit.com/)
+  - [Confusing git terminology](https://jvns.ca/blog/2023/11/01/confusing-git-terminology/)
   - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+  - [Organizing multiple Git identities](https://garrit.xyz/posts/2023-10-13-organizing-multiple-git-identities)
 - Shell Scripting
   - [Shell Script Best Practices](https://sharats.me/posts/shell-script-best-practices/)
 - Characters:
-    - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
-    - [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
-    - [The Great Newline Schism](https://blog.codinghorror.com/the-great-newline-schism/)
-    - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
-    - [Invisible characters](https://invisible-characters.com/)
+  - [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+  - [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
+  - [The Great Newline Schism](https://blog.codinghorror.com/the-great-newline-schism/)
+  - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
+  - [Invisible characters](https://invisible-characters.com/)
 - Internationalization and localization (i18n)
   - [PO Files](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html)
 - Dates:
-    - [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
-    - [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
-    - [Storing UTC is not a silver bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
-    - [Designing a REST API: Unix time vs ISO-8601](https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601)
+  - [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
+  - [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
+  - [Storing UTC is not a silver bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
+  - [Designing a REST API: Unix time vs ISO-8601](https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601)
 - Numbers:
-    - [Floating Point Math](https://0.30000000000000004.com/)
-    - [Float Toy](https://evanw.github.io/float-toy/)
-    - [Why do arrays start at 0?](https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/)
+  - [Bit Math](https://docs.arduino.cc/learn/programming/bit-math)
+  - [Floating Point Math](https://0.30000000000000004.com/)
+  - [Float Toy](https://evanw.github.io/float-toy/)
+  - [Onboarding floating-point](https://www.altdevarts.com/p/onboarding-floating-point?r=yknp0&utm_campaign=post&utm_medium=web)
 - RegEx:
-    - [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
-    - [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
-- OS Compatibility:
+  - [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
+  - [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
+- OS Interoperability:
   - [A Guide to POSIX](https://www.baeldung.com/linux/posix)
   - [Use the XDG Base Directory Specification!](https://xdgbasedirectoryspecification.com/)
+- Linux:
+  - [Optimizing Linux for Slow Computers](https://www.akitaonrails.com/2017/01/17/optimizing-linux-for-slow-computers)
+  - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#choosing-the-right-distro)
 - Libraries
   - [Google Best Practices for Java Libraries](https://jlbp.dev/)
   - [Choose Boring Technology](https://boringtechnology.club/)
@@ -107,12 +114,11 @@
 - How Things Work:
   - [Putting the “You” in CPU](https://cpu.land/)
   - [How Browsers Work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)  
-- Low-Level Stuff:
-- [Onboarding floating-point](https://www.altdevarts.com/p/onboarding-floating-point?r=yknp0&utm_campaign=post&utm_medium=web)
-- [What scientists must know about hardware to write fast code](https://viralinstruction.com/posts/hardware/)
 - Hard Stuff:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
 - Miscellanea:
   - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
   - [Quantum computing for the very curious](https://quantum.country/qcvc)
+  - [What scientists must know about hardware to write fast code](https://viralinstruction.com/posts/hardware/)
+  - [Why do arrays start at 0?](https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/)
