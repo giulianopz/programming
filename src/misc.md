@@ -66,6 +66,8 @@
 - Web:
   - [To www or not to www - Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
   - [Making Websites Small](https://santurcesoftware.com/making-web-sites-small)
+- Browser:
+  - [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
 - Containers:
   - [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
   - [Attack of the mutant tags!. Or why tag mutability is a real security threat](https://sysdig.com/blog/toctou-tag-mutability/)
