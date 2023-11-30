@@ -77,6 +77,7 @@
   - [Fallacies of Distributed Systems](https://architecturenotes.co/fallacies-of-distributed-systems/)
   - [You Are Not Google](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb)
   - [Microservices and the Big Ball of Mud](https://www.infoq.com/news/2014/08/microservices_ballmud/)
+  - [Architecture Antipatterns](https://architecture-antipatterns.tech/)
 - Networks:
   - [ICMP, Ping, and Traceroute - What I Wish I Was Taught](https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/)
   - [How to hide your IP address](https://educatedguesswork.org/posts/traffic-relaying/)
