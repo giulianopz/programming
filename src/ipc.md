@@ -18,8 +18,13 @@
     - Sockets:
         - Network Sockets:
           - TCP
-              - [HTTP/-1, HTTP/2 and HTTP/3](https://medium.com/@sandeep-verma/http-1-to-http-2-to-http-3-647e73df67a8)
+            - [HTTP/1, HTTP/2 and HTTP/3](https://medium.com/@sandeep-verma/http-1-to-http-2-to-http-3-647e73df67a8)
+            - [HTTP/3 explained](https://http3-explained.haxx.se/)
+            Real-time communication protocols:
+              - [Full-duplex HTTP Streaming](https://datatracker.ietf.org/doc/html/draft-zhu-http-fullduplex-08)
               - [WebSocket](https://www.baeldung.com/java-websockets)
+              - [Server-Sent Events (SSE)](https://en.wikipedia.org/wiki/Server-sent_events)
+              - [WebTransport](https://developer.chrome.com/docs/capabilities/web-apis/webtransport#whats_webtransport)
           - [UDP](https://www.baeldung.com/udp-in-java)
         - [Unix Domain Sockets](https://nipafx.dev/java-unix-domain-sockets/)
     - Messaging:

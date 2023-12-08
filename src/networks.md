@@ -32,3 +32,6 @@
 - [Web Design Museum](https://www.webdesignmuseum.org/)
 - [The Future of Web Software Is HTML-over-WebSockets](https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/)
 - [The Whimsical Web](https://whimsical.club/)
+- [How Did I Get Here?](https://how-did-i-get-here.net)
+- [How to Port Forward on Your Router](https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/)
+- [The Web’s Grain](https://frankchimero.com/blog/2015/the-webs-grain/)

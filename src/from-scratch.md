@@ -46,7 +46,8 @@ Tutorials:
 - [Hypervisor From Scratch](https://rayanfam.com/topics/hypervisor-from-scratch-part-1/)
 - [Writing a Debugger From Scratch](https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-1/)
 - [Green Threads Explained](http://c9x.me/articles/gthreads/intro.html)
-- [Let’s learn how modern JavaScript frameworks work by building one](https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/)
+- [Let’s Learn How Modern JavaScript Frameworks Work by Building One](https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/)
+- [Writing a File System From Scratch](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

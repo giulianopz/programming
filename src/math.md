@@ -9,3 +9,4 @@
 - [Fundamental Math for Game Developers](https://pikuma.com/blog/math-for-game-developers)
 - [Category Theory Illustrated](https://abuseofnotation.github.io/category-theory-illustrated/)
 - [Beautiful Symmetry. A Coloring Book About Math](https://www.coloring-book.co/?pageName=cover)
+- [Arithmetic in Computer Hardware](https://thelast19digitsofpi.github.io/hardware-explorations/dist/index.html)
