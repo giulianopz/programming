@@ -9,7 +9,7 @@
 - [Dive into Deep Learning](https://d2l.ai/)
 - Manning & Schutze, Foundations of Statistical Natural Language Processing
 - Jurafsky & Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
-- Eisenstein, [Introduction to Natural Language Processing]
+- Eisenstein, [Introduction to Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf)
 - Molnar, [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
 - McKay, [Information Theory, Inference and Learning Algorithms](http://www.inference.org.uk/mackay/itprnn/book.html)
 - Hastie, Tibshirani & Friedman, The Elements of Statistical Learning
@@ -20,3 +20,4 @@
 - [ruder.io](https://www.ruder.io/tag/natural-language-processing/)
 - [nlp-library](https://github.com/mihail911/nlp-library)
 - [Neural networks from scratch](https://aegeorge42.github.io/)
+- [LLM Visualization](https://bbycroft.net/llm)

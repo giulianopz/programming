@@ -11,3 +11,4 @@
 - [Visual design rules you can safely follow every time](https://anthonyhobday.com/sideprojects/saferules/)
 - [CSS Selectors: A Visual Guide](https://fffuel.co/css-selectors/)
 - [Can I use?](https://caniuse.com/)
+- [SVG Tutorial](https://svg-tutorial.com/)
