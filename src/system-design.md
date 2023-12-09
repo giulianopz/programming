@@ -21,3 +21,4 @@
 - [MIT 6.824 Distributed Systems (Spring 2020)](https://www.youtube.com/playlist?app=desktop&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&cbrd=1)
 - [So you want to write a GUI framework](http://www.cmyr.net/blog/gui-framework-ingredients.html)
 - [The Raft Consensus Algorithm](https://raft.github.io/)
+- [Retries. An interactive study of common retry methods](https://encore.dev/blog/retries)
