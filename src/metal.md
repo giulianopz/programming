@@ -26,3 +26,4 @@
 - [Post-apocalyptic programming](https://zserge.com/posts/post-apocalyptic-programming/)
 - [A Journey in Creating an Operating System Kernel](https://539kernel.com/book/)
 - [Game Boy Dev](https://gbdev.io/pandocs/About.html)
+- [Learning FPGA, yosys, nextpnr, and RISC-V](https://github.com/BrunoLevy/learn-fpga)

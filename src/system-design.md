@@ -22,3 +22,4 @@
 - [So you want to write a GUI framework](http://www.cmyr.net/blog/gui-framework-ingredients.html)
 - [The Raft Consensus Algorithm](https://raft.github.io/)
 - [Retries. An interactive study of common retry methods](https://encore.dev/blog/retries)
+- [All my favorite tracing tools: eBPF, QEMU, Perfetto, new ones I built and more](https://thume.ca/2023/12/02/tracing-methods/)

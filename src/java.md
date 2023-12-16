@@ -62,7 +62,7 @@
 - Advanced Topics:
   - Generics
   - Reflection
-  - Concurrency, Multi-threading, Parallelism and Asynchronus Programming:
+  - Concurrency, Multi-Threading, Parallelism and Asynchronus Programming:
       - [5 Things You Probably Didn't Know About Java Concurrency](https://foojay.io/today/5-things-you-probably-didnt-know-about-java-concurrency/?utm_content=202308183&utm_medium=social&utm_source=twitter&hss_channel=tw-2599580401)
       - [Project Loom](https://openjdk.org/jeps/425)
       - [Loom and Thread Fairness](https://www.morling.dev/blog/loom-and-thread-fairness/)
