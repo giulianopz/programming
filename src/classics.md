@@ -26,6 +26,7 @@
 - Rochkind, Advanced Unix Programming 
 - Stevens. Advanced Programming In The Unix Environment
 - Bach, The Design Of The Unix Operating System
+- [Lyons, A Commentary on the UNIX Operating System](https://en.m.wikipedia.org/wiki/A_Commentary_on_the_UNIX_Operating_System)
 - Knuth, Patashnik, and Graham, Concrete Mathematics: A Foundation for Computer Science
 - Knuth, The Art of Computer Programming
 - Bishop, Pattern Recognition and Machine Learning

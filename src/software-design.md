@@ -1,6 +1,7 @@
 ## Software Design
 
 - Ousterhout, A Philosophy of Software Design
+- [Software Design by Example](https://third-bit.com/sdxpy/)
 - [Foote & Yoder, Big Ball of Mud](http://www.laputan.org/mud/)
 - Martin, Clean Code
 - Hunt & Thomas, The Pragmatic Programmer: From Journeyman to Master

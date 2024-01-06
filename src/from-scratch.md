@@ -48,6 +48,7 @@ Tutorials:
 - [Green Threads Explained](http://c9x.me/articles/gthreads/intro.html)
 - [Let’s Learn How Modern JavaScript Frameworks Work by Building One](https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/)
 - [Writing a File System From Scratch](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
+- [Building Git](https://shop.jcoglan.com/building-git/)
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

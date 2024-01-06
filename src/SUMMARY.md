@@ -8,7 +8,7 @@
 - [Other Programming Languages](./languages.md)
 - [Software Testing](./testing.md)
 - [Algorithms & Data Structures](./algs.md)
-- [Software Design](./design.md)
+- [Software Design](./software-design.md)
 - [Inter-Process Communication (IPC)](./ipc.md)
 - [I/O](./io.md)
 - [Databases & SQL](./db.md)
