@@ -13,6 +13,7 @@
 - [Rubini, Linux Device Drivers](https://lwn.net/Kernel/LDD3/)
 - Love, Linux System Programming
 - Bovet and Cesati, Understanding the Linux Kernel
+- [Kernelnewbies](https://kernelnewbies.org/)
 - [The Linux Kernel documentation](https://www.kernel.org/doc/html/latest/)
 - [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/)
 - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html)
