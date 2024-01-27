@@ -9,3 +9,6 @@ tasks:
     cmds:
       # go install github.com/giulianopz/mdlinkcheck
       - mdlinkcheck --dir ./src/ | grep -v 200
+  archive:
+    cmds:
+      - for i in $(grep -rEo --no-filename "https?://[^][ )]+" src/*.md); do sed -e 's/^http:\/\///g' -e 's/^https:\/\///g' -e 's/\//-/g' <<<$i ; done
