@@ -14,3 +14,5 @@
 - [A Senior Engineer’s Guide to FAANG Interviews](https://interviewing.io/guides/hiring-process)
 - [Leveling Up in Job Interviews for Software Engineers](https://phauer.com/2022/leveling-up-job-interviews/)
 - [interviewguide.dev](https://interviewguide.dev/)
+- [Layoffs.fyi](https://layoffs.fyi/)
+- [TechCompenso](https://techcompenso.com/)

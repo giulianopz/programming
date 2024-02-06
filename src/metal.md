@@ -28,3 +28,4 @@
 - [Game Boy Dev](https://gbdev.io/pandocs/About.html)
 - [Game Boy / Color Architecture](https://www.copetti.org/writings/consoles/game-boy/)
 - [Learning FPGA, yosys, nextpnr, and RISC-V](https://github.com/BrunoLevy/learn-fpga)
+- [The Retro Web](https://theretroweb.com/)

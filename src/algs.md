@@ -17,3 +17,4 @@
   - [HackerRank](https://www.hackerrank.com/)
   - [exercism](https://exercism.org/)
 - [The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf)
+- [Dynamic Programming is not Black Magic](https://qsantos.fr/2024/01/04/dynamic-programming-is-not-black-magic/)
