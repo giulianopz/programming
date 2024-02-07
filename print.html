@@ -182,17 +182,17 @@
 <p>Ideally, it describes a learning path to get into programming starting from Java, which is just the typical entry point (or entry level) programming language for many people in enterprise software development. Despite all the <a href="https://en.wikipedia.org/wiki/Criticism_of_Java">criticism</a>, the world still runs on Java 8<sup class="footnote-reference"><a href="#1">1</a></sup> (or newer versions, hopefully): it's an ubiquitous language you can encounter even in the most remote places (e.g. in a <a href="https://www.mikekohn.net/micro/playstation2_java.php">PlayStation</a>). On the other hand, some of these critics are well-founded<sup class="footnote-reference"><a href="#2">2</a></sup>. So, equally, having a look to <a href="./languages.html">modern programming languages</a> sounds reasonable. Especially to Go, which really seems to be destined to replace Java pretty everywhere. Generally speaking, any programming language is good as long as it allows you to get your job done (just like any natural language is good as long as it allows you to transmit a meaning).</p>
 <p>Although the repo is quite dense, one must keep in mind that the focus of learning to code should always be on learning abstract concepts and their low-level implementation details, which underlie the tech stack used in modern programming, rather than specific and ephemeral tools (e.g. libraries, frameworks, etc.):</p>
 <blockquote>
-<p>Modern programming is becoming complex, uninteresting, full of layers that just need to be glued. It is losing most of its beauty. In that sense, most programming is no longer art nor high engineering (most programs written at big and small corporations are trivial: coders just need to understand certain ad-hoc abstractions, and write some logic and <a href="https://en.m.wikipedia.org/wiki/Glue_code">glue code</a>). Only very few programmers are facing the artistic face of programming. Only very few programmers are facing high engineering in programming. </p>
+<p>Modern programming is becoming complex, uninteresting, full of layers that just need to be glued. It is losing most of its beauty. In that sense, most programming is no longer art nor high engineering (most programs written at big and small corporations are trivial: coders just need to understand certain ad-hoc abstractions, and write some logic and <a href="https://en.m.wikipedia.org/wiki/Glue_code">glue code</a>). Only very few programmers are facing the artistic face of programming. Only very few programmers are facing high engineering in programming.</p>
 <blockquote>
 <p>Salvatore Sanfilippo<sup class="footnote-reference"><a href="#3">3</a></sup></p>
 </blockquote>
 </blockquote>
 <p>In fact, an <a href="https://en.wikipedia.org/wiki/Application_software">application software</a> usually consists of levels (or layers) of <a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Levels_of_abstraction">abstraction</a>, wherein each level represents a different model of the same information and processes, but with varying amounts of detail. Each relatively abstract, higher level builds on a relatively concrete, lower level, which tends to provide an increasingly granular representation.</p>
 <p>Abstractions are useful, but all non-trivial abstractions, to some degree, are leaky<sup class="footnote-reference"><a href="#4">4</a></sup>. So, blindly ignoring what happens at lower levels can cause performance issues or (worst) unintended bugs which are hard to debug (e.g. inscrutable incidents in production<sup class="footnote-reference"><a href="#5">5</a></sup>). Solving such issues thanks to Q&amp;A websites like Stack Overflow does not help learning what actually went wrong leaving a certain sense of frustration (a common feeling for Linux users<sup class="footnote-reference"><a href="#6">6</a></sup>).</p>
-<p>Unfortunately, the enterprise software world is largely dominated by the use of <a href="https://en.wikipedia.org/wiki/Software_framework">frameworks</a> (e.g. Spring vs Quarkus on the backend, Angular vs React on the frontend), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as &quot;innovative&quot; for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which means to develop a good intuition of what happens at the hardware/software interface (<em>getting closer to the metal</em>, as the kool kids say). This is why so frequently people attempt to re-implement <a href="./from-scratch.html">from scratch</a> a good piece of software to understand &quot;how things work&quot;<sup class="footnote-reference"><a href="#7">7</a></sup>.</p>
+<p>Unfortunately, the enterprise software world is largely dominated by the use of <a href="https://en.wikipedia.org/wiki/Software_framework">frameworks</a> (e.g. Spring vs Quarkus on the backend, Angular vs React on the frontend), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as "innovative" for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which means to develop a good intuition of what happens at the hardware/software interface (<em>getting closer to the metal</em>, as the kool kids say). This is why so frequently people attempt to re-implement <a href="./from-scratch.html">from scratch</a> a good piece of software to understand "how things work"<sup class="footnote-reference"><a href="#7">7</a></sup>.</p>
 <p>Undoubtedly, this crafting or artistic view<sup class="footnote-reference"><a href="#8">8</a></sup> of the act of programming implies a longer (lifelong<sup class="footnote-reference"><a href="#9">9</a></sup>?) and steeper learning curve than any fancy YouTube tutorial would commit to, but this is still better than getting stuck in a plateau after a brief exponential growth where developers end up acting merely as code monkeys or blue collars. Sometimes the working environment of IT companies with big moneys itself tricks you into:</p>
 <blockquote>
-<p>voluntarily ceasing to improve because of a belief that expert status has been reached and thus further improvement is not possible.. This opting into indefinite mediocrity is the entry into an oblique phase in skills acquisition that I will call &quot;Expert Beginner&quot;<sup class="footnote-reference"><a href="#10">10</a></sup>.</p>
+<p>voluntarily ceasing to improve because of a belief that expert status has been reached and thus further improvement is not possible.. This opting into indefinite mediocrity is the entry into an oblique phase in skills acquisition that I will call "Expert Beginner"<sup class="footnote-reference"><a href="#10">10</a></sup>.</p>
 </blockquote>
 <p>In this respect, the following chapters naturally derail from application programming to <a href="https://en.wikipedia.org/wiki/Systems_programming">system programming</a>, and finally to hardware stuff. The last chapters mostly deal with collateral and/or enjoyable aspects of programming.</p>
 <hr />
@@ -396,7 +396,7 @@
 <li>Apache HTTPClient</li>
 <li>Jetty HttpClient</li>
 <li>OkHttp</li>
-<li>Spring WebClient </li>
+<li>Spring WebClient</li>
 </ul>
 </li>
 <li>Message Processing:
@@ -519,7 +519,7 @@
 </li>
 </ul>
 </li>
-<li>Observability: 
+<li>Observability:
 <ul>
 <li>Logging: <a href="https://www.baeldung.com/slf4j-with-log4j2-logback"><strong>SLF4J</strong></a> (Log4J2, Logback)
 <ul>
@@ -653,7 +653,7 @@
 </ul>
 </li>
 <li><a href="https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things">Norman, The Design of Everyday Things</a></li>
-<li><a href="https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building">Alexander, The Timeless Way of Building</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building">Alexander, The Timeless Way of Building</a></li>
 <li><a href="https://en.wikipedia.org/wiki/A_Pattern_Language">Alexander, A Pattern Language: Towns, Buildings Construction</a></li>
 <li>Meadows, Thinking in Systems: A Primer</li>
 <li>Hermans, The Programmer's Brain: What every programmer needs to know about cognition</li>
@@ -898,7 +898,7 @@ Real-time communication protocols:
 <li><a href="https://cloud.google.com/learn/what-is-object-storage#:~:text=Object%20storage%20is%20a%20data,for%20easy%20access%20and%20retrieval.">What is Object storage?</a></li>
 <li>Kim et al., The DevOps Handbook. How to Create World-Class Agility, Reliability, and Security in Technology Organizations</li>
 <li>Eisele and Vinto, Modernizing Enterprise Java. A Concise Cloud Native Guide for Developers</li>
-<li><a href="https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/">The cloudy layers of modern-day programming</a> </li>
+<li><a href="https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/">The cloudy layers of modern-day programming</a></li>
 <li><a href="https://free-for.dev">Free for Developers</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="local-first"><a class="header" href="#local-first">Local-First</a></h2>
@@ -962,7 +962,7 @@ Real-time communication protocols:
 <li><a href="https://webdevelopmenthistory.com/index/">Web Development History. Internet history for the technically curious</a></li>
 <li><a href="https://frankchimero.com/blog/2015/the-webs-grain/">The Web’s Grain</a></li>
 <li><a href="https://benhoyt.com/writings/the-small-web-is-beautiful/">The small web is beautiful</a></li>
-<li><a href="https://potato.cheap/">The &quot;Cheap&quot; Web</a></li>
+<li><a href="https://potato.cheap/">The "Cheap" Web</a></li>
 <li><a href="https://zserge.com/posts/small-web/">Poor Man's Web</a></li>
 <li><a href="https://www.webdesignmuseum.org/">Web Design Museum</a></li>
 <li><a href="https://whimsical.club/">The Whimsical Web</a></li>
@@ -1056,6 +1056,7 @@ Real-time communication protocols:
 <li><a href="https://redis.pjam.me/">Rebuilding Redis in Ruby</a></li>
 <li><a href="https://build-your-own.org/database/">Build Your Own Database From Scratch</a></li>
 <li><a href="https://wiby.me/about/guide.html">Build Your Own Search Engine</a></li>
+<li><a href="https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html">A search engine in 80 lines of Python</a></li>
 <li><a href="https://akashrajpurohit.com/blog/build-your-own-docker-with-linux-namespaces-cgroups-and-chroot-handson-guide/">Build Your Own Docker</a></li>
 <li><a href="http://raytracerchallenge.com/">The Ray Tracer Challenge</a></li>
 <li><a href="https://cstack.github.io/db_tutorial/">Let's Build a Simple Database</a></li>
@@ -1110,7 +1111,7 @@ Real-time communication protocols:
 <ul>
 <li><a href="https://systemd-by-example.com/">systemd by example</a></li>
 <li><a href="https://play.tinygo.org/">TinyGo Playground</a></li>
-<li><a href="https://jsfiddle.net/">JSFiddle</a> </li>
+<li><a href="https://jsfiddle.net/">JSFiddle</a></li>
 <li><a href="https://messwithdns.net/">Mess With DNS</a></li>
 <li><a href="https://dns-lookup.jvns.ca/">DNS lookup tool</a></li>
 <li><a href="https://nginx-playground.wizardzines.com">Nginx playground</a></li>
@@ -1177,7 +1178,7 @@ Real-time communication protocols:
 <li><a href="https://drewdevault.com/2018/10/05/Dont-sign-a-CLA.html">Don't sign a CLA</a></li>
 <li><a href="https://kristoff.it/blog/good-open-source/">The Good Parts of Open Source</a></li>
 <li><a href="https://blog.adafruit.com/2023/07/12/when-open-becomes-opaque-the-changing-face-of-open-source-hardware-companies/">When Open Becomes Opaque: The Changing Face of Open-Source Hardware Companies</a></li>
-<li><a href="https://pluralistic.net/2023/08/18/openwashing/">&quot;Open&quot; &quot;AI&quot; isn't</a></li>
+<li><a href="https://pluralistic.net/2023/08/18/openwashing/">"Open" "AI" isn't</a></li>
 <li><a href="https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech">Protocols, Not Platforms</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="reverse-engineering"><a class="header" href="#reverse-engineering">Reverse Engineering</a></h2>
@@ -1189,7 +1190,7 @@ Real-time communication protocols:
 <p>In the wild:</p>
 <ul>
 <li><a href="https://www.whizzy.org/2023-12-14-bricked-xmas/">Reverse engineering Bluetooth LE LED light controllers, or How I Bricked My Christmas Lights</a></li>
-<li><a href="https://kuenzi.dev/toothbrush/">Hacking my &quot;smart&quot; toothbrush</a></li>
+<li><a href="https://kuenzi.dev/toothbrush/">Hacking my "smart" toothbrush</a></li>
 <li><a href="https://eta.st/2023/01/31/rail-tickets.html">Reversing UK mobile rail tickets</a></li>
 <li><a href="https://programmingwithstyle.com/posts/howihackedmycar/">How I Hacked My Car</a></li>
 <li><a href="https://doubleagent.net/2023/05/21/a-car-battery-monitor-tracking-your-location">Discovering that your Bluetooth car battery monitor is siphoning up your location data</a></li>
@@ -1314,6 +1315,11 @@ Real-time communication protocols:
 <li><a href="https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming">LEGOs, Play-Doh, and Programming</a></li>
 </ul>
 </li>
+<li>CLI:
+<ul>
+<li><a href="https://clig.dev/">Command Line Interface Guidelines</a></li>
+</ul>
+</li>
 <li>Anti-patterns:
 <ul>
 <li><a href="https://rakyll.org/interface-pollution/">Interface Pollution</a></li>
@@ -1331,10 +1337,10 @@ Real-time communication protocols:
 <ul>
 <li><a href="https://fosterelli.co/developers-dont-understand-cors">Developers don't understand CORS</a></li>
 <li><a href="https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/">You don't need that CORS request</a></li>
-<li><a href="https://web.dev/same-site-same-origin/">Understanding &quot;same-site&quot; and &quot;same-origin&quot;</a></li>
+<li><a href="https://web.dev/same-site-same-origin/">Understanding "same-site" and "same-origin"</a></li>
 </ul>
 </li>
-<li><a href="https://adam-p.ca/blog/2022/03/x-forwarded-for/">The perils of the &quot;real&quot; client IP</a></li>
+<li><a href="https://adam-p.ca/blog/2022/03/x-forwarded-for/">The perils of the "real" client IP</a></li>
 <li><a href="https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for">The HTTP crash course nobody asked for</a></li>
 </ul>
 </li>
@@ -1428,7 +1434,7 @@ Real-time communication protocols:
 <li><a href="https://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/">What happens when you start a process on Linux?</a></li>
 <li><a href="https://jvns.ca/blog/how-updating-dns-works/">What happens when you update your DNS?</a></li>
 <li><a href="https://github.com/alex/what-happens-when">What happens when...</a></li>
-<li><a href="https://jvns.ca/blog/2023/08/03/behind--hello-world/">Behind &quot;Hello World&quot; on Linux</a></li>
+<li><a href="https://jvns.ca/blog/2023/08/03/behind--hello-world/">Behind "Hello World" on Linux</a></li>
 </ul>
 </li>
 <li>How Things Work:
@@ -1477,7 +1483,7 @@ Real-time communication protocols:
 <li>Kernighan and Pike, <a href="https://www.cs.princeton.edu/~bwk/tpop.webpage/">The Practice of Programming</a></li>
 <li>Kernighan and Pike, <a href="https://www.cs.princeton.edu/~bwk/upe/upe.html">The Unix Programming Environment</a></li>
 <li>ESR, <a href="http://catb.org/~esr/writings/taoup/">The Art of Unix Programming</a></li>
-<li>Rochkind, Advanced Unix Programming </li>
+<li>Rochkind, Advanced Unix Programming</li>
 <li>Stevens. Advanced Programming In The Unix Environment</li>
 <li>Bach, The Design Of The Unix Operating System</li>
 <li><a href="https://en.m.wikipedia.org/wiki/A_Commentary_on_the_UNIX_Operating_System">Lyons, A Commentary on the UNIX Operating System</a></li>
@@ -1622,7 +1628,7 @@ Real-time communication protocols:
 <li><a href="https://www.ccc.de/">Chaos Computer Club</a></li>
 </ul>
 <blockquote>
-<p>You can subscribe to blog feeds via an RSS/Atom reader, as explained <a href="https://aboutfeeds.com/">here</a>. </p>
+<p>You can subscribe to blog feeds via an RSS/Atom reader, as explained <a href="https://aboutfeeds.com/">here</a>.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="funny-things-with-hack-value"><a class="header" href="#funny-things-with-hack-value">Funny Things with Hack Value</a></h2>
 <ul>
