@@ -6,6 +6,7 @@ Tutorials:
 - [Rebuilding Redis in Ruby](https://redis.pjam.me/)
 - [Build Your Own Database From Scratch](https://build-your-own.org/database/)
 - [Build Your Own Search Engine](https://wiby.me/about/guide.html)
+- [A search engine in 80 lines of Python](https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html)
 - [Build Your Own Docker](https://akashrajpurohit.com/blog/build-your-own-docker-with-linux-namespaces-cgroups-and-chroot-handson-guide/)
 - [The Ray Tracer Challenge](http://raytracerchallenge.com/)
 - [Let's Build a Simple Database](https://cstack.github.io/db_tutorial/)
@@ -49,6 +50,7 @@ Tutorials:
 - [Let’s Learn How Modern JavaScript Frameworks Work by Building One](https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/)
 - [Writing a File System From Scratch](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
 - [Building Git](https://shop.jcoglan.com/building-git/)
+
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

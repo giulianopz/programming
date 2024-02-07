@@ -41,14 +41,16 @@
 - Testing:
   - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
 - Software Design:
-    - [Alternatives to DTO](https://blog.frankel.ch/alternatives-dto/)
-    - [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
-    - [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
+  - [Alternatives to DTO](https://blog.frankel.ch/alternatives-dto/)
+  - [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
+  - [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
+- CLI:
+  - [Command Line Interface Guidelines](https://clig.dev/)
 - Anti-patterns:
-    - [Interface Pollution](https://rakyll.org/interface-pollution/)
+  - [Interface Pollution](https://rakyll.org/interface-pollution/)
 - Code Formatting:
-    - [EditorConfig](https://editorconfig.org/)
-    - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+  - [EditorConfig](https://editorconfig.org/)
+  - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 - HTTP:
   - CORS:
     - [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
