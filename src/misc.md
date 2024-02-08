@@ -92,6 +92,8 @@
   - [Good performance is not just big O](https://jmmv.dev/2023/09/performance-is-not-big-o.html)
   - [Linux Performance](https://www.brendangregg.com/linuxperf.html)
   - [Zero-copy](https://en.wikipedia.org/wiki/Zero-copy)
+- Data Compression:
+  - [Zip Files: History, Explanation and Implementation](https://www.hanshq.net/zip.html)
 - Programming Languages and Compilers:
   - [Is every language written in C?](https://softwareengineering.stackexchange.com/questions/267086/is-every-language-written-in-c)
   - [Assembly code vs Machine code vs Object code?](https://stackoverflow.com/questions/466790/assembly-code-vs-machine-code-vs-object-code)

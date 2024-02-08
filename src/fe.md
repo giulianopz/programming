@@ -14,3 +14,4 @@
 - [SVG Tutorial](https://svg-tutorial.com/)
 - [ngrok, lvh.me and nip.io: A Trilogy for Local Development and Testing](https://nickjanetakis.com/blog/ngrok-lvhme-nipio-a-trilogy-for-local-development-and-testing)
 - [Weird HTML Hacks](https://tedium.co/2023/11/24/weird-html-hacks-history/)
+- [Web design inspiration catalog](https://www.curated.design/)
