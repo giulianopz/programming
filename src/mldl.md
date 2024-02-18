@@ -21,3 +21,4 @@
 - [nlp-library](https://github.com/mihail911/nlp-library)
 - [Neural networks from scratch](https://aegeorge42.github.io/)
 - [LLM Visualization](https://bbycroft.net/llm)
+- [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)

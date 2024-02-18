@@ -20,3 +20,7 @@
 - [Alexander, A Pattern Language: Towns, Buildings Construction](https://en.wikipedia.org/wiki/A_Pattern_Language)
 - Meadows, Thinking in Systems: A Primer
 - Hermans, The Programmer's Brain: What every programmer needs to know about cognition
+- [Worse is better](https://en.m.wikipedia.org/wiki/Worse_is_better)
+- [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
+- [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
+

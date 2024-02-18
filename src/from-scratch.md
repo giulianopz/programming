@@ -50,6 +50,7 @@ Tutorials:
 - [Let’s Learn How Modern JavaScript Frameworks Work by Building One](https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/)
 - [Writing a File System From Scratch](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
 - [Building Git](https://shop.jcoglan.com/building-git/)
+- [Building an LLM from scratch](https://bclarkson-code.github.io/posts/llm-from-scratch-scalar-autograd/post.html)
 
 
 Other lists:

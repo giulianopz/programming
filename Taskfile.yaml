@@ -12,3 +12,6 @@ tasks:
   archive:
     cmds:
       - for i in $(grep -rEo --no-filename "https?://[^][ )]+" src/*.md); do sed -e 's/^http:\/\///g' -e 's/^https:\/\///g' -e 's/\//-/g' <<<$i ; done
+  lazy-push:
+    cmds:
+    - git add . && git commit -m "Dump links" && git push
