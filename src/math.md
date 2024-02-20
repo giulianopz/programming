@@ -10,3 +10,4 @@
 - [Category Theory Illustrated](https://abuseofnotation.github.io/category-theory-illustrated/)
 - [Beautiful Symmetry. A Coloring Book About Math](https://www.coloring-book.co/?pageName=cover)
 - [Arithmetic in Computer Hardware](https://thelast19digitsofpi.github.io/hardware-explorations/dist/index.html)
+- [ Geometry for Programmers](https://www.manning.com/books/geometry-for-programmers)
