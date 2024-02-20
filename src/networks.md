@@ -38,3 +38,4 @@
 - [The Whimsical Web](https://whimsical.club/)
 - [The Web Is Fucked](https://thewebisfucked.com/)
 - [The Web We Lost, and The Web We Must Rebuild](https://github.com/pzwang/lostweb)
+- [Ethernet For Hackers: The Very Basics](https://hackaday.com/2024/02/12/ethernet-for-hackers-the-very-basics/)

@@ -51,7 +51,9 @@ Tutorials:
 - [Writing a File System From Scratch](https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html)
 - [Building Git](https://shop.jcoglan.com/building-git/)
 - [Building an LLM from scratch](https://bclarkson-code.github.io/posts/llm-from-scratch-scalar-autograd/post.html)
-
+- [Let's Build a Compiler by Jack Crenshaw](https://compilers.iecc.com/crenshaw/)
+- [Writing a simple JSON parser](https://notes.eatonphil.com/writing-a-simple-json-parser.html)
+- [Let’s Build A Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/)
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
