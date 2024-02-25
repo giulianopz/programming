@@ -20,3 +20,4 @@
 - [Float Exposed](https://float.exposed)
 - [crontab guru](https://crontab.guru/)
 - [Play with Kubernetes](https://labs.play-with-k8s.com/)
+- [Hashing](https://samwho.dev/hashing-playground/)

@@ -17,3 +17,4 @@
 - [the cryptopals crypto challenges](https://cryptopals.com/)
 - [Flipper Zero](https://flipperzero.one/)
 - [HTB Cybersecurity Courses](https://academy.hackthebox.com/catalogue)
+- [Anatomy of a GPG Key](https://davesteele.github.io/gpg/2014/09/20/anatomy-of-a-gpg-key/)

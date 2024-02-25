@@ -120,7 +120,7 @@
   - [Behind "Hello World" on Linux](https://jvns.ca/blog/2023/08/03/behind--hello-world/)
 - How Things Work:
   - [Putting the “You” in CPU](https://cpu.land/)
-  - [How Browsers Work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)  
+  - [How Browsers Work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
 - Hard Stuff:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
@@ -129,3 +129,4 @@
   - [Quantum computing for the very curious](https://quantum.country/qcvc)
   - [What scientists must know about hardware to write fast code](https://viralinstruction.com/posts/hardware/)
   - [Why do arrays start at 0?](https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/)
+  - [Do you know how much your computer can do in a second?](https://computers-are-fast.github.io/)
