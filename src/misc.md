@@ -86,7 +86,7 @@
   - [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
   - [What Should I Know About Garbage Collection as a Java Developer?](https://www.azul.com/blog/what-should-i-know-about-garbage-collection-as-a-java-developer/)
 - Performance:
-  - [Latency Numbers Every Programmer Should Know](https://gist.github.com/jboner/2841832)
+  - [Latency Numbers Every Programmer Should Know](https://samwho.dev/numbers/)
   - [Good performance is not just big O](https://jmmv.dev/2023/09/performance-is-not-big-o.html)
   - [Linux Performance](https://www.brendangregg.com/linuxperf.html)
   - [Zero-copy](https://en.wikipedia.org/wiki/Zero-copy)
@@ -124,6 +124,8 @@
 - Hard Stuff:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
+- CS Theory:
+  - [Great Ideas in Theoretical Computer Science](https://www.cs251.com/)  
 - Miscellanea:
   - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
   - [Quantum computing for the very curious](https://quantum.country/qcvc)

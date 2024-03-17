@@ -22,3 +22,4 @@
 - [Neural networks from scratch](https://aegeorge42.github.io/)
 - [LLM Visualization](https://bbycroft.net/llm)
 - [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
+- [Markov Chains are the Original Language Models](https://elijahpotter.dev/articles/markov_chains_are_the_original_language_models)
