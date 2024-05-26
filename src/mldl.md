@@ -23,3 +23,5 @@
 - [LLM Visualization](https://bbycroft.net/llm)
 - [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 - [Markov Chains are the Original Language Models](https://elijahpotter.dev/articles/markov_chains_are_the_original_language_models)
+- [A Visual Guide to Vision Transformers](https://blog.mdturp.ch/posts/2024-04-05-visual_guide_to_vision_transformer.html)
+- [Ilya Sutskever's Reading List](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE)

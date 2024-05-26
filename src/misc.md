@@ -56,6 +56,7 @@
     - [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
   - [The perils of the "real" client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
   - [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for)
+  - [Mediocre Engineer’s guide to HTTPS](https://devonperoutky.super.site/blog-posts/mediocre-engineers-guide-to-https)
 - REST APIs:
   - [OpenAPI Specification](https://www.openapis.org)
   - [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
