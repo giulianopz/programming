@@ -26,6 +26,7 @@
 - [Open Source, DIY & Right to Repair](foss.md)
 - [Reverse Engineering](./reverse.md)
 - [Math](./math.md)
+- [Music](./music.md)
 - [Machine Learning and Deep Learning](./mldl.md)
 - [Best Practices, Common Pitfalls, Curious Stuff & Basic Things You Should Know](./misc.md)
 - [Classics & Bibles](./classics.md)
