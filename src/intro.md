@@ -1,13 +1,11 @@
 # Introduction
 
-This is a dump of links I keep collecting as I progress as a software programmer. I use it to have a personal log of good stuff I discover while wandering about in the web.
+This book is just a dump of links I keep collecting as I progress as a software programmer. I use it to have a personal log of good stuff I discover while wandering about in the web.
 
-Ideally, it describes a learning path to get into programming starting from Java, which is just the typical entry point (or entry level) programming language for many people in enterprise software development. Despite all the [criticism](https://en.wikipedia.org/wiki/Criticism_of_Java), the world still runs on Java 8[^1] (or newer versions, hopefully): it's an ubiquitous language you can encounter even in the most remote places (e.g. in a [PlayStation](https://www.mikekohn.net/micro/playstation2_java.php)). On the other hand, some of these critics are well-founded[^2]. So, equally, having a look to [modern programming languages](./languages.md) sounds reasonable. Especially to Go, which really seems to be destined to replace Java pretty everywhere. Generally speaking, any programming language is good as long as it allows you to get your job done (just like any natural language is good as long as it allows you to transmit a meaning).
-
-Although the repo is quite dense, one must keep in mind that the focus of learning to code should always be on learning abstract concepts and their low-level implementation details, which underlie the tech stack used in modern programming, rather than specific and ephemeral tools (e.g. libraries, frameworks, etc.):
+While perusing the vast array of articles, books, videos, etc. linked, one must keep in mind that the focus of learning to code[^1] should always be on learning abstract concepts and their low-level implementation details, which underlie the tech stack used in modern software, rather than specific and ephemeral tools (e.g. libraries, frameworks, etc.):
 
 > Modern programming is becoming complex, uninteresting, full of layers that just need to be glued. It is losing most of its beauty. In that sense, most programming is no longer art nor high engineering (most programs written at big and small corporations are trivial: coders just need to understand certain ad-hoc abstractions, and write some logic and [glue code](https://en.m.wikipedia.org/wiki/Glue_code)). Only very few programmers are facing the artistic face of programming. Only very few programmers are facing high engineering in programming. 
->> Salvatore Sanfilippo[^3]
+>> Salvatore Sanfilippo[^2]
 
 In fact, an [application software](https://en.wikipedia.org/wiki/Application_software) usually consists of levels (or layers) of [abstraction](https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Levels_of_abstraction), wherein each level represents a different model of the same information and processes, but with varying amounts of detail. Each relatively abstract, higher level builds on a relatively concrete, lower level, which tends to provide an increasingly granular representation.
 
@@ -23,22 +21,20 @@ In this respect, the following chapters naturally derail from application progra
 
 ---
 
-[^1]: Vicki Boykis, [IT runs on Java 8](https://vickiboykis.com/2019/05/10/it-runs-on-java-8/)
+[^1]: Jamis Buck, [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
 
-[^2]: Jamis Buck, [LEGOs, Play-Doh, and Programming](https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming)
+[^2]: [antirez](http://invece.org/)
 
-[^3]: aka [antirez](http://invece.org/)
+[^3]: Joel Spolsky, [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
-[^4]: Joel Spolsky, [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+[^4]: Andrew Doss, [How Long is a Negative Timeout?](https://www.andrewdoss.dev/writing/timeouts/)
 
-[^5]: Andrew Doss, [How Long is a Negative Timeout?](https://www.andrewdoss.dev/writing/timeouts/)
+[^5]: Fabien Sanglard, [A Linux evening...](https://fabiensanglard.net/a_linux_evening/index.html)
 
-[^6]: Fabien Sanglard, [A Linux evening...](https://fabiensanglard.net/a_linux_evening/index.html)
+[^6]: Julia Evans, [Get better at programming by learning how things work](https://jvns.ca/blog/learn-how-things-work/)
 
-[^7]: Julia Evans, [Get better at programming by learning how things work](https://jvns.ca/blog/learn-how-things-work/)
+[^7]: Peter Norvig, [pytudes](https://github.com/norvig/pytudes)
 
-[^8]: Peter Norvig, [pytudes](https://github.com/norvig/pytudes)
+[^8]: Peter Norvig, [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 
-[^9]: Peter Norvig, [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
-
-[^10]:  Erik Dietrich, [How Developers Stop Learning: Rise of the Expert Beginner](https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)
+[^9]:  Erik Dietrich, [How Developers Stop Learning: Rise of the Expert Beginner](https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/)
