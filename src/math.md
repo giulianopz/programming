@@ -12,3 +12,4 @@
 - [Arithmetic in Computer Hardware](https://thelast19digitsofpi.github.io/hardware-explorations/dist/index.html)
 - [Geometry for Programmers](https://www.manning.com/books/geometry-for-programmers)
 - [Linear Algebra for Programmers](https://www.linearalgebraforprogrammers.com/)
+- [Open Textbooks](https://textbooks.aimath.org/textbooks/approved-textbooks/)

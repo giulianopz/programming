@@ -54,6 +54,7 @@ Tutorials:
 - [Let's Build a Compiler by Jack Crenshaw](https://compilers.iecc.com/crenshaw/)
 - [Writing a simple JSON parser](https://notes.eatonphil.com/writing-a-simple-json-parser.html)
 - [Let’s Build A Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/)
+- [Build Your Own SMTP Server in Go](https://valyent.substack.com/p/build-your-own-smtp-server-in-go)
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

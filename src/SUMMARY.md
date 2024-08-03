@@ -28,6 +28,7 @@
 - [Machine Learning and Deep Learning](./mldl.md)
 - [Best Practices, Common Pitfalls, Curious Stuff & Basic Things You Should Know](./misc.md)
 - [Classics & Bibles](./classics.md)
+- [Essays](./essays.md)
 - [CS/FOSS History and Hacking/Cyberpunk Culture](./history.md)
 - [Software Licenses](./licenses.md)
 - [Development and Team Organization](./team.md)
