@@ -11,7 +11,7 @@ tasks:
       - mdlinkcheck --dir ./src/ | grep -v 200
   archive:
     cmds:
-      - for i in $(grep -rEo --no-filename "https?://[^][ )]+" src/*.md); do sed -e 's/^http:\/\///g' -e 's/^https:\/\///g' -e 's/\//-/g' <<<$i ; done
+      - for i in $(grep -rPo --no-filename "https?:\/\/.*([^\)])(?!\1)" src/*.md); do filename=$(basename ./arc/$i).html; monolith $i -e -o ./arc/$filename ; done
   lazy-push:
     cmds:
     - git add . && git commit -m "Dump links" && git push
