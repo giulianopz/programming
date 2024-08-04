@@ -6,7 +6,7 @@
 - [Getting started with Linux kernel development](https://gist.github.com/vegard/22200a9f91af138a99ae22a9b814a9a4)
 - [Linux From Scratch](http://www.linuxfromscratch.org/)
 - [Think OS. A Brief Introduction to Operating Systems](https://greenteapress.com/thinkos/thinkos.pdf)
-- [Computer Systems: A Programmer's Perspective](https://csapp.cs.cmu.edu/)
+- [Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/3e/home.html)
 - [Dive into Systems](https://diveintosystems.org/singlepage/)
 - [Kernighan and Pike, The Unix Programming Environment](https://www.cs.princeton.edu/~bwk/upe/upe.html)
 - [Kerrisk, The Linux Programming Interface](https://man7.org/tlpi/)
