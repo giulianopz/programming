@@ -24,7 +24,7 @@
     - MariaDB
 - Non-Relational DBs (**NoSQL**) by Type:
     - Wide column: Apache Cassandra
-    - Document: [ElasticSearch](https://www.baeldung.com/elasticsearch-java), MongoDB
+    - Document: ElasticSearch), MongoDB
     - Key-value: [Redis](https://architecturenotes.co/redis/)
     - Graph: Neo4J
 - [What is a Vector Database?](https://www.pinecone.io/learn/vector-database/)

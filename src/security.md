@@ -10,7 +10,6 @@
 - Zalewski, *Tangled Web. A Guide to Securing Modern Web Applications*
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/index.html)
 - [Practical Cryptography for Developers](https://cryptobook.nakov.com/)
-- [How to find third-party vulnerabilities in your Java code](https://www.redhat.com/sysadmin/find-java-vulnerabilities)
 - [Web Security Academy](https://portswigger.net/web-security) (n.b. this course is the updated version of the book *The Web Application Hacker's Handbook*)
 - [See this page fetch itself, byte by byte, over TLS](https://subtls.pages.dev/)
 - [The Illustrated TLS 1.3 Connection](https://tls13.xargs.org/)

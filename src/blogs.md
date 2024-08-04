@@ -16,7 +16,6 @@
 - [Joel on Software](https://www.joelonsoftware.com/)
 - [fasterthanlime](https://fasterthanli.me/)
 - [Happy Path Programming](https://anchor.fm/happypathprogramming/episodes/66-The-Journey-to-Rust-with-Christopher-Hunt-e1meaqh)
-- [Programming Talks](https://www.programmingtalks.org)
 - [Oddly Influenced](https://podcast.oddly-influenced.dev/)
 - [The Buckblog, assorted ramblings by Jamis Buck](https://weblog.jamisbuck.org/)
 - [Gwern](https://www.gwern.net/)

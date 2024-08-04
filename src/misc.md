@@ -17,7 +17,6 @@
 - Internationalization and localization (i18n)
   - [PO Files](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html)
 - Dates:
-  - [All About java.util.Date](https://codeblog.jonskeet.uk/2017/04/23/all-about-java-util-date/)
   - [UTC is enough for everyone... right?](https://zachholman.com/talk/utc-is-enough-for-everyone-right)
   - [Storing UTC is not a silver bullet](https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/)
   - [Designing a REST API: Unix time vs ISO-8601](https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601)
@@ -36,7 +35,6 @@
   - [Optimizing Linux for Slow Computers](https://www.akitaonrails.com/2017/01/17/optimizing-linux-for-slow-computers)
   - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#choosing-the-right-distro)
 - Libraries
-  - [Google Best Practices for Java Libraries](https://jlbp.dev/)
   - [Choose Boring Technology](https://boringtechnology.club/)
 - Testing:
   - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
@@ -48,7 +46,6 @@
   - [Interface Pollution](https://rakyll.org/interface-pollution/)
 - Code Formatting:
   - [EditorConfig](https://editorconfig.org/)
-  - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 - HTTP:
   - CORS:
     - [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
@@ -85,7 +82,6 @@
   - [How to hide your IP address](https://educatedguesswork.org/posts/traffic-relaying/)
 - Memory:
   - [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
-  - [What Should I Know About Garbage Collection as a Java Developer?](https://www.azul.com/blog/what-should-i-know-about-garbage-collection-as-a-java-developer/)
 - Performance:
   - [Latency Numbers Every Programmer Should Know](https://samwho.dev/numbers/)
   - [Good performance is not just big O](https://jmmv.dev/2023/09/performance-is-not-big-o.html)

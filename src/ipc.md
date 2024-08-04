@@ -22,12 +22,12 @@
             - [HTTP/3 explained](https://http3-explained.haxx.se/)
             Real-time communication protocols:
               - [Full-duplex HTTP Streaming](https://datatracker.ietf.org/doc/html/draft-zhu-http-fullduplex-08)
-              - [WebSockets](https://www.baeldung.com/java-websockets)
+              - WebSockets
               - [Server-Sent Events (SSE)](https://en.wikipedia.org/wiki/Server-sent_events)
               - [WebTransport](https://developer.chrome.com/docs/capabilities/web-apis/webtransport#whats_webtransport)
               - [WebRTC](https://webrtcforthecurious.com/)
-          - [UDP](https://www.baeldung.com/udp-in-java)
-        - [Unix Domain Sockets](https://nipafx.dev/java-unix-domain-sockets/)
+          - [UDP
+        - Unix Domain Sockets
     - Messaging:
         - AMQP
         - MQTT

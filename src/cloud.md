@@ -1,6 +1,5 @@
 ## Cloud Computing, Containers & DevOps
 
-- [Java Cloud Development Introduction and Tools](https://howtodoinjava.com/cloud/java-cloud-development-introduction-and-tools)
 - [A beginner's guide to building DevOps pipelines with open source tools](https://opensource.com/article/19/4/devops-pipeline)
 - [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
 - Containers and Orchestration:
@@ -35,7 +34,7 @@
   - [Docker Swarm](https://docs.docker.com/engine/swarm/)
   - [Apache Mesos](https://mesos.apache.org/)
   - [LXD](https://linuxcontainers.org/lxd/)
-  - [Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/index.html)
+  - [Cloud Foundry](https://docs.cloudfoundry.org)
   - [Nomad](https://www.nomadproject.io/)
 - CI/CD Pipelines:
   - [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
