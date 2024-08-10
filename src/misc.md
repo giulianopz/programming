@@ -38,8 +38,6 @@
   - [Choose Boring Technology](https://boringtechnology.club/)
 - Testing:
   - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
-- Software Design:
-  - [The Grug Brained Developer. A layman's guide to thinking like the self-aware smol brained](https://grugbrain.dev/)
 - CLI:
   - [Command Line Interface Guidelines](https://clig.dev/)
 - Anti-patterns:
