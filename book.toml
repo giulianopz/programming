@@ -3,7 +3,7 @@ authors = ["giuliano panzironi"]
 language = "en"
 multilingual = false
 src = "src"
-title = "dump of links to learn programming"
+title = "bookmarks on programming"
 
 [output.html]
 site-url = "/programming/"
