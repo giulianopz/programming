@@ -21,6 +21,7 @@
 - [So you want to write a GUI framework](http://www.cmyr.net/blog/gui-framework-ingredients.html)
 - [The Raft Consensus Algorithm](https://raft.github.io/)
 - [Retries. An interactive study of common retry methods](https://encore.dev/blog/retries)
-- [All my favorite tracing tools: eBPF, QEMU, Perfetto, new ones I built and more](https://thume.ca/2023/12/02/tracing-methods/)
 - [Fly.io distributed systems challenges](https://fly.io/dist-sys/)
 - [A Distributed Systems Reading List](https://ferd.ca/a-distributed-systems-reading-list.html)
+- [Metrics, tracing, and logging](https://peter.bourgon.org/blog/2017/02/21/metrics-tracing-and-logging.html)
+- [All my favorite tracing tools: eBPF, QEMU, Perfetto, new ones I built and more](https://thume.ca/2023/12/02/tracing-methods/)
