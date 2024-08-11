@@ -34,8 +34,6 @@
 - Linux:
   - [Optimizing Linux for Slow Computers](https://www.akitaonrails.com/2017/01/17/optimizing-linux-for-slow-computers)
   - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#choosing-the-right-distro)
-- Libraries
-  - [Choose Boring Technology](https://boringtechnology.club/)
 - Testing:
   - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
 - CLI:

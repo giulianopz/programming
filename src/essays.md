@@ -10,3 +10,4 @@
 - [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
 - [A Linux evening](https://fabiensanglard.net/a_linux_evening/index.html)
 - [Reflections on Trusting Trust](https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf)
+- [Choose Boring Technology](https://boringtechnology.club/)
