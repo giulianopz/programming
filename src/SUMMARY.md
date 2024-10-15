@@ -13,6 +13,7 @@
 - [Microservices, Distributed Systems & System Design](./system-design.md)
 - [Cloud Computing, Containers & DevOps](./cloud.md)
 - [Local-First](./local-first.md)
+- [Self-Hosting](./self-hosting.md)
 - [Security](./security.md)
 - [Networking, Web & Browsers](./networks.md)
 - [HTML, CSS & JS](./fe.md)

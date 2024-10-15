@@ -14,6 +14,7 @@
   - [The Great Newline Schism](https://blog.codinghorror.com/the-great-newline-schism/)
   - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
   - [Invisible characters](https://invisible-characters.com/)
+  - [You can't just assume UTF-8](https://csvbase.com/blog/9)
 - Internationalization and localization (i18n)
   - [PO Files](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html)
 - Dates:
@@ -78,6 +79,7 @@
   - [How to hide your IP address](https://educatedguesswork.org/posts/traffic-relaying/)
 - Memory:
   - [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
+  - [Memory Management Every Developer Should Know](https://webdeveloper.beehiiv.com/p/memory-management-every-programmer-know)
 - Performance:
   - [Latency Numbers Every Programmer Should Know](https://samwho.dev/numbers/)
   - [Good performance is not just big O](https://jmmv.dev/2023/09/performance-is-not-big-o.html)
@@ -125,3 +127,4 @@
   - [What scientists must know about hardware to write fast code](https://viralinstruction.com/posts/hardware/)
   - [Why do arrays start at 0?](https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/)
   - [Do you know how much your computer can do in a second?](https://computers-are-fast.github.io/)
+  - [A few facts about POSIX](https://vorakl.com/articles/posix/)

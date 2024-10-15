@@ -17,3 +17,4 @@
 - [Web design inspiration catalog](https://www.curated.design/)
 - [Learn CSS Layout](http://book.mixu.net/css/single-page.html)
 - [JSON Canvas](https://jsoncanvas.org/)
+- [CSS for printing to paper](https://voussoir.net/writing/css_for_printing)

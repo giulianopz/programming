@@ -1,8 +1,10 @@
 ## Databases & SQL
 
+- [50 Years of Queries](https://cacm.acm.org/research/50-years-of-queries/)
 - [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
 - [Introduction to SQL](https://sqlbolt.com/)
 - [Use the Index, Luke! A Guide to Database Performance for Developers](https://use-the-index-luke.com/)
+- [Consistency Models](https://jepsen.io/consistency)
 - [The Querynomicon](https://gvwilson.github.io/sql-tutorial/)
 - [Things You Should Know About Databases](https://architecturenotes.co/things-you-should-know-about-databases/)
 - [Database Normalization Basics](https://www.lifewire.com/database-normalization-basics-1019735)

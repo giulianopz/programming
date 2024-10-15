@@ -50,5 +50,7 @@
 - [Strange Loop](https://www.thestrangeloop.com/index.html)
 - [DEFCON](https://defcon.org/)
 - [Chaos Computer Club](https://www.ccc.de/)
+- [PoC||GTFO](https://www.alchemistowl.org/pocorgtfo/)
+- [Phrack](http://phrack.org/)
 
 > You can subscribe to blog feeds via an RSS/Atom reader, as explained [here](https://aboutfeeds.com/). 

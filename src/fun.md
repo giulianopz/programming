@@ -19,4 +19,3 @@
 - [Simone's Computer](https://simone.computer/#/)
 - [daedalOS](https://dustinbrett.com/)
 - [Pokemon Cards V2](https://deck-24abcd.netlify.app/)
-- [POKEGB: a gameboy emulator that only plays Pokémon blue](https://binji.github.io/posts/pokegb/)

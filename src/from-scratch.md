@@ -55,6 +55,10 @@ Tutorials:
 - [Writing a simple JSON parser](https://notes.eatonphil.com/writing-a-simple-json-parser.html)
 - [Let’s Build A Simple Interpreter](https://ruslanspivak.com/lsbasi-part1/)
 - [Build Your Own SMTP Server in Go](https://valyent.substack.com/p/build-your-own-smtp-server-in-go)
+- [Build your own React](https://pomb.us/build-your-own-react/)
+- [Let's write a video game from scratch like it's 1987](https://gaultier.github.io/blog/write_a_video_game_from_scratch_like_1987.html)
+- [GameBoy Emulation in JavaScript](https://imrannazar.com/series/gameboy-emulation-in-javascript)
+- [Build nanoGPT from scratch](https://github.com/karpathy/build-nanogpt)
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

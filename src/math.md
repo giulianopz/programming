@@ -1,5 +1,6 @@
 ## Math
 
+- [Mathematics I Use](http://pub.gajendra.net/2012/10/mathematics_i_use)
 - [Kun, A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
 - [3Blue1Brown](https://www.3blue1brown.com/)
@@ -13,3 +14,4 @@
 - [Geometry for Programmers](https://www.manning.com/books/geometry-for-programmers)
 - [Linear Algebra for Programmers](https://www.linearalgebraforprogrammers.com/)
 - [Open Textbooks](https://textbooks.aimath.org/textbooks/approved-textbooks/)
+- [An animated introduction to Fourier Series](https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles)
