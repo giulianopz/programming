@@ -40,3 +40,4 @@
 - [The Web We Lost, and The Web We Must Rebuild](https://github.com/pzwang/lostweb)
 - [Ethernet For Hackers: The Very Basics](https://hackaday.com/2024/02/12/ethernet-for-hackers-the-very-basics/)
 - [TCP Puzzlers](https://www.tritondatacenter.com/blog/tcp-puzzlers)
+- [The Copenhagen Book](https://thecopenhagenbook.com/)

@@ -1,5 +1,6 @@
 ## HTML & CSS & JS
 
+- [HTML for people](https://htmlforpeople.com/)
 - [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
 - [180 websites in 180 days](https://jenniferdewalt.com/)
 - [htmldog](https://htmldog.com/)

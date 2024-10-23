@@ -13,7 +13,7 @@
 - [Dive into Systems](https://diveintosystems.org/singlepage/)
 - Nisan and Schocken, [Elements of Computing Systems](https://www.nand2tetris.org/) (nand2tetris)
 - Tanenbaum and Bos, Modern Operating Systems
-- Tanenbaum and Wetherall, Computer Networks (6ed)
+- Larry Peterson and Bruce Davie, [Computer Networks: A Systems Approach](https://book.systemsapproach.org/)
 - Ullman and Hopcroft, Introduction to Automata Theory, Languages, and Computations (Cinderella Book)
 - Aho, Lam, Sethi, and Ullman, Compilers: Principles, Techniques, and Tools (Dragon Book)
 - [Nystrom, Crafting Interpreters](https://craftinginterpreters.com/)

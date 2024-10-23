@@ -59,6 +59,10 @@ Tutorials:
 - [Let's write a video game from scratch like it's 1987](https://gaultier.github.io/blog/write_a_video_game_from_scratch_like_1987.html)
 - [GameBoy Emulation in JavaScript](https://imrannazar.com/series/gameboy-emulation-in-javascript)
 - [Build nanoGPT from scratch](https://github.com/karpathy/build-nanogpt)
+- [Build Your Own Lisp](https://buildyourownlisp.com/)
+- [Compiling to Assembly from Scratch](https://keleshev.com/compiling-to-assembly-from-scratch)
+- [200 and change](https://github.com/pdubroy/200andchange?utm_source=substack&utm_medium=email)
+- [whorl - A single file, std only, async Rust executor](https://github.com/mgattozzi/whorl)
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
