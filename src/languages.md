@@ -13,3 +13,4 @@
 - [Erlang](https://www.erlang.org/doc/getting_started/intro.html#prerequisites) > [elixir](https://elixir-lang.org/getting-started/introduction.html) > [Gleam](https://gleam.run/)
 - [Lisp](http://landoflisp.com/) > [Scheme](https://jaredkrinke.github.io/learn-scheme/index.html) > [Clojure](https://clojure.org/) > [Racket](https://racket-lang.org/)
 - [Haskell](https://www.haskell.org/get-started/)
+- [OCalm](https://ocaml.org/)
