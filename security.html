@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="light" dir="ltr">
+<html lang="en" class="light sidebar-visible" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -7,7 +7,7 @@
 
 
         <!-- Custom HTML head -->
-        
+
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
@@ -30,15 +30,17 @@
 
         <!-- Custom theme stylesheets -->
 
-    </head>
-    <body class="sidebar-visible no-js">
-    <div id="body-container">
+
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
-
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -60,19 +62,16 @@
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
-            var html = document.querySelector('html');
+            const html = document.documentElement;
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add("js");
         </script>
 
         <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var body = document.querySelector('body');
             var sidebar = null;
             var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
@@ -82,45 +81,25 @@
                 sidebar = 'hidden';
             }
             sidebar_toggle.checked = sidebar === 'visible';
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="intro.html">Introduction</a></li><li class="chapter-item expanded "><a href="teach.html"><strong aria-hidden="true">1.</strong> Teaching Yourself CS</a></li><li class="chapter-item expanded "><a href="languages.html"><strong aria-hidden="true">2.</strong> Programming Languages</a></li><li class="chapter-item expanded "><a href="algs.html"><strong aria-hidden="true">3.</strong> Algorithms & Data Structures</a></li><li class="chapter-item expanded "><a href="software-design.html"><strong aria-hidden="true">4.</strong> Software Design</a></li><li class="chapter-item expanded "><a href="testing.html"><strong aria-hidden="true">5.</strong> Software Testing</a></li><li class="chapter-item expanded "><a href="ipc.html"><strong aria-hidden="true">6.</strong> Inter-Process Communication (IPC)</a></li><li class="chapter-item expanded "><a href="io.html"><strong aria-hidden="true">7.</strong> I/O</a></li><li class="chapter-item expanded "><a href="db.html"><strong aria-hidden="true">8.</strong> Databases & SQL</a></li><li class="chapter-item expanded "><a href="system-design.html"><strong aria-hidden="true">9.</strong> Microservices, Distributed Systems & System Design</a></li><li class="chapter-item expanded "><a href="cloud.html"><strong aria-hidden="true">10.</strong> Cloud Computing, Containers & DevOps</a></li><li class="chapter-item expanded "><a href="local-first.html"><strong aria-hidden="true">11.</strong> Local-First</a></li><li class="chapter-item expanded "><a href="self-hosting.html"><strong aria-hidden="true">12.</strong> Self-Hosting</a></li><li class="chapter-item expanded "><a href="security.html" class="active"><strong aria-hidden="true">13.</strong> Security</a></li><li class="chapter-item expanded "><a href="networks.html"><strong aria-hidden="true">14.</strong> Networking, Web & Browsers</a></li><li class="chapter-item expanded "><a href="fe.html"><strong aria-hidden="true">15.</strong> HTML, CSS & JS</a></li><li class="chapter-item expanded "><a href="unix.html"><strong aria-hidden="true">16.</strong> UNIX/Linux</a></li><li class="chapter-item expanded "><a href="system-programming.html"><strong aria-hidden="true">17.</strong> System Programming</a></li><li class="chapter-item expanded "><a href="from-scratch.html"><strong aria-hidden="true">18.</strong> From Scratch</a></li><li class="chapter-item expanded "><a href="playgrounds.html"><strong aria-hidden="true">19.</strong> Playgrounds</a></li><li class="chapter-item expanded "><a href="metal.html"><strong aria-hidden="true">20.</strong> Embedded Systems & Electronics</a></li><li class="chapter-item expanded "><a href="foss.html"><strong aria-hidden="true">21.</strong> Open Source, DIY & Right to Repair</a></li><li class="chapter-item expanded "><a href="reverse.html"><strong aria-hidden="true">22.</strong> Reverse Engineering</a></li><li class="chapter-item expanded "><a href="math.html"><strong aria-hidden="true">23.</strong> Math</a></li><li class="chapter-item expanded "><a href="music.html"><strong aria-hidden="true">24.</strong> Music</a></li><li class="chapter-item expanded "><a href="mldl.html"><strong aria-hidden="true">25.</strong> Machine Learning and Deep Learning</a></li><li class="chapter-item expanded "><a href="misc.html"><strong aria-hidden="true">26.</strong> Best Practices, Common Pitfalls, Curious Stuff & Basic Things You Should Know</a></li><li class="chapter-item expanded "><a href="classics.html"><strong aria-hidden="true">27.</strong> Classics & Bibles</a></li><li class="chapter-item expanded "><a href="essays.html"><strong aria-hidden="true">28.</strong> Essays</a></li><li class="chapter-item expanded "><a href="history.html"><strong aria-hidden="true">29.</strong> CS/FOSS History and Hacking/Cyberpunk Culture</a></li><li class="chapter-item expanded "><a href="licenses.html"><strong aria-hidden="true">30.</strong> Software Licenses</a></li><li class="chapter-item expanded "><a href="team.html"><strong aria-hidden="true">31.</strong> Development and Team Organization</a></li><li class="chapter-item expanded "><a href="job.html"><strong aria-hidden="true">32.</strong> Job Hunting</a></li><li class="chapter-item expanded "><a href="blogs.html"><strong aria-hidden="true">33.</strong> Finest Sources of Geek Entertainment</a></li><li class="chapter-item expanded "><a href="fun.html"><strong aria-hidden="true">34.</strong> Funny Things with Hack Value</a></li></ol>
-            </div>
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>
         </nav>
 
-        <!-- Track and set sidebar scroll position -->
-        <script>
-            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
-            sidebarScrollbox.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A') {
-                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
-                }
-            }, { passive: true });
-            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
-            sessionStorage.removeItem('sidebar-scroll');
-            if (sidebarScrollTop) {
-                // preserve sidebar scroll position when navigating via links within sidebar
-                sidebarScrollbox.scrollTop = sidebarScrollTop;
-            } else {
-                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
-                var activeSection = document.querySelector('#sidebar .active');
-                if (activeSection) {
-                    activeSection.scrollIntoView({ block: 'center' });
-                }
-            }
-        </script>
-
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
