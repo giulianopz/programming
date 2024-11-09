@@ -14,23 +14,9 @@
 - [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 - [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
 - [Database design basics](https://support.microsoft.com/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
-- Database Internals:
-    - How databases work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
-    - [How to learn about database systems](https://blog.bradfieldcs.com/how-to-learn-about-database-systems-40c7432f471d#.5rjlp4fqq)
-    - Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
-- Common Relational DBs:
-    - Oracle Database
-    - MySQL
-    - Microsoft SQL Server
-    - PostgreSQL
-    - IBM Db2
-    - SQLite
-    - MariaDB
-- Non-Relational DBs (**NoSQL**) by Type:
-    - Wide column: Apache Cassandra
-    - Document: ElasticSearch), MongoDB
-    - Key-value: [Redis](https://architecturenotes.co/redis/)
-    - Graph: Neo4J
+- How databases work: [FE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-frontend-architecture/) & [BE](https://madushandhanushka.wordpress.com/2019/03/26/how-database-works-backend-architecture/)
+- [How to learn about database systems](https://blog.bradfieldcs.com/how-to-learn-about-database-systems-40c7432f471d#.5rjlp4fqq)
+- Petrov, Database Internals: A Deep Dive Into How Distributed Data Systems Work
 - [What is a Vector Database?](https://www.pinecone.io/learn/vector-database/)
 - Version control tools:
     - [Liquibase](https://liquibase.org/get-started/quickstart)
@@ -38,3 +24,4 @@
   - [Data Mesh vs. Data Fabric vs. Data Lake](https://www.zuar.com/blog/data-mesh-vs-data-fabric-vs-data-lake/)
   - [Data Mesh Architecture](https://www.datamesh-architecture.com/)
 - [Entity Relationship Diagrams with draw.io](https://drawio-app.com/blog/entity-relationship-diagrams-with-draw-io/)
+- [Intro to Database Systems (CMU 15-445/645)](https://15445.courses.cs.cmu.edu/fall2024/)
