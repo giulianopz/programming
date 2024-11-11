@@ -9,7 +9,7 @@
 - [Software Testing](./testing.md)
 - [Inter-Process Communication (IPC)](./ipc.md)
 - [I/O](./io.md)
-- [Databases & SQL](./db.md)
+- [Databases](./db.md)
 - [Microservices, Distributed Systems & System Design](./system-design.md)
 - [Cloud Computing, Containers & DevOps](./cloud.md)
 - [Local-First](./local-first.md)
