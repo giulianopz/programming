@@ -25,10 +25,12 @@
 - [Nine ways to shoot yourself in the foot with PostgreSQL](https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql)
 - [Understanding the Postgres Hackers Mailing List Language](https://www.crunchydata.com/blog/understanding-the-postgres-hackers-mailing-list)
 - [What I Wish Someone Told Me About Postgres](https://challahscript.com/what_i_wish_someone_told_me_about_postgres)
+- [pgdoc ⚡ link](https://pgdoc.link/)
 
 ### Data Management
 
 - [Data Lake vs. Data Warehouse vs. Data Lakehouse](https://synccomputing.com/data-lake-vs-data-warehouse-vs-data-lakehouse/)
 - [Data Mesh vs. Data Fabric vs. Data Lake](https://www.zuar.com/blog/data-mesh-vs-data-fabric-vs-data-lake/)
 - [Data Mesh Architecture](https://www.datamesh-architecture.com/)
-
+- [Object Storage](https://en.wikipedia.org/wiki/Object_storage)
+- [The Ultimate Guide to Table Format Internals](https://jack-vanlightly.com/blog/2024/10/28/the-ultimate-guide-to-table-format-internals)

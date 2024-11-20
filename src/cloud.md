@@ -1,50 +1,11 @@
 ## Cloud Computing, Containers & DevOps
 
-- [A beginner's guide to building DevOps pipelines with open source tools](https://opensource.com/article/19/4/devops-pipeline)
-- [Cloud Application Platform vs Container as a Service vs VM hosted application](https://www.suse.com/c/cap-vs-caas-vs-vm-hosted-application/)
-- Containers and Orchestration:
-- [What is a container image?](https://opensource.com/article/21/8/container-image)
-- [Container image formats under the hood](https://snyk.io/blog/container-image-formats/)
+- [An Introduction to Kubernetes](https://www.jeremyjordan.me/kubernetes/) 
+- [What is a Container Image?](https://opensource.com/article/21/8/container-image)
+- [Container Image Formats Under the Hood](https://snyk.io/blog/container-image-formats/)
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
 - [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
-- [Containers are chroot with a Marketing Budget](https://earthly.dev/blog/chroot/)
-- [Docker](https://github.com/docker/labs/tree/master/developer-tools/java)
-- [Podman + Skopeo + Buildah](https://www.redhat.com/en/blog/say-hello-buildah-podman-and-skopeo)
-- Container/Cluster Managers:
-  - [Kubernetes](https://www.jeremyjordan.me/kubernetes/) + [Helm](https://helm.sh/docs/)
-    - [KubeAcademy](https://kube.academy/)
-    - [WebAssembly vs. Kubernetes](https://thenewstack.io/yes-webassembly-can-replace-kubernetes/)
-    - Distributions:
-        - Self-Managed (Local):
-          - minikube
-          - kind
-          - Microk8s
-          - CodeReady Containers (CRC) (a minimal OpenShift -x cluster)
-          - Minishift (a minimal OpenShift -x cluster)
-        - IoT & Edge Computing:
-          - k3s
-        - Self-Managed (On Premises/Hybrid)
-          - [RedHat Openshift](https://www.redhat.com/en/services/training/do288-red-hat-openshift-development-ii-containerizing-applications)
-          - Rancher
-          - VMware Tanzu Kubernetes Grid (TKG)
-        - Kubernetes-as-a-Service (On Cloud)
-          - Google Kubernetes Engine (GKE)
-          - Amazon Elastic Kubernetes Service (Amazon EKS)
-          - Azure Container Service (AKS)
-  - [Docker Swarm](https://docs.docker.com/engine/swarm/)
-  - [Apache Mesos](https://mesos.apache.org/)
-  - [LXD](https://linuxcontainers.org/lxd/)
-  - [Cloud Foundry](https://docs.cloudfoundry.org)
-  - [Nomad](https://www.nomadproject.io/)
-- CI/CD Pipelines:
-  - [Jenkins](https://www.edx.org/course/introduction-to-jenkins)
-  - [A developer's guide to CI/CD and GitOps with Jenkins Pipelines](https://developers.redhat.com/articles/2022/01/13/developers-guide-cicd-and-gitops-jenkins-pipelines#)
-- Cloud Platforms:
-  - Amazon Web Services (AWS)
-  - Microsoft Azure
-  - Google Cloud Platform (GCP)
-  - Heroku
-- [What is Object storage?](https://cloud.google.com/learn/what-is-object-storage#:~:text=Object%20storage%20is%20a%20data,for%20easy%20access%20and%20retrieval.)
-- [The ultimate guide to table format internals](https://jack-vanlightly.com/blog/2024/10/28/the-ultimate-guide-to-table-format-internals)
-- [The cloudy layers of modern-day programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/) 
+- [Containers Are Chroot with a Marketing Budget](https://earthly.dev/blog/chroot/)
+- [A Beginner's Guide to Building DevOps Pipelines With Open Source Tools](https://opensource.com/article/19/4/devops-pipeline)
+- [The Cloudy Layers of Modern-Day Programming](https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/) 
 - [Free for Developers](https://free-for.dev)
