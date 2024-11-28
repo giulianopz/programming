@@ -34,3 +34,4 @@
 - [Linux Network Performance Ultimate Guide](https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide/)
 - [Robert Elder's Guide To GNU Coreutils](https://blog.robertelder.org/gnu-coreutils-package-guide/)
 - [The Linux audio stack demystified](https://blog.rtrace.io/posts/the-linux-audio-stack-demystified/)
+- [Optimizing Linux for Slow Computers](https://www.akitaonrails.com/2017/01/17/optimizing-linux-for-slow-computers)

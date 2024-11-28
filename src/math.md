@@ -15,3 +15,4 @@
 - [Linear Algebra for Programmers](https://www.linearalgebraforprogrammers.com/)
 - [Open Textbooks](https://textbooks.aimath.org/textbooks/approved-textbooks/)
 - [An animated introduction to Fourier Series](https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles)
+- [Logic for Programmers](https://leanpub.com/logic)
