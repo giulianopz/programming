@@ -119,6 +119,7 @@
 - Hard Stuff:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
+  - [Files are Hard](https://danluu.com/file-consistency/)
 - CS Theory:
   - [Great Ideas in Theoretical Computer Science](https://www.cs251.com/)  
 - Miscellanea:
