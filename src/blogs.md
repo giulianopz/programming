@@ -50,6 +50,7 @@
 - [Strange Loop](https://www.thestrangeloop.com/index.html)
 - [DEFCON](https://defcon.org/)
 - [Chaos Computer Club](https://www.ccc.de/)
+- [P99 CONF](https://www.p99conf.io/)
 - [PoC||GTFO](https://www.alchemistowl.org/pocorgtfo/)
 - [Phrack](http://phrack.org/)
 
