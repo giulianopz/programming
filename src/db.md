@@ -37,4 +37,3 @@
 - [Object Storage](https://en.wikipedia.org/wiki/Object_storage)
 - [The Ultimate Guide to Table Format Internals](https://jack-vanlightly.com/blog/2024/10/28/the-ultimate-guide-to-table-format-internals)
 - [Behind AWS S3’s Massive Scale](https://highscalability.com/behind-aws-s3s-massive-scale/)
-- [Introduction to Reed-Solomon]https://innovation.vivint.com/introduction-to-reed-solomon-bc264d0794f8()
