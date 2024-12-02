@@ -26,6 +26,8 @@
 - [Understanding the Postgres Hackers Mailing List Language](https://www.crunchydata.com/blog/understanding-the-postgres-hackers-mailing-list)
 - [What I Wish Someone Told Me About Postgres](https://challahscript.com/what_i_wish_someone_told_me_about_postgres)
 - [pgdoc ⚡ link](https://pgdoc.link/)
+- [psql tips](https://psql-tips.org/psql_tips_017.html)
+- [Postgres Tips & Tricks](https://www.crunchydata.com/postgres-tips)
 
 ### Data Management
 
@@ -34,3 +36,5 @@
 - [Data Mesh Architecture](https://www.datamesh-architecture.com/)
 - [Object Storage](https://en.wikipedia.org/wiki/Object_storage)
 - [The Ultimate Guide to Table Format Internals](https://jack-vanlightly.com/blog/2024/10/28/the-ultimate-guide-to-table-format-internals)
+- [Behind AWS S3’s Massive Scale](https://highscalability.com/behind-aws-s3s-massive-scale/)
+- [Introduction to Reed-Solomon]https://innovation.vivint.com/introduction-to-reed-solomon-bc264d0794f8()
