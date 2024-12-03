@@ -116,6 +116,7 @@
 - How Things Work:
   - [Putting the “You” in CPU](https://cpu.land/)
   - [How Browsers Work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)
+  - [How do open source solutions for logs work](https://itnext.io/how-do-open-source-solutions-for-logs-work-elasticsearch-loki-and-victorialogs-9f7097ecbc2f)
 - Hard Stuff:
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)

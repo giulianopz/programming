@@ -13,6 +13,7 @@
 - Data Structures:
   - [Bloom Filters](https://samwho.dev/bloom-filters/)
   - [HyperLogLog](https://djhworld.github.io/hyperloglog/)
+  - [Log-structured merge-tree](https://en.m.wikipedia.org/wiki/Log-structured_merge-tree)
 - Algorithms:
   - [Hashing](https://samwho.dev/hashing)
 - Patterns:
