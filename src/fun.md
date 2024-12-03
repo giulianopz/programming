@@ -19,3 +19,4 @@
 - [Simone's Computer](https://simone.computer/#/)
 - [daedalOS](https://dustinbrett.com/)
 - [Pokemon Cards V2](https://deck-24abcd.netlify.app/)
+- [Can it Run Doom?](https://canitrundoom.org/)

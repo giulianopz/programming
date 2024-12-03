@@ -20,8 +20,9 @@
 - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html)
 - [Learning operating system development using Linux kernel and Raspberry Pi](https://s-matyukevich.github.io/raspberry-pi-os/)
 - [Beej's Guide to C Programming](https://beej.us/guide/bgc/)
-- [Cosmopolitan Libc](https://justine.lol/cosmopolitan/functions.html)
 - [Hack The Kernel](https://ops-class.org/)
+- [Linux kernel system calls for all architectures](https://gpages.juszkiewicz.com.pl/syscalls-table/syscalls.html)
+
 
 Specific topics:
 - [How much memory my program uses or the tale of working set size](https://biriukov.dev/docs/page-cache/7-how-much-memory-my-program-uses-or-the-tale-of-working-set-size/#how-much-memory-my-program-uses-or-the-tale-of-working-set-size)
