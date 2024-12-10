@@ -6,10 +6,12 @@
 - [Open Data Structures](http://opendatastructures.org/ods-java/)
 - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 - [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
-- Online platforms to learn by means of [deliberate practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice):
+- [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- Learn by means of [deliberate practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice):
   - [LeetCode](https://leetcode.com/)
   - [HackerRank](https://www.hackerrank.com/)
   - [exercism](https://exercism.org/)
+  - [Advent of Code](https://adventofcode.com/)
 - Data Structures:
   - [Bloom Filters](https://samwho.dev/bloom-filters/)
   - [HyperLogLog](https://djhworld.github.io/hyperloglog/)
