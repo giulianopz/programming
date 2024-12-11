@@ -28,6 +28,7 @@
 - [pgdoc ⚡ link](https://pgdoc.link/)
 - [psql tips](https://psql-tips.org/psql_tips_017.html)
 - [Postgres Tips & Tricks](https://www.crunchydata.com/postgres-tips)
+- [Postgres for Everything](https://github.com/Olshansk/postgres_for_everything)
 
 ### Data Management
 

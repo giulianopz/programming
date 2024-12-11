@@ -20,3 +20,5 @@
 - [daedalOS](https://dustinbrett.com/)
 - [Pokemon Cards V2](https://deck-24abcd.netlify.app/)
 - [Can it Run Doom?](https://canitrundoom.org/)
+- [The Death Generator](https://deathgenerator.com/#gallery)
+- [IMG_0001](https://walzr.com/IMG_0001/)

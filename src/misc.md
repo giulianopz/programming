@@ -121,10 +121,11 @@
   - [Hard things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
   - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)
   - [Files are Hard](https://danluu.com/file-consistency/)
+  - [Text Rendering Hates You](https://faultlore.com/blah/text-hates-you/)
+  - [Text Editing Hates You Too](https://lord.io/text-editing-hates-you-too/)
 - CS Theory:
   - [Great Ideas in Theoretical Computer Science](https://www.cs251.com/)  
 - Miscellanea:
-  - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
   - [Quantum computing for the very curious](https://quantum.country/qcvc)
   - [What scientists must know about hardware to write fast code](https://viralinstruction.com/posts/hardware/)
   - [Why do arrays start at 0?](https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/)

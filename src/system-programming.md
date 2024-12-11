@@ -22,8 +22,3 @@
 - [Beej's Guide to C Programming](https://beej.us/guide/bgc/)
 - [Hack The Kernel](https://ops-class.org/)
 - [Linux kernel system calls for all architectures](https://gpages.juszkiewicz.com.pl/syscalls-table/syscalls.html)
-
-
-Specific topics:
-- [How much memory my program uses or the tale of working set size](https://biriukov.dev/docs/page-cache/7-how-much-memory-my-program-uses-or-the-tale-of-working-set-size/#how-much-memory-my-program-uses-or-the-tale-of-working-set-size)
-- [A Brief Introduction to termios: termios(3) and stty](https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios-termios3-and-stty/)

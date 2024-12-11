@@ -1,0 +1,15 @@
+## Terminal
+
+- [Terminal Guide](https://terminalguide.namepad.de/)
+- [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
+- [A Brief Introduction to termios: termios(3) and stty](https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios-termios3-and-stty/)
+- [Serial Programming/termios](https://en.wikibooks.org/wiki/Serial_Programming/termios)
+- [A Brief Introduction to termios: termios(3) and stty](https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios-termios3-and-stty/)
+- [Terminal Control Commands](https://linux.die.net/abs-guide/terminalccmds.html)
+- [infocmp - Compare or print the terminal description](https://www.ibm.com/docs/en/zos/2.4.0?topic=descriptions-infocmp-compare-print-terminal-description)
+- [Anatomy of a Terminal Emulator](https://poor.dev/blog/terminal-anatomy/)
+- [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors)
+- [Want to create a TUI application? - The Basics of "Uncooked" Terminal IO](https://zig.news/lhp/want-to-create-a-tui-application-the-basics-of-uncooked-terminal-io-17gm)
+- [A new way of drawing boxes in the terminal (possibly)](https://news.ycombinator.com/item?id=33216626)
+- [Javascript Box Drawing Demo](http://marklodato.github.io/js-boxdrawing/)
+- [VT100.net](https://vt100.net/)
