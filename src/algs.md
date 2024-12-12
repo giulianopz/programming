@@ -2,7 +2,6 @@
 
 - [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
 - Sedgewick & Wayne, Algorithms (https://algs4.cs.princeton.edu/home)
-- Kopec, Classic Computer Science Problems in Java
 - [Open Data Structures](http://opendatastructures.org/ods-java/)
 - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 - [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
