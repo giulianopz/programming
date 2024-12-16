@@ -4,6 +4,7 @@
 
 - [Teaching Yourself CS](./teach.md)
 - [Programming Languages](./languages.md)
+- [Compilers](./compilers.md)
 - [Algorithms & Data Structures](./algs.md)
 - [Software Design](./software-design.md)
 - [Software Testing](./testing.md)
