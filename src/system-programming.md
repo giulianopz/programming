@@ -22,3 +22,4 @@
 - [Beej's Guide to C Programming](https://beej.us/guide/bgc/)
 - [Hack The Kernel](https://ops-class.org/)
 - [Linux kernel system calls for all architectures](https://gpages.juszkiewicz.com.pl/syscalls-table/syscalls.html)
+- [OSDev.org](https://wiki.osdev.org/Expanded_Main_Page)
