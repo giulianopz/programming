@@ -1,6 +1,7 @@
 ## Networking, Web & Browsers
 
 - [What is a network?](https://study-ccna.com/what-is-a-network/)
+- [Learn how the Internet works](https://eater.net/inet)
 - [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
 - [Introduction to Networks](https://cs.lmu.edu/~ray/notes/netsandinets/)
 - [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html)
