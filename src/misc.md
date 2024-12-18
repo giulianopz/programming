@@ -6,6 +6,7 @@
   - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
   - [Organizing multiple Git identities](https://garrit.xyz/posts/2023-10-13-organizing-multiple-git-identities)
   - [Conditional Git Configuration](https://blog.scottlowe.org/2023/12/15/conditional-git-configuration/)
+  - [Conventional Commits](https://www.conventionalcommits.org)
 - Shell Scripting
   - [Shell Script Best Practices](https://sharats.me/posts/shell-script-best-practices/)
 - Characters:
