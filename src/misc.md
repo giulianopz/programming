@@ -124,6 +124,7 @@
   - [Files are Hard](https://danluu.com/file-consistency/)
   - [Text Rendering Hates You](https://faultlore.com/blah/text-hates-you/)
   - [Text Editing Hates You Too](https://lord.io/text-editing-hates-you-too/)
+  - [Hardest Problem in Computer Science: Centering Things](https://tonsky.me/blog/centering/)
 - CS Theory:
   - [Great Ideas in Theoretical Computer Science](https://www.cs251.com/)  
 - Miscellanea:
