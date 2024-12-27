@@ -63,7 +63,12 @@ Tutorials:
 - [Compiling to Assembly from Scratch](https://keleshev.com/compiling-to-assembly-from-scratch)
 - [200 and change](https://github.com/pdubroy/200andchange?utm_source=substack&utm_medium=email)
 - [whorl - A single file, std only, async Rust executor](https://github.com/mgattozzi/whorl)
+<<<<<<< HEAD
 - [Implement DNS in a weekend](https://implement-dns.wizardzines.com/)
+=======
+- [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
+- [Write your Own Virtual Machine](https://www.jmeiners.com/lc3-vm/)
+>>>>>>> dfc7c000a6c80f2913d073a3e75690f418858c7d
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
