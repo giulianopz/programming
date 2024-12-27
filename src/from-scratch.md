@@ -63,6 +63,7 @@ Tutorials:
 - [Compiling to Assembly from Scratch](https://keleshev.com/compiling-to-assembly-from-scratch)
 - [200 and change](https://github.com/pdubroy/200andchange?utm_source=substack&utm_medium=email)
 - [whorl - A single file, std only, async Rust executor](https://github.com/mgattozzi/whorl)
+- [Implement DNS in a weekend](https://implement-dns.wizardzines.com/)
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
