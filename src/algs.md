@@ -1,7 +1,7 @@
 ## Algorithms & Data Structures
 
 - [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
-- Sedgewick & Wayne, Algorithms (https://algs4.cs.princeton.edu/home)
+- [Sedgewick & Wayne, Algorithms](https://algs4.cs.princeton.edu/home)
 - [Open Data Structures](http://opendatastructures.org/ods-java/)
 - [Data Structures & Algorithms I Used Working at Tech Companies](https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/)
 - [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
@@ -11,11 +11,12 @@
   - [HackerRank](https://www.hackerrank.com/)
   - [exercism](https://exercism.org/)
   - [Advent of Code](https://adventofcode.com/)
-- Data Structures:
+- Data Structures & Algs of Interest:
   - [Bloom Filters](https://samwho.dev/bloom-filters/)
   - [HyperLogLog](https://djhworld.github.io/hyperloglog/)
-  - [Log-structured merge-tree](https://en.m.wikipedia.org/wiki/Log-structured_merge-tree)
-- Algorithms:
+  - [Log-Structured Merge-Tree](https://en.m.wikipedia.org/wiki/Log-structured_merge-tree)
+  - [B-Tree](https://planetscale.com/blog/btrees-and-database-indexes)
+  - [Rope](https://en.wikipedia.org/wiki/Rope_(data_structure))
   - [Hashing](https://samwho.dev/hashing)
 - Patterns:
   - [Algorithmic Patterns](https://cs.lmu.edu/~ray/notes/algpatterns/)

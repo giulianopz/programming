@@ -50,5 +50,6 @@
 - [P99 CONF](https://www.p99conf.io/)
 - [PoC||GTFO](https://www.alchemistowl.org/pocorgtfo/)
 - [Phrack](http://phrack.org/)
+- [goto;](https://gotopia.tech/)
 
 > You can subscribe to blog feeds via an RSS/Atom reader, as explained [here](https://aboutfeeds.com/). 
