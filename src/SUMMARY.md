@@ -22,6 +22,7 @@
 - [UNIX/Linux](./unix.md)
 - [System Programming](./system-programming.md)
 - [Terminal](./term.md)
+- [By Example](./by-example.md)
 - [From Scratch](./from-scratch.md)
 - [Playgrounds](./playgrounds.md)
 - [Embedded Systems & Electronics](./metal.md)

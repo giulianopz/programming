@@ -37,3 +37,4 @@
 - [The Linux audio stack demystified](https://blog.rtrace.io/posts/the-linux-audio-stack-demystified/)
 - [Optimizing Linux for Slow Computers](https://www.akitaonrails.com/2017/01/17/optimizing-linux-for-slow-computers)
 - [Searchable Linux Syscall Table](https://filippo.io/linux-syscall-table/)
+- [Welcome to Lord of the io_uring](https://unixism.net/loti/)

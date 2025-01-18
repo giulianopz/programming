@@ -18,3 +18,4 @@
 - [HTB Cybersecurity Courses](https://academy.hackthebox.com/catalogue)
 - [Anatomy of a GPG Key](https://davesteele.github.io/gpg/2014/09/20/anatomy-of-a-gpg-key/)
 - [Mikko Hypponen, The History and the Evolution of Computer Viruses](https://archive.org/details/DEFCON_19_The_History_and_the_Evolution_of_Computer_Viruses)
+- [Cryptographic Right Answers](https://www.latacora.com/blog/2018/04/03/cryptographic-right-answers/)

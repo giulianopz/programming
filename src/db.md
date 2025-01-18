@@ -14,6 +14,7 @@
 - [Things You Should Know About Databases](https://architecturenotes.co/things-you-should-know-about-databases/)
 - [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 - [Database design basics](https://support.microsoft.com/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
+- [Database of Databases](https://dbdb.io/)
 
 ### PostgreSQL
 
@@ -29,6 +30,7 @@
 - [psql tips](https://psql-tips.org/psql_tips_017.html)
 - [Postgres Tips & Tricks](https://www.crunchydata.com/postgres-tips)
 - [Postgres for Everything](https://github.com/Olshansk/postgres_for_everything)
+- [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
 
 ### Data Management
 

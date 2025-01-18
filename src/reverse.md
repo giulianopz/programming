@@ -13,3 +13,4 @@ In the wild:
 - [Discovering that your Bluetooth car battery monitor is siphoning up your location data](https://doubleagent.net/2023/05/21/a-car-battery-monitor-tracking-your-location)
 - [Hacking IKEA](https://www.raspberrypi.com/news/hacking-ikea/)
 - [Reverse engineering a car key fob signal](https://0x44.cc/radio/2024/03/13/reversing-a-car-key-fob-signal.html)
+- [HardBreak - Hardware Hacking Wiki](https://www.hardbreak.wiki/)

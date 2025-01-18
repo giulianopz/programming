@@ -69,6 +69,10 @@ Tutorials:
 - [(How to Write a (Lisp) Interpreter (in Python))](https://www.norvig.com/lispy.html)
 - [CHIP-8 in Common Lisp: The CPU](https://stevelosh.com/blog/2016/12/chip8-cpu/)
 - [Start Your Own ISP](https://startyourownisp.com/)
+- [Operating System in 1,000 Lines](https://operating-system-in-1000-lines.vercel.app/en/)
+- [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+- [Write your Own Virtual Machine](https://www.jmeiners.com/lc3-vm/)
+- [A Simple ELF](https://4zm.org/2024/12/25/a-simple-elf.html)
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
