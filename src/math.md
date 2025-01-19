@@ -18,3 +18,4 @@
 - [An animated introduction to Fourier Series](https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles)
 - [Logic for Programmers](https://leanpub.com/logic)
 - [Binary Arithmetic](https://cheever.domains.swarthmore.edu/Ref/BinaryMath/BinaryMath.html)
+- [Calculus Made Easy](https://calculusmadeeasy.org/)

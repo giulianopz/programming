@@ -133,3 +133,4 @@
   - [Why do arrays start at 0?](https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/)
   - [Do you know how much your computer can do in a second?](https://computers-are-fast.github.io/)
   - [A few facts about POSIX](https://vorakl.com/articles/posix/)
+  - [A Visual Comparison of Different National Layouts on a Computer Keyboard](https://www.farah.cl/Keyboardery/A-Visual-Comparison-of-Different-National-Layouts)

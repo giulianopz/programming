@@ -4,6 +4,7 @@
 - [Reverse Engineering For Everyone!](https://0xinfection.github.io/reversing/)
 - [decomp.me](https://decomp.me/)
 - [triq.org](https://triq.org/)
+- [Hacking the Xbox. An Introduction to Reverse Engineering](https://hackingthexbox.com/)
 
 In the wild:
 - [Reverse engineering Bluetooth LE LED light controllers, or How I Bricked My Christmas Lights](https://www.whizzy.org/2023-12-14-bricked-xmas/)
@@ -13,3 +14,4 @@ In the wild:
 - [Discovering that your Bluetooth car battery monitor is siphoning up your location data](https://doubleagent.net/2023/05/21/a-car-battery-monitor-tracking-your-location)
 - [Hacking IKEA](https://www.raspberrypi.com/news/hacking-ikea/)
 - [Reverse engineering a car key fob signal](https://0x44.cc/radio/2024/03/13/reversing-a-car-key-fob-signal.html)
+- [HardBreak - Hardware Hacking Wiki](https://www.hardbreak.wiki/)

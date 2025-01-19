@@ -1,7 +1,6 @@
 ## From Scratch
 
 Tutorials:
-- [Build Your Own X](https://build-your-own.org)  
 - [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/index.html)
 - [Rebuilding Redis in Ruby](https://redis.pjam.me/)
 - [Build Your Own Search Engine](https://wiby.me/about/guide.html)
@@ -69,9 +68,13 @@ Tutorials:
 - [CHIP-8 in Common Lisp: The CPU](https://stevelosh.com/blog/2016/12/chip8-cpu/)
 - [Start Your Own ISP](https://startyourownisp.com/)
 - [Web Browser Engineering](https://browser.engineering/)
-
+- [Operating System in 1,000 Lines](https://operating-system-in-1000-lines.vercel.app/en/)
+- [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+- [Write your Own Virtual Machine](https://www.jmeiners.com/lc3-vm/)
+- [A Simple ELF](https://4zm.org/2024/12/25/a-simple-elf.html)
 
 Other lists:
-- [Build your own X](https://github.com/codecrafters-io/build-your-own-x)
-- [Project Based Learning](https://github.com/practical-tutorials/project-based-learning#go)
+- [Build Your Own](https://build-your-own.org)  
+- [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)
+- [Project Based Learning](https://github.com/practical-tutorials/project-based-learning)
 - [Projects-from-Scratch](https://github.com/AlgoryL/Projects-from-Scratch)

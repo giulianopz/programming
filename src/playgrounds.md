@@ -1,6 +1,5 @@
 ## Playgrounds
 
-- [systemd by example](https://systemd-by-example.com/)
 - [TinyGo Playground](https://play.tinygo.org/)
 - [JSFiddle](https://jsfiddle.net/) 
 - [Mess With DNS](https://messwithdns.net/)

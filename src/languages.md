@@ -19,3 +19,5 @@
     - [Guile](https://www.gnu.org/software/guile/)
 - [Haskell](https://www.haskell.org/get-started/)
 - [OCalm](https://ocaml.org/)
+
+- [Learn X in Y Minutes](https://learnxinyminutes.com/)
