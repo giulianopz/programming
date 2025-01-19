@@ -1,10 +1,9 @@
 ## From Scratch
 
 Tutorials:
+- [Build Your Own X](https://build-your-own.org)  
 - [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/index.html)
-- [Build Your Own Redis with C/C++](https://build-your-own.org/redis/)  
 - [Rebuilding Redis in Ruby](https://redis.pjam.me/)
-- [Build Your Own Database From Scratch](https://build-your-own.org/database/)
 - [Build Your Own Search Engine](https://wiby.me/about/guide.html)
 - [A search engine in 80 lines of Python](https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html)
 - [Build Your Own Docker](https://akashrajpurohit.com/blog/build-your-own-docker-with-linux-namespaces-cgroups-and-chroot-handson-guide/)
@@ -37,7 +36,7 @@ Tutorials:
 - [Let's Build a Simple Database. Writing a sqlite clone from scratch in C](https://cstack.github.io/db_tutorial/)
 - [A Compiler Writing Journey](https://github.com/DoctorWkt/acwj)
 - [Writing a C Compiler](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
-- [ Writing a C compiler in 500 lines of Python](https://vgel.me/posts/c500/)
+- [Writing a C compiler in 500 lines of Python](https://vgel.me/posts/c500/)
 - [Statically Recompiling NES Games into Native Executables with LLVM and Go](https://andrewkelley.me/post/jamulator.html)
 - [A slack clone in 5 lines of bash](https://the-dam.org/docs/explanations/suc.html)
 - [NTP Implementation in Elixir](https://0x7f.dev/post/ntp-implementation-in-elixir/)
@@ -69,6 +68,8 @@ Tutorials:
 - [(How to Write a (Lisp) Interpreter (in Python))](https://www.norvig.com/lispy.html)
 - [CHIP-8 in Common Lisp: The CPU](https://stevelosh.com/blog/2016/12/chip8-cpu/)
 - [Start Your Own ISP](https://startyourownisp.com/)
+- [Web Browser Engineering](https://browser.engineering/)
+
 
 Other lists:
 - [Build your own X](https://github.com/codecrafters-io/build-your-own-x)

@@ -18,7 +18,6 @@
 - [Protohackers. Server programming challenge](https://protohackers.com/)
 - [SRE books](https://sre.google/books/)
 - [Web Technology for Developers](https://developer.mozilla.org/en-US/docs/Web)
-- [Web Browser Engineering](https://browser.engineering/)
 - [HTTP Toolkit](https://httptoolkit.tech/)
 - [SSL Termination](https://avinetworks.com/glossary/ssl-termination/)
 - [Web Scraping](https://scrapism.lav.io/)
