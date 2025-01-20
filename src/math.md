@@ -19,3 +19,5 @@
 - [Logic for Programmers](https://leanpub.com/logic)
 - [Binary Arithmetic](https://cheever.domains.swarthmore.edu/Ref/BinaryMath/BinaryMath.html)
 - [Calculus Made Easy](https://calculusmadeeasy.org/)
+- [Immersive Linear Algebra](http://immersivemath.com/ila/tableofcontents.html?)
+- [The Data Visualisation Catalogue](https://datavizcatalogue.com/search.html)

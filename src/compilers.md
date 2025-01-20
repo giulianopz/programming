@@ -1,6 +1,17 @@
 ## Compilers
 
+- [Compiler Explorer](https://godbolt.org/)
 - [Bootstrappable Builds](https://bootstrappable.org/)
 - [Common Misconceptions about Compilers](https://sbaziotis.com/compilers/common-misconceptions-about-compilers.html)
-- [Writing a C Compiler](https://norasandler.com/2017/11/29/Write-a-Compiler.html)
 - [Compiler Optimizations](https://compileroptimizations.com/index.html)
+- [Is every language written in C?](https://softwareengineering.stackexchange.com/questions/267086/is-every-language-written-in-c)
+- [Assembly code vs Machine code vs Object code?](https://stackoverflow.com/questions/466790/assembly-code-vs-machine-code-vs-object-code)
+- [Introduction to Language Theory](https://cs.lmu.edu/~ray/notes/languagetheory/)
+- [Syntax](https://cs.lmu.edu/~ray/notes/syntax/)
+- [Syntax Design](https://cs.lmu.edu/~ray/notes/syntaxdesign/)
+- [Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
+- [Resources for Amateur Compiler Writers](https://c9x.me/compile/bib/)
+- [Low-Code and the Democratization of Programming. Rethinking Where Programming Is Headed](https://www.oreilly.com/radar/low-code-and-the-democratization-of-programming/)
+- [The faker's guide to reading (x86) assembly language](https://www.timdbg.com/posts/fakers-guide-to-assembly/)
+- [Favorite compiler and interpreter resources](https://lists.eatonphil.com/compilers-and-interpreters.html)
+- [From String to AST: parsing](https://kubuszok.com/2019/from-string-to-ast-parsing/)

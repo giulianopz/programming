@@ -15,3 +15,4 @@ In the wild:
 - [Hacking IKEA](https://www.raspberrypi.com/news/hacking-ikea/)
 - [Reverse engineering a car key fob signal](https://0x44.cc/radio/2024/03/13/reversing-a-car-key-fob-signal.html)
 - [HardBreak - Hardware Hacking Wiki](https://www.hardbreak.wiki/)
+- [Reverse Engineering a Smartwatch](https://medium.com/csg-govtech/reverse-engineering-a-smartwatch-a7cec52b29c8)

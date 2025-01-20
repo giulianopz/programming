@@ -11,9 +11,9 @@
 - [Right to Repair](https://repair.eu/)
 - [RepairCafé](https://www.repaircafe.org/en/)
 - [FOSDEM](https://fosdem.org/)
-- [Don't sign a CLA](https://drewdevault.com/2018/10/05/Dont-sign-a-CLA.html)
+- [Don't Sign a CLA](https://drewdevault.com/2018/10/05/Dont-sign-a-CLA.html)
 - [The Good Parts of Open Source](https://kristoff.it/blog/good-open-source/)
 - [When Open Becomes Opaque: The Changing Face of Open-Source Hardware Companies](https://blog.adafruit.com/2023/07/12/when-open-becomes-opaque-the-changing-face-of-open-source-hardware-companies/)
 - ["Open" "AI" isn't](https://pluralistic.net/2023/08/18/openwashing/)
 - [Protocols, Not Platforms](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech)
-
+- [Make It Yourself](https://makeityourself.org/)

@@ -1,5 +1,6 @@
 ## Terminal
 
+- [How terminal works](https://kevroletin.github.io/terminal/2021/12/11/how-terminal-works-in.html)
 - [Terminal Guide](https://terminalguide.namepad.de/)
 - [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
 - [A Brief Introduction to termios: termios(3) and stty](https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios-termios3-and-stty/)
@@ -13,3 +14,5 @@
 - [A new way of drawing boxes in the terminal (possibly)](https://news.ycombinator.com/item?id=33216626)
 - [Javascript Box Drawing Demo](http://marklodato.github.io/js-boxdrawing/)
 - [VT100.net](https://vt100.net/)
+- [The TTY Demystified](https://www.linusakesson.net/programming/tty/?utm_source=substack&utm_medium=email)
+- [All About SIXELs](https://vt100.net/shuford/terminal/all_about_sixels.txt)

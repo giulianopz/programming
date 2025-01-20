@@ -36,22 +36,17 @@
 - Linux:
   - [Optimizing Linux for Slow Computers](https://www.akitaonrails.com/2017/01/17/optimizing-linux-for-slow-computers)
   - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#choosing-the-right-distro)
-- Testing:
-  - [Modern Best Practices for Testing in Java](https://phauer.com/2019/modern-best-practices-testing-java/)
 - CLI:
   - [Command Line Interface Guidelines](https://clig.dev/)
-- Anti-patterns:
-  - [Interface Pollution](https://rakyll.org/interface-pollution/)
-- Code Formatting:
-  - [EditorConfig](https://editorconfig.org/)
+  - ["Rules" that terminal programs follow](https://jvns.ca/blog/2024/11/26/terminal-rules/)
 - HTTP:
+  - [The perils of the "real" client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
+  - [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for)
+  - [Mediocre Engineer’s guide to HTTPS](https://devonperoutky.super.site/blog-posts/mediocre-engineers-guide-to-https)
   - CORS:
     - [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
     - [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
     - [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
-  - [The perils of the "real" client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
-  - [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for)
-  - [Mediocre Engineer’s guide to HTTPS](https://devonperoutky.super.site/blog-posts/mediocre-engineers-guide-to-https)
 - REST APIs:
   - [OpenAPI Specification](https://www.openapis.org)
   - [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
@@ -77,29 +72,18 @@
   - [Architecture Antipatterns](https://architecture-antipatterns.tech/)
 - Networks:
   - [ICMP, Ping, and Traceroute - What I Wish I Was Taught](https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/)
-  - [How to hide your IP address](https://educatedguesswork.org/posts/traffic-relaying/)
+  - [How to Hide Your IP Address](https://educatedguesswork.org/posts/traffic-relaying/)
 - Memory:
   - [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
   - [Memory Management Every Developer Should Know](https://webdeveloper.beehiiv.com/p/memory-management-every-programmer-know)
+  - [Exploring How Cache Memory Really Works](https://pikuma.com/blog/understanding-computer-cache)
 - Performance:
   - [Latency Numbers Every Programmer Should Know](https://samwho.dev/numbers/)
   - [Good performance is not just big O](https://jmmv.dev/2023/09/performance-is-not-big-o.html)
-  - [Linux Performance](https://www.brendangregg.com/linuxperf.html)
-  - [Zero-copy](https://en.wikipedia.org/wiki/Zero-copy)
+  - [Do you know how much your computer can do in a second?](https://computers-are-fast.github.io/?utm_source=substack&utm_medium=email)
 - Data Compression:
   - [Zip Files: History, Explanation and Implementation](https://www.hanshq.net/zip.html)
-- Programming Languages and Compilers:
-  - [Is every language written in C?](https://softwareengineering.stackexchange.com/questions/267086/is-every-language-written-in-c)
-  - [Assembly code vs Machine code vs Object code?](https://stackoverflow.com/questions/466790/assembly-code-vs-machine-code-vs-object-code)
-  - [Introduction to Language Theory](https://cs.lmu.edu/~ray/notes/languagetheory/)
-  - [Syntax](https://cs.lmu.edu/~ray/notes/syntax/)
-  - [Syntax Design](https://cs.lmu.edu/~ray/notes/syntaxdesign/)
-  - [Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
-  - [Resources for Amateur Compiler Writers](https://c9x.me/compile/bib/)
-  - [Low-Code and the Democratization of Programming. Rethinking Where Programming Is Headed](https://www.oreilly.com/radar/low-code-and-the-democratization-of-programming/)
-  - [The faker's guide to reading (x86) assembly language](https://www.timdbg.com/posts/fakers-guide-to-assembly/)
-  -  [Compiler Explorer](https://godbolt.org/)
-  - [Favorite compiler and interpreter resources](https://lists.eatonphil.com/compilers-and-interpreters.html)
+  - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 - Laws, Principles and Mantra:
   - [Programming Principles](https://java-design-patterns.com/principles/)
   - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
@@ -126,7 +110,8 @@
   - [Text Editing Hates You Too](https://lord.io/text-editing-hates-you-too/)
   - [Hardest Problem in Computer Science: Centering Things](https://tonsky.me/blog/centering/)
 - CS Theory:
-  - [Great Ideas in Theoretical Computer Science](https://www.cs251.com/)  
+  - [Great Ideas in Theoretical Computer Science](https://www.cs251.com/)
+  - [Turing Machines](https://samwho.dev/turing-machines/)
 - Miscellanea:
   - [Quantum computing for the very curious](https://quantum.country/qcvc)
   - [What scientists must know about hardware to write fast code](https://viralinstruction.com/posts/hardware/)

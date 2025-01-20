@@ -22,3 +22,5 @@
 - [Worse is better](https://en.m.wikipedia.org/wiki/Worse_is_better)
 - [My 10 Years of Programming Experience](https://iximiuz.com/en/posts/my-10-years-of-programming-experience/)
 - [Catalog of Dark Patterns](https://hallofshame.design/collection/)
+- Anti-patterns:
+  - [Interface Pollution](https://rakyll.org/interface-pollution/)

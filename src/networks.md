@@ -41,3 +41,4 @@
 - [Ethernet For Hackers: The Very Basics](https://hackaday.com/2024/02/12/ethernet-for-hackers-the-very-basics/)
 - [TCP Puzzlers](https://www.tritondatacenter.com/blog/tcp-puzzlers)
 - [The Copenhagen Book](https://thecopenhagenbook.com/)
+- [The Good on the Internet](https://www.w3.org/DesignIssues/Good.html)

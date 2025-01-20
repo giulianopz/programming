@@ -72,6 +72,14 @@ Tutorials:
 - [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 - [Write your Own Virtual Machine](https://www.jmeiners.com/lc3-vm/)
 - [A Simple ELF](https://4zm.org/2024/12/25/a-simple-elf.html)
+- [Building a GPS Receiver](https://axleos.com/building-a-gps-receiver-part-1-hearing-whispers/)
+- [Making Regex From Scratch in Go](https://lewismetcalf.com/series/making-regex-from-scratch-in-go/)
+- [How to implement a hash table (in C)](https://benhoyt.com/writings/hash-table-in-c/)
+- [Setting up an x86 CPU in 64-bit mode](https://thasso.xyz/2024/07/13/setting-up-an-x86-cpu.html)
+- [HTTP From Scratch](https://kmcd.dev/series/http-from-scratch/)
+- [How to implement a programming language in JavaScript](https://lisperator.net/pltut/)
+- [A ToC of the 20 Part Linker Essay by Ian Lance Taylor](https://lwn.net/Articles/276782/)
+- [Build a serverless ACID database with this one neat trick (atomic PutIfAbsent)](https://notes.eatonphil.com/2024-09-29-build-a-serverless-acid-database-with-this-one-neat-trick.html)
 
 Other lists:
 - [Build Your Own](https://build-your-own.org)  
