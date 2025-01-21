@@ -21,3 +21,7 @@
 - [Calculus Made Easy](https://calculusmadeeasy.org/)
 - [Immersive Linear Algebra](http://immersivemath.com/ila/tableofcontents.html?)
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/search.html)
+- [Bit Math](https://docs.arduino.cc/learn/programming/bit-math)
+- [Floating Point Math](https://0.30000000000000004.com/)
+- [Float Toy](https://evanw.github.io/float-toy/)
+- [Onboarding Floating-Point](https://www.altdevarts.com/p/onboarding-floating-point)

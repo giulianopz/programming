@@ -1,38 +1,14 @@
 ## Inter-Process Communication (IPC)
 
-- [Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
-- Approaches:
-- Legacy Technologies:
-    - Simple Object Access Protocol (SOAP)
-    - Remote Method Invocation (RMI)
-    - Common Object Request Broker Architecture (CORBA)
-- Synchronous Communication:
-    - Representational state transfer ([REST](https://www.restapitutorial.com/))
-    - [GraphQL](https://training.linuxfoundation.org/training/exploring-graphql-a-query-language-for-apis-lfs141/?utm_source=lftraining&utm_medium=twitter&utm_campaign=mooc)
-    - [gRPC](https://grpc.io/docs/what-is-grpc/introduction/)
-    - [Falcor](https://netflix.github.io/falcor/starter/what-is-falcor.html)
-- Asynchronous Communication:
-    - Message Queues
-    - Publish-Subscribe Pattern
-- Protocols:
-    - Sockets:
-        - Network Sockets:
-          - TCP
-            - [HTTP/1, HTTP/2 and HTTP/3](https://medium.com/@sandeep-verma/http-1-to-http-2-to-http-3-647e73df67a8)
-            - [HTTP/3 explained](https://http3-explained.haxx.se/)
-            Real-time communication protocols:
-              - [Full-duplex HTTP Streaming](https://datatracker.ietf.org/doc/html/draft-zhu-http-fullduplex-08)
-              - WebSockets
-              - [Server-Sent Events (SSE)](https://en.wikipedia.org/wiki/Server-sent_events)
-              - [WebTransport](https://developer.chrome.com/docs/capabilities/web-apis/webtransport#whats_webtransport)
-              - [WebRTC](https://webrtcforthecurious.com/)
-          - [UDP
-        - Unix Domain Sockets
-    - Messaging:
-        - AMQP
-        - MQTT
-        - STOMP
-- [An introduction to APIs](https://zapier.com/resources/guides/apis)        
-- [Difference between SPI and API](https://stackoverflow.com/questions/2954372/difference-between-spi-and-api)
-- [Gough et al., Mastering API Architecture](https://www.oreilly.com/library/view/mastering-api-architecture/9781492090625/)
+- [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for)
+- [Mediocre Engineer’s guide to HTTPS](https://devonperoutky.super.site/blog-posts/mediocre-engineers-guide-to-https)
+- [The perils of the "real" client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)
+- [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors)
+- [You don't need that CORS request](https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/)
+- [Understanding "same-site" and "same-origin"](https://web.dev/same-site-same-origin/)
+- [Roy Fielding's Misappropriated REST Dissertation](https://twobithistory.org/2020/06/28/rest.html)
+- [Zalando RESTful API and Event Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
+- [Standards.REST](https://standards.rest/)
+- [List of HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+- [The HTTP QUERY Method](https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-02.html)
 - [Free Public APIs for Developers](https://rapidapi.com/collection/list-of-free-apis)

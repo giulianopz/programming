@@ -16,3 +16,5 @@
 - [VT100.net](https://vt100.net/)
 - [The TTY Demystified](https://www.linusakesson.net/programming/tty/?utm_source=substack&utm_medium=email)
 - [All About SIXELs](https://vt100.net/shuford/terminal/all_about_sixels.txt)
+- [Command Line Interface Guidelines](https://clig.dev/)
+- ["Rules" that terminal programs follow](https://jvns.ca/blog/2024/11/26/terminal-rules/)

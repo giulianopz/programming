@@ -42,3 +42,8 @@
 - [TCP Puzzlers](https://www.tritondatacenter.com/blog/tcp-puzzlers)
 - [The Copenhagen Book](https://thecopenhagenbook.com/)
 - [The Good on the Internet](https://www.w3.org/DesignIssues/Good.html)
+- [To www or not to www - Should you use www or not in your domain?](https://www.bjornjohansen.com/www-or-not)
+- [Making Websites Small](https://santurcesoftware.com/making-web-sites-small)
+- [67 Weird Debugging Tricks Your Browser Doesn't Want You to Know](https://alan.norbauer.com/articles/browser-debugging-tricks)
+- [ICMP, Ping, and Traceroute - What I Wish I Was Taught](https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/)
+- [How to Hide Your IP Address](https://educatedguesswork.org/posts/traffic-relaying/)

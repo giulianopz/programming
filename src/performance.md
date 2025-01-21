@@ -10,3 +10,12 @@
 - [Zero-copy](https://en.wikipedia.org/wiki/Zero-copy)
 - [Understanding Memory Management](https://educatedguesswork.org/posts/memory-management-1/)
 - [The USE Method](https://www.brendangregg.com/usemethod.html)
+- [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
+- [Memory Management Every Developer Should Know](https://webdeveloper.beehiiv.com/p/memory-management-every-programmer-know)
+- [Exploring How Cache Memory Really Works](https://pikuma.com/blog/understanding-computer-cache)
+- [Latency Numbers Every Programmer Should Know](https://samwho.dev/numbers/)
+- [Good performance is not just big O](https://jmmv.dev/2023/09/performance-is-not-big-o.html)
+- [Do you know how much your computer can do in a second?](https://computers-are-fast.github.io/?utm_source=substack&utm_medium=email)
+- [Do you know how much your computer can do in a second?](https://computers-are-fast.github.io/)
+- [What scientists must know about hardware to write fast code](https://viralinstruction.com/posts/hardware/)
+

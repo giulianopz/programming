@@ -7,11 +7,11 @@ tasks:
       - mdbook serve . -p 8000 -n 127.0.0.1 
   linkcheck:
     cmds:
-      # go install github.com/giulianopz/mdlinkcheck
+      # go install github.com/giulianopz/mdlinkcheck@latest
       - mdlinkcheck --dir ./src/ | grep -v 200
   archive:
     cmds:
       - for i in $(grep -rPo --no-filename "https?:\/\/.*([^\)])(?!\1)" src/*.md); do filename=$(basename ./arc/$i).html; monolith $i -e -o ./arc/$filename ; done
-  lazy-push:
+  update:
     cmds:
     - git add . && git commit -m "Dump links" && git push
