@@ -6,7 +6,7 @@
 - [Intro to Database Systems (CMU 15-445/645)](https://15445.courses.cs.cmu.edu/fall2024/)
 - [Readings in Database Systems ("Red Book")](http://www.redbook.io/)
 - [Petrov, Database Internals](https://www.databass.dev/)
-- [Petrov, What Every Programmer has to know about Database Storage](https://www.youtube.com/watch?app=desktop&v=e1wbQPbFZdk)
+- [Petrov, Database Internals Post Series](https://medium.com/databasss)
 - [Comparing Database Types](https://www.prisma.io/dataguide/intro/comparing-database-types)
 - [Use the Index, Luke! A Guide to Database Performance for Developers](https://use-the-index-luke.com/)
 - [Consistency Models](https://jepsen.io/consistency)
