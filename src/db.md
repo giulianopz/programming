@@ -18,8 +18,10 @@
 
 ### PostgreSQL
 
-- [Learning PostgreSQL Internals](https://blog.cleverelephant.ca/2022/10/postgresql-links.html)
 - [How Postgres Stores Data on Disk](https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/)
+- [Learning PostgreSQL Internals](https://blog.cleverelephant.ca/2022/10/postgresql-links.html)
+- [Bruce Momjian, Postgres Internals Presentations](https://momjian.us/main/presentations/internals.html)
+- [Bruce Momjian, Postgres Technical Performance Presentations](https://momjian.us/main/presentations/performance.html)
 - [Understanding Postgres Performance](https://www.craigkerstiens.com/2012/10/01/understanding-postgres-performance/)
 - [The Part of PostgreSQL We Hate the Most](https://www.cs.cmu.edu/~pavlo/blog/2023/04/the-part-of-postgresql-we-hate-the-most.html)
 - [Yes, PostgreSQL Has Problems. But We’re Sticking With It!](https://www.cs.cmu.edu/~pavlo/blog/2023/06/yes-postgresql-has-problems-but-were-sticking-with-it.html)
