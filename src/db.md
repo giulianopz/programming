@@ -31,6 +31,7 @@
 - [Postgres Tips & Tricks](https://www.crunchydata.com/postgres-tips)
 - [Postgres for Everything](https://github.com/Olshansk/postgres_for_everything)
 - [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
+- [Postgres Observability](https://pgstats.ru/)
 
 ### Data Management
 
