@@ -34,6 +34,7 @@
 - [Postgres for Everything](https://github.com/Olshansk/postgres_for_everything)
 - [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
 - [Postgres Observability](https://pgstats.ru/)
+- [Intro to Postgres Hacking Workshop](https://github.com/tvondra/pg-hacking-intro)
 
 ### Data Management
 
