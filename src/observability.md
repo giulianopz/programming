@@ -5,3 +5,5 @@
 - [OpenTelemetry Tracing in 200 lines of code](https://jeremymorrell.dev/blog/minimal-js-tracing/)
 - [Richard L. Sites, Understanding Software Dynamics](https://www.oreilly.com/library/view/understanding-software-dynamics/9780137589692)
 - [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html)
+- [Basics and best practices for getting started with PromQL](https://grafana.com/blog/2021/01/29/basics-and-best-practices-for-getting-started-with-promql/)
+- [PromQL Cheat Sheet](https://promlabs.com/promql-cheat-sheet/)
