@@ -7,3 +7,5 @@
 - [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html)
 - [Basics and best practices for getting started with PromQL](https://grafana.com/blog/2021/01/29/basics-and-best-practices-for-getting-started-with-promql/)
 - [PromQL Cheat Sheet](https://promlabs.com/promql-cheat-sheet/)
+- [Prometheus storage: technical terms for humans](https://valyala.medium.com/prometheus-storage-technical-terms-for-humans-4ab4de6c3d48)
+- [PromQL tutorial for beginners and humans](https://valyala.medium.com/promql-tutorial-for-beginners-9ab455142085)
