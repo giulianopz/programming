@@ -18,24 +18,28 @@
 
 ### PostgreSQL
 
+- [So, you want to be a developer?](https://wiki.postgresql.org/wiki/So,_you_want_to_be_a_developer%3F)
+- [Paul Ramsey, Learning PostgreSQL Internals](https://blog.cleverelephant.ca/2022/10/postgresql-links.html)
 - [How Postgres Stores Data on Disk](https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/)
-- [Learning PostgreSQL Internals](https://blog.cleverelephant.ca/2022/10/postgresql-links.html)
 - [Bruce Momjian, Postgres Internals Presentations](https://momjian.us/main/presentations/internals.html)
 - [Bruce Momjian, Postgres Technical Performance Presentations](https://momjian.us/main/presentations/performance.html)
-- [Understanding Postgres Performance](https://www.craigkerstiens.com/2012/10/01/understanding-postgres-performance/)
-- [The Part of PostgreSQL We Hate the Most](https://www.cs.cmu.edu/~pavlo/blog/2023/04/the-part-of-postgresql-we-hate-the-most.html)
-- [Yes, PostgreSQL Has Problems. But We’re Sticking With It!](https://www.cs.cmu.edu/~pavlo/blog/2023/06/yes-postgresql-has-problems-but-were-sticking-with-it.html)
+- [Craig Kerstiens, Understanding Postgres Performance](https://www.craigkerstiens.com/2012/10/01/understanding-postgres-performance/)
+- [Andy Pavlo, The Part of PostgreSQL We Hate the Most](https://www.cs.cmu.edu/~pavlo/blog/2023/04/the-part-of-postgresql-we-hate-the-most.html)
+- [Andy Pavlo, Yes, PostgreSQL Has Problems. But We’re Sticking With It!](https://www.cs.cmu.edu/~pavlo/blog/2023/06/yes-postgresql-has-problems-but-were-sticking-with-it.html)
 - [Nine ways to shoot yourself in the foot with PostgreSQL](https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql)
 - [Understanding the Postgres Hackers Mailing List Language](https://www.crunchydata.com/blog/understanding-the-postgres-hackers-mailing-list)
 - [What I Wish Someone Told Me About Postgres](https://challahscript.com/what_i_wish_someone_told_me_about_postgres)
+- [Postgres Observability](https://pgstats.ru/)
+- [Andrey Borodin, Postgres Hacking 101](https://www.youtube.com/playlist?list=PLLcxJpl_jziJUCkiO5PWlqVlz-wpyGAQu)
+- [Neil Conway, Introduction to Hacking PostgreSQL](https://www.neilconway.org/talks/hacking/)
+- [Tomáš Vondra, Intro to Postgres Hacking Workshop](https://github.com/tvondra/pg-hacking-intro)
+- [Tomáš Vondra, PostgreSQL hacking introduction… how to write the first patch](https://www.pgevents.ca/events/pgconfdev2024/sessions/session/187/slides/29/PostgreSQL-Hacking-Introduction-part-1.pdf)
+- [Stephen Frost, Hacking PostgreSQL](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2058/slides/96/hackingpg-present.pdf)
 - [pgdoc ⚡ link](https://pgdoc.link/)
 - [psql tips](https://psql-tips.org/psql_tips_017.html)
 - [Postgres Tips & Tricks](https://www.crunchydata.com/postgres-tips)
 - [Postgres for Everything](https://github.com/Olshansk/postgres_for_everything)
 - [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
-- [Postgres Observability](https://pgstats.ru/)
-- [Intro to Postgres Hacking Workshop](https://github.com/tvondra/pg-hacking-intro)
-- [Postgres Hacking 101 by Andrey Borodin](https://www.youtube.com/playlist?list=PLLcxJpl_jziJUCkiO5PWlqVlz-wpyGAQu)
 
 ### Data Management
 
