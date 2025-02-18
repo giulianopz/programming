@@ -24,6 +24,7 @@
 - [The Pragmatic Engineer](https://blog.pragmaticengineer.com/)
 - [Ivan Velichko](https://iximiuz.com/en/)
 - [Martin Kleppmann](https://martin.kleppmann.com/)
+- [Byte Relay](https://www.youtube.com/@byterelay)
 - [Charity Majors](https://charity.wtf/)
 - [lcamtuf](https://lcamtuf.coredump.cx/)
 - [Ken Shirriff's blog](http://www.righto.com/?m=0)
@@ -53,4 +54,4 @@
 - [Phrack](http://phrack.org/)
 - [goto;](https://gotopia.tech/)
 
-> You can subscribe to blog feeds via an RSS/Atom reader, as explained [here](https://aboutfeeds.com/). 
+> You can subscribe to blog feeds via an RSS/Atom reader, as explained [here](https://aboutfeeds.com/).
