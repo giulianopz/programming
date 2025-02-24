@@ -23,7 +23,7 @@
 - Kernighan and Pike, [The Practice of Programming](https://www.cs.princeton.edu/~bwk/tpop.webpage/)
 - Kernighan and Pike, [The Unix Programming Environment](https://www.cs.princeton.edu/~bwk/upe/upe.html)
 - ESR, [The Art of Unix Programming](http://catb.org/~esr/writings/taoup/)
-- Rochkind, Advanced Unix Programming 
+- Rochkind, Advanced Unix Programming
 - Stevens. Advanced Programming In The Unix Environment
 - Bach, The Design Of The Unix Operating System
 - [Lyons, A Commentary on the UNIX Operating System](https://en.m.wikipedia.org/wiki/A_Commentary_on_the_UNIX_Operating_System)
@@ -38,3 +38,4 @@
 - [Brendan, Systems Performance: Enterprise and the Cloud](https://www.brendangregg.com/systems-performance-2nd-edition-book.html)
 - Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 - Petrov, [Database Internals: A Deep Dive Into How Distributed Data Systems Work](https://www.databass.dev/)
+- [Google SRE books](https://sre.google/books/)
