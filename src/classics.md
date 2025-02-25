@@ -39,3 +39,4 @@
 - Kleppmann, [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
 - Petrov, [Database Internals: A Deep Dive Into How Distributed Data Systems Work](https://www.databass.dev/)
 - [Google SRE books](https://sre.google/books/)
+- [Data-Oriented Design](https://www.dataorienteddesign.com/dodbook/)
