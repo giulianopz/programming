@@ -25,3 +25,4 @@
 - [Floating Point Math](https://0.30000000000000004.com/)
 - [Float Toy](https://evanw.github.io/float-toy/)
 - [Onboarding Floating-Point](https://www.altdevarts.com/p/onboarding-floating-point)
+- [Geometric Algebra](https://bivector.net/)

@@ -28,6 +28,7 @@
 - [Organizing multiple Git identities](https://garrit.xyz/posts/2023-10-13-organizing-multiple-git-identities)
 - [Conditional Git Configuration](https://blog.scottlowe.org/2023/12/15/conditional-git-configuration/)
 - [Git Prompt Variables](https://blog.backslasher.net/git-prompt-variables.html)
+- [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git/)
 - [Conventional Commits](https://www.conventionalcommits.org)
 - [Shell Script Best Practices](https://sharats.me/posts/shell-script-best-practices/)
 - [vim Adventures](https://vim-adventures.com/)
