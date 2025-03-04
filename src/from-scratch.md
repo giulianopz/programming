@@ -1,6 +1,7 @@
 ## From Scratch
 
 Tutorials:
+
 - [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/index.html)
 - [Rebuilding Redis in Ruby](https://redis.pjam.me/)
 - [Build Your Own Search Engine](https://wiby.me/about/guide.html)
@@ -80,9 +81,11 @@ Tutorials:
 - [How to implement a programming language in JavaScript](https://lisperator.net/pltut/)
 - [A ToC of the 20 Part Linker Essay by Ian Lance Taylor](https://lwn.net/Articles/276782/)
 - [Build a serverless ACID database with this one neat trick (atomic PutIfAbsent)](https://notes.eatonphil.com/2024-09-29-build-a-serverless-acid-database-with-this-one-neat-trick.html)
+- [Let's code a TCP/IP stack](https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
 
 Other lists:
-- [Build Your Own](https://build-your-own.org)  
+
+- [Build Your Own](https://build-your-own.org)
 - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)
 - [Project Based Learning](https://github.com/practical-tutorials/project-based-learning)
 - [Projects-from-Scratch](https://github.com/AlgoryL/Projects-from-Scratch)

@@ -12,3 +12,4 @@
 - [Reflections on Trusting Trust](https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf)
 - [Choose Boring Technology](https://boringtechnology.club/)
 - [Programming as Theory Building](https://pablo.rauzy.name/dev/naur1985programming.pdf)
+- [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)

@@ -18,6 +18,7 @@
 - [Silicon Valley Old Map](https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~329459~90097922:Silicon-Valley-)
 - [The Promise of IndyMedia](https://www.cjr.org/business_of_news/local-news-indymedia-network-25-anniversary.php)
 - ESR, The Cathedral & the Bazaar
+- [ESR, Things Every Hacker Once Knew](http://www.catb.org/esr/faqs/things-every-hacker-once-knew)
 - Kernighan, UNIX: A History and a Memoir
 - Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security
 - Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software
