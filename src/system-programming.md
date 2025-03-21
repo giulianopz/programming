@@ -6,6 +6,7 @@
 - [Getting started with Linux kernel development](https://gist.github.com/vegard/22200a9f91af138a99ae22a9b814a9a4)
 - [Linux From Scratch](http://www.linuxfromscratch.org/)
 - [Beyond Linux® From Scratch (systemd Edition)](https://www.linuxfromscratch.org/blfs/view/stable-systemd/index.html)
+- [The little book about OS development](https://littleosbook.github.io/)
 - [Think OS. A Brief Introduction to Operating Systems](https://greenteapress.com/thinkos/thinkos.pdf)
 - [Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/3e/home.html)
 - [Dive into Systems](https://diveintosystems.org/singlepage/)
