@@ -7,6 +7,8 @@
 - [Readings in Database Systems ("Red Book")](http://www.redbook.io/)
 - [Petrov, Database Internals](https://www.databass.dev/)
 - [Petrov, Database Internals Post Series](https://medium.com/databasss)
+- [Sciore, Database Design and Implementation](https://link.springer.com/book/10.1007/978-3-030-33836-7)
+- [Silberschatz et al., Database System Concepts](https://www.db-book.com/)
 - [Comparing Database Types](https://www.prisma.io/dataguide/intro/comparing-database-types)
 - [Use the Index, Luke! A Guide to Database Performance for Developers](https://use-the-index-luke.com/)
 - [Consistency Models](https://jepsen.io/consistency)
