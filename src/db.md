@@ -6,17 +6,17 @@
 - [Intro to Database Systems (CMU 15-445/645)](https://15445.courses.cs.cmu.edu/fall2024/)
 - [Readings in Database Systems ("Red Book")](http://www.redbook.io/)
 - [Petrov, Database Internals](https://www.databass.dev/)
-- [Petrov, Database Internals Post Series](https://medium.com/databasss)
 - [Sciore, Database Design and Implementation](https://link.springer.com/book/10.1007/978-3-030-33836-7)
 - [Silberschatz et al., Database System Concepts](https://www.db-book.com/)
-- [Comparing Database Types](https://www.prisma.io/dataguide/intro/comparing-database-types)
+- [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
 - [Use the Index, Luke! A Guide to Database Performance for Developers](https://use-the-index-luke.com/)
 - [Consistency Models](https://jepsen.io/consistency)
 - [The Querynomicon](https://gvwilson.github.io/sql-tutorial/)
 - [Things You Should Know About Databases](https://architecturenotes.co/things-you-should-know-about-databases/)
 - [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
-- [Database design basics](https://support.microsoft.com/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
+- [Database Design Basics](https://support.microsoft.com/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
 - [Database of Databases](https://dbdb.io/)
+- [chidb](http://chi.cs.uchicago.edu/chidb/index.html)
 
 ### PostgreSQL
 
@@ -37,7 +37,6 @@
 - [Tomáš Vondra, Intro to Postgres Hacking Workshop](https://github.com/tvondra/pg-hacking-intro)
 - [Tomáš Vondra, PostgreSQL hacking introduction… how to write the first patch](https://www.pgevents.ca/events/pgconfdev2024/sessions/session/187/slides/29/PostgreSQL-Hacking-Introduction-part-1.pdf)
 - [Stephen Frost, Hacking PostgreSQL](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2058/slides/96/hackingpg-present.pdf)
-- [pgdoc ⚡ link](https://pgdoc.link/)
 - [psql tips](https://psql-tips.org/psql_tips_017.html)
 - [Postgres Tips & Tricks](https://www.crunchydata.com/postgres-tips)
 - [Postgres for Everything](https://github.com/Olshansk/postgres_for_everything)
@@ -45,6 +44,8 @@
 - [Reading a Postgres EXPLAIN ANALYZE Query Plan](https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan)
 - [EXPLAIN Glossary](https://www.pgmustard.com/docs/explain)
 - [explain.depesz.com](https://explain.depesz.com/)
+- [Postgres Planet](https://planet.postgresql.org/)
+- [Let's build a distributed Postgres proof of concept](https://notes.eatonphil.com/distributed-postgres.html)
 
 ### Data Management
 
