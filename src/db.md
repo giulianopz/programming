@@ -47,6 +47,7 @@
 - [Postgres Planet](https://planet.postgresql.org/)
 - [Let's build a distributed Postgres proof of concept](https://notes.eatonphil.com/distributed-postgres.html)
 - [Postgres Extension Tutorial](https://github.com/IshaanAdarsh/Postgres-extension-tutorial/blob/main/SGML/intro_and_toc.md)
+- [psql Tips and Tricks](https://pgdash.io/blog/postgres-psql-tips-tricks.html)
 
 ### Data Management
 
@@ -55,4 +56,4 @@
 - [Data Mesh Architecture](https://www.datamesh-architecture.com/)
 - [Object Storage](https://en.wikipedia.org/wiki/Object_storage)
 - [The Ultimate Guide to Table Format Internals](https://jack-vanlightly.com/blog/2024/10/28/the-ultimate-guide-to-table-format-internals)
-- [Behind AWS S3’s Massive Scale](https://highscalability.com/behind-aws-s3s-massive-scale/)
+- [Behind AWS S3's Massive Scale](https://highscalability.com/behind-aws-s3s-massive-scale/)
