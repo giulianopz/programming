@@ -46,6 +46,7 @@
 - [explain.depesz.com](https://explain.depesz.com/)
 - [Postgres Planet](https://planet.postgresql.org/)
 - [Let's build a distributed Postgres proof of concept](https://notes.eatonphil.com/distributed-postgres.html)
+- [Postgres Extension Tutorial](https://github.com/IshaanAdarsh/Postgres-extension-tutorial/blob/main/SGML/intro_and_toc.md)
 
 ### Data Management
 
