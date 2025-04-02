@@ -26,3 +26,4 @@
 - [Float Toy](https://evanw.github.io/float-toy/)
 - [Onboarding Floating-Point](https://www.altdevarts.com/p/onboarding-floating-point)
 - [Geometric Algebra](https://bivector.net/)
+- [Probabilistic Programming & Bayesian Methods for Hackers](https://dataorigami.net/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
