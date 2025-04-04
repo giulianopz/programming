@@ -48,6 +48,7 @@
 - [Let's build a distributed Postgres proof of concept](https://notes.eatonphil.com/distributed-postgres.html)
 - [Postgres Extension Tutorial](https://github.com/IshaanAdarsh/Postgres-extension-tutorial/blob/main/SGML/intro_and_toc.md)
 - [psql Tips and Tricks](https://pgdash.io/blog/postgres-psql-tips-tricks.html)
+- [postgres.fm](https://postgres.fm/)
 
 ### Data Management
 
