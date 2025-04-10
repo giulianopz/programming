@@ -1,5 +1,22 @@
-## Observability
+## Performance & Observability
 
+- [Performance Analysis and Tuning on Modern CPU](https://github.com/dendibakh/perf-book)
+- [Simon Eskildsen's Napkin Math](https://github.com/sirupsen/napkin-math)
+- [Advanced Napkin Math: Estimating System Performance from First Principles](https://www.youtube.com/watch?v=IxkSlnrRFqc)
+- [strace Revisited: Simple is Beautiful](https://debugagent.com/strace-revisited-simple-is-beautiful)
+- [How much memory my program uses or the tale of working set size](https://biriukov.dev/docs/page-cache/7-how-much-memory-my-program-uses-or-the-tale-of-working-set-size)
+- [Performance-Aware Programming Series by Casey Muratori](https://www.computerenhance.com/p/table-of-contents)
+- [Linux Performance](https://www.brendangregg.com/linuxperf.html)
+- [Zero-copy](https://en.wikipedia.org/wiki/Zero-copy)
+- [Understanding Memory Management](https://educatedguesswork.org/posts/memory-management-1/)
+- [The USE Method](https://www.brendangregg.com/usemethod.html)
+- [What Every Programmer Should Know About Memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
+- [Memory Management Every Developer Should Know](https://webdeveloper.beehiiv.com/p/memory-management-every-programmer-know)
+- [Exploring How Cache Memory Really Works](https://pikuma.com/blog/understanding-computer-cache)
+- [Latency Numbers Every Programmer Should Know](https://samwho.dev/numbers/)
+- [Good performance is not just big O](https://jmmv.dev/2023/09/performance-is-not-big-o.html)
+- [Do you know how much your computer can do in a second?](https://computers-are-fast.github.io/)
+- [What scientists must know about hardware to write fast code](https://viralinstruction.com/posts/hardware/)
 - [Metrics, tracing, and logging](https://peter.bourgon.org/blog/2017/02/21/metrics-tracing-and-logging.html)
 - [All my favorite tracing tools: eBPF, QEMU, Perfetto, new ones I built and more](https://thume.ca/2023/12/02/tracing-methods/)
 - [OpenTelemetry Tracing in 200 lines of code](https://jeremymorrell.dev/blog/minimal-js-tracing/)
