@@ -18,6 +18,8 @@
 - [Security](./security.md)
 - [HTML, CSS & JS](./fe.md)
 - [Networking, Web & Browsers](./networks.md)
+- [Performance](./performance.md)
+- [Observability](./observability.md)
 - [Social Networks](./social.md)
 - [UNIX/Linux](./unix.md)
 - [System Programming](./system-programming.md)
