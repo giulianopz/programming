@@ -20,6 +20,9 @@
 
 ### PostgreSQL
 
+- [PgLife](https://pglife.momjian.us/)
+- [Postgres Planet](https://planet.postgresql.org/)
+- [postgres.fm](https://postgres.fm/)
 - [So, you want to be a developer?](https://wiki.postgresql.org/wiki/So,_you_want_to_be_a_developer%3F)
 - [Paul Ramsey, Learning PostgreSQL Internals](https://blog.cleverelephant.ca/2022/10/postgresql-links.html)
 - [How Postgres Stores Data on Disk](https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/)
@@ -44,11 +47,9 @@
 - [Reading a Postgres EXPLAIN ANALYZE Query Plan](https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan)
 - [EXPLAIN Glossary](https://www.pgmustard.com/docs/explain)
 - [explain.depesz.com](https://explain.depesz.com/)
-- [Postgres Planet](https://planet.postgresql.org/)
 - [Let's build a distributed Postgres proof of concept](https://notes.eatonphil.com/distributed-postgres.html)
 - [Postgres Extension Tutorial](https://github.com/IshaanAdarsh/Postgres-extension-tutorial/blob/main/SGML/intro_and_toc.md)
 - [psql Tips and Tricks](https://pgdash.io/blog/postgres-psql-tips-tricks.html)
-- [postgres.fm](https://postgres.fm/)
 
 ### Data Management
 
