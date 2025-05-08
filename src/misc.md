@@ -13,7 +13,6 @@
 - [How to Find or Validate an Email Address](https://www.regular-expressions.info/email.html)
 - [Possessive Quantifiers](https://www.regular-expressions.info/possessive.html)
 - [Use the XDG Base Directory Specification!](https://xdgbasedirectoryspecification.com/)
-
 - [Zip Files: History, Explanation and Implementation](https://www.hanshq.net/zip.html)
 - [Programming Principles](https://github.com/webpro/programming-principles)
 - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
@@ -30,3 +29,4 @@
 - [Why do arrays start at 0?](https://buttondown.email/hillelwayne/archive/why-do-arrays-start-at-0/)
 - [A few facts about POSIX](https://vorakl.com/articles/posix/)
 - [A Visual Comparison of Different National Layouts on a Computer Keyboard](https://www.farah.cl/Keyboardery/A-Visual-Comparison-of-Different-National-Layouts)
+- [File Formats Dissections](https://github.com/corkami/pics)
