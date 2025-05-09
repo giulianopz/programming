@@ -30,3 +30,4 @@
 - [A few facts about POSIX](https://vorakl.com/articles/posix/)
 - [A Visual Comparison of Different National Layouts on a Computer Keyboard](https://www.farah.cl/Keyboardery/A-Visual-Comparison-of-Different-National-Layouts)
 - [File Formats Dissections](https://github.com/corkami/pics)
+- [A Reintroduction to Programming](https://www.0de5.net/explore)
