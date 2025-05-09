@@ -3,11 +3,11 @@
 - [Introduction to SQL](https://sqlbolt.com/)
 - [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
 - [50 Years of Queries](https://cacm.acm.org/research/50-years-of-queries/)
-- [Intro to Database Systems (CMU 15-445/645)](https://15445.courses.cs.cmu.edu/fall2024/)
+- [Intro to Database Systems (CMU 15-445/645)](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq)
 - [Readings in Database Systems ("Red Book")](http://www.redbook.io/)
 - [Petrov, Database Internals](https://www.databass.dev/)
 - [Sciore, Database Design and Implementation](https://link.springer.com/book/10.1007/978-3-030-33836-7)
-- [Silberschatz et al., Database System Concepts](https://www.db-book.com/)
+    - [Silberschatz et al., Database System Concepts](https://www.db-book.com/)
 - [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
 - [Use the Index, Luke! A Guide to Database Performance for Developers](https://use-the-index-luke.com/)
 - [Consistency Models](https://jepsen.io/consistency)
@@ -17,6 +17,7 @@
 - [Database Design Basics](https://support.microsoft.com/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5)
 - [Database of Databases](https://dbdb.io/)
 - [chidb](http://chi.cs.uchicago.edu/chidb/index.html)
+- [Awesome Database Development](https://github.com/huachaohuang/awesome-dbdev)
 
 ### PostgreSQL
 
