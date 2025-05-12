@@ -19,3 +19,4 @@
 - [Learn CSS Layout](http://book.mixu.net/css/single-page.html)
 - [JSON Canvas](https://jsoncanvas.org/)
 - [CSS for Printing to Paper](https://voussoir.net/writing/css_for_printing)
+- [Plain Vanilla](https://plainvanillaweb.com/index.html)
