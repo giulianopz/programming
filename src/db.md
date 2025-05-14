@@ -8,7 +8,7 @@
 - [Petrov, Database Internals](https://www.databass.dev/)
 - [Sciore, Database Design and Implementation](https://link.springer.com/book/10.1007/978-3-030-33836-7)
 - [Silberschatz et al., Database System Concepts](https://www.db-book.com/)
-- [Thomas M. Connolly, and Carolyn E. Begg, Database Systems]()
+- [Thomas M. Connolly, and Carolyn E. Begg, Database Systems](https://archive.org/details/DatabaseSystems4thEditionThomasMConnollyCarolynEBeggwww.ebookDl.com)
 - [Comparing database types: how database types evolved to meet different needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
 - [Use the Index, Luke! A Guide to Database Performance for Developers](https://use-the-index-luke.com/)
 - [Consistency Models](https://jepsen.io/consistency)
