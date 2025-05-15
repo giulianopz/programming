@@ -4,6 +4,7 @@
 - [Computing History Hub](https://mollymielke.notion.site/Computing-History-Hub-be72f307fc2e4b05abe3dc67eb937521)
 - [Emerson, Reading Writing Interfaces. From the Digital to the Bookbound](https://www.upress.umn.edu/book-division/books/reading-writing-interfaces)
 - [The Backbone](https://technicshistory.com/the-backbone/)
+- [Internet Artifacts](https://neal.fun/internet-artifacts/)
 - [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
 - [PAPERCRAFT MODELS](https://rockybergen.com/papercraft)
 - [Computer Science academic papers selected by the Fermat’s Library Journal Club ](https://fermatslibrary.com/journal_club)
