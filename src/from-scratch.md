@@ -82,6 +82,7 @@ Tutorials:
 - [A ToC of the 20 Part Linker Essay by Ian Lance Taylor](https://lwn.net/Articles/276782/)
 - [Build a serverless ACID database with this one neat trick (atomic PutIfAbsent)](https://notes.eatonphil.com/2024-09-29-build-a-serverless-acid-database-with-this-one-neat-trick.html)
 - [Let's code a TCP/IP stack](https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
+- [A simple search engine from scratch](https://bernsteinbear.com/blog/simple-search/)
 
 Other lists:
 
