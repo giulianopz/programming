@@ -10,6 +10,8 @@
 - [Software Testing](./testing.md)
 - [Inter-Process Communication (IPC)](./ipc.md)
 - [I/O](./io.md)
+- [CPU](./cpu.md)
+- [Memory](./mem.md)
 - [Databases](./db.md)
 - [Microservices, Distributed Systems & System Design](./system-design.md)
 - [Cloud Computing, Containers & DevOps](./cloud.md)

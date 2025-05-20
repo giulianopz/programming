@@ -11,3 +11,4 @@
 - [What happens when you start a process on Linux?](https://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/)
 - [What happens when you update your DNS?](https://jvns.ca/blog/how-updating-dns-works/)
 - [What happens when...](https://github.com/alex/what-happens-when)
+- [Exploring How Cache Memory Really Works](https://pikuma.com/blog/understanding-computer-cache)
