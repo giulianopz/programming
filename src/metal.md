@@ -38,3 +38,4 @@
 - [A friendly introduction to assembly for high-level programmers](https://shikaan.github.io/assembly/x86/guide/2024/09/08/x86-64-introduction-hello.html)
 - [J. Clark Scott, But How Do it Know?: The Basic Principles of Computers for Everyone](https://books.google.it/books?id=-XGAPeVhRs4C&printsec=frontcover&redir_esc=y#v=onepage&q&f=false)
 - [A bare metal programming guide](https://github.com/cpq/bare-metal-programming-guide)
+- [Easy 6502](https://skilldrick.github.io/easy6502/)
