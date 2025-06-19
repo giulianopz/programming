@@ -4,6 +4,7 @@
 - [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
 - [The Great Newline Schism](https://blog.codinghorror.com/the-great-newline-schism/)
 - [ASCII Table](https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/)
+- [Codepoints](https://codepoints.net/)
 - [Invisible characters](https://invisible-characters.com/)
 - [You can't just assume UTF-8](https://csvbase.com/blog/9)
 - [PO Files](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html)
