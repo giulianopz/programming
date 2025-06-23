@@ -34,7 +34,7 @@
 - [Reverse Engineering](./reverse.md)
 - [Math](./math.md)
 - [Music](./music.md)
-- [Games](./games.md)
+- [Computer Graphics & Games](./games.md)
 - [Machine Learning and Deep Learning](./mldl.md)
 - [Miscellanea](./misc.md)
 - [Classics & Bibles](./classics.md)
