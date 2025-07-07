@@ -51,3 +51,4 @@
 - [Optimizing Linux for Slow Computers](https://www.akitaonrails.com/2017/01/17/optimizing-linux-for-slow-computers)
 - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#choosing-the-right-distro)
 - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html)
+- [Learn Makefiles](https://makefiletutorial.com/)
