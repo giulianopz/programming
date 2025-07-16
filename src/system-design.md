@@ -31,3 +31,4 @@
 - [Microservices and the Big Ball of Mud](https://www.infoq.com/news/2014/08/microservices_ballmud/)
 - [Architecture Antipatterns](https://architecture-antipatterns.tech/)
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+- [A distributed systems reliability glossary](https://antithesis.com/resources/reliability_glossary/)
