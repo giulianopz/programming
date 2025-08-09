@@ -18,6 +18,7 @@
 - [Programming Principles](https://github.com/webpro/programming-principles)
 - [The Law of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 - [Conway's law](https://en.wikipedia.org/wiki/Conway%27s_law)
+- [Hyrum's Law](https://www.hyrumslaw.com/)
 - [Make It Work Make It Right Make It Fast](https://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast)
 - [Hard Things in Computer Science](https://blog.frankel.ch/hard-things-computer-science/)
 - [How to name things: the hardest problem in programming](https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming)

@@ -23,3 +23,5 @@
 - [PromQL tutorial for beginners and humans](https://valyala.medium.com/promql-tutorial-for-beginners-9ab455142085)
 - [Flame Graphs](https://www.brendangregg.com/flamegraphs.html)
 - [Brendan Gregg, Systems Performance: Enterprise and the Cloud](https://www.brendangregg.com/blog/2020-07-15/systems-performance-2nd-edition.html)
+- [Linux Performance Analysis in 60,000 Milliseconds](https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)
+- [OTTK Playground](https://ottl.run/)

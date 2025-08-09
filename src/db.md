@@ -2,6 +2,7 @@
 
 - [Introduction to SQL](https://sqlbolt.com/)
 - [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
+- [SQL Workbench](https://sql-workbench.com/)
 - [50 Years of Queries](https://cacm.acm.org/research/50-years-of-queries/)
 - [Intro to Database Systems (CMU 15-445/645)](https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq)
 - [Readings in Database Systems ("Red Book")](http://www.redbook.io/)
@@ -19,6 +20,7 @@
 - [Database of Databases](https://dbdb.io/)
 - [chidb](http://chi.cs.uchicago.edu/chidb/index.html)
 - [Awesome Database Development](https://github.com/huachaohuang/awesome-dbdev)
+- [Database Notes](https://cs186berkeley.net/notes/)
 
 ### PostgreSQL
 
