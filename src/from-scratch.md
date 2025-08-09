@@ -64,7 +64,6 @@ Tutorials:
 - [whorl - A single file, std only, async Rust executor](https://github.com/mgattozzi/whorl)
 - [Implement DNS in a weekend](https://implement-dns.wizardzines.com/)
 - [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)
-- [Write your Own Virtual Machine](https://www.jmeiners.com/lc3-vm/)
 - [(How to Write a (Lisp) Interpreter (in Python))](https://www.norvig.com/lispy.html)
 - [CHIP-8 in Common Lisp: The CPU](https://stevelosh.com/blog/2016/12/chip8-cpu/)
 - [Start Your Own ISP](https://startyourownisp.com/)
