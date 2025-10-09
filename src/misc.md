@@ -34,3 +34,4 @@
 - [File Formats Dissections](https://github.com/corkami/pics)
 - [A Reintroduction to Programming](https://www.0de5.net/explore)
 - [Infinite Canvas. Tools that work the way we think](https://infinitecanvas.tools/)
+- [The Debugging Book](https://www.debuggingbook.org/#)
