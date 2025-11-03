@@ -48,3 +48,4 @@
 - [ICMP, Ping, and Traceroute - What I Wish I Was Taught](https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/)
 - [How to Hide Your IP Address](https://educatedguesswork.org/posts/traffic-relaying/)
 - [See this page fetch itself, byte by byte, over TLS](https://bytebybyte.dev/)
+- [The Illustrated TLS 1.3 Connection](https://tls13.xargs.org/)
