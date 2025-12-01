@@ -33,3 +33,4 @@
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 - [A distributed systems reliability glossary](https://antithesis.com/resources/reliability_glossary/)
 - [Scaling k8s to 1m Nodes](https://bchess.github.io/k8s-1m/)
+- [Advent of Sysadmin 2025](https://sadservers.com/advent)
