@@ -52,3 +52,4 @@
 - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html#choosing-the-right-distro)
 - [Linux Kernel Teaching](https://linux-kernel-labs.github.io/refs/heads/master/index.html)
 - [Learn Makefiles](https://makefiletutorial.com/)
+- [QEMU internals](https://airbus-seclab.github.io/qemu_blog/)
