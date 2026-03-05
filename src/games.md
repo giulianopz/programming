@@ -4,3 +4,4 @@
 - [Game Programming Gems](https://www.satori.org/game-programming-gems/)
 - [The Book of Shaders](https://thebookofshaders.com/)
 - [Lode's Computer Graphics Tutorial](https://lodev.org/cgtutor/raycasting.html)
+- [Graphics Programming Resources](https://develop--gpvm-website.netlify.app/resources/)
