@@ -11,6 +11,7 @@
 - [Dynamic Programming is not Black Magic](https://qsantos.fr/2024/01/04/dynamic-programming-is-not-black-magic/)
 - [Algorithms for making interesting organic simulations](https://bleuje.com/physarum-explanation/)
 - [The Nature of Code](https://natureofcode.com/)
+- [Algorithm Visualizer](https://algorithm-visualizer.org/)
 - Learn by means of [deliberate practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice):
   - [LeetCode](https://leetcode.com/)
   - [HackerRank](https://www.hackerrank.com/)
