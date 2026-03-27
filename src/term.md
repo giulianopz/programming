@@ -18,3 +18,4 @@
 - [All About SIXELs](https://vt100.net/shuford/terminal/all_about_sixels.txt)
 - [Command Line Interface Guidelines](https://clig.dev/)
 - ["Rules" that terminal programs follow](https://jvns.ca/blog/2024/11/26/terminal-rules/)
+- [Shell Tricks That Actually Make Life Easier (And Save Your Sanity)](https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/)
