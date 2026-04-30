@@ -31,6 +31,7 @@
 - [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git/)
 - [High Performance Git](https://gitperf.com/)
 - [Conventional Commits](https://www.conventionalcommits.org)
+- [Conventional Branch](https://conventional-branch.github.io/)
 - [Shell Script Best Practices](https://sharats.me/posts/shell-script-best-practices/)
 - [vim Adventures](https://vim-adventures.com/)
 - [Unix for Poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf)
