@@ -6,6 +6,7 @@
 - [The Backbone](https://technicshistory.com/the-backbone/)
 - [Internet Artifacts](https://neal.fun/internet-artifacts/)
 - [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
+- [Operating Exhibits](http://www.typewritten.org/Media/)
 - [PAPERCRAFT MODELS](https://rockybergen.com/papercraft)
 - [Computer Science academic papers selected by the Fermat’s Library Journal Club ](https://fermatslibrary.com/journal_club)
 - [Oral History of Federico Faggin](http://archive.computerhistory.org/resources/text/Oral_History/Faggin_Federico/Faggin_Federico_1_2_3.oral_history.2004.102658025.pdf)
