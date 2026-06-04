@@ -22,3 +22,4 @@
 - [Plain Vanilla](https://plainvanillaweb.com/index.html)
 - [(t,i,x,y) => "creative code golfing"](https://tixy.land/)
 - [loadmo.re](https://loadmo.re/)
+- [Website Spec](https://specification.website/)
