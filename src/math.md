@@ -28,3 +28,4 @@
 - [Geometric Algebra](https://bivector.net/)
 - [Probabilistic Programming & Bayesian Methods for Hackers](https://dataorigami.net/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
 - [Polypad: The Mathematical Playground](https://polypad.amplify.com/)
+- [Mir Books](https://archive.org/details/mir-titles)
