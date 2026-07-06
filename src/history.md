@@ -8,6 +8,7 @@
 - [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
 - [Operating Exhibits](http://www.typewritten.org/Media/)
 - [PAPERCRAFT MODELS](https://rockybergen.com/papercraft)
+- [Starring the Computer](https://www.starringthecomputer.com/computers.html)
 - [Computer Science academic papers selected by the Fermat’s Library Journal Club ](https://fermatslibrary.com/journal_club)
 - [Oral History of Federico Faggin](http://archive.computerhistory.org/resources/text/Oral_History/Faggin_Federico/Faggin_Federico_1_2_3.oral_history.2004.102658025.pdf)
 - Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
