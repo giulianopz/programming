@@ -13,21 +13,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" id="highlight-css" href="highlight.css">
-        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
-        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -37,10 +36,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex.js";
+            window.path_to_searchindex_js = "searchindex-c58d67a8.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="toc-c8e89466.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -54,7 +53,7 @@
             </div>
         </div>
     </div>
-    <div id="body-container">
+    <div id="mdbook-body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -83,12 +82,12 @@
             html.classList.add("js");
         </script>
 
-        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             let sidebar = null;
-            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -103,39 +102,39 @@
             }
         </script>
 
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
                 <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
             </noscript>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>
         </nav>
 
-        <div id="page-wrapper" class="page-wrapper">
+        <div id="mdbook-page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
                         </label>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
                         </button>
-                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
                         </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
                         </button>
                     </div>
 
@@ -143,41 +142,41 @@
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
-                            <i id="print-button" class="fa fa-print"></i>
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
                         </a>
                         <a href="https://github.com/giulianopz/programming" title="Git repository" aria-label="Git repository">
-                            <i id="git-repository-button" class="fa fa-github"></i>
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
                         </a>
 
                     </div>
                 </div>
 
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
                         <div class="search-wrapper">
-                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
                             <div class="spinner-wrapper">
-                                <i class="fa fa-spinner fa-spin"></i>
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
                             </div>
                         </div>
                     </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
                         </ul>
                     </div>
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script>
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
                         link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
                     });
                 </script>
 
-                <div id="content" class="content">
+                <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
 <p>This book is just a dump of links I keep collecting as I progress as a software programmer. I use it to have a personal log of good stuff I discover while wandering about in the web.</p>
@@ -189,26 +188,29 @@
 </blockquote>
 </blockquote>
 <p>In fact, an <a href="https://en.wikipedia.org/wiki/Application_software">application software</a> usually consists of levels (or layers) of <a href="https://en.wikipedia.org/wiki/Abstraction_(computer_science)#Levels_of_abstraction">abstraction</a>, wherein each level represents a different model of the same information and processes, but with varying amounts of detail. Each relatively abstract, higher level builds on a relatively concrete, lower level, which tends to provide an increasingly granular representation.</p>
-<p>Abstractions are useful, but all non-trivial abstractions, to some degree, are leaky<sup class="footnote-reference" id="fr-4-1"><a href="#footnote-4">3</a></sup>. So, blindly ignoring what happens at lower levels can cause performance issues or (worst) unintended bugs which are hard to debug (e.g. inscrutable incidents in production<sup class="footnote-reference" id="fr-5-1"><a href="#footnote-5">4</a></sup>). Solving such issues thanks to Q&amp;A websites like Stack Overflow does not help learning what actually went wrong leaving a certain sense of frustration (a common feeling for Linux users<sup class="footnote-reference" id="fr-6-1"><a href="#footnote-6">5</a></sup>).</p>
-<p>Unfortunately, the enterprise software world is largely dominated by the use of <a href="https://en.wikipedia.org/wiki/Software_framework">frameworks</a> (e.g. Spring vs Quarkus on the backend, Angular vs React on the frontend), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as "innovative" for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which means to develop a good intuition of what happens at the hardware/software interface (<em>getting closer to the metal</em>, as the kool kids say). This is why so frequently people attempt to re-implement <a href="./from-scratch.html">from scratch</a> a good piece of software to understand "how things work"<sup class="footnote-reference" id="fr-7-1"><a href="#footnote-7">6</a></sup>.</p>
-<p>Undoubtedly, this crafting or artistic view<sup class="footnote-reference" id="fr-8-1"><a href="#footnote-8">7</a></sup> of the act of programming implies a longer (lifelong<sup class="footnote-reference" id="fr-9-1"><a href="#footnote-9">8</a></sup>?) and steeper learning curve than any fancy YouTube tutorial would commit to, but this is still better than getting stuck in a plateau after a brief exponential growth where developers end up acting merely as code monkeys or blue collars. Sometimes the working environment of IT companies with big moneys itself tricks you into:</p>
+<p>Abstractions are useful, but all non-trivial abstractions, to some degree, are leaky<sup class="footnote-reference" id="fr-3-1"><a href="#footnote-3">3</a></sup>. So, blindly ignoring what happens at lower levels can cause performance issues or (worst) unintended bugs which are hard to debug (e.g. inscrutable incidents in production<sup class="footnote-reference" id="fr-4-1"><a href="#footnote-4">4</a></sup>). Solving such issues thanks to Q&amp;A websites like Stack Overflow does not help learning what actually went wrong leaving a certain sense of frustration (a common feeling for Linux users<sup class="footnote-reference" id="fr-5-1"><a href="#footnote-5">5</a></sup>).</p>
+<p>Unfortunately, the enterprise software world is largely dominated by the use of <a href="https://en.wikipedia.org/wiki/Software_framework">frameworks</a> (e.g. Spring vs Quarkus on the backend, Angular vs React on the frontend), an abstraction which is useful to avoid code bloat but limits the creative job of a programmer, making him just an expert user of a particular framework. These frameworks are also susceptible to be replaced by other competing frameworks, generically perceived as “innovative” for some reason. The only way to avoid to be forced to learn a framework every N years is to understand what happens behind the abstractions, which means to develop a good intuition of what happens at the hardware/software interface (<em>getting closer to the metal</em>, as the kool kids say). This is why so frequently people attempt to re-implement <a href="#from-scratch">from scratch</a> a good piece of software to understand “how things work”<sup class="footnote-reference" id="fr-6-1"><a href="#footnote-6">6</a></sup>.</p>
+<p>Undoubtedly, this crafting or artistic view<sup class="footnote-reference" id="fr-7-1"><a href="#footnote-7">7</a></sup> of the act of programming implies a longer (lifelong<sup class="footnote-reference" id="fr-8-1"><a href="#footnote-8">8</a></sup>?) and steeper learning curve than any fancy YouTube tutorial would commit to, but this is still better than getting stuck in a plateau after a brief exponential growth where developers end up acting merely as code monkeys or blue collars. Sometimes the working environment of IT companies with big moneys itself tricks you into:</p>
 <blockquote>
-<p>voluntarily ceasing to improve because of a belief that expert status has been reached and thus further improvement is not possible.. This opting into indefinite mediocrity is the entry into an oblique phase in skills acquisition that I will call "Expert Beginner"[^10].</p>
+<p>voluntarily ceasing to improve because of a belief that expert status has been reached and thus further improvement is not possible.. This opting into indefinite mediocrity is the entry into an oblique phase in skills acquisition that I will call “Expert Beginner”<sup class="footnote-reference" id="fr-9-1"><a href="#footnote-9">9</a></sup>.</p>
 </blockquote>
 <p>In this respect, the following chapters naturally derail from application programming to <a href="https://en.wikipedia.org/wiki/Systems_programming">system programming</a>, and finally to hardware stuff. The last chapters mostly deal with collateral and/or enjoyable aspects of programming.</p>
-<hr />
 <hr>
-<ol class="footnote-definition"><li id="footnote-1">
+<ol class="footnote-definition">
+<li id="footnote-1">
 <p>Jamis Buck, <a href="https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming">LEGOs, Play-Doh, and Programming</a> <a href="#fr-1-1">↩</a></p>
 </li>
 <li id="footnote-2">
 <p><a href="http://invece.org/">antirez</a> <a href="#fr-2-1">↩</a></p>
 </li>
+<li id="footnote-3">
+<p>Joel Spolsky, <a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">The Law of Leaky Abstractions</a> <a href="#fr-3-1">↩</a></p>
+</li>
 <li id="footnote-4">
 <p>Andrew Doss, <a href="https://www.andrewdoss.dev/writing/timeouts/">How Long is a Negative Timeout?</a> <a href="#fr-4-1">↩</a></p>
 </li>
 <li id="footnote-5">
-<p>Fabien Sanglard, <a href="https://fabiensanglard.net/a_linux_evening/index.html">A Linux evening...</a> <a href="#fr-5-1">↩</a></p>
+<p>Fabien Sanglard, <a href="https://fabiensanglard.net/a_linux_evening/index.html">A Linux evening…</a> <a href="#fr-5-1">↩</a></p>
 </li>
 <li id="footnote-6">
 <p>Julia Evans, <a href="https://jvns.ca/blog/learn-how-things-work/">Get better at programming by learning how things work</a> <a href="#fr-6-1">↩</a></p>
@@ -222,7 +224,9 @@
 <li id="footnote-9">
 <p>Erik Dietrich, <a href="https://daedtech.com/how-developers-stop-learning-rise-of-the-expert-beginner/">How Developers Stop Learning: Rise of the Expert Beginner</a> <a href="#fr-9-1">↩</a></p>
 </li>
-</ol><div style="break-before: page; page-break-before: always;"></div><h2 id="teaching-yourself-cs"><a class="header" href="#teaching-yourself-cs">Teaching Yourself CS</a></h2>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="teaching-yourself-cs"><a href="#teaching-yourself-cs" class="header">Teaching Yourself CS</a></h1>
 <ul>
 <li><a href="https://norvig.com/21-days.html">Teach Yourself Programming in Ten Years</a></li>
 <li><a href="https://teachyourselfcs.com/">Teach Yourself Computer Science</a></li>
@@ -230,7 +234,8 @@
 <li><a href="https://github.com/geohot/fromthetransistor">From the Transistor to the Web Browser</a></li>
 <li><a href="https://blog.bradfieldcs.com/learn-how-computers-work-e7d33dba0238">Learn How Computers Work</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="programming-languages"><a class="header" href="#programming-languages">Programming Languages</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="programming-languages"><a href="#programming-languages" class="header">Programming Languages</a></h1>
 <ul>
 <li>
 <p><a href="https://blog.bradfieldcs.com/how-to-learn-c-59222a627a4c">C</a> &gt; <a href="https://isocpp.org/">C++</a> &gt;</p>
@@ -278,8 +283,12 @@
 <li>
 <p><a href="https://learnxinyminutes.com/">Learn X in Y Minutes</a></p>
 </li>
+<li>
+<p><a href="https://xania.org/AoCO2025">Advent of Compiler Optimisations 2025</a></p>
+</li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="compilers"><a class="header" href="#compilers">Compilers</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="compilers"><a href="#compilers" class="header">Compilers</a></h1>
 <ul>
 <li><a href="https://godbolt.org/">Compiler Explorer</a></li>
 <li><a href="https://bootstrappable.org/">Bootstrappable Builds</a></li>
@@ -293,11 +302,12 @@
 <li><a href="https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form">Backus-Naur form</a></li>
 <li><a href="https://c9x.me/compile/bib/">Resources for Amateur Compiler Writers</a></li>
 <li><a href="https://www.oreilly.com/radar/low-code-and-the-democratization-of-programming/">Low-Code and the Democratization of Programming. Rethinking Where Programming Is Headed</a></li>
-<li><a href="https://www.timdbg.com/posts/fakers-guide-to-assembly/">The faker's guide to reading (x86) assembly language</a></li>
+<li><a href="https://www.timdbg.com/posts/fakers-guide-to-assembly/">The faker’s guide to reading (x86) assembly language</a></li>
 <li><a href="https://lists.eatonphil.com/compilers-and-interpreters.html">Favorite compiler and interpreter resources</a></li>
 <li><a href="https://kubuszok.com/2019/from-string-to-ast-parsing/">From String to AST: parsing</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="algorithms--data-structures"><a class="header" href="#algorithms--data-structures">Algorithms &amp; Data Structures</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="algorithms--data-structures"><a href="#algorithms--data-structures" class="header">Algorithms &amp; Data Structures</a></h1>
 <ul>
 <li><a href="https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation">Asymptotic notation</a></li>
 <li><a href="https://algs4.cs.princeton.edu/home">Sedgewick &amp; Wayne, Algorithms</a></li>
@@ -309,6 +319,8 @@
 <li><a href="http://algorithmicbotany.org/papers/abop/abop.pdf">The Algorithmic Beauty of Plants</a></li>
 <li><a href="https://qsantos.fr/2024/01/04/dynamic-programming-is-not-black-magic/">Dynamic Programming is not Black Magic</a></li>
 <li><a href="https://bleuje.com/physarum-explanation/">Algorithms for making interesting organic simulations</a></li>
+<li><a href="https://natureofcode.com/">The Nature of Code</a></li>
+<li><a href="https://algorithm-visualizer.org/">Algorithm Visualizer</a></li>
 <li>Learn by means of <a href="https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice">deliberate practice</a>:
 <ul>
 <li><a href="https://leetcode.com/">LeetCode</a></li>
@@ -334,7 +346,8 @@
 </ul>
 </li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="software-design"><a class="header" href="#software-design">Software Design</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="software-design"><a href="#software-design" class="header">Software Design</a></h1>
 <ul>
 <li>Ousterhout, A Philosophy of Software Design</li>
 <li><a href="https://third-bit.com/sdxpy/">Software Design by Example</a></li>
@@ -357,7 +370,7 @@
 <li><a href="https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things">Norman, The Design of Everyday Things</a></li>
 <li><a href="https://patternlanguage.cc/">Alexander, A Pattern Language: Towns, Buildings Construction</a></li>
 <li>Meadows, Thinking in Systems: A Primer</li>
-<li>Hermans, The Programmer's Brain: What every programmer needs to know about cognition</li>
+<li>Hermans, The Programmer’s Brain: What every programmer needs to know about cognition</li>
 <li><a href="https://en.m.wikipedia.org/wiki/Worse_is_better">Worse is better</a></li>
 <li><a href="https://iximiuz.com/en/posts/my-10-years-of-programming-experience/">My 10 Years of Programming Experience</a></li>
 <li><a href="https://hallofshame.design/collection/">Catalog of Dark Patterns</a></li>
@@ -367,32 +380,35 @@
 </ul>
 </li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="testing"><a class="header" href="#testing">Testing</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="software-testing"><a href="#software-testing" class="header">Software Testing</a></h1>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Software_testing">Software testing</a></li>
 <li><a href="https://blog.codepipes.com/testing/software-testing-antipatterns.html">Software Testing Anti-patterns</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Test_fixture#Software">Test Fixture</a></li>
 <li><a href="https://martinfowler.com/bliki/TestDouble.html">TestDouble</a></li>
-<li><a href="https://martinfowler.com/articles/mocksArentStubs.html">Mocks Aren't Stubs</a></li>
+<li><a href="https://martinfowler.com/articles/mocksArentStubs.html">Mocks Aren’t Stubs</a></li>
 <li><a href="https://testing.googleblog.com/">Google Testing Blog</a></li>
 <li><a href="https://www.fuzzingbook.org/">The Fuzzing Book</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="inter-process-communication-ipc"><a class="header" href="#inter-process-communication-ipc">Inter-Process Communication (IPC)</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="inter-process-communication-ipc"><a href="#inter-process-communication-ipc" class="header">Inter-Process Communication (IPC)</a></h1>
 <ul>
 <li><a href="https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for">The HTTP crash course nobody asked for</a></li>
 <li><a href="https://devonperoutky.super.site/blog-posts/mediocre-engineers-guide-to-https">Mediocre Engineer’s guide to HTTPS</a></li>
-<li><a href="https://adam-p.ca/blog/2022/03/x-forwarded-for/">The perils of the "real" client IP</a></li>
-<li><a href="https://fosterelli.co/developers-dont-understand-cors">Developers don't understand CORS</a></li>
-<li><a href="https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/">You don't need that CORS request</a></li>
-<li><a href="https://web.dev/same-site-same-origin/">Understanding "same-site" and "same-origin"</a></li>
-<li><a href="https://twobithistory.org/2020/06/28/rest.html">Roy Fielding's Misappropriated REST Dissertation</a></li>
+<li><a href="https://adam-p.ca/blog/2022/03/x-forwarded-for/">The perils of the “real” client IP</a></li>
+<li><a href="https://fosterelli.co/developers-dont-understand-cors">Developers don’t understand CORS</a></li>
+<li><a href="https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request/">You don’t need that CORS request</a></li>
+<li><a href="https://web.dev/same-site-same-origin/">Understanding “same-site” and “same-origin”</a></li>
+<li><a href="https://twobithistory.org/2020/06/28/rest.html">Roy Fielding’s Misappropriated REST Dissertation</a></li>
 <li><a href="https://opensource.zalando.com/restful-api-guidelines/">Zalando RESTful API and Event Guidelines</a></li>
 <li><a href="https://standards.rest/">Standards.REST</a></li>
 <li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">List of HTTP status codes</a></li>
 <li><a href="https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-02.html">The HTTP QUERY Method</a></li>
 <li><a href="https://rapidapi.com/collection/list-of-free-apis">Free Public APIs for Developers</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="io"><a class="header" href="#io">I/O</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="io"><a href="#io" class="header">I/O</a></h1>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Input/output">Input/output</a></li>
 <li><a href="https://www.ncameron.org/blog/async-io-fundamentals/">Async IO fundamentals</a></li>
@@ -405,16 +421,18 @@
 <li><a href="https://www.remlab.net/op/nonblock.shtml">Non-blocking I/O with regular files</a></li>
 <li><a href="https://developers.redhat.com/articles/2023/04/12/why-you-should-use-iouring-network-io">Why you should use io_uring for network I/O</a></li>
 <li><a href="https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming">5 Things to Know About Reactive Programming</a></li>
-<li><a href="https://gist.github.com/staltz/868e7e9bc2a7b8c1f754">The introduction to Reactive Programming you've been missing</a></li>
+<li><a href="https://gist.github.com/staltz/868e7e9bc2a7b8c1f754">The introduction to Reactive Programming you’ve been missing</a></li>
 <li><a href="https://transactional.blog/how-to-learn/disk-io">Userland Disk I/O</a></li>
 <li><a href="https://innovation.vivint.com/introduction-to-reed-solomon-bc264d0794f8">Introduction to Reed-Solomon</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="cpu"><a class="header" href="#cpu">CPU</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="cpu"><a href="#cpu" class="header">CPU</a></h1>
 <ul>
-<li><a href="https://djharper.dev/post/2019/05/21/i-dont-know-how-cpus-work-so-i-simulated-one-in-code/">I don't know how CPUs work so I simulated one in code</a></li>
+<li><a href="https://djharper.dev/post/2019/05/21/i-dont-know-how-cpus-work-so-i-simulated-one-in-code/">I don’t know how CPUs work so I simulated one in code</a></li>
 <li><a href="https://florian.noeding.com/posts/risc-v-toy-cpu/cpu-from-scratch/">How a CPU works: Bare metal C on my RISC-V toy CPU</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="memory"><a class="header" href="#memory">Memory</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="memory"><a href="#memory" class="header">Memory</a></h1>
 <ul>
 <li><a href="https://jamesbornholt.com/blog/memory-models/">Memory Consistency Models: A Tutorial</a></li>
 <li><a href="https://educatedguesswork.org/posts/memory-management-1/">Understanding Memory Management</a></li>
@@ -423,14 +441,15 @@
 <li><a href="https://biriukov.dev/docs/page-cache/7-how-much-memory-my-program-uses-or-the-tale-of-working-set-size">How much memory my program uses or the tale of working set size</a></li>
 <li><a href="https://www.gingerbill.org/series/memory-allocation-strategies/">Memory Allocation Strategies</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="databases"><a class="header" href="#databases">Databases</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="databases"><a href="#databases" class="header">Databases</a></h1>
 <ul>
 <li><a href="https://sqlbolt.com/">Introduction to SQL</a></li>
 <li><a href="https://app.bytescout.com/sql-trainer/index.html">ByteScout SQL Trainer</a></li>
 <li><a href="https://sql-workbench.com/">SQL Workbench</a></li>
 <li><a href="https://cacm.acm.org/research/50-years-of-queries/">50 Years of Queries</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq">Intro to Database Systems (CMU 15-445/645)</a></li>
-<li><a href="http://www.redbook.io/">Readings in Database Systems ("Red Book")</a></li>
+<li><a href="http://www.redbook.io/">Readings in Database Systems (“Red Book”)</a></li>
 <li><a href="https://www.databass.dev/">Petrov, Database Internals</a></li>
 <li><a href="https://link.springer.com/book/10.1007/978-3-030-33836-7">Sciore, Database Design and Implementation</a></li>
 <li><a href="https://www.db-book.com/">Silberschatz et al., Database System Concepts</a></li>
@@ -472,15 +491,16 @@
 <li><a href="https://psql-tips.org/psql_tips_017.html">psql tips</a></li>
 <li><a href="https://www.crunchydata.com/postgres-tips">Postgres Tips &amp; Tricks</a></li>
 <li><a href="https://github.com/Olshansk/postgres_for_everything">Postgres for Everything</a></li>
-<li><a href="https://wiki.postgresql.org/wiki/Don%27t_Do_This">Don't Do This</a></li>
+<li><a href="https://wiki.postgresql.org/wiki/Don%27t_Do_This">Don’t Do This</a></li>
 <li><a href="https://www.depesz.com/tag/unexplainable/">Explaining the unexplainable (series)</a></li>
 <li><a href="https://explain.depesz.com/">explain.depesz.com</a></li>
 <li><a href="https://www.pgmustard.com/docs/explain">EXPLAIN Glossary</a></li>
-<li><a href="https://notes.eatonphil.com/distributed-postgres.html">Let's build a distributed Postgres proof of concept</a></li>
+<li><a href="https://notes.eatonphil.com/distributed-postgres.html">Let’s build a distributed Postgres proof of concept</a></li>
 <li><a href="https://github.com/IshaanAdarsh/Postgres-extension-tutorial/blob/main/SGML/intro_and_toc.md">Postgres Extension Tutorial</a></li>
 <li><a href="https://pgdash.io/blog/postgres-psql-tips-tricks.html">psql Tips and Tricks</a></li>
 <li><a href="https://github.com/pgexperts/accidentalDBA/tree/master">Accidental DBA Tutorial</a></li>
 <li><a href="https://github.com/vishesh92/pg-primer">pg-primer</a></li>
+<li><a href="https://alterego655.github.io/blog/2025/10/01/postgresql-hacking-guide/">The Hitchhiker’s Guide to PostgreSQL Hacking</a></li>
 </ul>
 <h3 id="data-management"><a class="header" href="#data-management">Data Management</a></h3>
 <ul>
@@ -489,9 +509,10 @@
 <li><a href="https://www.datamesh-architecture.com/">Data Mesh Architecture</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Object_storage">Object Storage</a></li>
 <li><a href="https://jack-vanlightly.com/blog/2024/10/28/the-ultimate-guide-to-table-format-internals">The Ultimate Guide to Table Format Internals</a></li>
-<li><a href="https://highscalability.com/behind-aws-s3s-massive-scale/">Behind AWS S3's Massive Scale</a></li>
+<li><a href="https://highscalability.com/behind-aws-s3s-massive-scale/">Behind AWS S3’s Massive Scale</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="microservices-distributed-systems--system-design"><a class="header" href="#microservices-distributed-systems--system-design">Microservices, Distributed Systems &amp; System Design</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="microservices-distributed-systems--system-design"><a href="#microservices-distributed-systems--system-design" class="header">Microservices, Distributed Systems &amp; System Design</a></h1>
 <ul>
 <li><a href="https://muratbuffalo.blogspot.com/2020/06/learning-about-distributed-systems.html?m=1">Learning about distributed systems: where to start?</a></li>
 <li><a href="https://microservices.io/patterns/index.html">Microservices Patterns</a></li>
@@ -518,16 +539,18 @@
 <li><a href="https://ferd.ca/a-distributed-systems-reading-list.html">A Distributed Systems Reading List</a></li>
 <li><a href="https://thesecretlivesofdata.com/raft/">Raft. Understandable Distributed Consensus</a></li>
 <li><a href="https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/">An Illustrated Proof of the CAP Theorem</a></li>
-<li><a href="https://arnoldgalovics.com/microservices-in-production/">Don't start with microservices - monoliths are your friend</a></li>
+<li><a href="https://arnoldgalovics.com/microservices-in-production/">Don’t start with microservices - monoliths are your friend</a></li>
 <li><a href="https://architecturenotes.co/fallacies-of-distributed-systems/">Fallacies of Distributed Systems</a></li>
 <li><a href="https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb">You Are Not Google</a></li>
 <li><a href="https://www.infoq.com/news/2014/08/microservices_ballmud/">Microservices and the Big Ball of Mud</a></li>
 <li><a href="https://architecture-antipatterns.tech/">Architecture Antipatterns</a></li>
-<li><a href="https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying">The Log: What every software engineer should know about real-time data's unifying abstraction</a></li>
+<li><a href="https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying">The Log: What every software engineer should know about real-time data’s unifying abstraction</a></li>
 <li><a href="https://antithesis.com/resources/reliability_glossary/">A distributed systems reliability glossary</a></li>
 <li><a href="https://bchess.github.io/k8s-1m/">Scaling k8s to 1m Nodes</a></li>
+<li><a href="https://sadservers.com/advent">Advent of Sysadmin 2025</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="cloud-computing-containers--devops"><a class="header" href="#cloud-computing-containers--devops">Cloud Computing, Containers &amp; DevOps</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="cloud-computing-containers--devops"><a href="#cloud-computing-containers--devops" class="header">Cloud Computing, Containers &amp; DevOps</a></h1>
 <ul>
 <li><a href="https://opensource.com/article/21/8/container-image">What is a Container Image?</a></li>
 <li><a href="https://snyk.io/blog/container-image-formats/">Container Image Formats Under the Hood</a></li>
@@ -535,14 +558,17 @@
 <li><a href="https://iximiuz.com/en/posts/container-learning-path/">Learning Containers From The Bottom Up</a></li>
 <li><a href="https://earthly.dev/blog/chroot/">Containers Are Chroot with a Marketing Budget</a></li>
 <li><a href="https://www.jeremyjordan.me/kubernetes/">An Introduction to Kubernetes</a></li>
+<li><a href="https://k8sbyexample.org/">Kubernetes by Example</a></li>
+<li><a href="https://dominik-tornow.medium.com/the-mechanics-of-kubernetes-ac8112eaa302">The Mechanics of Kubernetes</a></li>
 <li><a href="https://jpetazzo.github.io/2024/05/12/understanding-kubernetes-dns-hostnetwork-dnspolicy-dnsconfigforming/">Understanding DNS resolution on Linux and Kubernetes</a></li>
 <li><a href="https://pracucci.com/kubernetes-dns-resolution-ndots-options-and-why-it-may-affect-application-performances.html">Kubernetes pods /etc/resolv.conf ndots:5 option and why it may negatively affect your application performances</a></li>
 <li><a href="https://ahmet.im/blog/controller-pitfalls/">So you wanna write Kubernetes controllers?</a></li>
-<li><a href="https://opensource.com/article/19/4/devops-pipeline">A Beginner's Guide to Building DevOps Pipelines With Open Source Tools</a></li>
+<li><a href="https://opensource.com/article/19/4/devops-pipeline">A Beginner’s Guide to Building DevOps Pipelines With Open Source Tools</a></li>
 <li><a href="https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/">The Cloudy Layers of Modern-Day Programming</a></li>
 <li><a href="https://free-for.dev">Free for Developers</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="local-first"><a class="header" href="#local-first">Local-First</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="local-first"><a href="#local-first" class="header">Local-First</a></h1>
 <ul>
 <li><a href="https://www.wired.com/story/the-cloud-is-a-prison-can-the-local-first-software-movement-set-us-free/">The Cloud Is a Prison</a></li>
 <li><a href="https://www.inkandswitch.com/local-first/">Local-first software</a></li>
@@ -550,13 +576,15 @@
 <li><a href="https://jakelazaroff.com/words/an-interactive-intro-to-crdts/">An Interactive Intro to CRDTs</a></li>
 <li><a href="https://localfirstweb.dev/">Local-first Web Development</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="self-hosting"><a class="header" href="#self-hosting">Self-Hosting</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="self-hosting"><a href="#self-hosting" class="header">Self-Hosting</a></h1>
 <ul>
 <li><a href="https://self-hosting.compilade.net/">Let’s learn how to set up a server!</a></li>
 <li><a href="https://linuxblog.io/home-lab-beginners-guide-hardware/">Home Lab Beginners guide (Hardware)</a></li>
 <li><a href="https://selfh.st/apps/">selfh.st/apps</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="security"><a class="header" href="#security">Security</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="security"><a href="#security" class="header">Security</a></h1>
 <ul>
 <li><a href="https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html">API authentication and authorization</a></li>
 <li><a href="https://nullsweep.com/http-security-headers-a-complete-guide/">HTTP Security Headers</a></li>
@@ -568,7 +596,7 @@
 <li>Zalewski, Tangled Web. A Guide to Securing Modern Web Applications</li>
 <li><a href="https://cheatsheetseries.owasp.org/index.html">OWASP Cheat Sheet Series</a></li>
 <li><a href="https://cryptobook.nakov.com/">Practical Cryptography for Developers</a></li>
-<li><a href="https://portswigger.net/web-security">Web Security Academy</a> (n.b. this course is the updated version of the book 'The Web Application Hacker's Handbook')</li>
+<li><a href="https://portswigger.net/web-security">Web Security Academy</a> (n.b. this course is the updated version of the book ‘The Web Application Hacker’s Handbook’)</li>
 <li><a href="https://subtls.pages.dev/">See this page fetch itself, byte by byte, over TLS</a></li>
 <li><a href="https://tls13.xargs.org/">The Illustrated TLS 1.3 Connection</a></li>
 <li><a href="https://cryptopals.com/">the cryptopals crypto challenges</a></li>
@@ -580,7 +608,8 @@
 <li><a href="https://infosecforactivists.org/">Infosec 101 for Activists</a></li>
 <li><a href="https://www.crypto101.io/">crypto101</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="html--css--js"><a class="header" href="#html--css--js">HTML &amp; CSS &amp; JS</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="html-css--js"><a href="#html-css--js" class="header">HTML, CSS &amp; JS</a></h1>
 <ul>
 <li><a href="https://htmlforpeople.com/">HTML for people</a></li>
 <li><a href="https://learn.shayhowe.com/html-css/">Learn to Code HTML &amp; CSS</a></li>
@@ -602,10 +631,12 @@
 <li><a href="https://jsoncanvas.org/">JSON Canvas</a></li>
 <li><a href="https://voussoir.net/writing/css_for_printing">CSS for Printing to Paper</a></li>
 <li><a href="https://plainvanillaweb.com/index.html">Plain Vanilla</a></li>
-<li><a href="https://tixy.land/">(t,i,x,y) =&gt; "creative code golfing"</a></li>
+<li><a href="https://tixy.land/">(t,i,x,y) =&gt; “creative code golfing”</a></li>
 <li><a href="https://loadmo.re/">loadmo.re</a></li>
+<li><a href="https://specification.website/">Website Spec</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="networking-web--browsers"><a class="header" href="#networking-web--browsers">Networking, Web &amp; Browsers</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="networking-web--browsers"><a href="#networking-web--browsers" class="header">Networking, Web &amp; Browsers</a></h1>
 <ul>
 <li><a href="https://study-ccna.com/what-is-a-network/">What is a network?</a></li>
 <li><a href="https://eater.net/inet">Learn how the Internet works</a></li>
@@ -614,12 +645,12 @@
 <li><a href="https://book.systemsapproach.org/index.html">Computer Networks: A Systems Approach</a></li>
 <li><a href="https://hpbn.co/">Grigorik, High Performance Browser Networking: What every web developer should know about networking and web performance</a></li>
 <li><a href="https://iximiuz.com/en/series/computer-networking-fundamentals/">Computer Networking Fundamentals</a></li>
-<li><a href="https://www.ipprimer.com/#/">Daryl's TCP/IP Primer</a></li>
+<li><a href="https://www.ipprimer.com/#/">Daryl’s TCP/IP Primer</a></li>
 <li><a href="https://www.practicalnetworking.net/series/packet-traveling/packet-traveling/">Packet Traveling</a></li>
-<li><a href="https://educatedguesswork.org/posts/nat-part-1/">Everything you never knew about NATs and wish you hadn't asked</a></li>
-<li><a href="https://beej.us/guide/bgnet/">Beej's Guide to Network Programming</a></li>
-<li><a href="https://beej.us/guide/bgnet0/">Beej's Guide to Networking Concepts</a></li>
-<li><a href="https://beej.us/guide/bgipc/">Beej's Guide to Unix Interprocess Communication</a></li>
+<li><a href="https://educatedguesswork.org/posts/nat-part-1/">Everything you never knew about NATs and wish you hadn’t asked</a></li>
+<li><a href="https://beej.us/guide/bgnet/">Beej’s Guide to Network Programming</a></li>
+<li><a href="https://beej.us/guide/bgnet0/">Beej’s Guide to Networking Concepts</a></li>
+<li><a href="https://beej.us/guide/bgipc/">Beej’s Guide to Unix Interprocess Communication</a></li>
 <li><a href="https://mwl.io/nonfiction/networking#n4sa">Michael W. Lucas, Networking for System Administrators</a></li>
 <li><a href="https://nostarch.com/packetanalysis3">Sanders, Practical Packet Analysis</a></li>
 <li><a href="https://protohackers.com/">Protohackers. Server programming challenge</a></li>
@@ -629,7 +660,7 @@
 <li><a href="https://avinetworks.com/glossary/ssl-termination/">SSL Termination</a></li>
 <li><a href="https://scrapism.lav.io/">Web Scraping</a></li>
 <li><a href="https://tomhummel.com/posts/four-web-apps/">Four Ways to Build Web Apps</a></li>
-<li><a href="https://www.epicweb.dev/the-webs-next-transition">The Web's Next Transition</a></li>
+<li><a href="https://www.epicweb.dev/the-webs-next-transition">The Web’s Next Transition</a></li>
 <li><a href="https://alistapart.com/article/the-future-of-web-software-is-html-over-websockets/">The Future of Web Software Is HTML-over-WebSockets</a></li>
 <li><a href="https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/">How to Port Forward on Your Router</a></li>
 <li><a href="https://grifel.dev/decentralization/">Self hosting in 2023</a></li>
@@ -639,8 +670,8 @@
 <li><a href="https://webdevelopmenthistory.com/index/">Web Development History. Internet history for the technically curious</a></li>
 <li><a href="https://frankchimero.com/blog/2015/the-webs-grain/">The Web’s Grain</a></li>
 <li><a href="https://benhoyt.com/writings/the-small-web-is-beautiful/">The small web is beautiful</a></li>
-<li><a href="https://potato.cheap/">The "Cheap" Web</a></li>
-<li><a href="https://zserge.com/posts/small-web/">Poor Man's Web</a></li>
+<li><a href="https://potato.cheap/">The “Cheap” Web</a></li>
+<li><a href="https://zserge.com/posts/small-web/">Poor Man’s Web</a></li>
 <li><a href="https://www.webdesignmuseum.org/">Web Design Museum</a></li>
 <li><a href="https://whimsical.club/">The Whimsical Web</a></li>
 <li><a href="https://thewebisfucked.com/">The Web Is Fucked</a></li>
@@ -651,16 +682,18 @@
 <li><a href="https://www.w3.org/DesignIssues/Good.html">The Good on the Internet</a></li>
 <li><a href="https://www.bjornjohansen.com/www-or-not">To www or not to www - Should you use www or not in your domain?</a></li>
 <li><a href="https://santurcesoftware.com/making-web-sites-small">Making Websites Small</a></li>
-<li><a href="https://alan.norbauer.com/articles/browser-debugging-tricks">67 Weird Debugging Tricks Your Browser Doesn't Want You to Know</a></li>
+<li><a href="https://alan.norbauer.com/articles/browser-debugging-tricks">67 Weird Debugging Tricks Your Browser Doesn’t Want You to Know</a></li>
 <li><a href="https://xkln.net/blog/icmp-ping-and-traceroute--what-i-wish-i-was-taught/">ICMP, Ping, and Traceroute - What I Wish I Was Taught</a></li>
 <li><a href="https://educatedguesswork.org/posts/traffic-relaying/">How to Hide Your IP Address</a></li>
 <li><a href="https://bytebybyte.dev/">See this page fetch itself, byte by byte, over TLS</a></li>
 <li><a href="https://tls13.xargs.org/">The Illustrated TLS 1.3 Connection</a></li>
+<li><a href="https://www.wiisfi.com/">Wi is Fi. Understanding Wi-Fi 4/5/6/6E/7/8 (802.11 n/ac/ax/be/bn)</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="performance--observability"><a class="header" href="#performance--observability">Performance &amp; Observability</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="performance--observability"><a href="#performance--observability" class="header">Performance &amp; Observability</a></h1>
 <ul>
 <li><a href="https://github.com/dendibakh/perf-book">Performance Analysis and Tuning on Modern CPU</a></li>
-<li><a href="https://github.com/sirupsen/napkin-math">Simon Eskildsen's Napkin Math</a></li>
+<li><a href="https://github.com/sirupsen/napkin-math">Simon Eskildsen’s Napkin Math</a></li>
 <li><a href="https://www.youtube.com/watch?v=IxkSlnrRFqc">Advanced Napkin Math: Estimating System Performance from First Principles</a></li>
 <li><a href="https://debugagent.com/strace-revisited-simple-is-beautiful">strace Revisited: Simple is Beautiful</a></li>
 <li><a href="https://www.computerenhance.com/p/table-of-contents">Performance-Aware Programming Series by Casey Muratori</a></li>
@@ -685,11 +718,13 @@
 <li><a href="https://netflixtechblog.com/linux-performance-analysis-in-60-000-milliseconds-accc10403c55">Linux Performance Analysis in 60,000 Milliseconds</a></li>
 <li><a href="https://ottl.run/">OTTK Playground</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="social-networks"><a class="header" href="#social-networks">Social Networks</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="social-networks"><a href="#social-networks" class="header">Social Networks</a></h1>
 <ul>
 <li><a href="https://seb.jambor.dev/posts/understanding-activitypub/">Understanding ActivityPub</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="unixlinux"><a class="header" href="#unixlinux">UNIX/Linux</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="unixlinux"><a href="#unixlinux" class="header">UNIX/Linux</a></h1>
 <ul>
 <li><a href="https://www.debian.org/releases/buster/amd64/ch01s02.en.html">What is GNU/Linux?</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Unix_wars">Unix wars</a></li>
@@ -720,7 +755,9 @@
 <li><a href="https://blog.scottlowe.org/2023/12/15/conditional-git-configuration/">Conditional Git Configuration</a></li>
 <li><a href="https://blog.backslasher.net/git-prompt-variables.html">Git Prompt Variables</a></li>
 <li><a href="https://blog.gitbutler.com/how-git-core-devs-configure-git/">How Core Git Developers Configure Git</a></li>
+<li><a href="https://gitperf.com/">High Performance Git</a></li>
 <li><a href="https://www.conventionalcommits.org">Conventional Commits</a></li>
+<li><a href="https://conventional-branch.github.io/">Conventional Branch</a></li>
 <li><a href="https://sharats.me/posts/shell-script-best-practices/">Shell Script Best Practices</a></li>
 <li><a href="https://vim-adventures.com/">vim Adventures</a></li>
 <li><a href="https://www.cs.upc.edu/~padro/Unixforpoets.pdf">Unix for Poets</a></li>
@@ -729,11 +766,12 @@
 <li><a href="https://kkovacs.eu/cool-but-obscure-unix-tools/">Cool, but obscure Unix tools</a></li>
 <li><a href="https://cyber.dabamos.de/unix/x11/">Cool, but obscure X11 tools</a></li>
 <li><a href="https://makelinux.github.io/kernel/map/">Linux Kernel Map</a></li>
+<li><a href="https://ebpf.party/">Interactive eBPF Tutorial</a></li>
 <li><a href="https://www.kerno.io/blog/programming-the-kernel-with-ebpf">Programming the Kernel with eBPF</a></li>
 <li><a href="https://dataswamp.org/~solene/2023-07-12-intro-to-immutable-os.html">Introduction to immutable Linux systems</a></li>
 <li><a href="https://www.slice.zone/blog/nix-in-practice">An overview of Nix in practice</a></li>
 <li><a href="https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide/">Linux Network Performance Ultimate Guide</a></li>
-<li><a href="https://blog.robertelder.org/gnu-coreutils-package-guide/">Robert Elder's Guide To GNU Coreutils</a></li>
+<li><a href="https://blog.robertelder.org/gnu-coreutils-package-guide/">Robert Elder’s Guide To GNU Coreutils</a></li>
 <li><a href="https://blog.rtrace.io/posts/the-linux-audio-stack-demystified/">The Linux audio stack demystified</a></li>
 <li><a href="https://www.akitaonrails.com/2017/01/17/optimizing-linux-for-slow-computers">Optimizing Linux for Slow Computers</a></li>
 <li><a href="https://filippo.io/linux-syscall-table/">Searchable Linux Syscall Table</a></li>
@@ -743,8 +781,10 @@
 <li><a href="https://madaidans-insecurities.github.io/guides/linux-hardening.html#choosing-the-right-distro">Linux Hardening Guide</a></li>
 <li><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html">Linux Kernel Teaching</a></li>
 <li><a href="https://makefiletutorial.com/">Learn Makefiles</a></li>
+<li><a href="https://airbus-seclab.github.io/qemu_blog/">QEMU internals</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="system-programming"><a class="header" href="#system-programming">System Programming</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="system-programming"><a href="#system-programming" class="header">System Programming</a></h1>
 <ul>
 <li><a href="https://www.linuxjournal.com/content/what-does-it-take-make-kernel-0">What Does It Take to Make a Kernel?</a></li>
 <li><a href="https://www.linuxjournal.com/content/core-knowledge-modern-linux-kernel-developer-should-have">Core Knowledge That Modern Linux Kernel Developer Should Have</a></li>
@@ -754,7 +794,7 @@
 <li><a href="https://www.linuxfromscratch.org/blfs/view/stable-systemd/index.html">Beyond Linux® From Scratch (systemd Edition)</a></li>
 <li><a href="https://littleosbook.github.io/">The little book about OS development</a></li>
 <li><a href="https://greenteapress.com/thinkos/thinkos.pdf">Think OS. A Brief Introduction to Operating Systems</a></li>
-<li><a href="http://csapp.cs.cmu.edu/3e/home.html">Computer Systems: A Programmer's Perspective</a></li>
+<li><a href="http://csapp.cs.cmu.edu/3e/home.html">Computer Systems: A Programmer’s Perspective</a></li>
 <li><a href="https://diveintosystems.org/singlepage/">Dive into Systems</a></li>
 <li><a href="https://www.cs.princeton.edu/~bwk/upe/upe.html">Kernighan and Pike, The Unix Programming Environment</a></li>
 <li><a href="https://man7.org/tlpi/">Kerrisk, The Linux Programming Interface</a></li>
@@ -766,12 +806,13 @@
 <li><a href="https://sysprog21.github.io/lkmpg/">The Linux Kernel Module Programming Guide</a></li>
 <li><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html">Linux Kernel Teaching</a></li>
 <li><a href="https://s-matyukevich.github.io/raspberry-pi-os/">Learning operating system development using Linux kernel and Raspberry Pi</a></li>
-<li><a href="https://beej.us/guide/bgc/">Beej's Guide to C Programming</a></li>
+<li><a href="https://beej.us/guide/bgc/">Beej’s Guide to C Programming</a></li>
 <li><a href="https://ops-class.org/">Hack The Kernel</a></li>
 <li><a href="https://gpages.juszkiewicz.com.pl/syscalls-table/syscalls.html">Linux kernel system calls for all architectures</a></li>
 <li><a href="https://wiki.osdev.org/Expanded_Main_Page">OSDev.org</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="terminal"><a class="header" href="#terminal">Terminal</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="terminal"><a href="#terminal" class="header">Terminal</a></h1>
 <ul>
 <li><a href="https://kevroletin.github.io/terminal/2021/12/11/how-terminal-works-in.html">How terminal works</a></li>
 <li><a href="https://terminalguide.namepad.de/">Terminal Guide</a></li>
@@ -783,21 +824,24 @@
 <li><a href="https://www.ibm.com/docs/en/zos/2.4.0?topic=descriptions-infocmp-compare-print-terminal-description">infocmp - Compare or print the terminal description</a></li>
 <li><a href="https://poor.dev/blog/terminal-anatomy/">Anatomy of a Terminal Emulator</a></li>
 <li><a href="https://en.wikipedia.org/wiki/ANSI_escape_code#Colors">ANSI escape code</a></li>
-<li><a href="https://zig.news/lhp/want-to-create-a-tui-application-the-basics-of-uncooked-terminal-io-17gm">Want to create a TUI application? - The Basics of "Uncooked" Terminal IO</a></li>
+<li><a href="https://zig.news/lhp/want-to-create-a-tui-application-the-basics-of-uncooked-terminal-io-17gm">Want to create a TUI application? - The Basics of “Uncooked” Terminal IO</a></li>
 <li><a href="https://news.ycombinator.com/item?id=33216626">A new way of drawing boxes in the terminal (possibly)</a></li>
 <li><a href="http://marklodato.github.io/js-boxdrawing/">Javascript Box Drawing Demo</a></li>
 <li><a href="https://vt100.net/">VT100.net</a></li>
 <li><a href="https://www.linusakesson.net/programming/tty/?utm_source=substack&amp;utm_medium=email">The TTY Demystified</a></li>
 <li><a href="https://vt100.net/shuford/terminal/all_about_sixels.txt">All About SIXELs</a></li>
 <li><a href="https://clig.dev/">Command Line Interface Guidelines</a></li>
-<li><a href="https://jvns.ca/blog/2024/11/26/terminal-rules/">"Rules" that terminal programs follow</a></li>
+<li><a href="https://jvns.ca/blog/2024/11/26/terminal-rules/">“Rules” that terminal programs follow</a></li>
+<li><a href="https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/">Shell Tricks That Actually Make Life Easier (And Save Your Sanity)</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="by-example"><a class="header" href="#by-example">By Example</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="by-example"><a href="#by-example" class="header">By Example</a></h1>
 <ul>
 <li><a href="https://ffmpegbyexample.com/">ffmpeg</a></li>
 <li><a href="https://systemd-by-example.com/">systemd</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="playgrounds"><a class="header" href="#playgrounds">Playgrounds</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="playgrounds"><a href="#playgrounds" class="header">Playgrounds</a></h1>
 <ul>
 <li><a href="https://play.tinygo.org/">TinyGo Playground</a></li>
 <li><a href="https://jsfiddle.net/">JSFiddle</a></li>
@@ -821,8 +865,9 @@
 <li><a href="https://samwho.dev/hashing-playground/">Hashing</a></li>
 <li><a href="https://www.nandgame.com/">NandGame</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="from-scratch"><a class="header" href="#from-scratch">From Scratch</a></h2>
-<p>Tutorials:</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="from-scratch"><a href="#from-scratch" class="header">From Scratch</a></h1>
+<h2 id="tutorials"><a class="header" href="#tutorials">Tutorials</a></h2>
 <ul>
 <li><a href="https://viewsourcecode.org/snaptoken/kilo/index.html">Build Your Own Text Editor</a></li>
 <li><a href="https://redis.pjam.me/">Rebuilding Redis in Ruby</a></li>
@@ -830,7 +875,7 @@
 <li><a href="https://www.alexmolas.com/2024/02/05/a-search-engine-in-80-lines.html">A search engine in 80 lines of Python</a></li>
 <li><a href="https://akashrajpurohit.com/blog/build-your-own-docker-with-linux-namespaces-cgroups-and-chroot-handson-guide/">Build Your Own Docker</a></li>
 <li><a href="http://raytracerchallenge.com/">The Ray Tracer Challenge</a></li>
-<li><a href="https://cstack.github.io/db_tutorial/">Let's Build a Simple Database</a></li>
+<li><a href="https://cstack.github.io/db_tutorial/">Let’s Build a Simple Database</a></li>
 <li><a href="https://brennan.io/2015/01/16/write-a-shell-in-c/">Write a Shell in C</a></li>
 <li><a href="http://www.craftinginterpreters.com/">Crafting Interpreters</a></li>
 <li><a href="https://wiki.osdev.org/Creating_an_Operating_System">Creating an Operating System</a></li>
@@ -846,16 +891,16 @@
 <li><a href="https://e2eml.school/transformers.html">Transformers from Scratch</a></li>
 <li><a href="https://buildyourownlisp.com/contents">Build Your Own Lisp</a></li>
 <li><a href="https://jvns.ca/blog/2022/03/23/a-toy-version-of-tls/">Implementing a toy version of TLS 1.3</a></li>
-<li><a href="https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/">Let's build a Full-Text Search engine</a></li>
-<li><a href="https://briancallahan.net/blog/20210814.html">Let's write a compiler</a></li>
+<li><a href="https://artem.krylysov.com/blog/2020/07/28/lets-build-a-full-text-search-engine/">Let’s build a Full-Text Search engine</a></li>
+<li><a href="https://briancallahan.net/blog/20210814.html">Let’s write a compiler</a></li>
 <li><a href="https://iximiuz.com/en/posts/explain-event-loop-in-100-lines-of-code/">Explaining event loop in 100 lines of code</a></li>
 <li><a href="https://notes.eatonphil.com/2023-05-25-raft.html">Implementing a distributed key-value store on top of implementing Raft in Go</a></li>
 <li><a href="https://gaultier.github.io/blog/x11_x64.html">Learn x86-64 assembly by writing a GUI from scratch</a></li>
 <li><a href="https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/">Writing a Linux Debugger</a></li>
-<li><a href="https://austinhenley.com/blog/teenytinycompiler1.html">Let's make a Teeny Tiny compiler</a></li>
+<li><a href="https://austinhenley.com/blog/teenytinycompiler1.html">Let’s make a Teeny Tiny compiler</a></li>
 <li><a href="https://monroeclinton.com/build-your-own-window-manager/">How to build a window manager in Python</a></li>
 <li><a href="https://austinhenley.com/blog/cosine.html">Implementing cosine in C from scratch</a></li>
-<li><a href="https://cstack.github.io/db_tutorial/">Let's Build a Simple Database. Writing a sqlite clone from scratch in C</a></li>
+<li><a href="https://cstack.github.io/db_tutorial/">Let’s Build a Simple Database. Writing a sqlite clone from scratch in C</a></li>
 <li><a href="https://github.com/DoctorWkt/acwj">A Compiler Writing Journey</a></li>
 <li><a href="https://norasandler.com/2017/11/29/Write-a-Compiler.html">Writing a C Compiler</a></li>
 <li><a href="https://vgel.me/posts/c500/">Writing a C compiler in 500 lines of Python</a></li>
@@ -872,12 +917,12 @@
 <li><a href="https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html">Writing a File System From Scratch</a></li>
 <li><a href="https://shop.jcoglan.com/building-git/">Building Git</a></li>
 <li><a href="https://bclarkson-code.github.io/posts/llm-from-scratch-scalar-autograd/post.html">Building an LLM from scratch</a></li>
-<li><a href="https://compilers.iecc.com/crenshaw/">Let's Build a Compiler by Jack Crenshaw</a></li>
+<li><a href="https://compilers.iecc.com/crenshaw/">Let’s Build a Compiler by Jack Crenshaw</a></li>
 <li><a href="https://notes.eatonphil.com/writing-a-simple-json-parser.html">Writing a simple JSON parser</a></li>
 <li><a href="https://ruslanspivak.com/lsbasi-part1/">Let’s Build A Simple Interpreter</a></li>
 <li><a href="https://valyent.substack.com/p/build-your-own-smtp-server-in-go">Build Your Own SMTP Server in Go</a></li>
 <li><a href="https://pomb.us/build-your-own-react/">Build your own React</a></li>
-<li><a href="https://gaultier.github.io/blog/write_a_video_game_from_scratch_like_1987.html">Let's write a video game from scratch like it's 1987</a></li>
+<li><a href="https://gaultier.github.io/blog/write_a_video_game_from_scratch_like_1987.html">Let’s write a video game from scratch like it’s 1987</a></li>
 <li><a href="https://imrannazar.com/series/gameboy-emulation-in-javascript">GameBoy Emulation in JavaScript</a></li>
 <li><a href="https://github.com/karpathy/build-nanogpt">Build nanoGPT from scratch</a></li>
 <li><a href="https://buildyourownlisp.com/">Build Your Own Lisp</a></li>
@@ -902,32 +947,34 @@
 <li><a href="https://lisperator.net/pltut/">How to implement a programming language in JavaScript</a></li>
 <li><a href="https://lwn.net/Articles/276782/">A ToC of the 20 Part Linker Essay by Ian Lance Taylor</a></li>
 <li><a href="https://notes.eatonphil.com/2024-09-29-build-a-serverless-acid-database-with-this-one-neat-trick.html">Build a serverless ACID database with this one neat trick (atomic PutIfAbsent)</a></li>
-<li><a href="https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/">Let's code a TCP/IP stack</a></li>
+<li><a href="https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/">Let’s code a TCP/IP stack</a></li>
 <li><a href="https://bernsteinbear.com/blog/simple-search/">A simple search engine from scratch</a></li>
 </ul>
-<p>Other lists:</p>
+<h2 id="other-lists"><a class="header" href="#other-lists">Other Lists</a></h2>
 <ul>
 <li><a href="https://build-your-own.org">Build Your Own</a></li>
 <li><a href="https://github.com/codecrafters-io/build-your-own-x">Build Your Own X</a></li>
 <li><a href="https://github.com/practical-tutorials/project-based-learning">Project Based Learning</a></li>
 <li><a href="https://github.com/AlgoryL/Projects-from-Scratch">Projects-from-Scratch</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="how-things-work"><a class="header" href="#how-things-work">How Things Work</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="how-things-work"><a href="#how-things-work" class="header">How Things Work</a></h1>
 <ul>
-<li><a href="https://jvns.ca/blog/2023/08/03/behind--hello-world/">Behind "Hello World" on Linux</a></li>
+<li><a href="https://jvns.ca/blog/2023/08/03/behind--hello-world/">Behind “Hello World” on Linux</a></li>
 <li><a href="https://cpu.land/">Putting the “You” in CPU</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work">How Browsers Work</a></li>
 <li><a href="https://itnext.io/how-do-open-source-solutions-for-logs-work-elasticsearch-loki-and-victorialogs-9f7097ecbc2f">How do open source solutions for logs work</a></li>
-<li><a href="https://jvns.ca/blog/2013/11/29/what-happens-when-you-run-a-unix-program/">What happens when you run 'Hello, world'</a></li>
+<li><a href="https://jvns.ca/blog/2013/11/29/what-happens-when-you-run-a-unix-program/">What happens when you run ‘Hello, world’</a></li>
 <li><a href="https://jvns.ca/blog/2022/07/20/pseudoterminals/">What happens when you press a key in your terminal?</a></li>
 <li><a href="https://danluu.com/navigate-url/">What happens when you load a URL?</a></li>
 <li><a href="https://lateblt.tripod.com/bit68.txt">What happens when a CPU starts</a></li>
 <li><a href="https://jvns.ca/blog/2016/10/04/exec-will-eat-your-brain/">What happens when you start a process on Linux?</a></li>
 <li><a href="https://jvns.ca/blog/how-updating-dns-works/">What happens when you update your DNS?</a></li>
-<li><a href="https://github.com/alex/what-happens-when">What happens when...</a></li>
+<li><a href="https://github.com/alex/what-happens-when">What happens when…</a></li>
 <li><a href="https://pikuma.com/blog/understanding-computer-cache">Exploring How Cache Memory Really Works</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="embedded-systems--electronics"><a class="header" href="#embedded-systems--electronics">Embedded Systems &amp; Electronics</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="embedded-systems--electronics"><a href="#embedded-systems--electronics" class="header">Embedded Systems &amp; Electronics</a></h1>
 <ul>
 <li><a href="https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/">A guide to getting started with embedded systems</a></li>
 <li><a href="https://opensource.com/resources/what-arduino">What is an Arduino?</a></li>
@@ -968,8 +1015,10 @@
 <li><a href="https://books.google.it/books?id=-XGAPeVhRs4C&amp;printsec=frontcover&amp;redir_esc=y#v=onepage&amp;q&amp;f=false">J. Clark Scott, But How Do it Know?: The Basic Principles of Computers for Everyone</a></li>
 <li><a href="https://github.com/cpq/bare-metal-programming-guide">A bare metal programming guide</a></li>
 <li><a href="https://skilldrick.github.io/easy6502/">Easy 6502</a></li>
+<li><a href="https://timmastny.com/blog/visualizing-cpu-pipelining/">Visualizing CPU Pipelining</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="foss-diy--right-to-repair"><a class="header" href="#foss-diy--right-to-repair">FOSS, DIY &amp; Right to Repair</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="open-source-diy--right-to-repair"><a href="#open-source-diy--right-to-repair" class="header">Open Source, DIY &amp; Right to Repair</a></h1>
 <ul>
 <li><a href="https://writefreesoftware.org/learn/">What is Free Software?</a></li>
 <li><a href="https://opensource.org/osd/">The Open Source Definition</a></li>
@@ -982,14 +1031,15 @@
 <li><a href="https://repair.eu/">Right to Repair</a></li>
 <li><a href="https://www.repaircafe.org/en/">RepairCafé</a></li>
 <li><a href="https://fosdem.org/">FOSDEM</a></li>
-<li><a href="https://drewdevault.com/2018/10/05/Dont-sign-a-CLA.html">Don't Sign a CLA</a></li>
+<li><a href="https://drewdevault.com/2018/10/05/Dont-sign-a-CLA.html">Don’t Sign a CLA</a></li>
 <li><a href="https://kristoff.it/blog/good-open-source/">The Good Parts of Open Source</a></li>
 <li><a href="https://blog.adafruit.com/2023/07/12/when-open-becomes-opaque-the-changing-face-of-open-source-hardware-companies/">When Open Becomes Opaque: The Changing Face of Open-Source Hardware Companies</a></li>
-<li><a href="https://pluralistic.net/2023/08/18/openwashing/">"Open" "AI" isn't</a></li>
+<li><a href="https://pluralistic.net/2023/08/18/openwashing/">“Open” “AI” isn’t</a></li>
 <li><a href="https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech">Protocols, Not Platforms</a></li>
 <li><a href="https://makeityourself.org/">Make It Yourself</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="reverse-engineering"><a class="header" href="#reverse-engineering">Reverse Engineering</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="reverse-engineering"><a href="#reverse-engineering" class="header">Reverse Engineering</a></h1>
 <ul>
 <li><a href="http://www.muppetlabs.com/~breadbox/txt/bure.html">An Introduction to Reverse Engineering</a></li>
 <li><a href="https://0xinfection.github.io/reversing/">Reverse Engineering For Everyone!</a></li>
@@ -997,10 +1047,10 @@
 <li><a href="https://triq.org/">triq.org</a></li>
 <li><a href="https://hackingthexbox.com/">Hacking the Xbox. An Introduction to Reverse Engineering</a></li>
 </ul>
-<p>In the wild:</p>
+<h2 id="in-the-wild"><a class="header" href="#in-the-wild">In the Wild</a></h2>
 <ul>
 <li><a href="https://www.whizzy.org/2023-12-14-bricked-xmas/">Reverse engineering Bluetooth LE LED light controllers, or How I Bricked My Christmas Lights</a></li>
-<li><a href="https://kuenzi.dev/toothbrush/">Hacking my "smart" toothbrush</a></li>
+<li><a href="https://kuenzi.dev/toothbrush/">Hacking my “smart” toothbrush</a></li>
 <li><a href="https://eta.st/2023/01/31/rail-tickets.html">Reversing UK mobile rail tickets</a></li>
 <li><a href="https://programmingwithstyle.com/posts/howihackedmycar/">How I Hacked My Car</a></li>
 <li><a href="https://doubleagent.net/2023/05/21/a-car-battery-monitor-tracking-your-location">Discovering that your Bluetooth car battery monitor is siphoning up your location data</a></li>
@@ -1009,10 +1059,11 @@
 <li><a href="https://www.hardbreak.wiki/">HardBreak - Hardware Hacking Wiki</a></li>
 <li><a href="https://medium.com/csg-govtech/reverse-engineering-a-smartwatch-a7cec52b29c8">Reverse Engineering a Smartwatch</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="math"><a class="header" href="#math">Math</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="math"><a href="#math" class="header">Math</a></h1>
 <ul>
 <li><a href="http://pub.gajendra.net/2012/10/mathematics_i_use">Mathematics I Use</a></li>
-<li><a href="https://pimbook.org/">Kun, A Programmer's Introduction to Mathematics</a></li>
+<li><a href="https://pimbook.org/">Kun, A Programmer’s Introduction to Mathematics</a></li>
 <li><a href="https://www.neilwithdata.com/mathematics-self-learner">Mathematics for the adventurous self-learner</a></li>
 <li><a href="https://www.3blue1brown.com/">3Blue1Brown</a></li>
 <li><a href="https://www.khanacademy.org/math">Khan Academy</a></li>
@@ -1038,20 +1089,27 @@
 <li><a href="https://www.altdevarts.com/p/onboarding-floating-point">Onboarding Floating-Point</a></li>
 <li><a href="https://bivector.net/">Geometric Algebra</a></li>
 <li><a href="https://dataorigami.net/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/">Probabilistic Programming &amp; Bayesian Methods for Hackers</a></li>
+<li><a href="https://polypad.amplify.com/">Polypad: The Mathematical Playground</a></li>
+<li><a href="https://archive.org/details/mir-titles">Mir Books</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="music"><a class="header" href="#music">Music</a></h1>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="music"><a href="#music" class="header">Music</a></h1>
 <ul>
 <li><a href="https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html">Python Notebooks for Fundamentals of Music Processing</a></li>
 <li><a href="https://strudel.cc/workshop/getting-started/">strudel.cc</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="computer-graphics--games"><a class="header" href="#computer-graphics--games">Computer Graphics &amp; Games</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="computer-graphics--games"><a href="#computer-graphics--games" class="header">Computer Graphics &amp; Games</a></h1>
 <ul>
 <li><a href="https://gameprogrammingpatterns.com/">Game Programming Patterns</a></li>
 <li><a href="https://www.satori.org/game-programming-gems/">Game Programming Gems</a></li>
 <li><a href="https://thebookofshaders.com/">The Book of Shaders</a></li>
-<li><a href="https://lodev.org/cgtutor/raycasting.html">Lode's Computer Graphics Tutorial</a></li>
+<li><a href="https://lodev.org/cgtutor/raycasting.html">Lode’s Computer Graphics Tutorial</a></li>
+<li><a href="https://develop--gpvm-website.netlify.app/resources/">Graphics Programming Resources</a></li>
+<li><a href="https://www.sophielwang.com/blog/jpeg">JPEG compression</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="machine-learning-and-deep-learning"><a class="header" href="#machine-learning-and-deep-learning">Machine Learning and Deep Learning</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="machine-learning-and-deep-learning"><a href="#machine-learning-and-deep-learning" class="header">Machine Learning and Deep Learning</a></h1>
 <ul>
 <li><a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">A visual introduction to machine learning</a></li>
 <li><a href="https://vickiboykis.com/2022/11/10/how-i-learn-machine-learning/">How I learn machine learning</a></li>
@@ -1077,11 +1135,12 @@
 <li><a href="https://nlp.seas.harvard.edu/2018/04/03/attention.html">The Annotated Transformer</a></li>
 <li><a href="https://elijahpotter.dev/articles/markov_chains_are_the_original_language_models">Markov Chains are the Original Language Models</a></li>
 <li><a href="https://blog.mdturp.ch/posts/2024-04-05-visual_guide_to_vision_transformer.html">A Visual Guide to Vision Transformers</a></li>
-<li><a href="https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE">Ilya Sutskever's Reading List</a></li>
+<li><a href="https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE">Ilya Sutskever’s Reading List</a></li>
 <li><a href="https://ppml.dev/">The Pragmatic Programmer for Machine Learning</a></li>
 <li><a href="https://fleuret.org/francois/lbdl.html">The Little Book of Deep Learning</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="miscellanea"><a class="header" href="#miscellanea">Miscellanea</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="miscellanea"><a href="#miscellanea" class="header">Miscellanea</a></h1>
 <ul>
 <li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)</a></li>
 <li><a href="https://tonsky.me/blog/unicode/">The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)</a></li>
@@ -1089,9 +1148,9 @@
 <li><a href="https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/">ASCII Table</a></li>
 <li><a href="https://codepoints.net/">Codepoints</a></li>
 <li><a href="https://invisible-characters.com/">Invisible characters</a></li>
-<li><a href="https://csvbase.com/blog/9">You can't just assume UTF-8</a></li>
+<li><a href="https://csvbase.com/blog/9">You can’t just assume UTF-8</a></li>
 <li><a href="https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html">PO Files</a></li>
-<li><a href="https://zachholman.com/talk/utc-is-enough-for-everyone-right">UTC is enough for everyone... right?</a></li>
+<li><a href="https://zachholman.com/talk/utc-is-enough-for-everyone-right">UTC is enough for everyone… right?</a></li>
 <li><a href="https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/">Storing UTC is not a silver bullet</a></li>
 <li><a href="https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601">Designing a REST API: Unix time vs ISO-8601</a></li>
 <li><a href="https://www.regular-expressions.info/email.html">How to Find or Validate an Email Address</a></li>
@@ -1100,8 +1159,8 @@
 <li><a href="https://www.hanshq.net/zip.html">Zip Files: History, Explanation and Implementation</a></li>
 <li><a href="https://github.com/webpro/programming-principles">Programming Principles</a></li>
 <li><a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">The Law of Leaky Abstractions</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Conway%27s_law">Conway's law</a></li>
-<li><a href="https://www.hyrumslaw.com/">Hyrum's Law</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Conway%27s_law">Conway’s law</a></li>
+<li><a href="https://www.hyrumslaw.com/">Hyrum’s Law</a></li>
 <li><a href="https://wiki.c2.com/?MakeItWorkMakeItRightMakeItFast">Make It Work Make It Right Make It Fast</a></li>
 <li><a href="https://blog.frankel.ch/hard-things-computer-science/">Hard Things in Computer Science</a></li>
 <li><a href="https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming">How to name things: the hardest problem in programming</a></li>
@@ -1119,7 +1178,8 @@
 <li><a href="https://infinitecanvas.tools/">Infinite Canvas. Tools that work the way we think</a></li>
 <li><a href="https://www.debuggingbook.org/#">The Debugging Book</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="classics--bibles"><a class="header" href="#classics--bibles">Classics &amp; Bibles</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="classics--bibles"><a href="#classics--bibles" class="header">Classics &amp; Bibles</a></h1>
 <ul>
 <li>Petzold, <a href="https://www.charlespetzold.com/books/">Code: The Hidden Language of Computer Hardware and Software</a></li>
 <li>Hunt &amp; Thomas, <a href="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/">The Pragmatic Programmer</a></li>
@@ -1129,7 +1189,7 @@
 <li>Fowler &amp; Beck, <a href="https://martinfowler.com/books/refactoring.html">Refactoring</a></li>
 <li>Sussman &amp; Abelson, Structure and Interpretation of Computer Programs (SICP)</li>
 <li>Jon Louis Bentley ,Programming Pearls</li>
-<li>Bryant, Computer Systems: A Programmer's Perspective (CS:APP3e)</li>
+<li>Bryant, Computer Systems: A Programmer’s Perspective (CS:APP3e)</li>
 <li>Patterson and Hennessy, <a href="https://shop.elsevier.com/books/computer-organization-and-design-mips-edition/patterson/978-0-12-407726-3#full-description">Computer Organization and Design (MIPS Edition). The Hardware/Software Interface</a></li>
 <li><a href="https://diveintosystems.org/singlepage/">Dive into Systems</a></li>
 <li>Nisan and Schocken, <a href="https://www.nand2tetris.org/">Elements of Computing Systems</a> (nand2tetris)</li>
@@ -1162,14 +1222,15 @@
 <li><a href="https://sre.google/books/">Google SRE books</a></li>
 <li><a href="https://www.dataorienteddesign.com/dodbook/">Data-Oriented Design</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="essays"><a class="header" href="#essays">Essays</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="essays"><a href="#essays" class="header">Essays</a></h1>
 <ul>
 <li><a href="https://weblog.jamisbuck.org/2008/11/9/legos-play-doh-and-programming">LEGOs, Play-Doh, and Programming</a></li>
 <li><a href="https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/">What Color is Your Function?</a></li>
 <li><a href="https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/">Data Structures &amp; Algorithms I Used Working at Tech Companies</a></li>
 <li><a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">The Law of Leaky Abstractions</a></li>
 <li><a href="https://blog.nelhage.com/post/computers-can-be-understood/">Computers can be understood</a></li>
-<li><a href="https://grugbrain.dev/">The Grug Brained Developer. A layman's guide to thinking like the self-aware smol brained</a></li>
+<li><a href="https://grugbrain.dev/">The Grug Brained Developer. A layman’s guide to thinking like the self-aware smol brained</a></li>
 <li><a href="https://jvns.ca/blog/learn-how-things-work/">Get better at programming by learning how things work</a></li>
 <li><a href="https://norvig.com/21-days.html">Teach Yourself Programming in Ten Years</a></li>
 <li><a href="https://fabiensanglard.net/a_linux_evening/index.html">A Linux evening</a></li>
@@ -1179,7 +1240,8 @@
 <li><a href="http://www.catb.org/esr/structure-packing/">The Lost Art of Structure Packing</a></li>
 <li><a href="https://notashelf.dev/posts/curse-of-knowing">The Curse of Knowing How, or; Fixing Everything</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="csfoss-history-and-hackingcyberpunk-culture"><a class="header" href="#csfoss-history-and-hackingcyberpunk-culture">CS/FOSS History and Hacking/Cyberpunk Culture</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="csfoss-history-and-hackingcyberpunk-culture"><a href="#csfoss-history-and-hackingcyberpunk-culture" class="header">CS/FOSS History and Hacking/Cyberpunk Culture</a></h1>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science">List of pioneers in computer science</a></li>
 <li><a href="https://mollymielke.notion.site/Computing-History-Hub-be72f307fc2e4b05abe3dc67eb937521">Computing History Hub</a></li>
@@ -1187,7 +1249,9 @@
 <li><a href="https://technicshistory.com/the-backbone/">The Backbone</a></li>
 <li><a href="https://neal.fun/internet-artifacts/">Internet Artifacts</a></li>
 <li><a href="https://lunduke.substack.com/p/the-history-of-the-graphical-user">The History of the Graphical User Interface - 1945 to 1980</a></li>
+<li><a href="http://www.typewritten.org/Media/">Operating Exhibits</a></li>
 <li><a href="https://rockybergen.com/papercraft">PAPERCRAFT MODELS</a></li>
+<li><a href="https://www.starringthecomputer.com/computers.html">Starring the Computer</a></li>
 <li><a href="https://fermatslibrary.com/journal_club">Computer Science academic papers selected by the Fermat’s Library Journal Club </a></li>
 <li><a href="http://archive.computerhistory.org/resources/text/Oral_History/Faggin_Federico/Faggin_Federico_1_2_3.oral_history.2004.102658025.pdf">Oral History of Federico Faggin</a></li>
 <li>Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. <a href="https://www.mimesisedizioni.it/libro/9788857547046">Utopia del Software Libero</a>)</li>
@@ -1203,7 +1267,7 @@
 <li><a href="http://www.catb.org/esr/faqs/things-every-hacker-once-knew">ESR, Things Every Hacker Once Knew</a></li>
 <li>Kernighan, UNIX: A History and a Memoir</li>
 <li>Kernighan, Understanding the Digital World: What You Need to Know about Computers, the Internet, Privacy, and Security</li>
-<li>Williams, Free as in Freedom: Richard Stallman's Crusade for Free Software</li>
+<li>Williams, Free as in Freedom: Richard Stallman’s Crusade for Free Software</li>
 <li>Torvalds, Just for Fun</li>
 <li>Knuth, Things a Computer Scientist Rarely Talks About</li>
 <li>Levy, Hackers: Heroes of the Computer Revolution</li>
@@ -1217,7 +1281,7 @@
 <li>Hofstadter, Gödel, Escher, Bach: an Eternal Golden Braid</li>
 <li>Kushner, Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture</li>
 <li>Naitoh, How the ThinkPad Changed the World ― and Is Shaping the Future</li>
-<li>Mitnick &amp;s Simon, Ghost in the Wires: My Adventures as the World's Most Wanted Hacker</li>
+<li>Mitnick &amp;s Simon, Ghost in the Wires: My Adventures as the World’s Most Wanted Hacker</li>
 <li>Erickson, Hacking: The Art of Exploitation</li>
 <li>Huang, The Hardware Hacker: Adventures in Making and Breaking Hardware</li>
 <li>Gibson, Neuromancer</li>
@@ -1225,25 +1289,28 @@
 <li>Shirow, The Ghost in the Shell</li>
 <li>Otomo, Akira</li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="software-licenses"><a class="header" href="#software-licenses">Software Licenses</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="software-licenses"><a href="#software-licenses" class="header">Software Licenses</a></h1>
 <ul>
 <li><a href="https://www.logicify.com/en/blog/software-licenses-overview-and-recommendations-for-use-in-development/">Software Licenses: Overview and Recommendations for Developers </a></li>
 <li><a href="https://tldrlegal.com/">Software Licenses in Plain English</a></li>
-<li><a href="https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/">A Beginner's Guide to Open Source Software Development (LFD102)</a></li>
+<li><a href="https://training.linuxfoundation.org/training/beginners-guide-open-source-software-development/">A Beginner’s Guide to Open Source Software Development (LFD102)</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="development-and-team-organization"><a class="header" href="#development-and-team-organization">Development and Team Organization</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="development-and-team-organization"><a href="#development-and-team-organization" class="header">Development and Team Organization</a></h1>
 <ul>
 <li><a href="http://www.dfpug.de/loseblattsammlung/online/workshop/design_patterns/sonstiges.htm">Organization and Team Patterns</a></li>
 <li><a href="https://www.visual-paradigm.com/scrum/scrum-vs-waterfall-vs-agile-vs-lean-vs-kanban/">Scrum vs Waterfall vs Agile vs Lean vs Kanban</a></li>
 <li><a href="https://www.morling.dev/blog/the-code-review-pyramid/">The Code Review Pyramid</a></li>
 <li><a href="https://blog.pragmaticengineer.com/project-management-at-big-tech/">How Big Tech Runs Tech Projects and the Curious Absence of Scrum</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="job-hunting--career-advice"><a class="header" href="#job-hunting--career-advice">Job Hunting &amp; Career Advice</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="job-hunting"><a href="#job-hunting" class="header">Job Hunting</a></h1>
 <ul>
 <li><a href="https://randallkanna.com/get-the-ultimate-list/">Kanna, Job Hunting Resources for Developers</a></li>
 <li><a href="https://www.freecodecamp.org/news/learn-to-code-book/">How to Learn to Code &amp; Get a Developer Job in 2023</a></li>
 <li><a href="https://github.com/viraptor/reverse-interview">Reverse interview</a></li>
-<li><a href="https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/">Questions I'm asking in interviews</a></li>
+<li><a href="https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/">Questions I’m asking in interviews</a></li>
 <li><a href="https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/">The Joel Test: 12 Steps to Better Code</a></li>
 <li><a href="https://www.crackingthecodinginterview.com/">Cracking the Coding Interview</a></li>
 <li><a href="https://leetcode.com/explore/interview/card/top-interview-questions-easy/">LeetCode: Top Interview Questions</a></li>
@@ -1257,7 +1324,8 @@
 <li><a href="https://layoffs.fyi/">Layoffs.fyi</a></li>
 <li><a href="https://techcompenso.com/">TechCompenso</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="finest-sources-of-geek-entertainment"><a class="header" href="#finest-sources-of-geek-entertainment">Finest Sources of Geek Entertainment</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="finest-sources-of-geek-entertainment"><a href="#finest-sources-of-geek-entertainment" class="header">Finest Sources of Geek Entertainment</a></h1>
 <ul>
 <li><a href="https://news.ycombinator.com/">Hacker News</a></li>
 <li><a href="https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA">Computerphile</a></li>
@@ -1267,8 +1335,8 @@
 <li><a href="http://veekaybee.github.io/">Vicki Boykis</a></li>
 <li><a href="https://simonwillison.net/">Simon Willison</a></li>
 <li><a href="https://jvns.ca/">Julia Evans</a></li>
-<li><a href="https://eli.thegreenplace.net/">Eli Bendersky's website</a></li>
-<li><a href="https://www.hanselman.com/blog/">Scott Hanselman's Blog</a></li>
+<li><a href="https://eli.thegreenplace.net/">Eli Bendersky’s website</a></li>
+<li><a href="https://www.hanselman.com/blog/">Scott Hanselman’s Blog</a></li>
 <li><a href="https://blog.codinghorror.com/">Coding Horror</a></li>
 <li><a href="https://daniel.haxx.se/blog/">Daniel Stenberg</a></li>
 <li><a href="https://martinfowler.com/">Martin Fowler</a></li>
@@ -1279,14 +1347,14 @@
 <li><a href="https://weblog.jamisbuck.org/">The Buckblog, assorted ramblings by Jamis Buck</a></li>
 <li><a href="https://www.gwern.net/">Gwern</a></li>
 <li><a href="https://jeremykun.com/">Math ∩ Programming</a></li>
-<li><a href="https://codeblog.jonskeet.uk/">Jon Skeet's coding blog</a></li>
+<li><a href="https://codeblog.jonskeet.uk/">Jon Skeet’s coding blog</a></li>
 <li><a href="https://blog.pragmaticengineer.com/">The Pragmatic Engineer</a></li>
 <li><a href="https://iximiuz.com/en/">Ivan Velichko</a></li>
 <li><a href="https://martin.kleppmann.com/">Martin Kleppmann</a></li>
 <li><a href="https://www.youtube.com/@byterelay">Byte Relay</a></li>
 <li><a href="https://charity.wtf/">Charity Majors</a></li>
 <li><a href="https://lcamtuf.coredump.cx/">lcamtuf</a></li>
-<li><a href="http://www.righto.com/?m=0">Ken Shirriff's blog</a></li>
+<li><a href="http://www.righto.com/?m=0">Ken Shirriff’s blog</a></li>
 <li><a href="https://www.schneier.com/">Schneier on Security</a></li>
 <li><a href="https://norvig.com/">Peter Norvig</a></li>
 <li><a href="https://blog.otoro.net/">hardmaru</a></li>
@@ -1303,7 +1371,7 @@
 <li><a href="https://greenteapress.com/wp/">Green Tea Press</a></li>
 <li><a href="https://opensource.com/">Opensource.com</a></li>
 <li><a href="https://explained-from-first-principles.com/">Explained from First Principles</a></li>
-<li><a href="https://youtube.com/playlist?list=PLekd-G4V99UmwUIEXn6-GYpDq4thTwVv7&amp;si=UVO6JC6Gh1EE8zgE">Let's read source code</a></li>
+<li><a href="https://youtube.com/playlist?list=PLekd-G4V99UmwUIEXn6-GYpDq4thTwVv7&amp;si=UVO6JC6Gh1EE8zgE">Let’s read source code</a></li>
 <li><a href="https://fosdem.org/">FOSDEM</a></li>
 <li><a href="https://www.thestrangeloop.com/index.html">Strange Loop</a></li>
 <li><a href="https://defcon.org/">DEFCON</a></li>
@@ -1316,7 +1384,8 @@
 <blockquote>
 <p>You can subscribe to blog feeds via an RSS/Atom reader, as explained <a href="https://aboutfeeds.com/">here</a>.</p>
 </blockquote>
-<div style="break-before: page; page-break-before: always;"></div><h2 id="funny-things-with-hack-value"><a class="header" href="#funny-things-with-hack-value">Funny Things with Hack Value</a></h2>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="funny-things-with-hack-value"><a href="#funny-things-with-hack-value" class="header">Funny Things with Hack Value</a></h1>
 <ul>
 <li><a href="https://www.dns.toys/">DNS Toys</a></li>
 <li><a href="https://shouldideploy.today/">Should I Deploy Today?</a></li>
@@ -1334,7 +1403,7 @@
 <li><a href="https://skins.webamp.org/">Winamp Skin Museum</a></li>
 <li><a href="https://www.bouncingdvdlogo.com/">Bouncing DVD Logo</a></li>
 <li><a href="https://winxp.vercel.app/">WinXP in React</a></li>
-<li><a href="https://simone.computer/#/">Simone's Computer</a></li>
+<li><a href="https://simone.computer/#/">Simone’s Computer</a></li>
 <li><a href="https://dustinbrett.com/">daedalOS</a></li>
 <li><a href="https://deck-24abcd.netlify.app/">Pokemon Cards V2</a></li>
 <li><a href="https://canitrundoom.org/">Can it Run Doom?</a></li>
@@ -1361,6 +1430,11 @@
 
         </div>
 
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
 
 
 
@@ -1369,13 +1443,13 @@
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-09f2665d.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
 
