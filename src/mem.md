@@ -1,5 +1,3 @@
-## Memory
-
 - [Memory Consistency Models: A Tutorial](https://jamesbornholt.com/blog/memory-models/)
 - [Understanding Memory Management](https://educatedguesswork.org/posts/memory-management-1/)
 - [Memory Management Every Developer Should Know](https://webdeveloper.beehiiv.com/p/memory-management-every-programmer-know)

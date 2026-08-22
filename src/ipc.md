@@ -1,5 +1,3 @@
-## Inter-Process Communication (IPC)
-
 - [The HTTP crash course nobody asked for](https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for)
 - [Mediocre Engineer’s guide to HTTPS](https://devonperoutky.super.site/blog-posts/mediocre-engineers-guide-to-https)
 - [The perils of the "real" client IP](https://adam-p.ca/blog/2022/03/x-forwarded-for/)

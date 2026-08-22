@@ -1,5 +1,3 @@
-## I/O
-
 - [Input/output](https://en.wikipedia.org/wiki/Input/output)
 - [Async IO fundamentals](https://www.ncameron.org/blog/async-io-fundamentals/)
 - [Asynchronous vs. non-blocking calls](https://stackoverflow.com/questions/2625493/asynchronous-and-non-blocking-calls-also-between-blocking-and-synchronous)

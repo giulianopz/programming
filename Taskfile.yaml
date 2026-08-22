@@ -4,14 +4,14 @@ tasks:
   serve:
     cmds:
       # cargo install mdbook
-      - mdbook serve . -p 8000 -n 127.0.0.1 
+      - mdbook serve . -p 8000 -n 127.0.0.1
   linkcheck:
     cmds:
       # go install github.com/giulianopz/mdlinkcheck@latest
       - mdlinkcheck --dir ./src/ | grep -v 200
   archive:
     cmds:
-      - for l in $(grep -rPo --no-filename "https?:\/\/.*([^\)])(?!\1)" src/*.md); do do httrack --update $l -O $(echo $l | awk -F[/:] '{print $4}') &>/dev/null &; done
+      - for l in $(grep -rPo --no-filename "https?:\/\/.*([^\)])(?!\1)" src/*.md); do httrack --update $l -O $(echo $l | awk -F[/:] '{print $4}') &>/dev/null &; done
   update:
     cmds:
     - git add . && git commit -m "Dump links" && git push

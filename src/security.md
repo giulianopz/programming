@@ -1,5 +1,3 @@
-## Security
-
 - [API authentication and authorization](https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html)
 - [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
 - [An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)

@@ -1,5 +1,3 @@
-## Software Design
-
 - Ousterhout, A Philosophy of Software Design
 - [Software Design by Example](https://third-bit.com/sdxpy/)
 - [Foote & Yoder, Big Ball of Mud](http://www.laputan.org/mud/)

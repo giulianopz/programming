@@ -1,7 +1,5 @@
-## Playgrounds
-
 - [TinyGo Playground](https://play.tinygo.org/)
-- [JSFiddle](https://jsfiddle.net/) 
+- [JSFiddle](https://jsfiddle.net/)
 - [Mess With DNS](https://messwithdns.net/)
 - [DNS lookup tool](https://dns-lookup.jvns.ca/)
 - [Nginx playground](https://nginx-playground.wizardzines.com)

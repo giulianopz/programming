@@ -1,5 +1,3 @@
-## Math
-
 - [Mathematics I Use](http://pub.gajendra.net/2012/10/mathematics_i_use)
 - [Kun, A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)

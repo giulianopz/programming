@@ -1,5 +1,3 @@
-## Compilers
-
 - [Compiler Explorer](https://godbolt.org/)
 - [Bootstrappable Builds](https://bootstrappable.org/)
 - [Common Misconceptions about Compilers](https://sbaziotis.com/compilers/common-misconceptions-about-compilers.html)

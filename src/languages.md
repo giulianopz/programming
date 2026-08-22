@@ -1,5 +1,3 @@
-## Programming Languages
-
 - [C](https://blog.bradfieldcs.com/how-to-learn-c-59222a627a4c) > [C++](https://isocpp.org/) >
     - [D](https://tour.dlang.org/)
     - [Go](https://go.dev/tour/welcome/1)

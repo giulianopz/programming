@@ -1,5 +1,3 @@
-## CS/FOSS History and Hacking/Cyberpunk Culture
-
 - [List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
 - [Computing History Hub](https://mollymielke.notion.site/Computing-History-Hub-be72f307fc2e4b05abe3dc67eb937521)
 - [Emerson, Reading Writing Interfaces. From the Digital to the Bookbound](https://www.upress.umn.edu/book-division/books/reading-writing-interfaces)

@@ -1,5 +1,3 @@
-## Funny Things with Hack Value
-
 - [DNS Toys](https://www.dns.toys/)
 - [Should I Deploy Today?](https://shouldideploy.today/)
 - [MatCaps Studio](https://www.kchapelier.com/matcap-studio/)

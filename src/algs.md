@@ -1,5 +1,3 @@
-## Algorithms & Data Structures
-
 - [Asymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
 - [Sedgewick & Wayne, Algorithms](https://algs4.cs.princeton.edu/home)
 - [The Recursive Book of Recursion](https://inventwithpython.com/recursion/)

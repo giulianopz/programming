@@ -1,5 +1,3 @@
-## Embedded Systems & Electronics
-
 - [A guide to getting started with embedded systems](https://yinka.dev/blog/a-guide-to-getting-started-with-embedded-systems/)
 - [What is an Arduino?](https://opensource.com/resources/what-arduino)
 - [What is a Raspberry Pi?](https://opensource.com/resources/raspberry-pi)

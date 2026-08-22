@@ -1,5 +1,3 @@
-## Finest Sources of Geek Entertainment
-
 - [Hacker News](https://news.ycombinator.com/)
 - [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
 - [antirez](http://antirez.com/latest/0)

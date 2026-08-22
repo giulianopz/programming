@@ -1,5 +1,3 @@
-## FOSS, DIY & Right to Repair
-
 - [What is Free Software?](https://writefreesoftware.org/learn/)
 - [The Open Source Definition](https://opensource.org/osd/)
 - [Pivotal moments in open source history](https://opensource.com/article/18/2/pivotal-moments-history-open-source)

@@ -1,5 +1,3 @@
-## Cloud Computing, Containers & DevOps
-
 - [What is a Container Image?](https://opensource.com/article/21/8/container-image)
 - [Container Image Formats Under the Hood](https://snyk.io/blog/container-image-formats/)
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)

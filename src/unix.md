@@ -1,5 +1,3 @@
-## UNIX/Linux
-
 - [What is GNU/Linux?](https://www.debian.org/releases/buster/amd64/ch01s02.en.html)
 - [Unix wars](https://en.wikipedia.org/wiki/Unix_wars)
 - [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)

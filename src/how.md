@@ -1,5 +1,3 @@
-## How Things Work
-
 - [Behind "Hello World" on Linux](https://jvns.ca/blog/2023/08/03/behind--hello-world/)
 - [Putting the “You” in CPU](https://cpu.land/)
 - [How Browsers Work](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)

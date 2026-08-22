@@ -1,5 +1,3 @@
-## Databases
-
 - [Introduction to SQL](https://sqlbolt.com/)
 - [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
 - [SQL Workbench](https://sql-workbench.com/)
