@@ -1,5 +1,3 @@
-## UNIX/Linux
-
 - [What is GNU/Linux?](https://www.debian.org/releases/buster/amd64/ch01s02.en.html)
 - [Unix wars](https://en.wikipedia.org/wiki/Unix_wars)
 - [Unix philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
@@ -29,7 +27,9 @@
 - [Conditional Git Configuration](https://blog.scottlowe.org/2023/12/15/conditional-git-configuration/)
 - [Git Prompt Variables](https://blog.backslasher.net/git-prompt-variables.html)
 - [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git/)
+- [High Performance Git](https://gitperf.com/)
 - [Conventional Commits](https://www.conventionalcommits.org)
+- [Conventional Branch](https://conventional-branch.github.io/)
 - [Shell Script Best Practices](https://sharats.me/posts/shell-script-best-practices/)
 - [vim Adventures](https://vim-adventures.com/)
 - [Unix for Poets](https://www.cs.upc.edu/~padro/Unixforpoets.pdf)
@@ -38,6 +38,7 @@
 - [Cool, but obscure Unix tools](https://kkovacs.eu/cool-but-obscure-unix-tools/)
 - [Cool, but obscure X11 tools](https://cyber.dabamos.de/unix/x11/)
 - [Linux Kernel Map](https://makelinux.github.io/kernel/map/)
+- [Interactive eBPF Tutorial](https://ebpf.party/)
 - [Programming the Kernel with eBPF](https://www.kerno.io/blog/programming-the-kernel-with-ebpf)
 - [Introduction to immutable Linux systems](https://dataswamp.org/~solene/2023-07-12-intro-to-immutable-os.html)
 - [An overview of Nix in practice](https://www.slice.zone/blog/nix-in-practice)

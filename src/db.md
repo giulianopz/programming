@@ -1,5 +1,3 @@
-## Databases
-
 - [Introduction to SQL](https://sqlbolt.com/)
 - [ByteScout SQL Trainer](https://app.bytescout.com/sql-trainer/index.html)
 - [SQL Workbench](https://sql-workbench.com/)
@@ -56,6 +54,7 @@
 - [psql Tips and Tricks](https://pgdash.io/blog/postgres-psql-tips-tricks.html)
 - [Accidental DBA Tutorial](https://github.com/pgexperts/accidentalDBA/tree/master)
 - [pg-primer](https://github.com/vishesh92/pg-primer)
+- [The Hitchhiker's Guide to PostgreSQL Hacking](https://alterego655.github.io/blog/2025/10/01/postgresql-hacking-guide/)
 
 ### Data Management
 

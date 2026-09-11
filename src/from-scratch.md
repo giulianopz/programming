@@ -1,6 +1,4 @@
-## From Scratch
-
-Tutorials:
+## Tutorials
 
 - [Build Your Own Text Editor](https://viewsourcecode.org/snaptoken/kilo/index.html)
 - [Rebuilding Redis in Ruby](https://redis.pjam.me/)
@@ -83,7 +81,7 @@ Tutorials:
 - [Let's code a TCP/IP stack](https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)
 - [A simple search engine from scratch](https://bernsteinbear.com/blog/simple-search/)
 
-Other lists:
+## Other Lists
 
 - [Build Your Own](https://build-your-own.org)
 - [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x)

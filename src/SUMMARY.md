@@ -18,7 +18,7 @@
 - [Local-First](./local-first.md)
 - [Self-Hosting](./self-hosting.md)
 - [Security](./security.md)
-- [HTML, CSS & JS](./fe.md)
+- [HTML, CSS & JS](./web.md)
 - [Networking, Web & Browsers](./networks.md)
 - [Performance & Observability](./observability.md)
 - [Social Networks](./social.md)

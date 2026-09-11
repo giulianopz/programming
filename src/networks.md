@@ -1,5 +1,3 @@
-## Networking, Web & Browsers
-
 - [What is a network?](https://study-ccna.com/what-is-a-network/)
 - [Learn how the Internet works](https://eater.net/inet)
 - [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
@@ -49,3 +47,4 @@
 - [How to Hide Your IP Address](https://educatedguesswork.org/posts/traffic-relaying/)
 - [See this page fetch itself, byte by byte, over TLS](https://bytebybyte.dev/)
 - [The Illustrated TLS 1.3 Connection](https://tls13.xargs.org/)
+- [Wi is Fi. Understanding Wi-Fi 4/5/6/6E/7/8 (802.11 n/ac/ax/be/bn)](https://www.wiisfi.com/)

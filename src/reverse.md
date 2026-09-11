@@ -1,12 +1,11 @@
-## Reverse Engineering
-
 - [An Introduction to Reverse Engineering](http://www.muppetlabs.com/~breadbox/txt/bure.html)
 - [Reverse Engineering For Everyone!](https://0xinfection.github.io/reversing/)
 - [decomp.me](https://decomp.me/)
 - [triq.org](https://triq.org/)
 - [Hacking the Xbox. An Introduction to Reverse Engineering](https://hackingthexbox.com/)
 
-In the wild:
+## In the Wild
+
 - [Reverse engineering Bluetooth LE LED light controllers, or How I Bricked My Christmas Lights](https://www.whizzy.org/2023-12-14-bricked-xmas/)
 - [Hacking my "smart" toothbrush](https://kuenzi.dev/toothbrush/)
 - [Reversing UK mobile rail tickets](https://eta.st/2023/01/31/rail-tickets.html)

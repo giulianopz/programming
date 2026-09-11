@@ -1,5 +1,3 @@
-## Performance & Observability
-
 - [Performance Analysis and Tuning on Modern CPU](https://github.com/dendibakh/perf-book)
 - [Simon Eskildsen's Napkin Math](https://github.com/sirupsen/napkin-math)
 - [Advanced Napkin Math: Estimating System Performance from First Principles](https://www.youtube.com/watch?v=IxkSlnrRFqc)

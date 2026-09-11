@@ -1,5 +1,3 @@
-## Testing
-
 - [Software testing](https://en.wikipedia.org/wiki/Software_testing)
 - [Software Testing Anti-patterns](https://blog.codepipes.com/testing/software-testing-antipatterns.html)
 - [Test Fixture](https://en.wikipedia.org/wiki/Test_fixture#Software)

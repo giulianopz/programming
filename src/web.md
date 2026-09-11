@@ -1,5 +1,3 @@
-## HTML & CSS & JS
-
 - [HTML for people](https://htmlforpeople.com/)
 - [Learn to Code HTML & CSS](https://learn.shayhowe.com/html-css/)
 - [180 websites in 180 days](https://jenniferdewalt.com/)
@@ -22,3 +20,4 @@
 - [Plain Vanilla](https://plainvanillaweb.com/index.html)
 - [(t,i,x,y) => "creative code golfing"](https://tixy.land/)
 - [loadmo.re](https://loadmo.re/)
+- [Website Spec](https://specification.website/)

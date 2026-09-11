@@ -1,5 +1,3 @@
-## Classics & Bibles
-
 - Petzold, [Code: The Hidden Language of Computer Hardware and Software](https://www.charlespetzold.com/books/)
 - Hunt & Thomas, [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
 - Brooks, The Mythical Man-Month: Essays on Software Engineering

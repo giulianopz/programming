@@ -1,5 +1,3 @@
-## Math
-
 - [Mathematics I Use](http://pub.gajendra.net/2012/10/mathematics_i_use)
 - [Kun, A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [Mathematics for the adventurous self-learner](https://www.neilwithdata.com/mathematics-self-learner)
@@ -27,3 +25,5 @@
 - [Onboarding Floating-Point](https://www.altdevarts.com/p/onboarding-floating-point)
 - [Geometric Algebra](https://bivector.net/)
 - [Probabilistic Programming & Bayesian Methods for Hackers](https://dataorigami.net/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+- [Polypad: The Mathematical Playground](https://polypad.amplify.com/)
+- [Mir Books](https://archive.org/details/mir-titles)

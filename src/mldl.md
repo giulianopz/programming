@@ -1,5 +1,3 @@
-## Machine Learning and Deep Learning
-
 - [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [How I learn machine learning](https://vickiboykis.com/2022/11/10/how-i-learn-machine-learning/)
 - [C++ Neural Network in a Weekend](https://github.com/jeremyong/cpp_nn_in_a_weekend)

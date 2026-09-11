@@ -1,5 +1,3 @@
-## Job Hunting & Career Advice
-
 - [Kanna, Job Hunting Resources for Developers](https://randallkanna.com/get-the-ultimate-list/)
 - [How to Learn to Code & Get a Developer Job in 2023](https://www.freecodecamp.org/news/learn-to-code-book/)
 - [Reverse interview](https://github.com/viraptor/reverse-interview)

@@ -1,12 +1,12 @@
-## CS/FOSS History and Hacking/Cyberpunk Culture
-
 - [List of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science)
 - [Computing History Hub](https://mollymielke.notion.site/Computing-History-Hub-be72f307fc2e4b05abe3dc67eb937521)
 - [Emerson, Reading Writing Interfaces. From the Digital to the Bookbound](https://www.upress.umn.edu/book-division/books/reading-writing-interfaces)
 - [The Backbone](https://technicshistory.com/the-backbone/)
 - [Internet Artifacts](https://neal.fun/internet-artifacts/)
 - [The History of the Graphical User Interface - 1945 to 1980](https://lunduke.substack.com/p/the-history-of-the-graphical-user)
+- [Operating Exhibits](http://www.typewritten.org/Media/)
 - [PAPERCRAFT MODELS](https://rockybergen.com/papercraft)
+- [Starring the Computer](https://www.starringthecomputer.com/computers.html)
 - [Computer Science academic papers selected by the Fermat’s Library Journal Club ](https://fermatslibrary.com/journal_club)
 - [Oral History of Federico Faggin](http://archive.computerhistory.org/resources/text/Oral_History/Faggin_Federico/Faggin_Federico_1_2_3.oral_history.2004.102658025.pdf)
 - Broca, Utopie du logiciel libre. Du bricolage informatique à la réinvention sociale (cfr. [Utopia del Software Libero](https://www.mimesisedizioni.it/libro/9788857547046))
