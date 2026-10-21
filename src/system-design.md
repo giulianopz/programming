@@ -32,3 +32,4 @@
 - [A distributed systems reliability glossary](https://antithesis.com/resources/reliability_glossary/)
 - [Scaling k8s to 1m Nodes](https://bchess.github.io/k8s-1m/)
 - [Advent of Sysadmin 2025](https://sadservers.com/advent)
+- [Object Storage Is All You Need](https://www.youtube.com/watch?v=ei0wwTy6_G4&t=1s)

@@ -3,6 +3,7 @@
 - [A Practical Introduction to Container Terminology](https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction#)
 - [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
 - [Containers Are Chroot with a Marketing Budget](https://earthly.dev/blog/chroot/)
+- [Containers From Scratch, Liz Rice](https://www.youtube.com/watch?v=8fi7uSYlOdc)
 - [An Introduction to Kubernetes](https://www.jeremyjordan.me/kubernetes/)
 - [The Mechanics of Kubernetes](https://dominik-tornow.medium.com/the-mechanics-of-kubernetes-ac8112eaa302)
 - [Kubernetes Internals Worksheet](https://ssudake.com/books/k8s-worksheet/)

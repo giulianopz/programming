@@ -12,3 +12,4 @@
 - [Programming as Theory Building](https://pablo.rauzy.name/dev/naur1985programming.pdf)
 - [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)
 - [The Curse of Knowing How, or; Fixing Everything](https://notashelf.dev/posts/curse-of-knowing)
+- [The Tail at Scale](https://research.google/pubs/the-tail-at-scale/)
